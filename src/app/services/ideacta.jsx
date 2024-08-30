@@ -10,7 +10,7 @@ const IdeaCta = () => {
                 <Row className='h-100'>
                     <Col lg={6} md={6} className='m-auto'>
                         <div className={styles.boxItem}>
-                            <h2>Let's Change The World With Your</h2>
+                            <h2>Let’s Change The World With Your</h2>
                             <div className={styles.custumTitle}>
                                 App <span>Idea!</span>
                             </div>

@@ -73,7 +73,7 @@ const CaseStudySection = () => {
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
                                                 <Link href="#" onClick={handleChatOpen}>
-                                                    Let's Talk
+                                                    Let’s Talk
                                                 </Link>
                                             </div>
                                         </div>
@@ -142,7 +142,7 @@ const CaseStudySection = () => {
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
                                                 <Link href="#" onClick={handleChatOpen}>
-                                                    Let's Talk
+                                                    Let’s Talk
                                                 </Link>
                                             </div>
                                         </div>
@@ -211,7 +211,7 @@ const CaseStudySection = () => {
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
                                                 <Link href="#" onClick={handleChatOpen}>
-                                                    Let's Talk
+                                                    Let’s Talk
                                                 </Link>
                                             </div>
                                         </div>
@@ -280,7 +280,7 @@ const CaseStudySection = () => {
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
                                                 <Link href="#" onClick={handleChatOpen}>
-                                                    Let's Talk
+                                                    Let’s Talk
                                                 </Link>
                                             </div>
                                         </div>
@@ -349,7 +349,7 @@ const CaseStudySection = () => {
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
                                                 <Link href="#" onClick={handleChatOpen}>
-                                                    Let's Talk
+                                                    Let’s Talk
                                                 </Link>
                                             </div>
                                         </div>
