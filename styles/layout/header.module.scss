@@ -1,0 +1,38 @@
+.headerSection {
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 9999;
+
+    &.active {
+        position: fixed;
+        background: #fff;
+        box-shadow: 0px 10px 20px #0000001c;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .headerSection {
+        height: 70px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .headerSection {
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .headerSection {
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .headerSection {
+        height: 50px;
+    }
+}
