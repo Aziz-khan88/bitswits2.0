@@ -77,7 +77,7 @@ const ContactFrom = ({ idea, appidea }) => {
         };
         let bodyContent = JSON.stringify({
             "IP": `${ip.ip} - ${ip.city} - ${ip.country}`,
-            "Brand": "Bitswits",
+            "Brand": "BitsWits",
             "Page": `${currentRoute}`,
             "Date": currentdate,
             "Time": currentdate,

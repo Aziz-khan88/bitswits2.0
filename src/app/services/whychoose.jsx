@@ -12,7 +12,7 @@ const WhyChoose = () => {
                     <Col lg={5} md={12} className="my-auto">
                         <h2>Why Choose BitsWits?</h2>
                         <p>BitsWits provides exceptional mobile application development services, combining quality, expertise, and efficiency. As a leading mobile app development agency, we create scalable, user-centric apps designed to drive business growth and deliver successful results. Here’s why you should partner with us.</p>
-                        <ButtonCommon txt="Let’s Discuss" />
+                        <ButtonCommon txt="Free Consultation" />
                     </Col>
                     <Col lg={3} md={6} className="my-auto offset-lg-1 mt-md-0 mt-4 ">
                         <div className={styles.whyBox}>

@@ -22,7 +22,7 @@ const Fueling = () => {
                                     <Image src={IMG.src} alt="Bitswits Services" width={350} height={290} />
                                 </div>
                             </div>
-                            <ButtonCommon txt="Let’s Discuss" />
+                            <ButtonCommon txt="Free Consultation" />
                         </div>
                     </Col>
                     <Col lg={5} md={6} className="offset-lg-1">

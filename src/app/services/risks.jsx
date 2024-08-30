@@ -24,7 +24,7 @@ const Risks = () => {
                         </div>
                         <p>Validate your app concept with minimal risk before launching a full-scale app!</p>
 
-                        <ButtonCommon txt="Let’s Discuss" />
+                        <ButtonCommon txt="Free Consultation" />
                         <div className={styles.flexBtn}>
                             <div className={styles.telNumber}>
                                 <Link href="tel:+18335006007">+1 833 500 6007</Link>

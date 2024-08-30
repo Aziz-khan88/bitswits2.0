@@ -67,7 +67,7 @@ const Technologies = () => {
                                 </div>
                             ))}
                         </div>
-                        <ButtonCommon txt="Let’s Discuss" />
+                        <ButtonCommon txt="Free Consultation" />
                     </Col>
                     <Col lg={4} md={12} className="my-auto offset-lg-1">
                         <Image src={TechImg} alt="TechImg Box" width={500} height={743} className={styles.ImgPhone} />

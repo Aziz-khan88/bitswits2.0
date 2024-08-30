@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import { ArrowIcon, Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
 import { Col, Container, Row } from "react-bootstrap";
@@ -71,6 +72,13 @@ const data = [
 ];
 
 const Industries = () => {
+    // Chat Code
+    const handleChatOpen = (e) => {
+        e.preventDefault();
+        if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
+            $zopim.livechat.window.show();
+        }
+    };
     return (
         <section className={`${styles.industrySection} pb-100`}>
             <Container>
@@ -89,7 +97,7 @@ const Industries = () => {
                                 <div className={styles.industryIcon}>{item.icon}</div>
                                 <div className={styles.industryTitle}>{item.title}</div>
                                 <p>{item.txt}</p>
-                                <Link href={item.url}>
+                                <Link href={item.url} onClick={handleChatOpen}>
                                     Read More <ArrowIcon />
                                 </Link>
                             </div>

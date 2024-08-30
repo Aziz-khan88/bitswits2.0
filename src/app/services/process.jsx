@@ -109,7 +109,7 @@ const Process = () => {
                                 <div className={styles.txtTitle}>
                                     <h4>{tabs[activeTab].content.heading}</h4>
                                     <p>{tabs[activeTab].content.description}</p>
-                                    <ButtonCommon txt="Let’s Discuss " />
+                                    <ButtonCommon txt="Free Consultation" />
                                 </div>
                                 <div className={styles.txtImg}>
                                     <Image
