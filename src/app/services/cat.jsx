@@ -19,7 +19,7 @@ const CtaEstimated = () => {
                                 <div className={styles.mainTitle}>
                                     Your App’s Cost, Simplified
                                 </div>
-                                <p>Get an instant estimate for your app’s development based on its complexity. Complex apps typically range from <span>$100k to $200k.</span>. Ready for a precise quote? Contact us today! </p>
+                                <p>Get an instant estimate for your app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! </p>
                                 <ButtonCommon txt="Free Consultation" />
                             </div>
                             <div className={styles.ctaImg}>

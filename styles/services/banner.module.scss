@@ -13,12 +13,7 @@
     }
 
     .bannerLogos {
-        margin: 0px 0px 30px;
-
-        img {
-            max-height: 72px;
-            width: auto;
-        }
+        margin: 0px 0px 20px;
     }
 
     .bannerFrom {
@@ -47,6 +42,7 @@
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .bannerSection {
         height: 100vh;
+        padding-top: 80px;
 
         .subTitle {
             font-size: 18px;
@@ -54,11 +50,7 @@
         }
 
         .bannerLogos {
-            margin: 0px 0px 40px;
-
-            img {
-                max-height: 65px;
-            }
+            margin: 0px 0px 20px;
         }
 
         .bannerFrom {
@@ -78,6 +70,7 @@
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .bannerSection {
         height: 100vh;
+        padding-top: 50px;
 
         .subTitle {
             font-size: 16px;
@@ -85,10 +78,11 @@
         }
 
         .bannerLogos {
-            margin: 0px 0px 30px;
+            margin: 0px 0px 20px;
 
             img {
-                max-height: 60px;
+                height: 45px;
+                width: auto;
             }
         }
 
@@ -120,7 +114,8 @@
             margin: 0px 0px 20px;
 
             img {
-                max-height: 50px;
+                height: 40px;
+                width: auto;
             }
         }
 
@@ -151,7 +146,8 @@
             margin: 0px 0px 20px;
 
             img {
-                max-height: 45px;
+                height: 35px;
+                width: auto;
             }
         }
 
@@ -183,7 +179,8 @@
             margin: 0px 0px 20px;
 
             img {
-                max-height: 45px;
+                height: 30px;
+                width: auto;
             }
         }
 
@@ -215,16 +212,13 @@
         .bannerLogos {
             margin: 0px 0px 20px;
 
-            img {
-                max-height: 60px;
-            }
         }
 
         .bannerFrom {
             border-radius: 12px;
             padding: 20px 20px;
             max-width: 320px;
-            margin: 20px auto 0px 0px;
+            margin: 20px auto 0px;
 
             p {
                 font-size: 12px;

@@ -1,6 +1,5 @@
 
 "use client";
-import Link from "next/link"
 
 const NormalBtn = ({ link, text, bgcolor, txtcolor }) => {
     // Chat Code
@@ -12,7 +11,7 @@ const NormalBtn = ({ link, text, bgcolor, txtcolor }) => {
     };
     return (
         <div className="normalButton" style={{ background: bgcolor }} onClick={handleChatOpen}>
-            <Link href={link} style={{ color: txtcolor }}>{text}</Link >
+            <div className="linksBtn" style={{ color: txtcolor }}>{text}</div>
         </div >
     )
 }

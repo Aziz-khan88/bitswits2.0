@@ -5,9 +5,6 @@
   z-index: 99;
 
   h2 {
-    font-size: 40px;
-    line-height: 53px;
-    font-weight: bold;
     margin-bottom: 17px;
     color: #000000;
 
@@ -60,9 +57,6 @@
   gap: 85px;
 
   h3 {
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 33px;
     color: #fff;
     margin-top: 20px;
     margin-bottom: 0;
@@ -110,7 +104,8 @@
     width: 40%;
   }
 
-  a {
+  a,
+  .linksBtn {
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
@@ -121,6 +116,7 @@
     transition: all ease-in-out 0.4s;
     padding-bottom: 5px;
     border-bottom: 2px solid #f32f53;
+    cursor: pointer;
   }
 }
 
@@ -186,9 +182,6 @@
     padding: 30px;
     gap: 60px;
 
-    h3 {
-      font-size: 30px;
-    }
 
     p {
       font-size: 15px;
@@ -233,9 +226,14 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .appStyles {
+    padding: 40px 0;
+  }
+
   .tabList {
     gap: 20px 0;
     margin: 40px 0;
+    justify-content: center;
   }
 
   .featured {
@@ -265,16 +263,10 @@
 }
 
 @media only screen and (max-width: 567px) {
-  .appStyles {
-    h2 {
-      font-size: 32px;
-      line-height: 1.3;
-    }
 
-    p {
-      font-size: 16px;
-      line-height: 24px;
-    }
+  .appStyles {
+    padding: 50px 0;
+
   }
 
   .tabList {
@@ -293,9 +285,6 @@
       margin: 20px 0 30px;
     }
 
-    h3 {
-      font-size: 26px;
-    }
   }
 
   .bottomBox {

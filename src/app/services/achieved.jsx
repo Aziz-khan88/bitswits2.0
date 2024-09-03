@@ -4,12 +4,13 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/services/achieved.module.scss"
 import { ArrowIcon } from '@/src/app/app-constants'
 import useEmblaCarousel from 'embla-carousel-react'
+import Autoplay from 'embla-carousel-autoplay'
 
 
 
 const Achieved = (props) => {
     const { slides, options } = props
-    const [emblaRef, embla] = useEmblaCarousel(options);
+    const [emblaRef, embla] = useEmblaCarousel(options, [Autoplay()]);
 
     const prevButtonHandler = () => {
         if (embla) embla.scrollPrev();
@@ -22,8 +23,8 @@ const Achieved = (props) => {
         <section className={`${styles.achievedSection}`}>
             <Container>
                 <Row>
-                    <Col lg={7} md={12}>
-                        <h2>Awards and Recognition</h2>
+                    <Col lg={6} md={12}>
+                        <h2>Awards That Validate Our Impactful App Solutions</h2>
                         <p>We have earned awards and recognition for our quality-first approach, successfully delivering advanced, complex projects with a talented team of developers, designers, and project managers.</p>
                     </Col>
                 </Row>
@@ -65,7 +66,7 @@ const Achieved = (props) => {
                 </Row>
             </Container>
 
-        </section >
+        </section>
     )
 }
 

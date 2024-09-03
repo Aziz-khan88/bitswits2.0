@@ -125,6 +125,36 @@
         }
     }
 
+    &.discussionFrom {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .fieldBox {
+            margin-bottom: 15px;
+            flex: 0 0 calc(28% - 16px);
+
+            input {
+                width: 100%;
+                border: 1px solid #C6CDD1;
+            }
+        }
+
+        .buttonBox {
+            flex: 0 0 calc(15%);
+
+            button {
+                height: 45px;
+                font-size: 15px;
+                font-weight: 500;
+                min-width: 100%;
+                width: 100%;
+                background: linear-gradient(91.47deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+            }
+        }
+    }
+
     &.appideaFrom {
         display: flex;
         max-width: 450px;
@@ -765,6 +795,28 @@
 
                 textarea {
                     height: 100px;
+                }
+            }
+        }
+
+        &.discussionFrom {
+            gap: 5px;
+
+            .fieldBox {
+                margin-bottom: 10px;
+                flex: 0 0 calc(100% - 0px);
+
+                input {
+                    border: 1px solid #C6CDD1;
+                }
+            }
+
+            .buttonBox {
+                flex: 0 0 calc(100%);
+
+                button {
+                    height: 35px;
+                    font-size: 14px;
                 }
             }
         }

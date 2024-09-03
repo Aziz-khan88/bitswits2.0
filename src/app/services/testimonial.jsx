@@ -21,26 +21,26 @@ const SLIDES = [
         img: Joseph,
     },
     {
-        txt: "What truly set Bitswits apart was their unwavering commitment to satisfying our needs.",
+        txt: "BitsWits transformed my vision into a stunning, user-friendly app. I couldn't be happier with the result and their professionalism.",
         name: "Ryan Jaden",
         position: "Technical Team Lead",
         img: RyanJaden,
     },
     {
-        txt: "I am thoroughly satisfied with the project management provided by them.",
+        txt: "I am thoroughly satisfied with the project management provided by BitsWits. Their attention to detail and seamless communication made the entire process stress-free and efficient!",
         name: "Kaylee Slone",
         position: "Digital Marketing Manager",
         img: KayleeSlone,
     }
     ,
     {
-        txt: "Their tireless efforts in making the app not only responsive but also visually stunning were truly remarkable.",
+        txt: "Their tireless efforts in making the app not only responsive but also visually stunning were truly remarkable. BitsWits exceeded all our expectations!",
         name: "Mauryo Jones",
         position: "VP Safety, Health & Security",
         img: MauryoJones,
     },
     {
-        txt: "They not only listened attentively to our needs but also provided valuable insights and suggestions.",
+        txt: "They not only listened attentively to our needs but also provided valuable insights and suggestions. BitsWits truly understands how to turn ideas into successful apps!",
         name: "James Moss",
         position: "EVP Business Development",
         img: KateBullock,
@@ -69,7 +69,7 @@ const Testimonial = () => {
                     </Col>
                 </Row>
             </Container>
-        </section >
+        </section>
     )
 }
 

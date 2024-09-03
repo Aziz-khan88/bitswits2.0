@@ -2,9 +2,9 @@ import Link from "next/link"
 import styles from "@/styles/layout/navigation.module.scss"
 import { PhoneIcon, SubMenuIcon } from "@/src/app/app-constants"
 
-const Navigation = () => {
+const Navigation = ({ isGamePage }) => {
     return (
-        <ul className={styles.mainNavigation}>
+        <ul className={`${styles.mainNavigation} ${isGamePage ? 'whiteNav' : ''}`}  >
             <li>
                 <Link href="#Services">Services</Link>
             </li>
@@ -21,7 +21,7 @@ const Navigation = () => {
                 <Link href="#Contact">Contact Us</Link>
             </li>
             <li className={styles.btnHeader}>
-                <Link href="tel:+18335006007"><PhoneIcon />+1 833 500 6007</Link>
+                <a href="tel:+18335006007"><PhoneIcon />+1 833 500 6007</a>
             </li>
         </ul>
     )

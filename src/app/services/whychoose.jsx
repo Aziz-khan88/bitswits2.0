@@ -10,7 +10,7 @@ const WhyChoose = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={5} md={12} className="my-auto">
-                        <h2>Why Choose BitsWits?</h2>
+                        <h2>App Development Company Of Choice</h2>
                         <p>BitsWits provides exceptional mobile application development services, combining quality, expertise, and efficiency. As a leading mobile app development agency, we create scalable, user-centric apps designed to drive business growth and deliver successful results. Here’s why you should partner with us.</p>
                         <ButtonCommon txt="Free Consultation" />
                     </Col>

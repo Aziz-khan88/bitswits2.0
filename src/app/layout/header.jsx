@@ -2,10 +2,11 @@
 "use client"
 import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
-import { MainLogo } from "@/src/app/app-constants"
+import { MainLogo, WhiteLogo } from "@/src/app/app-constants"
 import Navigation from "@/src/app/layout/navigation"
 import styles from "@/styles/layout/header.module.scss"
 import { useState, useEffect } from "react";
+import { usePathname } from 'next/navigation';
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -19,17 +20,22 @@ const Header = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+    const pathname = usePathname();
+    const isGamePage = pathname === '/game';
     return (
-        <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`}>
+        <section className={`${styles.headerSection} ${isGamePage ? 'whiteHeader' : ''} ${scrolled ? styles.active : ''}`} >
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={2} xs={6} sm={6} className="m-auto">
                         <Link href="/">
-                            <MainLogo />
+                            <div className={styles.balck}>
+                                <MainLogo />
+                            </div>
                         </Link>
                     </Col>
                     <Col md={10} xs={6} sm={6} className="m-auto">
-                        <Navigation />
+                        <Navigation isGamePage={true} />
                     </Col>
                 </Row>
             </Container>

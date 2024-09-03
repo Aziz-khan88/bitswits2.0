@@ -13,10 +13,10 @@ const Banner = () => {
                 <Row className="h-100">
                     <Col lg={6} md={6} className="my-auto">
                         <div className={styles.subTitle}>Quickly – Efficiently – Effortlessly</div>
-                        <h1>Mobile App Development Services</h1>
+                        <h1>Mobile App Development Services To Accelerate Business Growth</h1>
                         <p>As a leading provider of mobile app development services in the USA, we help entrepreneurs and SMBs achieve their growth aspirations by developing high-performance, feature-rich apps. Our expert mobile app developers use Swift, Kotlin, React Native, and Flutter to build cost-effective native and cross-platform applications, delivering UX-driven solutions from ideation to launch!</p>
                         <div className={styles.bannerLogos}>
-                            <Image src={BannerLogos.src} alt="Bitswits Services" width={477} height={72} />
+                            <Image src={BannerLogos.src} alt="Bitswits Services" width={528} height={50} />
                         </div>
                         <div className={styles.btnFlex}>
                             <ButtonCommon txt="Free Consultation" color="yes" />

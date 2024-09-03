@@ -52,8 +52,10 @@ const Technologies = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={7} md={12} className="my-auto">
-                        <h2>Hire Dedicated App Developers for Your Next Project</h2>
-                        <p>When you’re ready to take your app idea from concept to reality, We’re here to help at BitsWits. As a dedicated mobile app development company, We specialize in crafting high-quality, user-friendly applications that align with your business goals. Whether you need an app for iOS, Android, or both, We focus on creating seamless, innovative, and scalable solutions tailored to your specific needs. Our expertise in the latest technologies ensures your app stands out in today’s competitive market. Let’s collaborate to turn your vision into a powerful mobile experience.</p>
+                        <h2>Hire BitsWits Mobile App Developers To Stay Ahead of The Technology Curve</h2>
+                        <p>With over <strong>150+ successful projects</strong> delivered, our experienced team achieves a <strong>30% faster time to market</strong> while maintaining cost efficiency.
+                            We have a <strong>95% client satisfaction rate,</strong> reflecting our commitment to delivering high-quality solutions. </p>
+                        <p>Focusing on robust security, our approach safeguards your valuable data. Our high-performance apps are built to <strong>handle heavy traffic,</strong> providing the scalability needed for business growth.Choosing us means opting for a trusted partner dedicated to meeting your mobile app development needs effectively.</p>
                         <div className={styles.techSec}>
 
                             {Icons.map((item, index) => (

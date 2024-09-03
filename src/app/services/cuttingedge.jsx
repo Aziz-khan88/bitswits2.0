@@ -56,7 +56,7 @@ const Cuttingedge = () => {
             <Container>
                 <Row>
                     <Col lg={7} md={9}>
-                        <h2>Mobile App Development Services for Maximum Business Impact</h2>
+                        <h2>Mobile App Development Services for Maximum Business Impact!</h2>
                         <p>Our custom mobile app development services are designed to give startups and SMEs a first-mover advantage to quickly scale in their market!</p>
                     </Col>
                 </Row>
@@ -70,7 +70,7 @@ const Cuttingedge = () => {
                                         <div className={styles.titleBox}>
                                             <h5>{item.title}</h5>
                                             <div className={styles.normalButton}>
-                                                <Link href="#" onClick={handleChatOpen}>Let’s Do This!</Link>
+                                                <div className={styles.linksBtn} onClick={handleChatOpen}>Let’s Do This!</div>
                                             </div>
                                         </div>
                                         <div className={styles.contentBox}>
@@ -91,7 +91,7 @@ const Cuttingedge = () => {
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section >
     )
 }
 

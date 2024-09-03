@@ -1,5 +1,4 @@
 "use client"
-import Link from "next/link";
 import { ArrowIcon, Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/services/industries.module.scss";
@@ -23,42 +22,42 @@ const data = [
     {
         icon: <Icon02 />,
         title: "Fintech",
-        txt: "We develop innovative mobile apps tailored to revolutionize financial transactions and personal finance management.",
+        txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
         url: "#",
         img: Fintech.src,
     },
     {
         icon: <Icon03 />,
         title: "Healthcare",
-        txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency",
+        txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
         url: "#",
         img: Healthcare.src,
     },
     {
         icon: <Icon04 />,
         title: "Education",
-        txt: "At our company, we specialize in creating customized mobile apps that enhance learning and educational engagement.",
+        txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
         url: "#",
         img: Education.src,
     },
     {
         icon: <Icon05 />,
-        title: "Social Networking",
-        txt: "We craft custom social media apps, tailored to enhance user engagement and drive community growth effectively.",
+        title: "Social Media",
+        txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
         url: "#",
         img: SocialMarketing.src,
     },
     {
         icon: <Icon06 />,
         title: "Real Estate",
-        txt: "We design cutting-edge mobile apps that streamline property searches, transactions, and real estate management processes.",
+        txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
         url: "#",
         img: RealEstate.src,
     },
     {
         icon: <Icon07 />,
         title: "Ride-hailing",
-        txt: "We create intuitive, secure ride-hailing apps tailored to your unique business needs, enhancing user experiences.",
+        txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
@@ -84,8 +83,8 @@ const Industries = () => {
             <Container>
                 <Row>
                     <Col lg={7} md={8} className="text-center m-auto">
-                        <h2>Industries We Power</h2>
-                        <p>At BitsWits, we specialize in crafting mobile apps that make a difference. Our solutions are designed to tackle the unique challenges and opportunities in various industries, driving innovation and efficiency.</p>
+                        <h2>Industries We Serve</h2>
+                        <p>As a leading mobile app development firm, we deliver specialized solutions across multiple sectors, meeting industry-specific challenges and fueling growth with advanced technology.</p>
                     </Col>
                 </Row>
                 <Row>
@@ -97,9 +96,9 @@ const Industries = () => {
                                 <div className={styles.industryIcon}>{item.icon}</div>
                                 <div className={styles.industryTitle}>{item.title}</div>
                                 <p>{item.txt}</p>
-                                <Link href={item.url} onClick={handleChatOpen}>
+                                <div className={styles.linksBtn} onClick={handleChatOpen}>
                                     Read More <ArrowIcon />
-                                </Link>
+                                </div>
                             </div>
                         </Col>
                     ))}

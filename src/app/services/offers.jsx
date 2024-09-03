@@ -7,12 +7,11 @@ import ButtonCommon from "@/src/components/common/button";
 const tabs = [
 
     {
-        title: "MVP and Prototyping",
+        title: "MVP Development",
         content: {
-            heading: "MVP and Prototyping",
+            heading: "MVP Development",
             description:
-                "We develop Minimum Viable Products (MVPs) and prototypes to validate your app concept and gather early user feedback. This approach helps in refining essential features and aligning the app with user expectations. By testing core functionalities, we identify potential improvements early, ensuring your app’s development is focused, efficient, and driven by real user insights.",
-
+                "We create MVPs (Minimum Viable Products) with core features to validate your idea while minimizing costs. Focusing on the fundamental aspects of your app allows for a quick launch. We utilize tools like Sketch, Figma, Adobe XD, and frameworks such as React Native, Flutter, Swift, and Kotlin to develop cost-effective MVPs efficiently.",
         },
     },
 
@@ -21,8 +20,7 @@ const tabs = [
         content: {
             heading: "Mobile App Consulting",
             description:
-                "Our mobile app consulting services offer expert guidance from concept through launch. We provide strategic advice on market trends, technical requirements, and user experience. Our consultants work closely with you to refine your app’s vision, address technical challenges, and implement best practices, ensuring your app is innovative, user-friendly, and primed for success in the competitive market.",
-
+                "Our mobile app consulting services guide you from idea validation to launch, making us the best mobile app development company by providing market analysis, developing a solid mobile strategy, identifying the target audience, and offering continuous support to maximize your app’s success in a competitive market.",
         },
     },
 
@@ -31,15 +29,16 @@ const tabs = [
         content: {
             heading: "Mobile UI/UX Design",
             description:
-                "We specialize in designing mobile interfaces that are both visually appealing and user-friendly. Our UI/UX design process focuses on creating intuitive navigation and engaging layouts that enhance the user experience. By balancing aesthetics with functionality, we ensure that your app not only looks great but also provides a seamless and satisfying interaction for users.",
+                "As a leading mobile app design company, we focus on creating attractive visuals and intuitive interfaces by using tools like Sketch, Figma, and Adobe XD. Our expertise in combining design principles with user psychology makes us a top-grade mobile app design agency over other competitors, delivering unique and compelling user experiences that truly stand out in the market.",
 
         },
-    }, {
-        title: "Mobile App Integration",
+    },
+    {
+        title: "Mobile Backend Development",
         content: {
-            heading: "Mobile App Integration",
+            heading: "Mobile Backend Development",
             description:
-                "We provide expert mobile app integration services, connecting your app with third-party services, APIs, and existing systems. This includes integrating payment gateways, social media, and other essential functionalities. Our goal is to ensure that all integrated components work harmoniously, enhancing your app’s capabilities and delivering a cohesive user experience.",
+                "We create robust server-side solutions and manage databases to enhance app performance. With the top 3% of mobile app developers in USA, we use tools and languages like Node.js, Python, AWS, and Firebase to build scalable, secure backends, supporting all app functionalities and delivering a seamless user experience across various platforms.",
 
         },
     },
@@ -48,7 +47,7 @@ const tabs = [
         content: {
             heading: "Testing and QA",
             description:
-                "Our testing and quality assurance services ensure that your app functions flawlessly across all scenarios. We perform rigorous testing to identify and resolve issues related to performance, usability, and security. By focusing on comprehensive QA, we ensure that your app is reliable, performs well, and meets the highest standards before launch.",
+                "Our ISTQB-certified test engineers perform extensive testing for functionality, UX, performance, accessibility, and security, using tools like Appium, Selenium, and JUnit. This comprehensive approach to quality assurance makes us a top mobile apps development agency, delivering reliable and high-performing apps with a seamless user experience across all devices and platforms.",
 
         },
     },
@@ -56,15 +55,15 @@ const tabs = [
 
 ];
 
-const Offers = () => {
+const Offers = ({ bg }) => {
     const [activeTab, setActiveTab] = useState(0);
     return (
-        <section className={`${styles.offerSection} pt-100 bgBlack`}>
+        <section className={`${styles.offerSection} pt-100 ${bg ? 'bgBlack' : 'bgLight'}`}>
             <Container>
                 <Row>
                     <Col xxl={8} xl={7} lg={10} md={12}>
-                        <h2>Discover the Mobile App Development Services We Offer</h2>
-                        <p>We excel in crafting custom mobile apps that shine across a variety of devices, ensuring seamless integration and stellar user experiences. Our expertise spans a wide range of mobile app platforms, delivering tailored solutions that cater to your unique business needs.</p>
+                        <h2>End-to-End Mobile App Development For Every Stage</h2>
+                        <p>As a leading mobile development company, we provide full-cycle services for all stages, with tech expertise to handle simple, medium-complexity, and advanced apps, addressing specific needs throughout each development stage for optimal results.</p>
                     </Col>
                 </Row>
                 <Row>
@@ -92,7 +91,7 @@ const Offers = () => {
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section >
     )
 }
 

@@ -39,12 +39,14 @@
             color: #5D5D5D;
         }
 
-        a {
+        a,
+        .linksBtn {
             font-size: 15px;
             line-height: 20px;
             margin-bottom: 20px;
             font-weight: 500;
             color: #000;
+            cursor: pointer;
 
             svg {
                 width: 15px;
@@ -73,7 +75,8 @@
                 color: #fff;
             }
 
-            a {
+            a,
+            .linksBtn {
                 color: #fff;
 
                 svg {

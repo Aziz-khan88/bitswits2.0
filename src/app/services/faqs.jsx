@@ -6,31 +6,41 @@ import { FaqsArrows } from '../app-constants';
 
 const faqs = [
     {
-        title: "How do you ensure app quality during development?",
-        txt: "We prioritize app quality through rigorous testing at every development stage. Our mobile app development agency utilizes automated and manual testing methods, ensuring your app performs seamlessly across all platforms. Quality assurance is a core aspect of our custom app services."
+        title: "How long does it typically take to develop a mobile app?",
+        txt: "Development time varies by complexity. Simple apps can take 1-3 months, while complex ones may require 6-12 months or longer, depending on features, design, and testing requirements."
     },
     {
-        title: "What makes your app development services stand out?",
-        txt: "Our mobile app development services combine industry expertise with innovative technologies to create tailor-made solutions. As a leading application development company, we focus on delivering user-friendly, high-performing apps that meet your business objectives and enhance customer experiences."
+        title: "How can I monitor the progress of my outsourced project with BitsWits?",
+        txt: "We provide regular updates, progress reports, and access to project management tools. You'll have a dedicated project manager for clear communication and visibility throughout the development process."
     },
     {
-        title: "How long does it take to develop a custom app?",
-        txt: "The timeline for developing a custom app varies based on complexity and features. Generally, our mobile app developers can deliver a fully functional app within 4 to 6 months, ensuring that all project milestones are met efficiently"
+        title: "Can you integrate existing systems with a new mobile app?",
+        txt: "Yes, mobile apps can be integrated with existing systems like CRM, ERP, and databases to ensure seamless data flow and functionality, enhancing overall business operations."
     },
     {
-        title: "What industries do you specialize in for app development?",
-        txt: "We specialize in various industries, including healthcare, finance, e-commerce, and education. Our mobile app development agency has extensive experience crafting industry-specific solutions that meet regulatory requirements and business needs, ensuring top-quality app development services."
+        title: "What is your policy on intellectual property and app ownership?",
+        txt: "We transfer full intellectual property rights and app ownership to you upon project completion. All code, designs, and assets belong to you, ensuring full control and security."
     }
     ,
     {
-        title: "How do you protect my app idea during development?",
-        txt: "We take intellectual property seriously. Our application development company implements strict confidentiality agreements and secure data handling practices, ensuring that your app idea remains protected throughout the development process. We also ensure you retain full ownership of your app."
+        title: "What is the cost range for developing a custom mobile app?",
+        txt: "Costs vary widely based on complexity, features, and development time. Basic apps may cost $10,000-$50,000, while more complex apps with advanced features can range from $50,000 to over $200,000."
+    },
+    {
+        title: "Do you handle development for security-sensitive applications?",
+        txt: "Yes, we specialize in developing security-sensitive apps with robust encryption, secure data storage, and compliance with industry standards to protect your sensitive information."
     },
     {
         title: "Can I request changes during the development process?",
         txt: "Absolutely! Our mobile app development services include flexible, client-centric practices. We encourage client feedback at every stage, allowing you to request changes or updates as needed. Our goal is to ensure the final product aligns perfectly with your vision."
     }
-];
+    ,
+    {
+        title: "Do you offer post-launch support and maintenance?",
+        txt: "Yes, post-launch support and maintenance are provided to address bugs, updates, and performance improvements, ensuring your app remains functional and up-to-date after its initial release."
+    }
+]
+
 
 const Faqs = () => {
     const [openIndex, setOpenIndex] = useState(0);

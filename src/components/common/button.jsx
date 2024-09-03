@@ -13,8 +13,8 @@ const ButtonCommon = ({ color, txt }) => {
     };
     return (
         <div className="catButton" onClick={handleChatOpen}>
-            <Link href=""><span>{txt}</span> <ArrowIcon /></Link>
-        </div>
+            <div><span>{txt}</span> <ArrowIcon /></div>
+        </div >
     )
 }
 

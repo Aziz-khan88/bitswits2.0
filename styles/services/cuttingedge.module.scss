@@ -24,6 +24,10 @@
                     h5 {
                         margin-bottom: 0px;
                         transition: color 0.3s ease;
+
+                        br {
+                            display: block;
+                        }
                     }
 
                     .normalButton {
@@ -39,8 +43,10 @@
                         background: linear-gradient(91.47deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
                         border-radius: 64px;
                         display: none;
+                        cursor: pointer;
 
-                        a {
+                        a,
+                        div.linksBtn {
                             color: #fff;
                             font-size: 14px;
                             line-height: normal;
@@ -151,7 +157,8 @@
                             min-width: 120px;
                             padding: 0px 20px;
 
-                            a {
+                            a,
+                            div.linksBtn {
                                 font-size: 13px;
                             }
                         }
@@ -212,7 +219,8 @@
                             min-width: 120px;
                             padding: 0px 20px;
 
-                            a {
+                            a,
+                            div.linksBtn {
                                 font-size: 12px;
                             }
                         }
@@ -273,7 +281,8 @@
                             min-width: 120px;
                             padding: 0px 20px;
 
-                            a {
+                            a,
+                            div.linksBtn {
                                 font-size: 12px;
                             }
                         }
@@ -334,7 +343,8 @@
                             min-width: 120px;
                             padding: 0px 20px;
 
-                            a {
+                            a,
+                            div.linksBtn {
                                 font-size: 12px;
                             }
                         }
@@ -402,7 +412,8 @@
                             right: 0px;
                             top: 0px;
 
-                            a {
+                            a,
+                            div.linksBtn {
                                 font-size: 12px;
                             }
                         }
@@ -473,7 +484,8 @@
                             right: 0px;
                             top: 0px;
 
-                            a {
+                            a,
+                            div.linksBtn {
                                 font-size: 11px;
                             }
                         }
@@ -494,12 +506,11 @@
 
 
                 .stickyBox {
-                    padding: 20px 30px 20px;
-                    top: 20px;
+                    padding: 20px 20px 20px;
                     height: auto;
                     width: 280px;
-                    margin: auto;
-                    position: relative;
+                    margin: 30px auto 0px;
+                    position: unset;
 
                     img {
                         height: auto;

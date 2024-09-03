@@ -16,9 +16,19 @@ const tabs = [
         },
     },
     {
+        title: "Cost and Schedule",
+        content: {
+            heading: "Cost and Schedule",
+            description:
+                "After the project planning phase, we focus on maintaining cost and time-frame integrity. Our mobile app development services include realistic project estimations and ongoing monitoring of expenditures and deadlines, consistently collaborating with clients to stay within budget and meet agreed-upon time frames as the project moves toward completion.",
+            imgSrc: IMG.src,
+
+        },
+    },
+    {
         title: "Wireframes",
         content: {
-            heading: "Design, Wireframes, & Mockups",
+            heading: "Wireframes",
             description:
                 "We develop UI designs and wireframes following ISO 9241 guidelines, focusing on user journeys and intuitive workflows. Prioritizing user values, our team iterates on designs based on feedback to develop detailed mockups that capture the app’s functionality and visual appeal, shaping the final product.",
             imgSrc: IMG.src,
@@ -26,7 +36,7 @@ const tabs = [
         },
     },
     {
-        title: "Prototype",
+        title: "Prototype ",
         content: {
             heading: "Prototype Demo",
             description:
@@ -41,16 +51,6 @@ const tabs = [
             heading: "Development",
             description:
                 "After the prototype demo phase, we move into development, where our mobile app developers specialize in custom mobile app development using flexible modular architectures and agile methodologies. We release new builds every two weeks, provide comprehensive app documentation, and share regular progress reports, allowing the app to scale and adapt quickly to evolving project needs.",
-            imgSrc: IMG.src,
-
-        },
-    },
-    {
-        title: "Cost and Schedule",
-        content: {
-            heading: "Cost and Schedule Integrity",
-            description:
-                "After the development phase, we focus on maintaining cost and time-frame integrity. Our mobile app development services include realistic project estimations and ongoing monitoring of expenditures and deadlines, consistently collaborating with clients to stay within budget and meet agreed-upon time frames as the project moves toward completion.",
             imgSrc: IMG.src,
 
         },
@@ -84,8 +84,8 @@ const Process = () => {
         <section className={`${styles.processSection} p-50`} id="Process">
             <Container>
                 <Row>
-                    <Col lg={7} md={12} className="text-center m-auto">
-                        <h2>Our Mobile App Development Process</h2>
+                    <Col lg={8} md={12} className="text-center m-auto">
+                        <h2>Our App Development Approach Makes It Simple, Easy, & Efficient </h2>
                         <p>Our mobile app development process uses an agile approach focused on user experience, delivering high-quality applications across multiple mobile app development platforms to meet diverse business needs.</p>
                     </Col>
                 </Row>

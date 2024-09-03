@@ -38,7 +38,7 @@
 
                 &::before {
                     content: '';
-                    background: rgb(74, 120, 239);
+                    // background: rgb(74, 120, 239);
                     background: linear-gradient(90deg, rgba(74, 120, 239, 1) 0%, rgba(243, 47, 194, 1) 50%, rgba(243, 47, 83, 1) 100%);
                     position: absolute;
                     left: 0px;

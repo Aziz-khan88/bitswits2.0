@@ -49,7 +49,7 @@ const CaseStudySection = () => {
                 <div className="container">
                     <Row>
                         <Col lg={8} md={12} className='text-center m-auto'>
-                            <h2>Our High-Impact Mobile Application Development Portfolio!</h2>
+                            <h2>Our Results-Driven Mobile Application Development Portfolio!</h2>
                             <p>Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.</p>
                         </Col>
                     </Row>
@@ -72,14 +72,14 @@ const CaseStudySection = () => {
                                             <p>We designed Practice Pen as a skill development app that uses video-based learning and gamification. Users can upload practice videos, receive feedback, and compete in interactive challenges to win prizes, making learning fun and engaging.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <Link href="#" onClick={handleChatOpen}>
+                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
                                                     Let’s Talk
-                                                </Link>
+                                                </div>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
                                             <div className={styles.counterBox}>
-                                                <div className={styles.counter}>
+                                                {/* <div className={styles.counter}>
                                                     <h5>
                                                         <span>280</span>
                                                         <span>+</span>
@@ -99,7 +99,7 @@ const CaseStudySection = () => {
                                                         <span>%</span>
                                                     </h5>
                                                     <p>ROI</p>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className={styles.tabsNumber}>
                                                 <span className="text-white">01</span>
@@ -141,14 +141,14 @@ const CaseStudySection = () => {
                                             <p>We created Soul Scribe as a social networking app that serves as a digital diary, allowing users to invite friends and family to contribute to an online journal. Featuring a freemium subscription model with a complimentary family room option.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <Link href="#" onClick={handleChatOpen}>
+                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
                                                     Let’s Talk
-                                                </Link>
+                                                </div>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
                                             <div className={styles.counterBox}>
-                                                <div className={styles.counter}>
+                                                {/* <div className={styles.counter}>
                                                     <h5>
                                                         <span>350</span>
                                                         <span>+</span>
@@ -168,7 +168,7 @@ const CaseStudySection = () => {
                                                         <span>%</span>
                                                     </h5>
                                                     <p>ROI</p>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className={styles.tabsNumber}>
                                                 <span className="text-white">02</span>
@@ -210,14 +210,14 @@ const CaseStudySection = () => {
                                             <p>We developed Crave Cuisine, a food delivery app that streamlines the process of selecting local eateries and placing orders. Enjoy convenient dining with a wide range of meal choices, all in one easy-to-use app.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <Link href="#" onClick={handleChatOpen}>
+                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
                                                     Let’s Talk
-                                                </Link>
+                                                </div>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
                                             <div className={styles.counterBox}>
-                                                <div className={styles.counter}>
+                                                {/* <div className={styles.counter}>
                                                     <h5>
                                                         <span>290</span>
                                                         <span>+</span>
@@ -237,7 +237,7 @@ const CaseStudySection = () => {
                                                         <span>%</span>
                                                     </h5>
                                                     <p>ROI</p>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className={styles.tabsNumber}>
                                                 <span className="text-white">03</span>
@@ -279,14 +279,14 @@ const CaseStudySection = () => {
                                             <p>We developed Fitnow as a user-friendly fitness app that allows users to select workouts, set goals, and customize routines with expert guidance. With a simple interface, Fitnow makes tracking progress and achieving fitness goals easy.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <Link href="#" onClick={handleChatOpen}>
+                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
                                                     Let’s Talk
-                                                </Link>
+                                                </div>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
                                             <div className={styles.counterBox}>
-                                                <div className={styles.counter}>
+                                                {/* <div className={styles.counter}>
                                                     <h5>
                                                         <span>200</span>
                                                         <span>+</span>
@@ -306,7 +306,7 @@ const CaseStudySection = () => {
                                                         <span>%</span>
                                                     </h5>
                                                     <p>ROI</p>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className={styles.tabsNumber}>
                                                 <span className="text-white">04</span>
@@ -348,14 +348,14 @@ const CaseStudySection = () => {
                                             <p>We created Route Rover, a navigation and route-planning app designed to optimize travel. Whether for daily commutes or road trips, users can discover efficient routes, avoid traffic, and explore new destinations with ease.</p>
                                             <div className={styles.blackBtn}>
                                                 <Image src={store} alt='Bitswits' className='img-fluid' />
-                                                <Link href="#" onClick={handleChatOpen}>
+                                                <div className={styles.linksBtn} onClick={handleChatOpen}>
                                                     Let’s Talk
-                                                </Link>
+                                                </div>
                                             </div>
                                         </div>
                                         <div className={styles.bottomBox}>
                                             <div className={styles.counterBox}>
-                                                <div className={styles.counter}>
+                                                {/* <div className={styles.counter}>
                                                     <h5>
                                                         <span>250</span>
                                                         <span>+</span>
@@ -375,7 +375,7 @@ const CaseStudySection = () => {
                                                         <span>%</span>
                                                     </h5>
                                                     <p>ROI</p>
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div className={styles.tabsNumber}>
                                                 <span className="text-white">05</span>

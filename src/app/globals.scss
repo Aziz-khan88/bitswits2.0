@@ -1,3 +1,7 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -75,6 +79,38 @@ p {
     margin-bottom: 20px;
 }
 
+.whiteHeader {
+    .balck {
+        display: none;
+    }
+
+    .white {
+        display: block;
+    }
+
+    &.active {
+        .balck {
+            display: block;
+        }
+
+        .white {
+            display: none;
+        }
+    }
+
+    &.whiteNav {
+        li {
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.bgLight {
+    background: #F6F6F6;
+}
+
 .bgBlack {
     background: #000;
 
@@ -116,7 +152,8 @@ p {
     }
 
 
-    a {
+    a,
+    div {
         color: #fff;
         font-size: 16px;
         line-height: normal;
@@ -126,6 +163,7 @@ p {
         justify-content: center;
         align-items: center;
         display: flex;
+        cursor: pointer;
 
         span {
             margin-right: 15px;
@@ -162,7 +200,8 @@ p {
         }
 
 
-        a {
+        a,
+        div {
             color: #F32F56;
 
             svg {
@@ -190,7 +229,8 @@ p {
     background: linear-gradient(91.47deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
     border-radius: 64px;
 
-    a {
+    a,
+    div.linksBtn {
         color: #fff;
         font-size: 14px;
         line-height: normal;
@@ -272,6 +312,9 @@ p {
 
 }
 
+.commongradientBG {
+    background: linear-gradient(91.47deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+}
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .container {
@@ -322,7 +365,8 @@ p {
         min-width: 150px;
         padding: 0px 20px;
 
-        a {
+        a,
+        .linksBtn {
             font-size: 14px;
         }
     }
@@ -332,7 +376,8 @@ p {
         padding: 0px 30px;
         width: 250px;
 
-        a {
+        a,
+        div {
             font-size: 15px;
 
             span {
@@ -350,12 +395,32 @@ p {
                 width: 50px;
             }
 
-            a {
+            a,
+            div {
                 svg {
                     right: 12px;
                 }
             }
         }
+    }
+
+    .embla {
+        .embla_container {
+            gap: 20px;
+
+            div {
+                height: 20px;
+
+                svg {
+                    height: 18px;
+                }
+            }
+
+            .embla_prev {
+                top: 6px;
+            }
+        }
+
     }
 
 }
@@ -411,7 +476,8 @@ p {
         padding: 0px 25px;
         width: 220px;
 
-        a {
+        a,
+        div {
             font-size: 14px;
 
             span {
@@ -429,16 +495,37 @@ p {
                 width: 45px;
             }
 
-            a {
+            a,
+            div {
                 svg {
                     right: 12px;
                 }
             }
         }
     }
+
+    .embla {
+        .embla_container {
+            gap: 18px;
+            top: -100px;
+
+            div {
+                height: 20px;
+
+                svg {
+                    height: 16px;
+                }
+            }
+
+            .embla_prev {
+                top: 6px;
+            }
+        }
+
+    }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .container {
         max-width: 1150px;
     }
@@ -489,7 +576,8 @@ p {
         padding: 0px 20px;
         width: 200px;
 
-        a {
+        a,
+        div {
             font-size: 13px;
 
             span {
@@ -507,12 +595,33 @@ p {
                 width: 40px;
             }
 
-            a {
+            a,
+            div {
                 svg {
                     right: 10px;
                 }
             }
         }
+    }
+
+    .embla {
+        .embla_container {
+            gap: 18px;
+            top: -100px;
+
+            div {
+                height: 20px;
+
+                svg {
+                    height: 12px;
+                }
+            }
+
+            .embla_prev {
+                top: 6px;
+            }
+        }
+
     }
 }
 
@@ -573,7 +682,8 @@ p {
         padding: 0px 15px;
         width: 160px;
 
-        a {
+        a,
+        div {
             font-size: 11px;
             font-weight: 500;
 
@@ -592,12 +702,33 @@ p {
                 width: 30px;
             }
 
-            a {
+            a,
+            div {
                 svg {
                     right: 7px;
                 }
             }
         }
+    }
+
+    .embla {
+        .embla_container {
+            gap: 18px;
+            top: -100px;
+
+            div {
+                height: 20px;
+
+                svg {
+                    height: 12px;
+                }
+            }
+
+            .embla_prev {
+                top: 6px;
+            }
+        }
+
     }
 }
 
@@ -662,7 +793,8 @@ p {
         padding: 0px 15px;
         width: 160px;
 
-        a {
+        a,
+        div {
             font-size: 11px;
             font-weight: 500;
 
@@ -681,12 +813,32 @@ p {
                 width: 30px;
             }
 
-            a {
+            a,
+            div {
                 svg {
                     right: 7px;
                 }
             }
         }
+    }
+
+    .embla {
+        .embla_container {
+            gap: 18px;
+
+            div {
+                height: 20px;
+
+                svg {
+                    height: 15px;
+                }
+            }
+
+            .embla_prev {
+                top: 6px;
+            }
+        }
+
     }
 }
 
@@ -703,7 +855,7 @@ p {
 
     h2 {
         font-size: 26px;
-        line-height: 32px;
+        line-height: 35px;
         margin-bottom: 10px;
     }
 
@@ -720,23 +872,23 @@ p {
     }
 
     .p-100 {
-        padding: 25px 0px;
+        padding: 50px 0px;
     }
 
     .pt-100 {
-        padding-top: 25px;
+        padding-top: 50px;
     }
 
     .pb-100 {
-        padding-bottom: 25px;
+        padding-bottom: 50px;
     }
 
     .p-50 {
-        padding: 25px 0px;
+        padding: 50px 0px;
     }
 
     .pb-50 {
-        padding-bottom: 25px;
+        padding-bottom: 50px;
     }
 
     h4 {
@@ -749,7 +901,8 @@ p {
         padding: 0px 15px;
         width: 160px;
 
-        a {
+        a,
+        div {
             font-size: 11px;
             font-weight: 500;
 
@@ -768,11 +921,29 @@ p {
                 width: 35px;
             }
 
-            a {
+            a,
+            div {
                 svg {
                     right: 9px;
                 }
             }
         }
+    }
+
+    .embla {
+        .embla_container {
+            gap: 18px;
+            position: relative;
+            z-index: 20;
+
+            div {
+
+                svg {
+                    height: 15px;
+                }
+            }
+
+        }
+
     }
 }

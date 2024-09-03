@@ -261,6 +261,7 @@
 
         .starClass {
             margin-bottom: 20px;
+            justify-content: center;
 
             svg {
                 width: 16px;
@@ -273,9 +274,12 @@
             line-height: 30px;
             padding: 0px 0px 20px;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .testProfile {
+            justify-content: center;
+
             .ImgBox {
                 margin-right: 15px;
 
