@@ -5,7 +5,8 @@ import IMG from "media/services/BitsWitsImg.webp"
 import ContactFrom from "@/src/components/common/contactfrom"
 
 
-const AppIdea = () => {
+const AppIdea = ({ data }) => {
+    
     return (
         <section className={`${styles.appideaSection} p-50`}>
             <Container>
@@ -16,8 +17,8 @@ const AppIdea = () => {
                         </div>
                     </Col>
                     <Col lg={6} md={6} className="order-md-2 order-1">
-                        <h2>Build Your MVP with a Winning Strategy!</h2>
-                        <p>Take the first step toward creating a cost-effective MVP. Ready to dominate? Book a free session and see how we build powerful apps!</p>
+                        <h2>{data.title}</h2>
+                        <p>{data?.text}</p>
                         <div className={styles.appIdeaFrom}>
                             <ContactFrom idea="yes" />
                         </div>

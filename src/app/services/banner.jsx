@@ -23,8 +23,8 @@ const Banner = ({ data }) => {
                     </Col>
                     <Col lg={6} md={6} className="my-auto">
                         <div className={styles.bannerFrom}>
-                            <h4>Let’s Discuss Your App Idea</h4>
-                            <p>Share your app business objectives with our experts and create your custom app.</p>
+                            <h4>{data.fromtitle}</h4>
+                            <p>{data.fromtext}</p>
                             <ContactFrom />
                         </div>
                     </Col>

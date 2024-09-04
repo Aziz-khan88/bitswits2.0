@@ -96,8 +96,8 @@
         }
 
         .industryBox {
-            height: 300px;
-            padding: 30px;
+            height: 320px;
+            padding: 25px;
             margin-bottom: 25px;
 
             .industryIcon {
@@ -121,7 +121,8 @@
                 margin-bottom: 20px;
             }
 
-            a {
+            a,
+            .linksBtn {
                 font-size: 15px;
                 line-height: 20px;
                 margin-bottom: 20px;
@@ -143,8 +144,8 @@
         }
 
         .industryBox {
-            height: 280px;
-            padding: 25px;
+            height: 290px;
+            padding: 20px;
             margin-bottom: 20px;
 
             .industryIcon {
@@ -168,7 +169,8 @@
                 margin-bottom: 10px;
             }
 
-            a {
+            a,
+            .linksBtn {
                 font-size: 14px;
                 line-height: 20px;
                 margin-bottom: 15px;
@@ -189,7 +191,7 @@
         }
 
         .industryBox {
-            height: 260px;
+            height: 280px;
             padding: 20px;
             margin-bottom: 20px;
 
@@ -214,7 +216,8 @@
                 margin-bottom: 10px;
             }
 
-            a {
+            a,
+            .linksBtn {
                 font-size: 13px;
                 line-height: 20px;
                 margin-bottom: 15px;
@@ -235,7 +238,7 @@
         }
 
         .industryBox {
-            min-height: 260px;
+            height: 280px;
             padding: 15px;
             margin-bottom: 20px;
             justify-content: center;
@@ -263,13 +266,14 @@
                 margin-bottom: 10px;
             }
 
-            a {
-                font-size: 13px;
+            a,
+            .linksBtn {
+                font-size: 12px;
                 line-height: 20px;
                 margin-bottom: 15px;
 
                 svg {
-                    width: 14px;
+                    width: 12px;
                     margin-left: 10px;
                 }
             }
@@ -309,7 +313,8 @@
                 margin-bottom: 10px;
             }
 
-            a {
+            a,
+            .linksBtn {
                 font-size: 13px;
                 line-height: 20px;
                 margin-bottom: 15px;
@@ -355,7 +360,8 @@
                 margin-bottom: 10px;
             }
 
-            a {
+            a,
+            .linksBtn {
                 font-size: 13px;
                 line-height: 20px;
                 margin-bottom: 15px;
