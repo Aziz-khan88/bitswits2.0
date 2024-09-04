@@ -7,5 +7,7 @@ const BannerData = {
     content: "As a leading provider of mobile app development services in the USA, we help entrepreneurs and SMBs achieve their growth aspirations by developing high-performance, feature-rich apps. Our expert mobile app developers use Swift, Kotlin, React Native, and Flutter to build cost-effective native and cross-platform applications, delivering UX-driven solutions from ideation to launch!",
     BannerLogos: BannerLogos.src,
     BanngBg: BanngBg.src,
+    fromtitle: "Let’s Discuss Your App Idea",
+    fromtext: "Share your app business objectives with our experts and create your custom app."
 }
 export default BannerData;

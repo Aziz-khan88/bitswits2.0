@@ -1,28 +1,21 @@
 import styles from "@/styles/services/banner.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
-import BannerLogos from "media/services/bannerLogo.webp"
-import BanngBg from "media/services/bgBanner.webp"
 import Image from "next/image"
 import ButtonCommon from "@/src/components/common/button"
 import ContactFrom from "@/src/components/common/contactfrom"
 
 
-const Banner = ({data}) => {
-    //  
-    console.log("aziz")
-    console.log("aziz",data)
-   
+const Banner = ({ data }) => {
     return (
-       
-        <section className={styles.bannerSection} style={{ backgroundImage: `url(${BanngBg.src})` }}>
+        <section className={styles.bannerSection} style={{ backgroundImage: `url(${data.BanngBg})` }}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={6} md={6} className="my-auto">
-                        <div className={styles.subTitle}>Quickly – Efficiently – Effortlessly</div>
-                        <h1>Mobile App Development Services To Accelerate Business Growth</h1>
-                        <p>As a leading provider of mobile app development services in the USA, we help entrepreneurs and SMBs achieve their growth aspirations by developing high-performance, feature-rich apps. Our expert mobile app developers use Swift, Kotlin, React Native, and Flutter to build cost-effective native and cross-platform applications, delivering UX-driven solutions from ideation to launch!</p>
+                        <div className={styles.subTitle}>{data.subtitle}</div>
+                        <h1>{data.title}</h1>
+                        <p>{data.content}</p>
                         <div className={styles.bannerLogos}>
-                            <Image src={BannerLogos.src} alt="Bitswits Services" width={528} height={50} />
+                            <Image src={data.BannerLogos} alt="Bitswits Services" width={528} height={50} />
                         </div>
                         <div className={styles.btnFlex}>
                             <ButtonCommon txt="Free Consultation" color="yes" />
