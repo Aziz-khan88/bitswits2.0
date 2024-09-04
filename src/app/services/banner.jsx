@@ -6,8 +6,14 @@ import Image from "next/image"
 import ButtonCommon from "@/src/components/common/button"
 import ContactFrom from "@/src/components/common/contactfrom"
 
-const Banner = () => {
+
+const Banner = ({data}) => {
+    //  
+    console.log("aziz")
+    console.log("aziz",data)
+   
     return (
+       
         <section className={styles.bannerSection} style={{ backgroundImage: `url(${BanngBg.src})` }}>
             <Container className="h-100">
                 <Row className="h-100">
