@@ -23,6 +23,7 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
             <li>
                 <Link href="#Contact">Contact Us</Link>
             </li>
+
             <li className={styles.btnHeader}>
                 <a href="tel:+18335006007"><PhoneIcon />+1 833 500 6007</a>
             </li>
