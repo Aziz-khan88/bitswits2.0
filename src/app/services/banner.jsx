@@ -7,19 +7,15 @@ import ContactFrom from "@/src/components/common/contactfrom"
 
 const Banner = ({ data }) => {
     return (
-        <section className={styles.bannerSection} style={{ backgroundImage: `url(${data?.BanngBg})` }}>
+        <section className={styles.bannerSection} style={{ backgroundImage: `url(${data.BanngBg})` }}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={6} md={6} className="my-auto">
-                        <div className={styles.subTitle}>{data?.subtitle}</div>
-                        <h1>{data?.title}</h1>
-                        <p>{data?.content}</p>
+                        <div className={styles.subTitle}>{data.subtitle}</div>
+                        <h1>{data.title}</h1>
+                        <p>{data.content}</p>
                         <div className={styles.bannerLogos}>
-                            {data ?
-                                <Image src={data?.BannerLogos} alt="Bitswits Services" width={528} height={50} />
-                                :
-                                null
-                            }
+                            <Image src={data.BannerLogos} alt="Bitswits Services" width={528} height={50} />
                         </div>
                         <div className={styles.btnFlex}>
                             <ButtonCommon txt="Free Consultation" color="yes" />
@@ -27,8 +23,8 @@ const Banner = ({ data }) => {
                     </Col>
                     <Col lg={6} md={6} className="my-auto">
                         <div className={styles.bannerFrom}>
-                            <h4>Let’s Discuss Your App Idea</h4>
-                            <p>Share your app business objectives with our experts and create your custom app.</p>
+                            <h4>{data.fromtitle}</h4>
+                            <p>{data.fromtext}</p>
                             <ContactFrom />
                         </div>
                     </Col>
