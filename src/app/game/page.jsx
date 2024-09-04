@@ -31,7 +31,7 @@ import {
     IndustriesList, IdeaCtaContent,
     FaqsContent, FaqsList, BlogsContent,
     BlogsList
-  } from "@/src/app/game/data/data";
+} from "@/src/app/game/data/data";
 
 export default function Home() {
     return (
@@ -47,11 +47,11 @@ export default function Home() {
             <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
             <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
             <ContentSecLG />
-            <IdeaCta data={IdeaCtaContent}/>
-            <TechStack data={TechStackContent} tabs={TechStackTabs}/>
+            <IdeaCta data={IdeaCtaContent} />
+            <TechStack data={TechStackContent} tabs={TechStackTabs} />
             <Fueling data={FuelingContent} />
-            <Faqs data={FaqsContent} list={FaqsList}/>
-      <Blogs data={BlogsContent} list={BlogsList}/>
+            <Faqs data={FaqsContent} list={FaqsList} />
+            <Blogs data={BlogsContent} list={BlogsList} />
             <Location />
         </>
     );
