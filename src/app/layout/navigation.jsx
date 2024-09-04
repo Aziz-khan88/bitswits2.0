@@ -2,9 +2,12 @@ import Link from "next/link"
 import styles from "@/styles/layout/navigation.module.scss"
 import { PhoneIcon, SubMenuIcon } from "@/src/app/app-constants"
 
-const Navigation = ({ isGamePage }) => {
+const Navigation = ({ isWhiteLogo, scrolled }) => {
     return (
-        <ul className={`${styles.mainNavigation} ${isGamePage ? 'whiteNav' : ''}`}  >
+        <ul
+            className={`${styles.mainNavigation} 
+            ${isWhiteLogo ? (scrolled ? styles.whiteNavScroll : styles.whiteNav) : ''}`}
+        >
             <li>
                 <Link href="#Services">Services</Link>
             </li>

@@ -79,33 +79,6 @@ p {
     margin-bottom: 20px;
 }
 
-.whiteHeader {
-    .balck {
-        display: none;
-    }
-
-    .white {
-        display: block;
-    }
-
-    &.active {
-        .balck {
-            display: block;
-        }
-
-        .white {
-            display: none;
-        }
-    }
-
-    &.whiteNav {
-        li {
-            a {
-                color: #fff;
-            }
-        }
-    }
-}
 
 .bgLight {
     background: #F6F6F6;

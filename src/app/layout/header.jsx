@@ -22,24 +22,35 @@ const Header = () => {
     }, []);
 
     const pathname = usePathname();
-    const isGamePage = pathname === '/game';
+    const isWhiteLogo = pathname === '/game';
     return (
-        <section className={`${styles.headerSection} ${isGamePage ? 'whiteHeader' : ''} ${scrolled ? styles.active : ''}`} >
-            <Container className="h-100">
+        <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`} >
+            < Container className="h-100" >
                 <Row className="h-100">
                     <Col md={2} xs={6} sm={6} className="m-auto">
                         <Link href="/">
-                            <div className={styles.balck}>
-                                <MainLogo />
-                            </div>
+                            {isWhiteLogo && !scrolled ? (
+                                <div className={styles.white}>
+                                    <WhiteLogo />
+                                </div>
+                            ) : isWhiteLogo && scrolled ? (
+                                <div className={styles.black}>
+                                    <MainLogo />
+                                </div>
+                            ) : (
+                                <div className={styles.black}>
+                                    <MainLogo />
+                                </div>
+                            )
+                            }
                         </Link>
                     </Col>
                     <Col md={10} xs={6} sm={6} className="m-auto">
-                        <Navigation isGamePage={true} />
+                        <Navigation isWhiteLogo={true} scrolled={true} />
                     </Col>
                 </Row>
-            </Container>
-        </section>
+            </Container >
+        </section >
     )
 }
 
