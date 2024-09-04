@@ -42,7 +42,7 @@ const Header = () => {
                         </Link>
                     </Col>
                     <Col md={10} xs={6} sm={6} className="m-auto">
-                        <Navigation isWhiteLogo={true} scrolled={scrolled} />
+                        <Navigation isWhiteLogo={isWhiteLogo} scrolled={scrolled} />
                     </Col>
                 </Row>
             </Container >
