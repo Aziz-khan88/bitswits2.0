@@ -6,7 +6,6 @@ import Link from 'next/link'
 import { ArrowIcon, EmailIcon, PhoneIcon } from '@/src/app/app-constants'
 import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
-
 // Location Images
 import Dubai from "media/locations/Dubai.webp"
 import Chicago from "media/locations/Chicago.webp"
@@ -22,10 +21,9 @@ import Bahrain from "media/locations/Bahrain.webp"
 import Pierre from "media/locations/Pierre.webp"
 import Sharjah from "media/locations/Sharjah.webp"
 
-
 const OPTIONS = { align: 'start', loop: "true" }
 
-const LocationList = [
+const LOC = [
     {
         state: "Houston",
         add: "2800 Post Oak Blvd STE 4100, Houston, TX 77056, United States",
@@ -131,7 +129,6 @@ const LocationList = [
         off: "Head Office"
     },
 ]
-
 const Location = () => {
     const [emblaRef, embla] = useEmblaCarousel(OPTIONS, [Autoplay()]);
     const prevButtonHandler = () => {
@@ -146,11 +143,11 @@ const Location = () => {
             <Container>
                 <Row>
                     <Col lg={12} md={12}>
-                        <h2>Our Global Presence</h2>
+                        <h2>Our Global Presence </h2>
                         <section className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
-                                    {LocationList.map((item, index) => (
+                                    {LOC.map((item, index) => (
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.locationBox}>
                                                 <div className={styles.imgBox}>

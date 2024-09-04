@@ -1,24 +1,25 @@
+import IMG from "media/services/cuttingEdge.webp"
 import styles from "@/styles/services/fueling.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
 import Image from "next/image"
 import ButtonCommon from "@/src/components/common/button"
 
-const Fueling = ({ data }) => {
+const Fueling = () => {
     return (
         <section className={`${styles.fuelingSection} p-100 bgBlack`}>
             <Container>
                 <Row>
                     <Col lg={6} md={6}>
                         <div className={styles.fuelingSickty}>
-                            <h2>{data?.title}</h2>
-                            <p>{data?.text}</p>
+                            <h2>In-App Features That Your Users Are Looking For!</h2>
+                            <p>As a leading mobile development agency, we deliver all the must-have features, from user-friendly interfaces to advanced security, creating apps that meet modern user needs and support business growth.</p>
                             <div className={styles.fuelingBox}>
                                 <div className={styles.boxContent}>
-                                    <h5>{data?.subtitle}</h5>
-                                    <p>{data?.subtext}</p>
+                                    <h5>Reduce Risk and Validate Your Idea With a Fast MVP Launch!</h5>
+                                    <p>BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!</p>
                                 </div>
                                 <div className={styles.boxImg}>
-                                    <Image src={data?.FuelingImg} alt="Bitswits Services" width={350} height={290} />
+                                    <Image src={IMG.src} alt="Bitswits Services" width={350} height={290} />
                                 </div>
                             </div>
                             <ButtonCommon txt="Free Consultation" />

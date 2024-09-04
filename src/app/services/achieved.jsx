@@ -8,8 +8,8 @@ import Autoplay from 'embla-carousel-autoplay'
 
 
 
-const Achieved = ({ slides, options, data }) => {
-    
+const Achieved = (props) => {
+    const { slides, options } = props
     const [emblaRef, embla] = useEmblaCarousel(options, [Autoplay()]);
 
     const prevButtonHandler = () => {
@@ -20,12 +20,12 @@ const Achieved = ({ slides, options, data }) => {
         if (embla) embla.scrollNext();
     };
     return (
-        <section className={`${styles.achievedSection} pt-100`}>
+        <section className={`${styles.achievedSection}`}>
             <Container>
                 <Row>
                     <Col lg={6} md={12}>
-                        <h2>{data?.title}</h2>
-                        <p>{data?.text}</p>
+                        <h2>Awards That Validate Our Impactful App Solutions</h2>
+                        <p>We have earned awards and recognition for our quality-first approach, successfully delivering advanced, complex projects with a talented team of developers, designers, and project managers.</p>
                     </Col>
                 </Row>
                 <Row>
@@ -39,7 +39,7 @@ const Achieved = ({ slides, options, data }) => {
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.achievedCard} key={index}>
                                                 <div className={styles.achievedImg}>
-                                                    <Image src={item.AwardsIMG} alt="Achieved Logo" width={120} height={120} />
+                                                    <Image src={item.img} alt="Achieved Logo" width={120} height={120} />
                                                 </div>
                                                 <div className={styles.achievedContent}>
                                                     <div className={styles.data}>

@@ -3,22 +3,22 @@ import styles from '@/styles/services/ideacta.module.scss'
 import { Col, Container, Row } from "react-bootstrap"
 
 
-const IdeaCta = ({data}) => {
+const IdeaCta = () => {
     return (
         <section className={`${styles.appideaSection} p-50`} id="Contact">
             <Container className='h-100'>
                 <Row className='h-100'>
                     <Col lg={6} md={6} className='m-auto'>
                         <div className={styles.boxItem}>
-                            <h2>{data?.title}</h2>
+                            <h2>Let’s Change The World With Your</h2>
                             <div className={styles.custumTitle}>
-                            {data?.text}
+                                App <span>Idea!</span>
                             </div>
                         </div>
                     </Col>
                     <Col lg={5} md={6}>
                         <div className={styles.ideaBox}>
-                            <h5>{data?.formtitle}</h5>
+                            <h5>Get Free Consultation</h5>
                             <ContactFrom appidea="yes" />
                         </div>
                     </Col>
