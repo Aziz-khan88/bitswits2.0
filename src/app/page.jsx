@@ -8,7 +8,7 @@ import {
   WhyChooseList2, ProcessTabs, TechnologiesContent,
   TechnologiesIcons, TestimonialContent,
   TestimonialSLIDES, RisksContent,
-  OffersContent, OffersTabs, FuelingContent,
+  OffersContent, OffersTabs, FuelingContent, FuelingList,
   CtaEstimatedContent, TechStackTabs,
   TechStackContent, IndustriesContent,
   IndustriesList, IdeaCtaContent,
@@ -36,14 +36,13 @@ import Faqs from "@/src/app/services/faqs";
 import Blogs from "@/src/app/services/blogs";
 import Location from "@/src/app/services/location";
 
-const OPTIONS = { align: 'start', loop: "true" }
 
 export default function Home() {
 
   return (
     <>
       <Banner data={BannerData} />
-      <Achieved slides={Awards} options={OPTIONS} data={AwardContent} />
+      <Achieved />
       <Cuttingedge data={CuttingedgeContent} list={CuttingedgeList} />
       <CaseStudySection data={caseStudiesContent} caseStudies={caseStudiesList} />
       <AppIdea data={AppIdeaContent} />
@@ -53,7 +52,7 @@ export default function Home() {
       <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
       <Risks data={RisksContent} />
       <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
-      <Fueling data={FuelingContent} />
+      <Fueling data={FuelingContent} list={FuelingList}/>
       <CtaEstimated data={CtaEstimatedContent} />
       <TechStack data={TechStackContent} tabs={TechStackTabs}/>
       <Industries data={IndustriesContent} list={IndustriesList}/>

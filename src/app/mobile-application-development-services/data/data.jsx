@@ -5,14 +5,6 @@ import Image from "next/image"
 import BannerLogos from "media/services/bannerLogo.webp";
 import BanngBg from "media/services/bgBanner.webp";
 
-// Awards
-import AwardsIMG01 from "media/awards/1.webp"
-import AwardsIMG02 from "media/awards/2.webp"
-import AwardsIMG03 from "media/awards/3.webp"
-import AwardsIMG04 from "media/awards/4.webp"
-import AwardsIMG05 from "media/awards/5.webp"
-import AwardsIMG06 from "media/awards/6.webp"
-import AwardsIMG07 from "media/awards/7.webp"
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -38,6 +30,7 @@ import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/services/techImg.webp"
 
+
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
 import TestiImg2 from "media/services/reviwes/clutch.webp"
@@ -59,52 +52,52 @@ import FuelingImg from "media/services/cuttingEdge.webp"
 import CtaEstimatedImg from "media/services/ctaImg.webp"
 
 //========= TechStack Images
-import D1 from "media/services/tech/Design/01.webp";
-import D2 from "media/services/tech/Design/02.webp";
-import D3 from "media/services/tech/Design/03.webp";
-import D4 from "media/services/tech/Design/04.webp";
-import D5 from "media/services/tech/Design/05.webp";
-import D6 from "media/services/tech/Design/06.webp";
-import FE1 from "media/services/tech/FrontEnd/01.webp";
-import FE2 from "media/services/tech/FrontEnd/02.webp";
-import FE3 from "media/services/tech/FrontEnd/03.webp";
-import FE4 from "media/services/tech/FrontEnd/04.webp";
-import FE5 from "media/services/tech/FrontEnd/05.webp";
-import FE6 from "media/services/tech/FrontEnd/06.webp";
-import FE7 from "media/services/tech/FrontEnd/07.webp";
-import FE8 from "media/services/tech/FrontEnd/08.webp";
-import BE1 from "media/services/tech/BackEnd/01.webp";
-import BE2 from "media/services/tech/BackEnd/02.webp";
-import BE3 from "media/services/tech/BackEnd/03.webp";
-import BE4 from "media/services/tech/BackEnd/04.webp";
-import BE5 from "media/services/tech/BackEnd/05.webp";
-import BD1 from "media/services/tech/Database/01.webp";
-import BD2 from "media/services/tech/Database/02.webp";
-import BD3 from "media/services/tech/Database/03.webp";
-import BD4 from "media/services/tech/Database/04.webp";
-import BD5 from "media/services/tech/Database/05.webp";
-import BD6 from "media/services/tech/Database/06.webp";
-import CD1 from "media/services/tech/Cloud/01.webp";
-import CD2 from "media/services/tech/Cloud/02.webp";
-import CD3 from "media/services/tech/Cloud/03.webp";
-import CD4 from "media/services/tech/Cloud/04.webp";
-import CD5 from "media/services/tech/Cloud/05.webp";
-import CD6 from "media/services/tech/Cloud/06.webp";
-import CD7 from "media/services/tech/Cloud/07.webp";
-import FW1 from "media/services/tech/Framework/01.webp";
-import FW2 from "media/services/tech/Framework/02.webp";
-import FW3 from "media/services/tech/Framework/03.webp";
-import FW4 from "media/services/tech/Framework/04.webp";
-import FW5 from "media/services/tech/Framework/05.webp";
-import FW6 from "media/services/tech/Framework/06.webp";
-import FW7 from "media/services/tech/Framework/07.webp";
-import FW8 from "media/services/tech/Framework/08.webp";
-import PM1 from "media/services/tech/PM/01.webp";
-import PM2 from "media/services/tech/PM/02.webp";
-import PM3 from "media/services/tech/PM/03.webp";
-import PM4 from "media/services/tech/PM/04.webp";
-import PM5 from "media/services/tech/PM/05.webp";
-import PM6 from "media/services/tech/PM/06.webp";
+import TAB1_1 from "media/services/tech/tab1/01.webp";
+import TAB1_2 from "media/services/tech/tab1/02.webp";
+import TAB1_3 from "media/services/tech/tab1/03.webp";
+import TAB1_4 from "media/services/tech/tab1/04.webp";
+import TAB1_5 from "media/services/tech/tab1/05.webp";
+import TAB1_6 from "media/services/tech/tab1/06.webp";
+import TAB2_1 from "media/services/tech/tab2/01.webp";
+import TAB2_2 from "media/services/tech/tab2/02.webp";
+import TAB2_3 from "media/services/tech/tab2/03.webp";
+import TAB2_4 from "media/services/tech/tab2/04.webp";
+import TAB2_5 from "media/services/tech/tab2/05.webp";
+import TAB2_6 from "media/services/tech/tab2/06.webp";
+import TAB2_7 from "media/services/tech/tab2/07.webp";
+import TAB2_8 from "media/services/tech/tab2/08.webp";
+import TAB3_1 from "media/services/tech/tab3/01.webp";
+import TAB3_2 from "media/services/tech/tab3/02.webp";
+import TAB3_3 from "media/services/tech/tab3/03.webp";
+import TAB3_4 from "media/services/tech/tab3/04.webp";
+import TAB3_5 from "media/services/tech/tab3/05.webp";
+import TAB4_1 from "media/services/tech/tab4/01.webp";
+import TAB4_2 from "media/services/tech/tab4/02.webp";
+import TAB4_3 from "media/services/tech/tab4/03.webp";
+import TAB4_4 from "media/services/tech/tab4/04.webp";
+import TAB4_5 from "media/services/tech/tab4/05.webp";
+import TAB4_6 from "media/services/tech/tab4/06.webp";
+import TAB5_1 from "media/services/tech/tab5/01.webp";
+import TAB5_2 from "media/services/tech/tab5/02.webp";
+import TAB5_3 from "media/services/tech/tab5/03.webp";
+import TAB5_4 from "media/services/tech/tab5/04.webp";
+import TAB5_5 from "media/services/tech/tab5/05.webp";
+import TAB5_6 from "media/services/tech/tab5/06.webp";
+import TAB5_7 from "media/services/tech/tab5/07.webp";
+import TAB6_1 from "media/services/tech/tab6/01.webp";
+import TAB6_2 from "media/services/tech/tab6/02.webp";
+import TAB6_3 from "media/services/tech/tab6/03.webp";
+import TAB6_4 from "media/services/tech/tab6/04.webp";
+import TAB6_5 from "media/services/tech/tab6/05.webp";
+import TAB6_6 from "media/services/tech/tab6/06.webp";
+import TAB6_7 from "media/services/tech/tab6/07.webp";
+import TAB6_8 from "media/services/tech/tab6/08.webp";
+import TAB7_1 from "media/services/tech/tab7/01.webp";
+import TAB7_2 from "media/services/tech/tab7/02.webp";
+import TAB7_3 from "media/services/tech/tab7/03.webp";
+import TAB7_4 from "media/services/tech/tab7/04.webp";
+import TAB7_5 from "media/services/tech/tab7/05.webp";
+import TAB7_6 from "media/services/tech/tab7/06.webp";
 
 //========= Industries Images
 import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
@@ -132,49 +125,6 @@ export const BannerData = {
     fromtitle: "Let’s Discuss Your App Idea",
     fromtext: "Share your app business objectives with our experts and create your custom app."
 }
-
-export const AwardContent = {
-    title: "Awards That Validate Our Impactful App Solutions",
-    text: "We have earned awards and recognition for our quality-first approach, successfully delivering advanced, complex projects with a talented team of developers, designers, and project managers.",
-}
-
-export const Awards = [
-    {
-        title: "Horizon Interactive Gold Award",
-        year: "2024",
-        AwardsIMG: AwardsIMG01.src
-    },
-    {
-        title: "Top Rated App Development Companies in US",
-        year: "2024",
-        AwardsIMG: AwardsIMG02.src
-    },
-    {
-        title: "Top App Performers Award",
-        year: "2023",
-        AwardsIMG: AwardsIMG05.src
-    },
-    {
-        title: "Top Mobile App Development Company",
-        year: "2023",
-        AwardsIMG: AwardsIMG06.src
-    },
-    {
-        title: "Dot COMM Platinum Award",
-        year: "2023",
-        AwardsIMG: AwardsIMG07.src
-    },
-    {
-        title: "Clutch Global Company Award",
-        year: "2022",
-        AwardsIMG: AwardsIMG03.src
-    },
-    {
-        title: "High User Satisfaction Award",
-        year: "2022",
-        AwardsIMG: AwardsIMG04.src
-    }
-]
 
 export const CuttingedgeContent = {
     title: "Mobile App Development Services for Maximum Business Impact!",
@@ -518,10 +468,45 @@ export const FuelingContent = {
     FuelingImg: FuelingImg.src
 }
 
+export const FuelingList = [
+    {
+        title: "Geolocation Management",
+        text: "We integrate geolocation features to enhance user experience with real-time tracking, location-based services, and navigation. Our expert-vetted developers create apps that provide personalized content, route optimization, and proximity alerts to boost engagement and functionality."
+    },
+    {
+        title: "Payments",
+        text: "As one of the trusted mobile app development companies, we implement secure payment solutions that support methods like credit cards, digital wallets, and in-app purchases. We also use reliable payment gateways, such as Stripe and PayPal, to create seamless, user-friendly transactions that enhance conversion rates."
+    },
+    {
+        title: "Messaging and Calling",
+        text: "We build robust messaging and voice/video calling features into apps, enabling real-time communication. Our team utilizes WebRTC, Twilio, and other APIs to deliver reliable, high-quality chat and calling experiences across all devices."
+    },
+    {
+        title: "Multi-device Synchronization",
+        text: "Hire mobile app developers from BitsWits to implement multi-device synchronization, allowing users to access data and continue activities seamlessly across devices. This approach enhances user convenience and engagement by providing a consistent experience across all platforms."
+    },
+    {
+        title: "Chatbots",
+        text: "We design and integrate intelligent chatbots to provide instant customer support and engagement. Utilizing AI and NLP, our chatbots enhance user interaction, automate responses, and handle queries efficiently, improving overall customer satisfaction and retention."
+    },
+    {
+        title: "Immersive Experience",
+        text: "We create immersive app experiences using AR, VR, and 3D graphics to engage users deeply. Our expertise includes developing interactive, visually appealing elements that captivate audiences and provide memorable, innovative experiences across various app categories."
+    },
+    {
+        title: "Push Notifications",
+        text: "Our team integrates push notifications to keep users informed and engaged. We develop customizable notification systems for personalized updates, promotional offers, and reminders, which drive user retention and enhance overall app engagement effectively."
+    },
+    {
+        title: "Scheduling and Booking",
+        text: "We build efficient scheduling and booking features, catering to various business needs such as appointments, reservations, and service bookings. As a leading mobile app agency, our expertise includes integrating calendar sync, reminders, and real-time availability, offering a seamless and user-friendly experience."
+    }
+];
+
 export const CtaEstimatedContent = {
     subtitle: "App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: "Get an instant estimate for your app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .",
+    text: (<>Get an instant estimate for your app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -536,27 +521,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Adobe XD",
-                img: D1.src,
+                img: TAB1_1.src,
             },
             {
                 heading: "Adobe Illustrator",
-                img: D2.src,
+                img: TAB1_2.src,
             },
             {
                 heading: "Balsamiq",
-                img: D3.src,
+                img: TAB1_3.src,
             },
             {
                 heading: "InVision",
-                img: D4.src,
+                img: TAB1_4.src,
             },
             {
                 heading: "Figma",
-                img: D5.src,
+                img: TAB1_5.src,
             },
             {
                 heading: "Adobe Photoshop",
-                img: D6.src,
+                img: TAB1_6.src,
             },
         ],
     },
@@ -565,38 +550,36 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Flutter",
-                img: FE1.src,
+                img: TAB2_1.src,
             },
             {
                 heading: "React Native",
-                img: FE2.src,
+                img: TAB2_2.src,
             },
             {
                 heading: "Ionic",
-                img: FE3.src,
+                img: TAB2_3.src,
             },
             {
                 heading: "Swift",
-                img: FE4.src,
+                img: TAB2_4.src,
             },
             {
                 heading: "TypeScript",
-                img: FE5.src,
+                img: TAB2_5.src,
             },
             {
                 heading: "Xamarin",
-                img: FE6.src,
+                img: TAB2_6.src,
             },
             {
                 heading: "HTML5",
-                img: FE7.src,
+                img: TAB2_7.src,
             },
             {
                 heading: "Kotlin",
-                img: FE8.src,
+                img: TAB2_8.src,
             },
-
-
         ],
     },
     {
@@ -604,23 +587,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Laravel",
-                img: BE1.src,
+                img: TAB3_1.src,
             },
             {
                 heading: "Node.js",
-                img: BE2.src,
+                img: TAB3_2.src,
             },
             {
                 heading: ".NET Core",
-                img: BE3.src,
+                img: TAB3_3.src,
             },
             {
                 heading: "Ruby on Rails",
-                img: BE4.src,
+                img: TAB3_4.src,
             },
             {
                 heading: "Django",
-                img: BE5.src,
+                img: TAB3_5.src,
             },
         ],
     },
@@ -629,27 +612,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Firebase",
-                img: BD1.src,
+                img: TAB4_1.src,
             },
             {
                 heading: "MongoDB",
-                img: BD2.src,
+                img: TAB4_2.src,
             },
             {
                 heading: "MySQL",
-                img: BD3.src,
+                img: TAB4_3.src,
             },
             {
                 heading: "Swift",
-                img: BD4.src,
+                img: TAB4_4.src,
             },
             {
                 heading: "Oracle",
-                img: BD5.src,
+                img: TAB4_5.src,
             },
             {
                 heading: "PostgreSQL",
-                img: BD6.src,
+                img: TAB4_6.src,
             },
         ],
     },
@@ -658,32 +641,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Google Cloud Platform",
-                img: CD1.src,
+                img: TAB5_1.src,
             },
             {
                 heading: "AWS",
-                img: CD2.src,
+                img: TAB5_2.src,
             },
             {
                 heading: "Linode",
-                img: CD3.src,
+                img: TAB5_3.src,
             },
             {
                 heading: "IBM Cloud",
-                img: CD4.src,
+                img: TAB5_4.src,
             }, {
                 heading: "Vercel",
-                img: CD5.src,
+                img: TAB5_5.src,
             },
             {
                 heading: "Microsoft Azure",
-                img: CD6.src,
+                img: TAB5_6.src,
             },
             {
                 heading: "Firebase",
-                img: CD7.src,
+                img: TAB5_7.src,
             },
-
         ],
     },
     {
@@ -691,37 +673,36 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "React Native",
-                img: FW1.src,
+                img: TAB6_1.src,
             },
             {
                 heading: "Flutter",
-                img: FW2.src,
+                img: TAB6_2.src,
             },
             {
                 heading: "Ionic",
-                img: FW3.src,
+                img: TAB6_3.src,
             },
             {
                 heading: "Xamarin",
-                img: FW4.src,
+                img: TAB6_4.src,
             },
             {
                 heading: "Apache Cordova",
-                img: FW5.src,
+                img: TAB6_5.src,
             },
             {
                 heading: "Android Studio",
-                img: FW6.src,
+                img: TAB6_6.src,
             },
             {
                 heading: "Visual Studio",
-                img: FW7.src,
+                img: TAB6_7.src,
             },
             {
                 heading: "Xcode",
-                img: FW8.src,
+                img: TAB6_8.src,
             },
-
         ],
     },
     {
@@ -729,29 +710,28 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Teamwork",
-                img: PM1.src,
+                img: TAB7_1.src,
             },
             {
                 heading: "Basecamp",
-                img: PM2.src,
+                img: TAB7_2.src,
             },
             {
                 heading: "Jira",
-                img: PM3.src,
+                img: TAB7_3.src,
             },
             {
                 heading: "Asana",
-                img: PM4.src,
+                img: TAB7_4.src,
             },
             {
                 heading: "Trello",
-                img: PM5.src,
+                img: TAB7_5.src,
             },
             {
                 heading: "PM Tools",
-                img: PM6.src,
+                img: TAB7_6.src,
             },
-
         ],
     },
 ];
@@ -821,7 +801,7 @@ export const IndustriesList = [
 ];
 
 export const IdeaCtaContent = {
-    title: "Let’s Change The World With Your",
+    title: (<>Let’s Change<br/> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
     formtitle: "Get Free Consultation"
 }

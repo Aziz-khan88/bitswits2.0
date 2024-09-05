@@ -19,7 +19,7 @@ const Faqs = ({data, list}) => {
             <Container>
                 <Row>
                     <Col lg={8} md={12} className='m-auto'>
-                        <h2 className='text-center'>{data?.title}Frequently Asked Questions</h2>
+                        <h2 className='text-center'>{data?.title}</h2>
                         {list.map((item, index) => (
                             <div
                                 className={`${styles.faqsBox} ${openIndex === index ? styles.active : ''}`}

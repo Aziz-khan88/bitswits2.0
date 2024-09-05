@@ -3,7 +3,8 @@ import { Col, Container, Row } from "react-bootstrap"
 import Image from "next/image"
 import ButtonCommon from "@/src/components/common/button"
 
-const Fueling = ({ data }) => {
+
+const Fueling = ({ data, list }) => {
     return (
         <section className={`${styles.fuelingSection} p-100 bgBlack`}>
             <Container>
@@ -26,7 +27,13 @@ const Fueling = ({ data }) => {
                     </Col>
                     <Col lg={5} md={6} className="offset-lg-1">
                         <div className={styles.fuelingSidebar}>
-                            <div className={styles.sicktyItem}>
+                            {list.map((item, index) => (
+                                <div className={styles.sicktyItem} key={index}>
+                                    <h5>{item?.title}</h5>
+                                    <p>{item?.text}</p>
+                                </div>
+                            ))}
+                            {/* <div className={styles.sicktyItem}>
                                 <h5>Geolocation Management</h5>
                                 <p>We integrate geolocation features to enhance user experience with real-time tracking, location-based services, and navigation. Our expert-vetted developers create apps that provide personalized content, route optimization, and proximity alerts to boost engagement and functionality.</p>
                             </div>
@@ -57,7 +64,7 @@ const Fueling = ({ data }) => {
                             <div className={styles.sicktyItem}>
                                 <h5>Scheduling and Booking</h5>
                                 <p>We build efficient scheduling and booking features, catering to various business needs such as appointments, reservations, and service bookings. As a leading mobile app agency, our expertise includes integrating calendar sync, reminders, and real-time availability, offering a seamless and user-friendly experience.</p>
-                            </div>
+                            </div> */}
                         </div>
                     </Col>
                 </Row>
