@@ -110,6 +110,7 @@ import RealEstate from "media/services/industry/RealEstate.webp";
 import RideHailing from "media/services/industry/RideHailing.webp";
 import Travel from "media/services/industry/Travel.webp";
 
+
 //========= Blogs Images
 import BlogsIMG01 from "media/services/blogs/post-1.webp"
 import BlogsIMG02 from "media/services/blogs/post-2.webp"
@@ -801,7 +802,7 @@ export const IndustriesList = [
 ];
 
 export const IdeaCtaContent = {
-    title: (<>Let’s Change<br/> The World With Your</>),
+    title: (<>Let’s Change<br /> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
     formtitle: "Get Free Consultation"
 }
