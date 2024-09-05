@@ -213,7 +213,7 @@ export const ProcessTabs = [
         content: {
             heading: "Game Design",
             description:
-                    "In the game app design phase, we utilize gathered insights to develop a solid game concept. We focus on creating the core loop, mechanics, levels, and economy while outlining key features in the Game Design Document (GDD) for an engaging game experience.",
+                "In the game app design phase, we utilize gathered insights to develop a solid game concept. We focus on creating the core loop, mechanics, levels, and economy while outlining key features in the Game Design Document (GDD) for an engaging game experience.",
             imgSrc: ProcessIMG.src,
 
         },
@@ -223,7 +223,7 @@ export const ProcessTabs = [
         content: {
             heading: "Concept Art",
             description:
-                    "In the concept art phase, our artists create rough sketches of game characters and 2D images based on your descriptions. We incorporate your feedback to refine these visuals, resulting in a comprehensive concept art document that defines the art style and vision for your game.",
+                "In the concept art phase, our artists create rough sketches of game characters and 2D images based on your descriptions. We incorporate your feedback to refine these visuals, resulting in a comprehensive concept art document that defines the art style and vision for your game.",
             imgSrc: ProcessIMG.src,
 
         },
@@ -233,7 +233,7 @@ export const ProcessTabs = [
         content: {
             heading: "Art Asset Creation",
             description:
-                    "We produce game art assets including character models, UI elements, and backgrounds. Using tools like Maya and Illustrator, we create top-quality 2D and 3D assets that bring your game to life with stunning visuals and detailed environments, enhancing the overall player experience.",
+                "We produce game art assets including character models, UI elements, and backgrounds. Using tools like Maya and Illustrator, we create top-quality 2D and 3D assets that bring your game to life with stunning visuals and detailed environments, enhancing the overall player experience.",
             imgSrc: ProcessIMG.src,
 
         },
@@ -243,7 +243,7 @@ export const ProcessTabs = [
         content: {
             heading: "Game Development",
             description:
-                    "In the game development phase, we build gameplay modules and features using advanced game engines and frameworks. Our mobile game developers write clean, structured code and focus on optimization for smooth performance across platforms. This phase brings together all elements to create an engaging and functional game experience.",
+                "In the game development phase, we build gameplay modules and features using advanced game engines and frameworks. Our mobile game developers write clean, structured code and focus on optimization for smooth performance across platforms. This phase brings together all elements to create an engaging and functional game experience.",
             imgSrc: ProcessIMG.src,
 
         },
@@ -253,7 +253,7 @@ export const ProcessTabs = [
         content: {
             heading: "Testing",
             description:
-                    "Our quality engineers rigorously evaluate the game’s build for functionality, compliance, and performance. They conduct load testing to identify and fix any issues, guaranteeing a smooth and reliable gaming experience. This thorough testing process helps deliver a high-quality final product.",
+                "Our quality engineers rigorously evaluate the game’s build for functionality, compliance, and performance. They conduct load testing to identify and fix any issues, guaranteeing a smooth and reliable gaming experience. This thorough testing process helps deliver a high-quality final product.",
             imgSrc: ProcessIMG.src,
 
         },
@@ -263,7 +263,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch Preparation",
             description:
-                    "We assist with publishing your game on platform-specific stores like the App Store, Google Play Store, and third-party stores. We work closely with clients to address any post-production problems, facilitating a smooth transition from development to the hands of players.",
+                "We assist with publishing your game on platform-specific stores like the App Store, Google Play Store, and third-party stores. We work closely with clients to address any post-production problems, facilitating a smooth transition from development to the hands of players.",
             imgSrc: ProcessIMG.src,
 
         },
@@ -357,18 +357,18 @@ export const OffersTabs = [
 export const ContentSecLGContent = {
     title: "How Mobile Games Capture Nearly Half of Global Game Revenue?",
     text: (<>
-    <p>The global games market in 2023, including mobile and other platforms, generated more than <strong>$184 billion</strong> in revenue, growing by <strong>0.6%</strong> year-over-year. </p>
-    <p>Out of this, mobile games captured nearly half, contributing <strong>$90 billion,</strong> which is <strong>49%</strong> of the total revenue. </p>
-    <p>The <strong>Asia Pacific</strong> region remains the largest market, despite a slight decline, while <strong>North America</strong> and <strong>Europe</strong> saw increases. </p>
-    <p>With global games revenue projected to see a growth to <strong>$205 billion by 2026,</strong> mobile gaming continues to play a crucial role in the industry’s growth.</p>
-    <p>Contributing to this impressive growth, BitsWits offers affordable, high-quality mobile game app development for iOS, Android, and cross-platforms, delivering engaging and innovative gaming experiences.</p>
+        <p>The global games market in 2023, including mobile and other platforms, generated more than <strong>$184 billion</strong> in revenue, growing by <strong>0.6%</strong> year-over-year. </p>
+        <p>Out of this, mobile games captured nearly half, contributing <strong>$90 billion,</strong> which is <strong>49%</strong> of the total revenue. </p>
+        <p>The <strong>Asia Pacific</strong> region remains the largest market, despite a slight decline, while <strong>North America</strong> and <strong>Europe</strong> saw increases. </p>
+        <p>With global games revenue projected to see a growth to <strong>$205 billion by 2026,</strong> mobile gaming continues to play a crucial role in the industry’s growth.</p>
+        <p>Contributing to this impressive growth, BitsWits offers affordable, high-quality mobile game app development for iOS, Android, and cross-platforms, delivering engaging and innovative gaming experiences.</p>
     </>)
 }
 
 export const IdeaCtaContent = {
-    title: (<>Let’s Change<br/> The World With Your</>),
+    title: (<>Let’s Change<br /> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
-    formtitle: (<>Get a Custom Quote for <br/> Your Mobile Game Concept!</>)
+    formtitle: (<>Get a Custom Quote for <br /> Your Mobile Game Concept!</>)
 }
 
 export const TechStackContent = {
@@ -641,7 +641,7 @@ export const FaqsList = [
         txt: "To find the right mobile game development service, look for a company with a proven track record, diverse portfolio, and positive client reviews. Hire a mobile game development company that understands your vision and can deliver a high-quality game."
     },
     {
-        title: "Why should I hire a game app developer for iPhone mobile game app development?",
+        title: "Why should I hire a game developer for iPhone game development?",
         txt: "Hiring a game app developer for iPhone mobile game app development helps your game meet Apple’s quality standards. An experienced developer can optimize your game for performance and user experience, helping it stand out in the competitive App Store market."
     }
 ]
