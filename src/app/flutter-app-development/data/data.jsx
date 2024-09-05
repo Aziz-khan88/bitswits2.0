@@ -302,7 +302,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch and Support",
             description:
-                "In the launch and support phase, we release your iOS and Android apps to the Google Play Store and Apple App Store. However, our support doesn't end there. As a top-grade Flutter app development agency, we provide ongoing assistance and maintenance to keep your app operating smoothly and adapting to market trends, maximizing its performance and relevance post-launch.",
+                "In the launch and support phase, we release your iOS and Android apps to the Google Play Store and Apple App Store. However, our support doesn’t end there. As a top-grade Flutter app development agency, we provide ongoing assistance and maintenance to keep your app operating smoothly and adapting to market trends, maximizing its performance and relevance post-launch.",
             imgSrc: IMG.src,
 
         },
@@ -364,13 +364,13 @@ export const TestimonialContent = {
 
 export const TestimonialSLIDES = [
     {
-        txt: "The team's deep understanding of our business's nature was impressive. Their technical knowledge was evident in ensuring the app functioned smoothly.",
-        name: "Joseph D'Amora",
+        txt: "The team’s deep understanding of our business’s nature was impressive. Their technical knowledge was evident in ensuring the app functioned smoothly.",
+        name: "Joseph D’Amora",
         position: "Director of Inside Sales",
         img: Joseph,
     },
     {
-        txt: "BitsWits transformed my vision into a stunning, user-friendly app. I couldn't be happier with the result and their professionalism.",
+        txt: "BitsWits transformed my vision into a stunning, user-friendly app. I couldn’t be happier with the result and their professionalism.",
         name: "Ryan Jaden",
         position: "Technical Team Lead",
         img: RyanJaden,
@@ -820,7 +820,7 @@ export const FaqsList = [
     {
         title: "How much does Flutter app builder cost?",
         txt: (<>
-            <p>The cost of building a Flutter app varies widely, typically ranging from $15,000 to $200,000, based on the project's complexity and requirements.</p>
+            <p>The cost of building a Flutter app varies widely, typically ranging from $15,000 to $200,000, based on the project’s complexity and requirements.</p>
             <p>Simple Flutter apps usually cost between $15,000 and $60,000. More complex apps can range from $60,000 to $150,000, while highly advanced Flutter apps can cost anywhere from $150,000 to $300,000.</p>
             <p>As a leading Flutter application development company, BitsWits offers competitive pricing from $30,000 to $200,000 to build your game-changing app!</p>
         </>)

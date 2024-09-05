@@ -145,13 +145,13 @@ export const TestimonialContent = {
 
 export const TestimonialSLIDES = [
     {
-        txt: "The team's deep understanding of our business's nature was impressive. Their technical knowledge was evident in ensuring the app functioned smoothly.",
-        name: "Joseph D'Amora",
+        txt: "The team’s deep understanding of our business’s nature was impressive. Their technical knowledge was evident in ensuring the app functioned smoothly.",
+        name: "Joseph D’Amora",
         position: "Director of Inside Sales",
         img: Joseph,
     },
     {
-        txt: "BitsWits transformed my vision into a stunning, user-friendly app. I couldn't be happier with the result and their professionalism.",
+        txt: "BitsWits transformed my vision into a stunning, user-friendly app. I couldn’t be happier with the result and their professionalism.",
         name: "Ryan Jaden",
         position: "Technical Team Lead",
         img: RyanJaden,
@@ -331,7 +331,7 @@ export const OffersTabs = [
         content: {
             heading: "Cross-Platform",
             description:
-                "Our cross-platform mobile game development services allow your game to run seamlessly on both Android and iOS. Using Unity, Unreal Engine, and Godot, we create scalable games that connect with a wider audience. Experience smooth performance without any glitches, expanding your reach and maximizing your game's potential.",
+                "Our cross-platform mobile game development services allow your game to run seamlessly on both Android and iOS. Using Unity, Unreal Engine, and Godot, we create scalable games that connect with a wider audience. Experience smooth performance without any glitches, expanding your reach and maximizing your game’s potential.",
         },
     },
     {
@@ -347,7 +347,7 @@ export const OffersTabs = [
         content: {
             heading: "Facebook Gaming",
             description:
-                "We design, develop, and optimize mobile game apps for Facebook Gaming, utilizing its vast user base to expand your game's reach. Our team creates engaging and social gaming experiences tailored for the Facebook community, maximizing visibility and player interaction on this popular platform.",
+                "We design, develop, and optimize mobile game apps for Facebook Gaming, utilizing its vast user base to expand your game’s reach. Our team creates engaging and social gaming experiences tailored for the Facebook community, maximizing visibility and player interaction on this popular platform.",
         },
     },
 
@@ -360,7 +360,7 @@ export const ContentSecLGContent = {
     <p>The global games market in 2023, including mobile and other platforms, generated more than <strong>$184 billion</strong> in revenue, growing by <strong>0.6%</strong> year-over-year. </p>
     <p>Out of this, mobile games captured nearly half, contributing <strong>$90 billion,</strong> which is <strong>49%</strong> of the total revenue. </p>
     <p>The <strong>Asia Pacific</strong> region remains the largest market, despite a slight decline, while <strong>North America</strong> and <strong>Europe</strong> saw increases. </p>
-    <p>With global games revenue projected to see a growth to <strong>$205 billion by 2026,</strong> mobile gaming continues to play a crucial role in the industry's growth.</p>
+    <p>With global games revenue projected to see a growth to <strong>$205 billion by 2026,</strong> mobile gaming continues to play a crucial role in the industry’s growth.</p>
     <p>Contributing to this impressive growth, BitsWits offers affordable, high-quality mobile game app development for iOS, Android, and cross-platforms, delivering engaging and innovative gaming experiences.</p>
     </>)
 }
@@ -614,7 +614,7 @@ export const FaqsContent = {
 export const FaqsList = [
     {
         title: "How profitable are gaming apps?",
-        txt: "The profitability of gaming apps varies widely, influenced by multiple factors. On average, a mobile game can generate around $1 million in daily revenue. However, it's important to recognize that earnings differ significantly across individual gaming apps."
+        txt: "The profitability of gaming apps varies widely, influenced by multiple factors. On average, a mobile game can generate around $1 million in daily revenue. However, it’s important to recognize that earnings differ significantly across individual gaming apps."
     },
     {
         title: "What platforms should I target for my mobile game?",
@@ -642,7 +642,7 @@ export const FaqsList = [
     },
     {
         title: "Why should I hire a game app developer for iPhone mobile game app development?",
-        txt: "Hiring a game app developer for iPhone mobile game app development helps your game meet Apple's quality standards. An experienced developer can optimize your game for performance and user experience, helping it stand out in the competitive App Store market."
+        txt: "Hiring a game app developer for iPhone mobile game app development helps your game meet Apple’s quality standards. An experienced developer can optimize your game for performance and user experience, helping it stand out in the competitive App Store market."
     }
 ]
 
