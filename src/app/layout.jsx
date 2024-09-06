@@ -28,6 +28,19 @@ export const metadata = {
   //===== Canonical =====
   alternates: { canonical: '/mobile-application-development-services' },
 
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: false,
+      'max-snippet': -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+    },
+  },
 }
 
 
