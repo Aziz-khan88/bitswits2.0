@@ -1,12 +1,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Top Mobile App Development Services | BitsWits",
-    description: "BitsWits delivers best mobile app development services with the top app developers, offering customized solutions across industries for impactful results!",
+    title: "Mobile Game App Development Company - BitsWits",
+    description: "BitsWits is a leading mobile game app development company that uses the latest technology to help users create top-ranking game apps across 30+ genres.",
     //===== OG Tags =====
     openGraph: {
-        title: "Top Mobile App Development Services | BitsWits",
-        description: "BitsWits delivers best mobile app development services with the top app developers, offering customized solutions across industries for impactful results!",
+        title: "Mobile Game App Development Company - BitsWits",
+        description: "BitsWits is a leading mobile game app development company that uses the latest technology to help users create top-ranking game apps across 30+ genres.",
         url: '/mobile-game-development-company',
         siteName: 'BitsWits',
         locale: 'en_US',
