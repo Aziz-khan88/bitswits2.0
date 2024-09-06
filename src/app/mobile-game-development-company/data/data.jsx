@@ -37,7 +37,6 @@ import TAB2_2 from "media/services/tech/tab2/02.webp";
 import TAB2_3 from "media/services/tech/tab2/03.webp";
 import TAB2_4 from "media/services/tech/tab2/04.webp";
 import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/06.webp";
 import TAB3_1 from "media/services/tech/tab3/01.webp";
 import TAB3_2 from "media/services/tech/tab3/02.webp";
 import TAB3_3 from "media/services/tech/tab3/03.webp";
@@ -434,16 +433,12 @@ export const TechStackTabs = [
                 img: TAB2_3.src,
             },
             {
-                heading: "GDScript",
+                heading: "Lua",
                 img: TAB2_4.src,
             },
             {
-                heading: "Lua",
-                img: TAB2_5.src,
-            },
-            {
                 heading: "Python",
-                img: TAB2_6.src,
+                img: TAB2_5.src,
             }
         ],
     },
