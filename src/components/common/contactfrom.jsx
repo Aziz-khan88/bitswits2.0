@@ -168,12 +168,12 @@ const ContactFrom = ({ idea, appidea, discussion }) => {
                     null
                     :
                     <>
+                        <div className={styles.fieldBox}>
+                            <textarea name="comment" placeholder='Tell us about your Project'></textarea>
+                        </div>
                         <div className={`${styles.fieldBox} ${styles.checkBox} `}>
                             <input type="checkbox" id="check" name="nda" checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
                             <label htmlFor="check" className={styles.checkTxt}>Share Non Disclosure Agreement</label>
-                        </div>
-                        <div className={styles.fieldBox}>
-                            <textarea name="comment" placeholder='Tell us about your Project'></textarea>
                         </div>
                     </>
                 }
