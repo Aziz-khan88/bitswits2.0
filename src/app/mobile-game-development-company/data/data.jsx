@@ -6,7 +6,7 @@ import BanngBg from "media/mobile-game-development-company/bannerIMG.webp"
 // services Images
 import GameBg1 from "media/mobile-game-development-company/services/gameBg1.webp"
 import GameBg2 from "media/mobile-game-development-company/services/gameBg2.webp"
-import GameBg3 from "media/mobile-game-development-company/services/gameBg2.webp"
+import GameBg3 from "media/mobile-game-development-company/services/gameBg3.webp"
 import GameBg4 from "media/mobile-game-development-company/services/gameBg4.webp"
 import GameBg5 from "media/mobile-game-development-company/services/gameBg5.webp"
 import GameBg6 from "media/mobile-game-development-company/services/gameBg6.webp"
