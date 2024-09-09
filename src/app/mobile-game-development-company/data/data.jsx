@@ -5,6 +5,12 @@ import BanngBg from "media/mobile-game-development-company/bannerIMG.webp"
 
 // services Images
 import GameBg1 from "media/mobile-game-development-company/services/gameBg1.webp"
+import GameBg2 from "media/mobile-game-development-company/services/gameBg2.webp"
+import GameBg3 from "media/mobile-game-development-company/services/gameBg2.webp"
+import GameBg4 from "media/mobile-game-development-company/services/gameBg4.webp"
+import GameBg5 from "media/mobile-game-development-company/services/gameBg5.webp"
+import GameBg6 from "media/mobile-game-development-company/services/gameBg6.webp"
+import GameBg7 from "media/mobile-game-development-company/services/gameBg7.webp"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -23,7 +29,8 @@ import ProcessIMG from "media/services/process/tab01.webp"
 import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
 
 //========= ContentSec Images
-import ContentSecIMG from "media/mobile-game-development-company/imgContent.webp"
+import ContentSecIMG1 from "media/mobile-game-development-company/imgContent1.webp"
+import ContentSecIMG2 from "media/mobile-game-development-company/imgContent2.webp"
 
 //========= TechStack Images
 import TAB1_1 from "media/services/tech/tab1/01.webp";
@@ -101,37 +108,37 @@ export const ServicesList = [
         title: "3D Mobile Game App Development",
         txt: "As a leading gaming app development company, we create storyboards and immersive game narratives with lifelike 3D models and animations. Utilizing Unreal Engine, Unity, Blender, and Autodesk Maya, we employ advanced physics engines to develop realistic environments and dynamic characters, delivering smooth performance and scalability across various platforms.",
         links: "",
-        Img: GameBg1.src
+        Img: GameBg2.src
     },
     {
         title: "Blockchain Game App Development",
         txt: "Our blockchain game app development services include using smart contracts to automate transactions and ensure fairness in gameplay, creating and managing NFTs for digital asset ownership, and facilitating item trading. We also build decentralized economies and player-driven markets, providing real-world value to in-game assets through blockchain technology.",
         links: "",
-        Img: GameBg1.src
+        Img: GameBg3.src
     },
     {
         title: "VR/AR Game Development",
         txt: "As a leading gaming app development company, we create VR/AR games that deliver unforgettable experiences across multiple platforms and genres. Using advanced technologies like Unity, Unreal Engine, and ARKit, we provide smooth performance, impressive graphics, and dynamic animation, offering players engrossing experiences that stand out!",
         links: "",
-        Img: GameBg1.src
+        Img: GameBg4.src
     },
     {
         title: "Web3 Game Development",
         txt: "Our Web3 development services utilize blockchain technology to expand the scope and scale of games. With expertise across genres, our gaming app developers create decentralized experiences that provide players with unique, immersive interactions and new dimensions of engagement in the digital world.",
         links: "",
-        Img: GameBg1.src
+        Img: GameBg5.src
     },
     {
         title: "Metaverse Game App Development",
         txt: "As a top-grade iOS and Android game development company, we create innovative Metaverse games for both of these platforms, including play-to-earn (P2E), player-vs-player (PvP), and move-to-earn (M2E) games. Our experts design immersive environments that captivate players, providing new ways to interact and engage within the expansive digital universe.",
         links: "",
-        Img: GameBg1.src
+        Img: GameBg6.src
     },
     {
         title: "NFT Game Development",
         txt: "We offer NFT game development across multiple genres, creating immersive play-and-own experiences. Our skilled developers build in-game economies using digital assets and tokenomics to enhance player engagement and promote true ownership. This approach makes your gaming environment more interactive, rewarding, and aligned with modern digital trends.",
         links: "",
-        Img: GameBg1.src
+        Img: GameBg7.src
     },
 ]
 
@@ -189,7 +196,7 @@ export const ContentSecContent = {
         <p>We implement strategies such as <strong>in-game events, social features,</strong> and <strong>loyalty programs</strong> to enhance player engagement and retention. </p>
         <p>These tactics help your game attract attention and maintain player interest, creating an interactive and compelling gaming experience.</p>
     </>),
-    ContentSecIMG: ContentSecIMG.src
+    ContentSecIMG: ContentSecIMG1.src
 }
 
 export const ProcessContent = {
@@ -361,7 +368,8 @@ export const ContentSecLGContent = {
         <p>The <strong>Asia Pacific</strong> region remains the largest market, despite a slight decline, while <strong>North America</strong> and <strong>Europe</strong> saw increases. </p>
         <p>With global games revenue projected to see a growth to <strong>$205 billion by 2026,</strong> mobile gaming continues to play a crucial role in the industry’s growth.</p>
         <p>Contributing to this impressive growth, BitsWits offers affordable, high-quality mobile game app development for iOS, Android, and cross-platforms, delivering engaging and innovative gaming experiences.</p>
-    </>)
+    </>),
+    BGIMG: ContentSecIMG2.src
 }
 
 export const IdeaCtaContent = {

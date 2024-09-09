@@ -1,7 +1,6 @@
 
 import {
-  BannerData, Awards, AwardContent,
-  CuttingedgeContent, CuttingedgeList,
+  BannerData, CuttingedgeContent, CuttingedgeList,
   AppIdeaContent, caseStudiesList,
   caseStudiesContent, ProcessContent,
   WhyChooseContent, WhyChooseList1,

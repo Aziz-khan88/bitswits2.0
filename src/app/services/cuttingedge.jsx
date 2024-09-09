@@ -2,7 +2,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import IMG from "media/services/cuttingEdge.webp"
 import styles from "@/styles/services/cuttingedge.module.scss"
-import Link from "next/link"
 import Image from "next/image"
 import NormalBtn from "@/src/components/common/normalbtn"
 

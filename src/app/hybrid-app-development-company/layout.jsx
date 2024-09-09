@@ -3,7 +3,7 @@
 export const metadata = {
   //===== Meta Tags =====
   title: "Hybrid App Development Company - BitsWits",
-  description: "BitsWits is a leading Flutter app development company, creating high-quality, cross-platform apps that offer exceptional performance and user experience!",
+  description: "Partner with a leading hybrid app development company like BitsWits to streamline operations for startups and SMEs with cost-effective mobile solutions!",
   //===== OG Tags =====
   openGraph: {
     title: "Hybrid App Development Company - BitsWits",

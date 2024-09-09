@@ -49,18 +49,20 @@ import FuelingImg from "media/services/cuttingEdge.webp"
 //========= CtaEstimated Images
 import CtaEstimatedImg from "media/services/ctaImg.webp"
 
+
 //========= TechStack Images
 import TAB1_1 from "media/services/tech/tab1/01.webp";
 import TAB1_2 from "media/services/tech/tab1/02.webp";
 import TAB1_3 from "media/services/tech/tab1/03.webp";
+import TAB1_4 from "media/services/tech/tab1/04.webp";
 import TAB2_1 from "media/services/tech/tab2/01.webp";
 import TAB2_2 from "media/services/tech/tab2/02.webp";
 import TAB2_3 from "media/services/tech/tab2/03.webp";
 import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
 import TAB3_1 from "media/services/tech/tab3/01.webp";
 import TAB3_2 from "media/services/tech/tab3/02.webp";
 import TAB3_3 from "media/services/tech/tab3/03.webp";
+import TAB3_4 from "media/services/tech/tab3/04.webp";
 import TAB4_1 from "media/services/tech/tab4/01.webp";
 import TAB4_2 from "media/services/tech/tab4/02.webp";
 import TAB4_3 from "media/services/tech/tab4/03.webp";
@@ -72,7 +74,7 @@ import TAB5_4 from "media/services/tech/tab5/04.webp";
 import TAB6_1 from "media/services/tech/tab6/01.webp";
 import TAB6_2 from "media/services/tech/tab6/02.webp";
 import TAB6_3 from "media/services/tech/tab6/03.webp";
-
+import TAB6_4 from "media/services/tech/tab6/04.webp";
 
 //========= Industries Images
 import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
@@ -93,8 +95,8 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 export const BannerData = {
     subtitle: "Quickly – Efficiently – Effortlessly",
-    title: "Industry-Leading Hybrid App Development Company",
-    content: "Make your app accessible to clients on any platform with our hybrid app development services! Achieve 3X faster deployment and 50% cost savings by building scalable apps with optimal performance using the latest tech stacks like React Native, Flutter, and Ionic.",
+    title: "Top Rated NFT Game Development Company",
+    content: "It’s time to revolutionize the world of digital gaming with our 360 NFT game development solutions! We, as an NFT game development company, have built thrilling games using Blockchain technology. Engage and retain players with games that offer exciting stream monetization opportunities.",
     BannerLogos: BannerLogos.src,
     BanngBg: BanngBg.src,
     fromtitle: "Let’s Discuss Your App Idea",
@@ -102,44 +104,34 @@ export const BannerData = {
 }
 
 export const CuttingedgeContent = {
-    title: "Performance-Focused Hybrid App Development Services for Dynamic Business Growth",
-    text: "We provide tailored hybrid mobile application development services for ambitious startups and SMEs, enabling rapid market entry and scalable growth!",
+    title: "High-Performance NFT Game Development Services For Outstanding Player Engagement!",
+    text: "Our team is a score of professional NFT game developers who have remarkably catered to the challenging scope of our NFT game development projects. Here are the services we offer:",
 }
 
 export const CuttingedgeList = [
     {
-        title: (<>Hybrid Mobile  <br />App Development</>),
-        txt: "We create secure hybrid apps that run seamlessly on multiple platforms. Using React Native and Flutter, our hybrid application development services help you expand your market reach and minimize costs with future-proof hybrid apps.",
+        title: (<>Full Cycle NFT <br />Game Development</>),
+        txt: "Expect more as we offer full-cycle NFT game development support. Our team is well equipped with the latest blockchain tech stack to help you create blockbuster games in a variety of genres. ",
         links: "",
     },
     {
-        title: (<>Hybrid Mobile <br />App Design </>),
-        txt: "Our professional UI/UX designers create engaging, user-centered designs that are aesthetically beautiful and functional. We make sure your app performs seamlessly across all systems, platforms, and screen sizes, including iOS and Android.",
+        title: (<>2D/3D NFT Art <br />Content Creation</>),
+        txt: "Get NFT artwork that is simply stellar, and outperforms competition. As a top-tier NFT game development company, our 2D and 3D NFT designs remain 100% unique, winning you the spotlight among other game studios. ",
         links: "",
     },
     {
-        title: (<>Hybrid App <br />Development Consulting </>),
-        txt: "As a leading hybrid app development company, our strategic consultants guide you through complex development, ensuring the right approach and tech stack for successful, high-performance hybrid apps.",
+        title: (<>NFT Marketplace<br /> Development</>),
+        txt: "Let’s create an NFT marketplace with your favorite CMS, and integrate crypto payment solutions of your choice. Use intuitive and responsive designs for NFT UI/UX, and get regular performance audits",
         links: "",
     },
     {
-        title: (<>Hybrid Application <br />Testing </>),
-        txt: "Our QA team rigorously tests all parameters, including code, performance, user interface, and user experience. We make sure users get the best experience with your business product by quickly identifying and addressing issues.",
+        title: (<>NFT Gaming<br />Platform Development</>),
+        txt: "With our expert blockchain developers, you can create your own NFT gaming platform. Plus, you get end-to-end technical support. We also have a dedicated team to monitor platform health, and continuously enhance performance. ",
         links: "",
     },
     {
-        title: (<>Maintenance <br />and Support</>),
-        txt: "Our 24/7 responsive maintenance and support ensure your app's optimum performance, even during peak load times. With technically proficient teams and effective monitoring, we keep your hybrid app running smoothly and efficiently.",
-        links: "",
-    }, 
-    {
-        title: (<>HTML5 App <br />Development </>),
-        txt: "Our in-depth technical expertise allows us to create user-centric HTML5 apps that align with your business objectives. Our hybrid app developers deliver highly scalable solutions, ensuring optimal performance and growth for your business.",
-        links: "",
-    }, 
-    {
-        title: (<>Hybrid App <br />Migration </>),
-        txt: "As a top-grade hybrid mobile application development company, we expertly migrate existing apps to a hybrid framework, add new features, and optimize performance, ensuring no data loss, reduced costs, and minimal time use.",
+        title: (<>Integration Services<br />for NFT Games</>),
+        txt: "NFT game development opens a whole plethora of exciting opportunities. Implement integrations that make NFT assets available for players across other NFT games, enabling you to retain satisfied and loyal gamers. ",
         links: "",
     }
 ]
@@ -178,74 +170,81 @@ export const caseStudiesList = [
 ];
 
 export const AppIdeaContent = {
-    title: "Achieve Multi-Platform Success with Hybrid!",
-    text: "The future is hybrid and you need to embrace it too! Ready to lead? Book a free session to learn how we build great apps!",
+    title: "Enter into a New Era of Digital Gaming!",
+    text: "BitsWits is here to revolutionize the world of gaming. Are you thrilled to make the leap with us?",
 }
 
 export const WhyChooseContent = {
-    title: "Why Choose BitsWits?",
-    text: "BitsWits delivers top-notch hybrid app development services with expert teams, cutting-edge technology, and proven results. Here’s why you should choose us:"
+    title: "Why Partner with BitsWits for Your Next Project?",
+    text: "Along with creating exclusive NFTs, we offer full-time support. Here’s why you need to opt for our NFT game development services: "
 }
 
 export const WhyChooseList1 = [
     {
         Icon: <WhyChooseIcon03 />,
-        title: (<>Outcome-Focused <br />Approach</>),
-        description: "We understand brands, identify strategic opportunities and solve business problems to enhance your customer’s experience and drive success.",
+        title: (<>Niche-specific<br /> NFTs </>),
+        description: "Our NFT game developers hone versatile skills in digital design and artwork. They can easily cater to a variety of niches. ",
     },
     {
         Icon: <WhyChooseIcon01 />,
-        title: (<>Agile Delivery <br />Method</>),
-        description: "Our streamlined, agile delivery method keeps you in the loop, ensuring cost-effective solutions are delivered within the timeline.",
+        title: (<>Transparency <br />in work</>),
+        description: "As a leading NFT game development company, we maintain full transparency in our costs, fostering trust within the gaming community.",
     }
 ];
 
 export const WhyChooseList2 = [
     {
         Icon: <WhyChooseIcon04 />,
-        title: (<>Transparent <br />Communication</>),
-        description: "As a leading hybrid app development company, we maintain constant communication through email and chat, keeping you informed every step.",
+        title: (<>High Level <br /> of Security</>),
+        description: "NFT platforms or marketplaces are based on a highly secured blockchain, leaving no room for threat or compromise. ",
     },
     {
         Icon: <WhyChooseIcon02 />,
-        title: (<>Efficient <br />Integration</>),
-        description: "Our hybrid app developers utilize the latest tech to seamlessly integrate hybrid apps across devices, including iOS, Android, desktops, and laptops.",
+        title: (<>Client-centric<br />approach </>),
+        description: "We always take a client-centric approach and invite our clients to join the art team in the brainstorming phase.",
     }
 ];
 
 export const ProcessContent = {
-    title: "Our Hybrid App Development Process",
-    text: "With years of experience, our hybrid app developers use a comprehensive methodology to deliver well-architected solutions. Our strategic evolution ensures top-notch hybrid mobile app development services in USA tailored to your needs."
+    title: "Performance-Focused NFT Game Development Process",
+    text: "Our expert-vetted NFT game developers and UX team have a special brainstorming approach that leads us to stellar NFT game designs and deliver top-tier NFT game development services."
 }
 
 export const ProcessTabs = [
     {
-        title: "Discovery Session",
+        title: "Research",
         content: {
-            heading: "Discovery Session",
+            heading: "Research & Concept Creation",
             description:
-                "In our discovery session, we document every detail to gain a better understanding of your project. We examine all data to define the project scope and establish clear milestones. Our tech experts collaborate to determine the best technologies for your hybrid mobile app development, ensuring a well-architected and efficient solution.",
+                "It all begins with your game concept. We put our heads together to figure out how the game concept would turn out to be an immersive experience for gamers, making them stick to the platform. To achieve this, we perform rigorous research on competition, design, aesthetics, tech stack, visual assets, blockchain processes, costs, financials, testing, and updates.  ",
             imgSrc: IMG.src,
         },
     },
     {
-        title: "Wireframes",
+        title: "Production",
         content: {
-            heading: "Design, Wireframes, & Mockups",
+            heading: "Art & Design Production",
             description:
-                "We create interactive UI designs and wireframes for a user-friendly flow. Our UX design process iterates based on feedback to align with your business goals and enhance user flow. Through detailed mockups, we visualize the final product, guaranteeing a seamless and engaging user experience for your hybrid mobile app.",
+                "Moving on, we dive into the art and design phase. In this phase, our NFT designers will work up the most important document, the Game Design Document. This document holds comprehensive insight into game environments, assets, storyline, levels, awards, and tokens. Once we’re done with the design phase, it’s time to move on to the development side of the NFT project. ",
             imgSrc: IMG.src,
-
         },
     },
     {
-        title: "Prototype",
+        title: "Creation",
         content: {
-            heading: "Prototype Demo",
+            heading: "Creation of Smart Contracts",
             description:
-                "In the prototype demo phase, we present a working model of your app to finalize designs and get your approval. This demo allows you to experience the look and feel, ensuring it meets the project scope and your expectations. Client feedback is essential to refine and perfect the app before full development.",
+                "To tread on a path of secure and quality development, we initiate smart contracts. These contracts define and govern the trade of ownership of NFTs within a specific platform. These specially designed smart contracts ensure that game transactions are executed with a great level of safety, leaving no room for duplication, or tampering with original NFT artwork. ",
             imgSrc: IMG.src,
-
+        },
+    },
+    {
+        title: "Integration",
+        content: {
+            heading: "Integration of Wallets",
+            description:
+                "The inclusion of crypto wallets in NFT game development creates new avenues of opportunity for players. It enables them to realize the value of NFT purchases and assets in terms of crypto. Our NFT project team is here to consult you on the best crypto wallets. Some of these options are MetaMask, AlphaWallet, Coinbase, and TrustWallet. ",
+            imgSrc: IMG.src,
         },
     },
     {
@@ -253,46 +252,33 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description:
-                "Upon client approval, our technical team begins the development phase, utilizing the best-suited technologies to meet your requirements. We work within the agreed timeframe, focusing on both front-end and back-end development, and ensuring a robust database structure. This phase transforms your approved designs into a fully functional hybrid app ready for deployment.",
+                "Our NFT development process is well-planned into two parts: Front-end, and Back-end development. Our expert NFT developers would work up the design, UX, mechanics, and gameplay experience. For the back end, we manage blockchain integration, token management, smart contracts, and security updates via a robust server infrastructure. ",
             imgSrc: IMG.src,
-
         },
     },
     {
         title: "Testing",
         content: {
-            heading: "Testing",
+            heading: "Testing for Optimization",
             description:
-                "Before deployment, we conduct rigorous testing to make sure your hybrid app is free of bugs and functions seamlessly across different devices and platforms. Our testing phase covers functional testing, performance testing, security testing, and usability testing. This phase confirms that your app meets the highest quality standards and provides an optimal user experience.",
+                "After rigorous development, it’s finally time to experience the game for the user. We run a multitude of complex tests to point out potential issues about performance, NFT transactions, and even security. To achieve that the team may perform Alpha and Beta Testing, Smart Contract testing, and finally, some functional testing to give us the green signal for launch.",
             imgSrc: IMG.src,
-
         },
     },
     {
-        title: "Deployment",
+        title: "Launch",
         content: {
-            heading: "Deployment",
+            heading: "Launch for Success",
             description:
-                "In the deployment phase, we integrate all necessary components and adhere to a scheduled timeline for a smooth launch. We make your app available on the Google Play Store or Apple App Store, monitor its performance, and troubleshoot any issues that arise to guarantee a successful market entry and ongoing stability.",
+                "Now that we’ve progressed through conception, design, development, and testing, it’s time to finally make the leap, and launch your NFT game for success. You can go about this by connecting with NFT forums, and gaming communities. Run a PR campaign or optimize your game pages for search engines with SEO. It’s time to go out of your way to create some buzz. ",
             imgSrc: IMG.src,
-
-        },
-    },
-    {
-        title: "Maintenance",
-        content: {
-            heading: "Support & Maintenance",
-            description:
-                "In the deployment phase, we integrate all necessary components and adhere to a scheduled timeline for a smooth launch. We make your app available on the Google Play Store or Apple App Store, monitor its performance, and troubleshoot any issues that arise to guarantee a successful market entry and ongoing stability.",
-            imgSrc: IMG.src,
-
         },
     },
 ];
 
 export const TechnologiesContent = {
-    title: "The Benefits When You Hire A Hybrid App Development Company",
-    text: (<><p>Hiring an <strong>app development company in USA</strong> has numerous benefits. We provide customer-centric solutions with a native feel for maximum customer satisfaction. Enjoy agile development for quick turn-around times, 24/7 support and maintenance, and a strict NDA approach. With over 150+ applications delivered successfully, our <strong>hybrid app developers</strong> ensure quality and reliability for your project.</p>
+    title: "The Benefits When You Hire An NFT Game Development Company?",
+    text: (<><p>BitsWits is an <strong>NFT game development company in the USA</strong> that tops everyone. We have an outstanding portfolio of versatile NFT gaming projects. Our flawless NFT game development has led us to partner with some of the top gaming studios, and creative teams around the world. Our <strong>NFT game developers</strong> have proven their worth by building seamless blockchain integrations for NFT games. </p>
     </>),
 
     TechImg: TechImg.src
@@ -374,93 +360,93 @@ export const TestimonialSLIDES = [
     }
 ]
 
-export const RisksContent = {       
-    title: (<>Save Time & Money<Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} /> by Building Your MVP Faster<Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} />  with Hybrid App Development!</>),
-    text: "Develop your app concept cost-effectively with Hybrid frameworks!"
+export const RisksContent = {
+    title: (<>Give Players All <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} /> The Control They Crave With Our <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> In-Game NFT Assets!</>),
+    text: "Validate Your AI Vision with MVP Development & Save Big on Time & Money!"
 }
 
 export const OffersContent = {
-    title: "Hybrid App Integrations For Enhanced Functionality",
-    text: "As a leading hybrid mobile app development company in USA, we boost your success rate with integrated tools and backend integrations. Our solutions address business issues, reduce infrastructure costs, and provide speedy, efficient hybrid app development for enhanced functionality.",
+    title: "Features of NFT Game Development",
+    text: "At BitsWits, we believe that NFT holds astounding potential for growth. Entrepreneurs can unlock a new plethora of opportunities in the realm of gaming. Unlike traditional gaming, NFT gaming is meant to hand complete control to players via a secure blockchain network. ",
 }
 
 export const OffersTabs = [
 
     {
-        title: "BLE Integration",
+        title: "In-Game Asset Ownership",
         content: {
-            heading: "BLE Integration",
+            heading:"In-Game Asset Ownership",
             description:
-                "BLE integration utilizes Bluetooth Low Energy for efficient short-range communication with BLE-enabled devices like fitness trackers, smartwatches, and home automation systems. It facilitates real-time data exchange and ensures cross-platform compatibility, enhancing functionality and user experience in hybrid apps across iOS and Android platforms.",
-        },
-    },
-
-    {
-        title: "Beacon Integration",
-        content: {
-            heading: "Beacon Integration",
-            description:
-                "Our expert-vetted hybrid developers use Beacon integration to provide precise location-based services using wireless transmitters that interact with nearby devices within range. This enables specific actions like proximity marketing, indoor navigation, and contextual notifications while delivering valuable analytics and insights to enhance your hybrid app's functionality.",
-        },
-    },
-
-    {
-        title: "GPS Integration",
-        content: {
-            heading: "GPS Integration",
-            description:
-                "We can seamlessly integrate GPS technology to enhance your hybrid app’s location-based services and functionalities. Your clients will be able to enjoy real-time location tracking, geofencing, activity tracking, and emergency services. Our team of professionals integrates with APIs for accurate geographical location data, providing a rich, user-friendly experience.",
-
+                "With a network of secure blockchains and a robust server, trading NFT assets has never been made easier. Gaming platforms that are built around the NFT gaming ecosystem will benefit from not just ownership, but also enjoy a profitable revenue stream by allowing trade, and creation of custom NFTs for all players. ",
         },
     },
     {
-        title: "Wearable Integration",
+        title: "Scarce and Exclusive Collections",
         content: {
-            heading: "Wearable Integration",
+            heading:"Scarce and Exclusive Collections",
             description:
-                "We can help you connect and interact with smartwatches, fitness trackers, and health monitors to enhance your app. Utilizing our game-changing hybrid app development services, you’ll be able to collect, process, and display data to improve user experience and functionality. Enjoy seamless integration for notifications, remote monitoring, and health tracking using advanced APIs and SDKs.",
-
+                "What’s even better with NFT game building is that all assets are fully custom and unique. Players would be thrilled to own assets that are rare and hold astounding value in the real world. Duplication fears are not a problem as each asset is owned, and secured via a robust blockchain network.",
         },
     },
     {
-        title: "Payment Gateway",
+        title: "Cross-platform Interoperability",
         content: {
-            heading: "Payment Gateway",
+            heading:"Cross-platform Interoperability",
             description:
-                "We integrate secure payment gateways like PayPal, Stripe, and Square into your hybrid app. Enable seamless transactions with tools such as Braintree and Authorize.Net. Our technical expertise provides encryption, fraud detection, and multi-currency support, providing a smooth and secure payment experience for your users.",
-
+                "The utility of NFT itself is not just limited to one particular network of blockchain. But more importantly, NFT gaming platforms will support cross-platform interoperability, allowing transactions of assets across multiple blockchains. Hence, this ensures more efficient movement of digital assets in the marketplace. ",
         },
     },
+    {
+        title: "Play-to-Earn Opportunities",
+        content: {
+            heading:"Play-to-Earn Opportunities",
+            description:
+                "Unlike traditional gaming ecosystems, NFT gaming offers you more than just gaming for leisure time. You can entice more players to join the network with Play-to-earn (P2E opportunities). As players compete, they’ll be able to reap rewards in the shape of popular NFTs, cryptocurrency credits, exciting new unlocks, and much more.  ",
+        },
+    },
+    {
+        title: "Stream Monetization",
+        content: {
+            heading:"Stream Monetization",
+            description:
+                "NFT game development exposes business teams to multiple avenues for revenue and growth. Teams can expect to earn handsomely by monetizing the purchase and sale of NFT assets over the marketplace. Plus, with the influencer economy booming, there’s even more opportunity for collaborations and partnerships that unlock further new streams of revenue. ",
+        },
+    },
+
 ];
 
 export const FuelingContent = {
-    title: "Integrating Cutting-Edge Technologies in Hybrid App Development",
-    text: "We make use of emerging technologies to enhance app functionality across various industries, ensuring top-tier performance and innovation in every project.",
-    subtitle: "Cut Development Time with Hybrid Frameworks!",
-    subtext: "Leverage hybrid technology to launch your app faster and more affordably.",
+    title: "Our Expertise in NFT Game Development Genres",
+    text: "BitsWits is one of the best NFT game development companies that leverage blockchain technology to build NFT games for a wild variety of genres. ",
+    subtitle: "Build Next-Gen NFT Games that Drive Player Engagement!",
+    subtext: "Create engaging, player-driven experiences with unique digital ownership rewards.",
     FuelingImg: FuelingImg.src
 }
 
 export const FuelingList = [
     {
-        title: "AI & ML",
-        text: "We integrate AI & ML to create self-learning apps that personalize user experiences, use predictive analytics, and automate processes. These technologies streamline operations, making apps smarter and more efficient in real time."
+        title: "NFT P2E Game",
+        text: "The most popular among our projects are the P2E games. These allow players to trade integrated NFTs, and monetize their gameplay. Players can earn crypto credits as well as exclusive NFT as rewards for their performance."
     },
     {
-        title: "Augmented Reality (AR)",
-        text: "AR adds digital elements to the real world, enhancing industries like retail, education, healthcare, and real estate. Users can visualize products, boosting engagement and conversion rates, and making interactions more dynamic and engaging."
+        title: "NFT PvP Game",
+        text: "We add more intrigue to the competition by introducing multiplayer combats. Players compete against each other on the basis of skill sets, skins, and special weapons which become available on the use of player-owned NFTs."
     },
     {
-        title: "Virtual Reality (VR)",
-        text: "VR provides immersive experiences, enhancing industries like gaming, education, tourism, and real estate. It transforms user interaction, creating captivating environments that increase user engagement and retention through rich, interactive content."
+        title: "NFT Metaverse Game",
+        text: "Our NFT game-building services extend to full-fledged NFT metaverse development. Welcome gamers to an entire virtual world of NFTs where they can trade, interact, and explore environments for a breathtaking gaming experience."
     },
     {
-        title: "Cloud",
-        text: "Our cloud integration offers scalable infrastructure, secure data storage, and real-time updates. This guarantees your app can handle growth seamlessly, providing reliable performance and access to critical data anytime, anywhere."
+        title: "NFT RPG Game",
+        text: "The pursuit of exclusive NFTs becomes even more interesting when you draw players to roleplay games. RPG games immerse players into thrilling missions, and storylines, making them crave completion to unlock a bundle of all-exclusive tokens. "
     },
     {
-        title: "Blockchain",
-        text: "Blockchain integration provides security and transparency in supply chains and transactions. It enhances data integrity, reduces fraud, and builds trust with tamper-proof records, benefiting industries like finance, logistics, and healthcare."
+        title: "NFT Sports and Racing Game",
+        text: "Watch out for car enthusiasts as NFT racing games are bound to keep them poised for hours. Players will compete in deadly racing tracks to unlock exclusive trophies, skins, new race tracks all in the shape of high-class NFTs."
+    },
+    {
+        title: "NFT Card and Casino Game",
+        text: "Our NFT game developers can even go out of their way to help you build high-level simulations of real-world casinos or Poker tables. What’s truly interesting is that players will engage in the game via the tokenization of NFTs. "
     }
 ];
 
@@ -472,126 +458,134 @@ export const CtaEstimatedContent = {
 }
 
 export const TechStackContent = {
-    title: "Our Tech Stack For Hybrid App Development",
-    text: "We choose the best hybrid app development technologies to build UX-driven apps!",
+    title: "NFT Tech Stack for All Project",
+    text: "Our developers hold experience with the most demanding blockchain tech stack.",
 }
 
 export const TechStackTabs = [
     {
-        title: "Languages",
+        title: "Game Engines",
         content: [
             {
-                heading: "JavaScript",
+                heading: "Buildbox",
                 img: TAB1_1.src,
             },
             {
-                heading: "TypeScript",
+                heading: "Unreal Engine",
                 img: TAB1_2.src,
             },
             {
-                heading: "Dart",
+                heading: "Godot",
                 img: TAB1_3.src,
+            },
+            {
+                heading: "Amazon Lumberyard",
+                img: TAB1_4.src,
             }
         ],
     },
     {
-        title: "Frameworks",
+        title: "Programming Languages",
         content: [
             {
-                heading: "React Native",
+                heading: "Rust",
                 img: TAB2_1.src,
             },
             {
-                heading: "Flutter",
+                heading: "Go",
                 img: TAB2_2.src,
             },
             {
-                heading: "Ionic",
+                heading: "Python",
                 img: TAB2_3.src,
             },
             {
-                heading: "Xamarin",
+                heading: "JavaScript",
                 img: TAB2_4.src,
-            },
-            {
-                heading: "PhoneGap",
-                img: TAB2_5.src,
             }
         ],
     },
     {
-        title: "UI Libraries",
+        title: "Graphics",
         content: [
             {
-                heading: "Material-UI",
+                heading: "Adobe Photoshop",
                 img: TAB3_1.src,
             },
             {
-                heading: "Ant Design",
+                heading: "Krita",
                 img: TAB3_2.src,
             },
             {
-                heading: "Bootstrap",
+                heading: "Corel Painter",
                 img: TAB3_3.src,
+            },
+            {
+                heading: "Bueno",
+                img: TAB3_4.src,
             }
         ],
     },
     {
-        title: "Backend",
+        title: "Databases",
         content: [
             {
-                heading: "Firebase",
+                heading: "OpenSea",
                 img: TAB4_1.src,
             },
             {
-                heading: "AWS Amplify",
+                heading: "Nifty Gateway",
                 img: TAB4_2.src,
             },
             {
-                heading: "Node.js",
+                heading: "Foundation",
                 img: TAB4_3.src,
             },
             {
-                heading: "Django",
+                heading: "MongoDB",
                 img: TAB4_4.src,
             }
         ],
     },
     {
-        title: "Testing Tools",
+        title: "Frameworks & Libraries",
         content: [
             {
-                heading: "Jest",
+                heading: "Hard Hat",
                 img: TAB5_1.src,
             },
             {
-                heading: "Mocha",
+                heading: "Moralis NFT API",
                 img: TAB5_2.src,
             },
             {
-                heading: "Appium",
+                heading: "ethers.js",
                 img: TAB5_3.src,
             },
             {
-                heading: "Detox",
+                heading: "ZettaBlock",
                 img: TAB5_4.src,
             }
         ],
     },
     {
-        title: "Version Control",
+        title: "Testing",
         content: [
             {
-                heading: "Git",
+                heading: "Jenkins",
                 img: TAB6_1.src,
             },
             {
-                heading: "GitHub",
+                heading: "Selenium",
                 img: TAB6_2.src,
             },
             {
-                heading: "Bitbucket",
+                heading: "JIRA",
                 img: TAB6_3.src,
+            },
+            {
+                heading: "TestRail",
+                img: TAB6_4.src,
             }
         ],
     }
@@ -664,42 +658,34 @@ export const IndustriesList = [
 export const IdeaCtaContent = {
     title: (<>Let’s Change<br/> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
-    formtitle: (<>Let’s Create An Amazing<br/>  App Together!</>)
+    formtitle: (<>Let’s Create An <br/> Amazing App Together!</>)
 }
 
 export const FaqsContent = {
-    title: "Frequently Asked Questions",
+    title: "Frequently Asked Questions (FAQs)",
 }
 
 export const FaqsList = [
     {
-        title: "What is hybrid application development?",
-        txt: "Hybrid app development involves creating a single app that works across multiple platforms like Android, iOS, and Windows. Unlike native app development, which requires different codes for each platform, hybrid apps use a single code base for all operating systems."
+        title: "Are NFT games legal?",
+        txt: "Yes, NFTs are perfectly legal. When it comes to the NFT gaming platform, game publishers own all assets. The right of ownership may be acquired by players winning or buying exclusive NFT collectibles. You can even legalize your NFT by acquiring full rights to the asset from the publisher. Or consult a blockchain lawyer to protect your right to ownership.  "
     },
     {
-        title: "How much does it cost to develop a hybrid app?",
-        txt: `The cost to develop a hybrid app varies, typically ranging from $1,000 to $5,000+ per integration. Partnering with a hybrid application development company ensures accurate cost estimation tailored to your specific requirements and project complexity.`
+        title: "What’s your expertise with NFT game development?",
+        txt: `At BitsWits, we have a team of highly expert NFT artists and game developers who’ve been serving the industry from the very start. It won’t be wrong to claim that we’re among the pioneers in building feature-rich games. Owing to our experience, and client satisfaction level, we’re arguably the best NFT game development company. `
     },
     {
-        title: "What is the best technology for hybrid mobile app development?",
-        txt: "The best technologies for hybrid mobile app development include Ionic, a popular free and open-source framework with a large developer community. Flutter and React Native can also be excellent choices. Our hybrid mobile app development services can leverage any latest tech stack to build your app efficiently and effectively."
+        title: "Are NFT games profitable?",
+        txt: `Yes, NFT games can be seriously profitable if the items you create sustain a high-level of demand among gamers and players. Plus, you may even earn from royalty every time the asset is traded over the in-game marketplace. Besides, minting NFTs in games could be profitable for both publishers, and gamers alike as they can trade them.`
     },
     {
-        title: "What are the advantages of hybrid app development?",
-        txt: "Hybrid app development offers cost-efficiency, faster development, and easier maintenance by using a single codebase for multiple platforms. It provides broad reach across iOS, Android, and Windows while leveraging web technologies like HTML, CSS, and JavaScript for a seamless user experience."
+        title: "How much does NFT development cost?",
+        txt: `The cost of NFT development can vary significantly between $45000 and $60000. This is the estimated cost for an NFT marketplace development. The price may go up depending upon a range of cost factors including tech stack required for development, complexity of art style and concept, niche of the NFT, functionality of the application, and level of security. `
     },
     {
-        title: "How long does it take to develop a hybrid app?",
-        txt: "The development time for a hybrid app varies based on complexity and features but typically ranges from 3 to 6 months. This timeframe includes planning, design, development, testing, and deployment. A hybrid mobile app development company can provide a more precise estimate."
-    },
-    {
-        title: "Can hybrid apps provide a native-like experience?",
-        txt: "Yes, hybrid apps can offer a native-like experience by utilizing advanced frameworks like Ionic, Flutter, and React Native. These technologies enable smooth performance, high-quality UI/UX, and access to device features, making hybrid apps comparable to native apps in functionality and user satisfaction."
-    },
-    {
-        title: "Why should I choose hybrid for mobile app development?",
-        txt: "Choosing hybrid for mobile app development allows you to reach multiple platforms with a single codebase, reducing costs and development time. It provides consistency across devices, simplifies maintenance, and leverages the latest technologies to deliver robust and scalable applications."
-    },
+        title: "How long does it take to build an NFT marketplace?",
+        txt: `The time to build an NFT marketplace varies. However, to build a marketplace that has all the basic features on offer, you’ll require at least six months. The timeline of your project delivery also greatly depends upon the quality of NFT game development services you hire for the job.`
+    }
 ]
 
 export const BlogsContent = {

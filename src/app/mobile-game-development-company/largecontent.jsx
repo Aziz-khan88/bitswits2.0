@@ -2,7 +2,7 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/game/largesection.module.scss"
 import ButtonCommon from '@/src/components/common/button'
-import BGIMG from "media/mobile-game-development-company/largeContent.webp"
+
 import Image from 'next/image'
 
 const ContentSecLG = ({data}) => {
@@ -21,7 +21,7 @@ const ContentSecLG = ({data}) => {
                         </div>
                     </Col>
                     <Col lg={5} md={5} className='my-auto text-center offset-lg-1' >
-                        <Image src={BGIMG.src} alt="Bitswits Services" width={989} height={1100} />
+                        <Image src={data?.BGIMG} alt="Bitswits Services" width={989} height={1100} />
                     </Col>
                 </Row>
             </Container>

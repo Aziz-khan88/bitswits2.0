@@ -13,7 +13,7 @@ import {
   IndustriesList, IdeaCtaContent,
   FaqsContent, FaqsList, BlogsContent,
   BlogsList
-} from "@/src/app/flutter-app-development/data/data";
+} from "@/src/app/blockchain-game-development-company/data/data";
 
 import Achieved from "@/src/app/services/achieved";
 import Banner from "@/src/app/services/banner";

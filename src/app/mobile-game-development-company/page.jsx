@@ -19,18 +19,12 @@ import Services from "@/src/app/mobile-game-development-company/services";
 import {
     BannerData, ProjectdiscussContent, ServicesContent,
     ServicesList, GameCtaContent, ContentSecContent,
-    ContentSecLGContent, Awards, AwardContent,
-    CuttingedgeContent, CuttingedgeList,
-    AppIdeaContent, caseStudiesList,
-    caseStudiesContent, ProcessContent,
+    ContentSecLGContent, ProcessContent,
     WhyChooseContent, WhyChooseList1,
-    WhyChooseList2, ProcessTabs, TechnologiesContent,
-    TechnologiesIcons, TestimonialContent,
-    TestimonialSLIDES, RisksContent,
-    OffersContent, OffersTabs, FuelingContent, FuelingList,
-    CtaEstimatedContent, TechStackTabs,
-    TechStackContent, IndustriesContent,
-    IndustriesList, IdeaCtaContent,
+    WhyChooseList2, ProcessTabs,  TestimonialContent,
+    TestimonialSLIDES,  OffersContent, 
+    OffersTabs, FuelingContent, FuelingList,
+    TechStackTabs, TechStackContent, IdeaCtaContent,
     FaqsContent, FaqsList, BlogsContent,
     BlogsList
 } from "@/src/app/mobile-game-development-company/data/data";

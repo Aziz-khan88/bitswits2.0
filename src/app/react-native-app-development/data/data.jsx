@@ -560,18 +560,18 @@ export const TechStackTabs = [
         ],
     },
     {
-        title: "Version Control",
+        title: "Testing",
         content: [
             {
-                heading: "Git",
+                heading: "Jest",
                 img: TAB6_1.src,
             },
             {
-                heading: "GitHub",
+                heading: "Enzyme",
                 img: TAB6_2.src,
             },
             {
-                heading: "Bitbucket",
+                heading: "Detox",
                 img: TAB6_3.src,
             }
         ],

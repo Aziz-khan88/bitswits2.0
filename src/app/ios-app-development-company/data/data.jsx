@@ -57,7 +57,6 @@ import TAB1_4 from "media/services/tech/tab1/01.webp";
 import TAB1_5 from "media/services/tech/tab1/02.webp";
 import TAB1_6 from "media/services/tech/tab1/03.webp";
 import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
 import TAB2_3 from "media/services/tech/tab2/03.webp";
 import TAB2_4 from "media/services/tech/tab2/04.webp";
 import TAB2_5 from "media/services/tech/tab2/05.webp";
@@ -72,8 +71,6 @@ import TAB4_1 from "media/services/tech/tab4/01.webp";
 import TAB4_2 from "media/services/tech/tab4/02.webp";
 import TAB4_3 from "media/services/tech/tab4/03.webp";
 import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/03.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
 import TAB5_1 from "media/services/tech/tab5/01.webp";
 import TAB5_2 from "media/services/tech/tab5/02.webp";
 import TAB5_3 from "media/services/tech/tab5/03.webp";
@@ -138,7 +135,7 @@ export const CuttingedgeList = [
         links: "",
     },
     {
-        title: (<>iOS App <br />Testing & QA</>),
+        title: (<>iOS App <br />Testing </>),
         txt: "Our expert QAs run tests to identify and fix issues, making sure your app operates smoothly on all iOS devices like iPad, iPhone, and Apple Watch.",
         links: "",
     },
@@ -553,7 +550,7 @@ export const TechStackTabs = [
                 img: TAB3_6.src,
             },
             {
-                heading: "Kotlin (Android)",
+                heading: "Kotlin Multiplatform",
                 img: TAB3_1.src,
             },
             {
@@ -739,7 +736,7 @@ export const FaqsContent = {
 
 export const FaqsList = [
     {
-        title: "What programming languages are used in iOS app development",
+        title: "What programming languages are used in iOS app development?",
         txt: "iOS app development primarily uses Swift and Objective-C. Swift, developed by Apple, is modern and user-friendly, while Objective-C offers robust capabilities. Choosing an iOS app development company ensures that experienced iOS app developers utilize these languages effectively, creating high-quality, responsive apps tailored to your business needs."
     },
     {
