@@ -44,7 +44,7 @@ import RisksIMG02 from "media/services/customImg02.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/FuelingImg.webp"
+import FuelingImg1 from "media/industry/fuelingImg.webp"
 
 //========= CtaEstimated Images
 import CtaEstimatedImg from "media/services/ctaImg.webp"
