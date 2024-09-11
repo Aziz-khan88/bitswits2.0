@@ -4,7 +4,7 @@ import Image from "next/image"
 import ButtonCommon from "@/src/components/common/button"
 
 
-const Banner = ({data}) => {
+const Banner = ({ data }) => {
     return (
         <section className={styles.gamebanenrSection} style={{ backgroundImage: `url(${data?.BanngBg})` }}>
             <Container className="h-100">
@@ -17,7 +17,7 @@ const Banner = ({data}) => {
                             <Image src={data?.BannerLogos} alt="Bitswits Services" width={757} height={82} />
                         </div>
                         <div className={styles.btnFlex}>
-                            <ButtonCommon txt="Free Consultation" color="yes" />
+                            <ButtonCommon txt="Free Consultation" />
                         </div>
                     </Col>
                 </Row>
