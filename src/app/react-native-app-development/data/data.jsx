@@ -102,6 +102,7 @@ export const BannerData = {
 export const CuttingedgeContent = {
     title: "Efficiency-Driven React Native App Development Services for Rapid Business Growth",
     text: "Our custom React Native app development services empower SMEs and entrepreneurs, enabling scalable growth through efficient and cost-effective solutions.",
+    subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
@@ -138,8 +139,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven React Native App Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted react native app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -458,9 +459,9 @@ export const FuelingList = [
 ];
 
 export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
+    subtitle: "React Native App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    text: (<>Get an instant estimate for your react native app’s development based on its complexity. React native apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!.</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -580,7 +581,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade react native development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [

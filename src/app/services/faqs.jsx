@@ -30,7 +30,7 @@ const Faqs = ({data, list}) => {
                                     onClick={() => handleToggle(index)}
                                 >
                                     <div className={styles.faqstitle}>
-                                        <span> 0{index + 1}.</span>{item.title} <span className={styles.arrowStyle}><FaqsArrows /></span>
+                                        <span> {index >= 9 ? null : 0}{index + 1}.</span>{item.title} <span className={styles.arrowStyle}><FaqsArrows /></span>
                                     </div>
                                     {openIndex === index && (
                                         <div className={styles.faqsContent}>

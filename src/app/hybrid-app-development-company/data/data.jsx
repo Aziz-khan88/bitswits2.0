@@ -104,6 +104,7 @@ export const BannerData = {
 export const CuttingedgeContent = {
     title: "Performance-Focused Hybrid App Development Services for Dynamic Business Growth",
     text: "We provide tailored hybrid mobile application development services for ambitious startups and SMEs, enabling rapid market entry and scalable growth!",
+    subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
@@ -145,8 +146,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven Hybrid App Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted hybrid app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -465,9 +466,9 @@ export const FuelingList = [
 ];
 
 export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
+    subtitle: "Hybrid App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    text: (<>Get an instant estimate for your Hybrid app’s development based on its complexity. Hybrid apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -599,7 +600,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade hybrid app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [

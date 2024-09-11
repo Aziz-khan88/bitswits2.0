@@ -54,9 +54,6 @@ import CtaEstimatedImg from "media/services/ctaImg.webp"
 import TAB1_1 from "media/services/tech/tab1/01.webp";
 import TAB1_2 from "media/services/tech/tab1/02.webp";
 import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/04.webp";
-import TAB1_5 from "media/services/tech/tab1/05.webp";
-import TAB1_6 from "media/services/tech/tab1/06.webp";
 import TAB2_1 from "media/services/tech/tab2/01.webp";
 import TAB2_2 from "media/services/tech/tab2/02.webp";
 import TAB2_3 from "media/services/tech/tab2/03.webp";
@@ -64,39 +61,22 @@ import TAB2_4 from "media/services/tech/tab2/04.webp";
 import TAB2_5 from "media/services/tech/tab2/05.webp";
 import TAB2_6 from "media/services/tech/tab2/06.webp";
 import TAB2_7 from "media/services/tech/tab2/07.webp";
-import TAB2_8 from "media/services/tech/tab2/08.webp";
 import TAB3_1 from "media/services/tech/tab3/01.webp";
 import TAB3_2 from "media/services/tech/tab3/02.webp";
 import TAB3_3 from "media/services/tech/tab3/03.webp";
 import TAB3_4 from "media/services/tech/tab3/04.webp";
-import TAB3_5 from "media/services/tech/tab3/05.webp";
 import TAB4_1 from "media/services/tech/tab4/01.webp";
 import TAB4_2 from "media/services/tech/tab4/02.webp";
 import TAB4_3 from "media/services/tech/tab4/03.webp";
 import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/05.webp";
-import TAB4_6 from "media/services/tech/tab4/06.webp";
 import TAB5_1 from "media/services/tech/tab5/01.webp";
 import TAB5_2 from "media/services/tech/tab5/02.webp";
 import TAB5_3 from "media/services/tech/tab5/03.webp";
 import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/05.webp";
-import TAB5_6 from "media/services/tech/tab5/06.webp";
-import TAB5_7 from "media/services/tech/tab5/07.webp";
 import TAB6_1 from "media/services/tech/tab6/01.webp";
 import TAB6_2 from "media/services/tech/tab6/02.webp";
 import TAB6_3 from "media/services/tech/tab6/03.webp";
 import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/05.webp";
-import TAB6_6 from "media/services/tech/tab6/06.webp";
-import TAB6_7 from "media/services/tech/tab6/07.webp";
-import TAB6_8 from "media/services/tech/tab6/08.webp";
-import TAB7_1 from "media/services/tech/tab7/01.webp";
-import TAB7_2 from "media/services/tech/tab7/02.webp";
-import TAB7_3 from "media/services/tech/tab7/03.webp";
-import TAB7_4 from "media/services/tech/tab7/04.webp";
-import TAB7_5 from "media/services/tech/tab7/05.webp";
-import TAB7_6 from "media/services/tech/tab7/06.webp";
 
 //========= Industries Images
 import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
@@ -128,6 +108,7 @@ export const BannerData = {
 export const CuttingedgeContent = {
     title: "Agile Flutter App Development Services for Growing Enterprises",
     text: "Our Flutter app development services are customized for aspiring startups and SMEs, enabling fast market entry and sustainable growth!",
+    subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
@@ -164,8 +145,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven Flutter App Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted flutter app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -308,7 +289,6 @@ export const ProcessTabs = [
         },
     },
 ];
-
 
 export const TechnologiesContent = {
     title: "Strategic Advantages of Hiring BitsWits As Your Flutter Mobile App Development Company",
@@ -460,11 +440,10 @@ export const OffersTabs = [
 export const FuelingContent = {
     title: "Technologies We Use In Combination with Flutter",
     text: "We pair backend technologies and databases with Flutter to enhance mobile apps, providing seamless integration and robust performance for superior user experiences.",
-    subtitle: "Reduce Risk and Validate Your Idea With a Fast MVP Launch!",
-    subtext: "BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!",
+    subtitle: "Accelerate Your App Launch with Flutter’s Cross-Platform Efficiency!",
+    subtext: "Develop high-performance apps with seamless user experience across multiple platforms.",
     FuelingImg: FuelingImg.src
 }
-
 
 export const FuelingList = [
     {
@@ -503,224 +482,141 @@ export const TechStackContent = {
 
 export const TechStackTabs = [
     {
-        title: "Design",
+        title: "Languages",
         content: [
             {
-                heading: "Adobe XD",
+                heading: "Dart",
                 img: TAB1_1.src,
             },
             {
-                heading: "Adobe Illustrator",
+                heading: "Flutter SDK",
                 img: TAB1_2.src,
             },
             {
-                heading: "Balsamiq",
+                heading: "Flutter Framework",
                 img: TAB1_3.src,
             },
-            {
-                heading: "InVision",
-                img: TAB1_4.src,
-            },
-            {
-                heading: "Figma",
-                img: TAB1_5.src,
-            },
-            {
-                heading: "Adobe Photoshop",
-                img: TAB1_6.src,
-            },
         ],
     },
     {
-        title: "Front-end",
+        title: "UI Components and Design",
         content: [
             {
-                heading: "Flutter",
-                img: TAB2_1.src,
+                heading: "Material",
+                img: TAB2_1.src, 
             },
             {
-                heading: "React Native",
-                img: TAB2_2.src,
+                heading: "Cupertino",
+                img: TAB2_2.src, 
             },
             {
-                heading: "Ionic",
-                img: TAB2_3.src,
+                heading: "MediaQuery",
+                img: TAB2_3.src, 
             },
             {
-                heading: "Swift",
-                img: TAB2_4.src,
+                heading: "Theme",
+                img: TAB2_4.src, 
             },
             {
-                heading: "TypeScript",
-                img: TAB2_5.src,
+                heading: "Localization",
+                img: TAB2_5.src, 
             },
             {
-                heading: "Xamarin",
-                img: TAB2_6.src,
+                heading: "Flutter SVG",
+                img: TAB2_6.src, 
             },
             {
-                heading: "HTML5",
-                img: TAB2_7.src,
-            },
-            {
-                heading: "Kotlin",
-                img: TAB2_8.src,
-            },
+                heading: "Syncfusion Charts",
+                img: TAB2_7.src, 
+            }
         ],
     },
     {
-        title: "Back-end",
+        title: "Backend and Database",
         content: [
             {
-                heading: "Laravel",
-                img: TAB3_1.src,
+                heading: "Firebase Realtime Database",
+                img: TAB3_1.src, 
             },
             {
-                heading: "Node.js",
-                img: TAB3_2.src,
+                heading: "Firestore",
+                img: TAB3_2.src, 
             },
             {
-                heading: ".NET Core",
-                img: TAB3_3.src,
+                heading: "Firebase Cloud Storage",
+                img: TAB3_3.src, 
             },
             {
-                heading: "Ruby on Rails",
-                img: TAB3_4.src,
-            },
-            {
-                heading: "Django",
-                img: TAB3_5.src,
-            },
+                heading: "SQLite",
+                img: TAB3_4.src, 
+            }
         ],
     },
     {
-        title: "Database",
+        title: "State Management",
         content: [
             {
-                heading: "Firebase",
-                img: TAB4_1.src,
+                heading: "Get & Provider",
+                img: TAB4_1.src, 
             },
             {
-                heading: "MongoDB",
-                img: TAB4_2.src,
+                heading: "Riverpod",
+                img: TAB4_2.src, 
             },
             {
-                heading: "MySQL",
-                img: TAB4_3.src,
+                heading: "Dio",
+                img: TAB4_3.src, 
             },
             {
-                heading: "Swift",
-                img: TAB4_4.src,
-            },
-            {
-                heading: "Oracle",
-                img: TAB4_5.src,
-            },
-            {
-                heading: "PostgreSQL",
-                img: TAB4_6.src,
-            },
+                heading: "Http",
+                img: TAB4_4.src, 
+            }
         ],
     },
     {
-        title: "Cloud",
+        title: "IDEs",
         content: [
-            {
-                heading: "Google Cloud Platform",
-                img: TAB5_1.src,
-            },
-            {
-                heading: "AWS",
-                img: TAB5_2.src,
-            },
-            {
-                heading: "Linode",
-                img: TAB5_3.src,
-            },
-            {
-                heading: "IBM Cloud",
-                img: TAB5_4.src,
-            }, {
-                heading: "Vercel",
-                img: TAB5_5.src,
-            },
-            {
-                heading: "Microsoft Azure",
-                img: TAB5_6.src,
-            },
-            {
-                heading: "Firebase",
-                img: TAB5_7.src,
-            },
-        ],
-    },
-    {
-        title: "Framework",
-        content: [
-            {
-                heading: "React Native",
-                img: TAB6_1.src,
-            },
-            {
-                heading: "Flutter",
-                img: TAB6_2.src,
-            },
-            {
-                heading: "Ionic",
-                img: TAB6_3.src,
-            },
-            {
-                heading: "Xamarin",
-                img: TAB6_4.src,
-            },
-            {
-                heading: "Apache Cordova",
-                img: TAB6_5.src,
-            },
             {
                 heading: "Android Studio",
-                img: TAB6_6.src,
+                img: TAB5_1.src, 
             },
             {
-                heading: "Visual Studio",
-                img: TAB6_7.src,
+                heading: "IntelliJ IDEA",
+                img: TAB5_2.src, 
             },
             {
-                heading: "Xcode",
-                img: TAB6_8.src,
+                heading: "Dart Plugins",
+                img: TAB5_3.src, 
             },
+            {
+                heading: "Flutter Local Notifications",
+                img: TAB5_4.src, 
+            }
         ],
     },
     {
-        title: "Project Management",
+        title: "Utilities ",
         content: [
             {
-                heading: "Teamwork",
-                img: TAB7_1.src,
+                heading: "Shared Preferences",
+                img: TAB6_1.src, 
             },
             {
-                heading: "Basecamp",
-                img: TAB7_2.src,
+                heading: "Image Picker",
+                img: TAB6_2.src, 
             },
             {
-                heading: "Jira",
-                img: TAB7_3.src,
+                heading: "Url Launcher",
+                img: TAB6_3.src, 
             },
             {
-                heading: "Asana",
-                img: TAB7_4.src,
-            },
-            {
-                heading: "Trello",
-                img: TAB7_5.src,
-            },
-            {
-                heading: "PM Tools",
-                img: TAB7_6.src,
-            },
+                heading: "Git (Version Control Tools)",
+                img: TAB6_4.src, 
+            }
         ],
-    },
+    }
 ];
+
 
 export const IndustriesContent = {
     title: "Industries We Serve",

@@ -99,13 +99,14 @@ export const BannerData = {
     content: "It’s time to revolutionize the world of digital gaming with our 360 NFT game development solutions! We, as an NFT game development company, have built thrilling games using Blockchain technology. Engage and retain players with games that offer exciting stream monetization opportunities.",
     BannerLogos: BannerLogos.src,
     BanngBg: BanngBg.src,
-    fromtitle: "Let’s Discuss Your App Idea",
-    fromtext: "Share your app business objectives with our experts and create your custom app."
+    fromtitle: "Let’s Discuss Game Idea",
+    fromtext: "Share your game objectives with our experts and create your custom game."
 }
-
+ 
 export const CuttingedgeContent = {
     title: "High-Performance NFT Game Development Services For Outstanding Player Engagement!",
     text: "Our team is a score of professional NFT game developers who have remarkably catered to the challenging scope of our NFT game development projects. Here are the services we offer:",
+    subtext: "Estimate Your Game Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
@@ -137,8 +138,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven NFT Game Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier games! As a trusted NFT game development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -362,7 +363,7 @@ export const TestimonialSLIDES = [
 
 export const RisksContent = {
     title: (<>Give Players All <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} /> The Control They Crave With Our <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> In-Game NFT Assets!</>),
-    text: "Validate Your AI Vision with MVP Development & Save Big on Time & Money!"
+    text: "Enable NFT purchases and monetize gaming with BitsWits!"
 }
 
 export const OffersContent = {
@@ -451,9 +452,9 @@ export const FuelingList = [
 ];
 
 export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
+    subtitle: "NFT Game Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    text: (<>Get an instant estimate for your NFT game’s development based on its complexity. NFT games typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!.</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -593,7 +594,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade NFT game development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [

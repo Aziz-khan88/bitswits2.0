@@ -97,52 +97,19 @@ export const BannerData = {
     content: "BitsWits is a leading Blockchain game development company with over 10+ years of experience. Our expert Blockchain game developers & talented designers assist businesses in creating engaging, revenue-generating Blockchain games that captivate players and attract investors.",
     BannerLogos: BannerLogos.src,
     BanngBg: BanngBg.src,
-    fromtitle: "Let’s Discuss Your App Idea",
-    fromtext: "Share your app business objectives with our experts and create your custom app."
+    fromtitle: "Let’s Discuss Game Idea",
+    fromtext: "Share your game objectives with our experts and create your custom game."
 }
 
 export const CuttingedgeContent = {
     title: "Premium Blockchain Game Development Services for Exceptional Experiences",
     text: "As a leading Blockchain game development company, we specialize in delivering cutting-edge Blockchain game development services that help businesses thrive swiftly. ",
+    subtext: "Estimate Your Game Project’s Cost Now!"
 }
 
-export const CuttingedgeList = [
-    {
-        title: (<>Custom <br />Game Development </>),
-        txt: "We have experienced game developers who can create new-generation Web3, Blockchain, and Metaverse games based on the newest technologies. Most of our games are designed to fit certain project specifications and conditions.",
-        links: "",
-    },
-    {
-        title: (<>Smart Contract <br />Development </>),
-        txt: "Manage your Blockchain game assets with smart contracts for a smooth gaming experience. With extensive experience in multiple smart contract languages and technology setups, we assist businesses in integrating and deploying P2E and other apps.",
-        links: "",
-    },
-    {
-        title: (<>VR/AR/MR <br />Game Development </>),
-        txt: "Our team is proficient with all the trending tools and technologies. We develop intriguing and innovative games based on VR and AR technology to enhance the gaming experience and design.",
-        links: "",
-    },
-    {
-        title: (<>Cross-Platform <br />Game Development </>),
-        txt: "Deploy our cross-platform game development services to create powerful web3 games that are engaging in terms of response. Develop games that simulate real-world environments & can be played on multiple devices.",
-        links: "",
-    },
-    {
-        title: (<>Unity 3D/Unreal Engine <br />Game Development </>),
-        txt: "As a top-grade Blockchain game development company, we incorporate stringent Unity 3D, Blender, & Unreal Engine game development tools in our games to deliver a smooth gaming experience.",
-        links: "",
-    },
-    {
-        title: (<>Wallet <br />Integration  </>),
-        txt: "We provide end-to-end crypto wallet development and integration services that allow players to manage their crypto tokens, in addition to exchanging their virtual assets in the form of NFTs. ",
-        links: "",
-    },
-
-]
-
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven Blockchain Game Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier games! As a trusted Blockchain game development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -279,7 +246,7 @@ export const ProcessTabs = [
         content: {
             heading: "Maintenance and Support",
             description:
-                "Post-deployment is also highly important after the game's release. We offer ongoing maintenance and support services using tools like GitHub and Remix. Our services include regular updates, performance optimizations, and feature enhancements to keep your game up-to-date with evolving Blockchain technologies. As dedicated Blockchain game developers, we help your game adapt to market trends, and maintain player engagement, ensuring your game remains competitive.",
+                "Post-deployment is also highly important after the game’s release. We offer ongoing maintenance and support services using tools like GitHub and Remix. Our services include regular updates, performance optimizations, and feature enhancements to keep your game up-to-date with evolving Blockchain technologies. As dedicated Blockchain game developers, we help your game adapt to market trends, and maintain player engagement, ensuring your game remains competitive.",
             imgSrc: IMG.src,
 
         },
@@ -380,8 +347,8 @@ export const TestimonialSLIDES = [
 ]
 
 export const RisksContent = {
-    title: (<>Take No Risks <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} /> Create An MVP & Be Confident On <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} />  Your App!</>),
-    text: "Captivate Your Audience with Our Studio's Masterfully Crafted Blockchain Games!"
+    title: (<>Captivate Your <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} /> Audience with Our Studio’s Masterfully <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> Crafted Blockchain Games!</>),
+    text: "Partner with our team to create a blockchain game with exceptional ROI"
 }
 
 export const OffersContent = {
@@ -470,9 +437,9 @@ export const FuelingList = [
 ];
 
 export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
+    subtitle: "Blockchain Game Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    text: (<>Get an instant estimate for your Blockchain game’s development based on its complexity. Blockchain games typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -600,7 +567,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade blockchain game development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [

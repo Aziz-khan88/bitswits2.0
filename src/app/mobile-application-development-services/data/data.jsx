@@ -130,6 +130,7 @@ export const BannerData = {
 export const CuttingedgeContent = {
     title: "Mobile App Development Services for Maximum Business Impact!",
     text: "Our custom mobile app development services are designed to give startups and SMEs a first-mover advantage to quickly scale in their market!",
+    subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [

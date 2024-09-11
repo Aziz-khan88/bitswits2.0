@@ -23,7 +23,7 @@ const Risks = ({ data }) => {
                                 <Link href="tel:+18335006007">+1 833 500 6007</Link>
                             </div>
                             <div className={styles.emailAddress}>
-                                <Link href="mailto:info@bitwits.com">info@bitwits.com</Link>
+                                <Link href="mailto:info@bitwits.com">info@bitswits.co</Link>
                             </div>
                         </div>
                     </Col>
