@@ -453,7 +453,7 @@ export const FuelingList = [
 
 export const CtaEstimatedContent = {
     subtitle: "NFT Game Development Costs: From Simple to Complex",
-    title: "Your App’s Cost, Simplified",
+    title: "Your Game’s Cost, Simplified",
     text: (<>Get an instant estimate for your NFT game’s development based on its complexity. NFT games typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!.</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }

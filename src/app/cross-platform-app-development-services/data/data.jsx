@@ -147,8 +147,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven Cross-Platform App Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted cross-platform app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -278,7 +278,6 @@ export const ProcessTabs = [
         },
     },
 ];
-
 
 export const TechnologiesContent = {
     title: "Partner with Leading Cross-Platform App Development Experts",
@@ -444,9 +443,9 @@ export const FuelingList = [
 ];
 
 export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
+    subtitle: "Cross-Platform App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    text: (<>Get an instant estimate for your cross-platform app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -600,10 +599,9 @@ export const TechStackTabs = [
     }
 ];
 
-
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade cross-platform app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [

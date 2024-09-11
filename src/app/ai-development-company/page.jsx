@@ -33,7 +33,7 @@ import Industries from "@/src/app/services/industries";
 import IdeaCta from "@/src/app/services/ideacta";
 import Faqs from "@/src/app/services/faqs";
 import Blogs from "@/src/app/services/blogs";
-import Location from "@/src/app/services/location";
+
 
 
 export default function Page() {
@@ -58,7 +58,7 @@ export default function Page() {
       <IdeaCta data={IdeaCtaContent}/>
       <Faqs data={FaqsContent} list={FaqsList}/>
       <Blogs data={BlogsContent} list={BlogsList}/>
-      <Location />
+      
     </>
   );
 }

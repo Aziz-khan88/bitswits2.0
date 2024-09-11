@@ -2,6 +2,7 @@ import styles from "@/styles/layout/footer.module.scss"
 import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
 import CopyRight from "@/src/app/layout/copyright"
+import Location from "@/src/app/services/location";
 
 const About = [
     {
@@ -228,6 +229,7 @@ const Footer = () => {
                     </Row>
                 </Container>
             </section> */}
+            <Location />
             <CopyRight />
         </>
     )

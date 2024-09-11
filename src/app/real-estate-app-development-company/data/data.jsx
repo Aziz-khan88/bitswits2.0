@@ -1,21 +1,10 @@
-// Next
-import Image from "next/image"
+
 
 // Bannar Images
 import BanngBg from "media/industry/bgBanner.webp";
 
-//========= CaseStudy Images
-import slider1 from "media/newmobileapp/slider-2.png";
-import slider2 from "media/newmobileapp/slider-3.png";
-import slider3 from "media/newmobileapp/slider-5.png";
-import slider4 from "media/newmobileapp/slider-4.png";
-import slider5 from "media/newmobileapp/slider-1.png";
-
-//========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
-
-//========= Process Images
-import IMG from "media/services/process/tab01.webp"
+// Location Images
+import IndustrySliderIMG01 from "media/industry/imgBox.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -28,6 +17,12 @@ import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/services/techImg.webp"
 
+//========= Process Images
+import IMG from "media/services/process/tab01.webp"
+
+//========= WhyChoose Images
+import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
 import TestiImg2 from "media/services/reviwes/clutch.webp"
@@ -38,16 +33,10 @@ import Joseph from "media/services/reviwes/Joseph.webp"
 import MauryoJones from "media/services/reviwes/MauryoJones.webp"
 import KateBullock from "media/services/reviwes/KateBullock.webp"
 
-//========= Risks Images
-import RisksIMG01 from "media/services/customImg01.webp"
-import RisksIMG02 from "media/services/customImg02.webp"
-
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
 import FuelingImg1 from "media/industry/fuelingImg.webp"
 
-//========= CtaEstimated Images
-import CtaEstimatedImg from "media/services/ctaImg.webp"
 
 //========= TechStack Images
 import TAB1_1 from "media/services/tech/tab1/01.webp";
@@ -57,6 +46,7 @@ import TAB1_4 from "media/services/tech/tab1/01.webp";
 import TAB1_5 from "media/services/tech/tab1/02.webp";
 import TAB1_6 from "media/services/tech/tab1/03.webp";
 import TAB2_1 from "media/services/tech/tab2/01.webp";
+import TAB2_2 from "media/services/tech/tab2/01.webp";
 import TAB2_3 from "media/services/tech/tab2/03.webp";
 import TAB2_4 from "media/services/tech/tab2/04.webp";
 import TAB2_5 from "media/services/tech/tab2/05.webp";
@@ -71,6 +61,8 @@ import TAB4_1 from "media/services/tech/tab4/01.webp";
 import TAB4_2 from "media/services/tech/tab4/02.webp";
 import TAB4_3 from "media/services/tech/tab4/03.webp";
 import TAB4_4 from "media/services/tech/tab4/04.webp";
+import TAB4_5 from "media/services/tech/tab4/04.webp";
+import TAB4_6 from "media/services/tech/tab4/04.webp";
 import TAB5_1 from "media/services/tech/tab5/01.webp";
 import TAB5_2 from "media/services/tech/tab5/02.webp";
 import TAB5_3 from "media/services/tech/tab5/03.webp";
@@ -101,201 +93,143 @@ import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
-
-
-export const BannerData = {
+export const BannerData = { 
     title: "Scalable Real Estate App Development Company for Growing Property Markets",
     content: "BitsWits is a top-tier real estate app development company, empowering startups and SMBs to create feature-rich and scalable apps for iOS and Android. We deliver user-centric, custom real estate app solutions that help clients expand their reach, simplify property management, and make informed decisions.",
     BanngBg: BanngBg.src,
 }
 
-export const CuttingedgeContent = {
-    title: "Cutting-Edge iOS App Development Services for Ambitious Entrepreneurs",
-    text: "We offer custom iOS app development services for ambitious startups and SMEs to quickly penetrate the market and scale with a first mover advantage. ",
+export const IndustryServiceContent = {
+    title: "Custom Real Estate App Development Services for Seamless Property Management",
+    text: "As a leading real estate app development company, we offer comprehensive services from ideation to delivery. Our expert-vetted real estate app developers create solutions that best fit for seamless property management and transactions.",
 }
 
-export const CuttingedgeList = [
+export const IndustryServiceList = [
     {
-        title: (<>iOS App  <br />Strategy & Consulting</>),
-        txt: "We provide strategic consulting to define app goals, target audience, and market positioning, ensuring your iOS app aligns with business objectives and market trends for maximum impact.",
-        links: "",
+        title: (<>Property <br />Listing Platforms</>),
+        txt: "Our real estate app developers create comprehensive property listing platforms with intuitive search and filter options, enabling users to find the perfect property effortlessly.",
     },
     {
-        title: (<>iOS UI/UX  <br />Design </>),
-        txt: "We create intuitive and visually appealing UI/UX designs that enhance user engagement and satisfaction, making your app stand out with exceptional look and feel!",
-        links: "",
+        title: (<>Advanced Backend <br />& Frontend Systems</>),
+        txt: "We build robust backends and user-friendly frontends to optimize property management, client interaction, and lead conversion, making us a trusted real estate app partner.",
     },
     {
-        title: (<>iOS App <br />Development </>),
-        txt: "Our skilled iOS app developers use the latest technologies and best practices to build robust, high-performance iOS apps that meet your business needs and provide an outstanding user experience.",
-        links: "",
+        title: (<>Marketplace <br />Aggregators</>),
+        txt: "Our real estate app development services include creating marketplace aggregators that enable seamless connections between buyers, sellers, and agents.",
     },
     {
-        title: (<>iOS App <br />Testing </>),
-        txt: "Our expert QAs run tests to identify and fix issues, making sure your app operates smoothly on all iOS devices like iPad, iPhone, and Apple Watch.",
-        links: "",
+        title: (<>Real Estate Progressive <br />Web Apps (PWAs)</>),
+        txt: "Our PWAs provide a fluid, app-like experience on any devices which doesn’t require the need for downloads to explore properties online.",
     },
     {
-        title: (<>iOS App <br />Maintenance & Support</>),
-        txt: "We offer ongoing maintenance and support services, including updates, bug fixes, and performance optimization, keeping your app up-to-date and meeting user expectations.",
-        links: "",
+        title: (<>Cross-Platform <br />Real Estate Solutions</>),
+        txt: "Our cross-platform apps offer consistent performance, cutting costs while maximizing reach and engagement. We're the top choice for real estate app development partnerships.",
     },
     {
-        title: (<>iOS Store <br />Deployment & Optimization  </>),
-        txt: "We handle the entire App Store submission process, including compliance and optimization, to make sure your app is visible and attracts downloads through effective ASO strategies.",
-        links: "",
+        title: (<>Modular <br />Real Estate Platforms</>),
+        txt: "Leading real estate app developers creating modular platforms for seamless integration, offering flexible solutions tailored to your unique business needs.",
+    }
+];
+
+export const IndustryCtaContent = {
+    title: "Empower Your Real Estate Business with Smart Apps!",
+    text: "Join hands with BitsWits to develop apps that connect buyers, sellers, and agents effortlessly, driving your real estate success.",
+}
+
+export const IndustrySliderContent = {
+    title: "Modern App Solutions for the Evolving Real Estate Industry",
+    text: "As a leading real estate app development company, we create high-impact solutions that fullfil the evolving needs of the real estate industry. Here are the specialized real estate software development services that we offer:",
+}
+
+export const IndustrySliderList = [
+    {
+        img: IndustrySliderIMG01.src,
+        title: "Real Estate  Property Listing Migration",
+        txt: "Effortlessly transition your existing property listings to a new platform with our expert migration services. We ensure a seamless process that protects your data and enhances performance, keeping your real estate operations uninterrupted."
+    },
+    {
+        img: IndustrySliderIMG01.src,
+        title: "Real Estate App Design & Development",
+        txt: "Our real estate app design and development offers the competitive edge your business needs! We create user-friendly apps that attract clients and streamline transactions, placing your brand in the elite class of industry leaders."
+    },
+    {
+        img: IndustrySliderIMG01.src,
+        title: "Real Estate Strategy & Consultancy",
+        txt: "Struggling to maximize your business potential? Don’t worry. All you need is a good strategy and we’re here to provide you with the right consultancy to optimize your performance to achieve business goals!"
+    },
+    {
+        img: IndustrySliderIMG01.src,
+        title: "Integration Services for Real Estate Apps",
+        txt: "Let our expert-vetted real estate app development team create a streamlined workflow for your business by integrating your app with essential tools and systems, ensuring efficiency and seamless operations."
+    }
+];
+
+export const ExpertiseContent = {
+    title: "Essential Features for Real Estate Apps",
+    text: "To excel in the real estate market, your app must include key features that enhance user experience and streamline property transactions. Here are 12 must-have features for a successful real estate app:",
+}
+
+export const ExpertiseList1 = [
+    {
+        title: "Advanced Property Search",
+        txt: "Enable users to search for properties with detailed filters and advanced search options. This helps users find properties that match their criteria quickly, improving user satisfaction and engagement."
+    },
+    {
+        title: "Personalized Property",
+        txt: "Leverage AI to recommend properties based on user preferences and previous searches. This feature increases engagement by showcasing properties tailored to individual needs and interests."
+    },
+    {
+        title: "Secure Payment Integration",
+        txt: "Support secure and diverse payment options for transactions. Robust security measures ensure safe financial operations and build trust with users, essential for retaining clients."
+    },
+    {
+        title: "User Reviews & Ratings",
+        txt: "Allow users to review and rate properties and agents. Authentic reviews boost credibility and influence decisions, helping potential buyers and renters feel confident in their choices."
+    },
+    {
+        title: "Saved Searches & Favorites",
+        txt: "Enable users to save searches and favorite properties for future reference. This feature keeps users engaged and increases the likelihood of return visits and conversions."
+    },
+    {
+        title: "Streamlined Inquiry Process",
+        txt: "Simplify the process for users to inquire about properties or contact agents. A straightforward inquiry system ensures quick responses and enhances user experience."
+    },
+];
+
+export const ExpertiseList2 = [
+    {
+        title: "Real-Time Property Updates",
+        txt: "Provide real-time updates on property availability and changes. Timely information keeps users informed and reduces frustration from outdated listings."
+    },
+    {
+        title: "Push Notifications",
+        txt: "Send notifications about new listings, price changes, and market updates. This feature keeps users engaged and reminds them of properties they are interested in."
+    },
+    {
+        title: "Multi-Language & Currency Support",
+        txt: "Support various languages and currencies to cater to international users. This feature broadens your app’s reach and improves the experience for users from different regions."
+    },
+    {
+        title: "Property Management",
+        txt: "Integrate tools for managing property details, appointments, and documents. Effective property management features ensure a smooth and efficient process for both users and agents."
+    },
+    {
+        title: "Social Media Integration",
+        txt: "Facilitate sharing and logging in via social media accounts. This feature simplifies user interactions and enhances app visibility through social networks."
+    },
+    {
+        title: "Analytics and Reporting Tools",
+        txt: "Utilize an analytics dashboard to track user behavior, property performance, and market trends. Data-driven insights help optimize app functionality and strategy for better results."
     }
 ]
 
-export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
-}
-
-export const caseStudiesList = [
-    {
-        title: "The Practice Pen",
-        description: "We designed Practice Pen as a skill development app that uses video-based learning and gamification. Users can upload practice videos, receive feedback, and compete in interactive challenges to win prizes, making learning fun and engaging.",
-        sliderImages: [slider1],
-    },
-    {
-        title: "Soul Scribe",
-        description: "We created Soul Scribe as a social networking app that serves as a digital diary, allowing users to invite friends and family to contribute to an online journal. Featuring a freemium subscription model with a complimentary family room option.",
-        sliderImages: [slider2],
-    },
-    {
-        title: "Crave Cuisine",
-        description: "We developed Crave Cuisine, a food delivery app that streamlines the process of selecting local eateries and placing orders. Enjoy convenient dining with a wide range of meal choices, all in one easy-to-use app.",
-        sliderImages: [slider3],
-    },
-    {
-        title: "Fitnow",
-        description: "We developed Fitnow as a user-friendly fitness app that allows users to select workouts, set goals, and customize routines with expert guidance. With a simple interface, Fitnow makes tracking progress and achieving fitness goals easy.",
-        sliderImages: [slider4],
-    },
-    {
-        title: "Route Rover",
-        description: "We created Route Rover, a navigation and route-planning app designed to optimize travel. Whether for daily commutes or road trips, users can discover efficient routes, avoid traffic, and explore new destinations with ease.",
-        sliderImages: [slider5],
-    }
-];
-
-export const AppIdeaContent = {
-    title: "Get our Secret iOS App Development Blueprint! ",
-    text: "Book your free discovery call to learn how we build great apps that make it to the top charts!",
-}
-
-export const WhyChooseContent = {
-    title: "Why Partner with BitsWits for Your Next Project?",
-    text: "BitsWits is the go-to iOS app development company, delivering tailored solutions that drive results. Here’s why you should choose BitsWits:"
-}
-
-export const WhyChooseList1 = [
-    {
-        Icon: <WhyChooseIcon03 />,
-        title: (<>Proven <br />Expertise </>),
-        description: "Our iOS app development services have produced 100+ successful apps, showcasing our ability to deliver high-quality, impactful solutions that meet client goals.",
-    },
-    {
-        Icon: <WhyChooseIcon01 />,
-        title: (<>Tailored <br />Solutions </>),
-        description: "We craft custom iOS apps that align with your business objectives, ensuring each project meets specific requirements and drives success.",
-    }
-];
-
-export const WhyChooseList2 = [
-    {
-        Icon: <WhyChooseIcon04 />,
-        title: (<>Advanced <br />Security </>),
-        description: "Our apps incorporate the latest security measures, safeguarding user data and ensuring secure transactions, building trust with your customers.",
-    },
-    {
-        Icon: <WhyChooseIcon02 />,
-        title: (<>Continuous <br />Support </>),
-        description: "We offer ongoing maintenance and support, keeping your app updated with the latest features and innovations, ensuring long-term success.",
-    }
-];
-
-export const ProcessContent = {
-    title: "Our iOS App Development Process",
-    text: "We have a tried and tested iOS app development process that promises seamless execution from discovery to deployment. We utilize cutting-edge tools and technologies to deliver high-quality iOS mobile applications."
-}
-
-export const ProcessTabs = [
-    {
-        title: "Discovery",
-        content: {
-            heading: "Discovery and Planning",
-            description:
-                "In this initial phase, our iOS app developers conduct a comprehensive analysis of your business objectives. Using Figma and Miro, we define the project scope, identify target user personas, and create detailed wireframes. This foundation helps us outline a strategic roadmap, aligning the custom iOS app development process with your business goals, and setting the stage for maximum impact and success.",
-            imgSrc: IMG.src,
-        },
-    },
-    {
-        title: "Wireframing",
-        content: {
-            heading: "Wireframing and Prototyping",
-            description:
-                "Before moving into design, we develop interactive wireframes and prototypes using tools like InVision and Adobe XD. This phase allows us to visualize the app’s structure and flow, gathering early feedback to make necessary adjustments. It helps minimize risks in the design and development stages by clarifying expectations upfront.",
-            imgSrc: IMG.src,
-
-        },
-    },
-    {
-        title: "UI/UX Design",
-        content: {
-            heading: "UI/UX Design",
-            description:
-                "Our talented iPhone app designers use Figma and Sketch to craft visually stunning, intuitive interfaces. We prioritize user experience, focusing on clear navigation and engaging aesthetics. By designing interfaces that resonate with your audience, we enhance user interaction and retention, making your app not only functional but also appealing in the competitive iOS marketplace, ultimately driving user satisfaction and loyalty.",
-            imgSrc: IMG.src,
-
-        },
-    },
-    {
-        title: "Development",
-        content: {
-            heading: "Development",
-            description:
-                "During the development stage, our team uses Swift and Objective-C to build high-performance iOS mobile applications. We integrate robust backend solutions with Firebase and CoreData, emphasizing scalability, performance, and reliability. Our development process delivers an app that meets your specific needs while providing a seamless user experience across all iOS devices, ensuring your application stands out in the market.",
-            imgSrc: IMG.src,
-
-        },
-    },
-    {
-        title: "Testing and QA",
-        content: {
-            heading: "Testing and QA",
-            description:
-                "Using tools like XCTest and TestFlight, our QA team conducts thorough testing to identify and resolve potential issues. This phase covers functionality, security, and performance across various devices. Our rigorous approach to testing ensures a stable and reliable application, providing users with a high-quality experience that enhances satisfaction and minimizes potential disruptions, fostering trust and long-term engagement.",
-            imgSrc: IMG.src,
-
-        },
-    },
-    {
-        title: "Deployment",
-        content: {
-            heading: "Deployment",
-            description:
-                "We manage the App Store submission process, focusing on compliance and optimization. Our team enhances your app's visibility through effective App Store Optimization (ASO) strategies, improving discoverability. This approach facilitates a smooth launch, effectively reaching your target audience and maximizing initial downloads, setting the stage for sustained success in the competitive app market, and ensuring your app makes a significant impact.",
-            imgSrc: IMG.src,
-
-        },
-    },
-    {
-        title: "Support",
-        content: {
-            heading: "Maintenance and Support",
-            description:
-                "After deployment, we provide continuous maintenance and support using tools like Jira. Our services include regular updates, performance improvements, and feature enhancements to keep your app current. As a dedicated iOS app development agency, we help your app adapt to changing market trends, maintaining user engagement and supporting long-term growth, ensuring your app remains relevant and competitive.",
-            imgSrc: IMG.src,
-
-        },
-    },
-];
-
 export const TechnologiesContent = {
-    title: "Hire Top-Tier iOS App Development Agency for Your App",
-    text: (<><p>Choosing BitsWits means partnering with an expert <strong>iOS app development company in the USA</strong> with prior experience building remarkable apps that are bringing a paradigm shift in the industry.  Our skilled <strong>iPhone app developers</strong> deliver high-quality, custom <strong>iOS application development</strong> services tailored to your business needs. Our strong focus on UX helps entrepreneurs attract not only end users for the app but also investors from leading VC firms across the world. </p>
+    title: "Hire Top Developers for Real Estate App Development",
+    text: (<>
+    <p>Our developers are skilled in building <strong>Real Estate Apps </strong> using technologies like React Native, Swift, Kotlin, and Flutter. </p>
+    <p>They deliver solutions for property listings, virtual tours, customer management, and communication tools.  </p>
+    <p>With an emphasis on intuitive design and robust functionality, our team creates apps that connect buyers, sellers, and agents, elevating the <strong>Real Estate</strong> experience for everyone involved. </p>
+    <p>Use the free cost calculator by BitsWits to get a detailed estimate. </p>   
     </>),
 
     TechImg: TechImg.src
@@ -335,6 +269,178 @@ export const TechnologiesIcons = [
         icons: TechIcon08.src,
     },
 ]
+
+export const ProcessContent = {
+    title: "Our Proven Real Estate App Development Process for Custom Solutions",
+    text: "We use a proven method to develop real estate apps that stand out. Our approach is agile, focusing on user experience and scalability to meet your business needs."
+}
+
+export const ProcessTabs = [
+    {
+        title: "Project Planning",
+        content: {
+            heading: "Project Planning",
+            description: "In the project planning stage of our real estate app development services, we define the purpose and parameters of your app. This includes identifying your target audience, selecting the appropriate platforms and tech stack, and outlining key features and functionalities that align with your real estate business goals and user needs.",
+            imgSrc: IMG.src,
+        },
+    },
+    {
+        title: "Design",
+        content: {
+            heading: "Design",
+            description: "As a top-tier real estate app development company, our design process focuses on creating a user-friendly interface with visually appealing elements. We illustrate app features through prototyping and conduct user testing to refine the design, aiming to create a simple, intuitive experience that resonates with buyers, sellers, and agents.",
+            imgSrc: IMG.src,
+        },
+    },
+    {
+        title: "Development",
+        content: {
+            heading: "Development",
+            description: "Our skilled real estate app developers work on both frontend and backend development to build seamless functionality. Using advanced programming languages and API integration, we develop essential real estate features such as property listings, virtual tours, and client management tools. This comprehensive approach creates a robust and engaging app that meets the demands of the modern real estate market.",
+            imgSrc: IMG.src,
+        },
+    },
+    {
+        title: "App Testing",
+        content: {
+            heading: "App Testing",
+            description: "We conduct thorough end-to-end testing with our team of QA experts and real estate app developers, identifying and resolving any issues to deliver a glitch-free app. This comprehensive testing phase carefully vets all functionalities before moving to deployment, ensuring a reliable user experience.",
+            imgSrc: IMG.src,
+        },
+    },
+    {
+        title: "Deployment",
+        content: {
+            heading: "Deployment",
+            description: "We deploy your app to the selected platforms, whether iOS, Android, or both. The deployment process varies for each platform, involving specific guidelines and approval procedures. Our team carefully manages these steps, making the transition from development to live status smooth and fully compliant with all platform requirements.",
+            imgSrc: IMG.src,
+        },
+    },
+    {
+        title: "Launch",
+        content: {
+            heading: "Launch",
+            description: "We launch the beta version or MVP of your app to gather input from real users and identify any remaining issues. This feedback helps pinpoint areas that need improvement before the final release, allowing your real estate app to evolve into a polished, fully functional product.",
+            imgSrc: IMG.src,
+        },
+    },
+    {
+        title: "Support",
+        content: {
+            heading: "Maintenance and Support",
+            description: "We continuously monitor your app’s performance and user feedback to address any issues. Our custom real estate development services include regular updates, bug fixes, and enhancements, keeping your app aligned with platform upgrades and technological advancements for a smooth, up-to-date user experience.",
+            imgSrc: IMG.src,
+        },
+    }
+];
+
+export const WhyChooseContent = {
+    title: "Why Partner with BitsWits for Your Next Project?",
+    text: "BitsWits is a market-leading real estate app development company that delivers innovative solutions, seamlessly integrating advanced technologies for exceptional results."
+}
+
+export const WhyChooseList1 = [
+    {
+        Icon: <WhyChooseIcon03 />,
+        title: (<>Proven Success <br />in Real Estate Apps</>),
+        description: "BitsWits delivers real estate apps that make an impact, backed by a portfolio showcasing significant user engagement and success.",
+    },
+    {
+        Icon: <WhyChooseIcon01 />,
+        title: (<>Expert Real Estate<br /> App Developers</>),
+        description: "Our team specializes in real estate mobile app development, providing tailored solutions that meet your needs with precision and timeliness.",
+    },    
+];
+
+export const WhyChooseList2 = [
+    {
+        Icon: <WhyChooseIcon04 />,
+        title: (<>Custom Solutions<br /> for Your Business</>),
+        description: "We design real estate apps that reflect your business goals, integrating features that align with your unique requirements.",
+    },
+    {
+        Icon: <WhyChooseIcon02 />,
+        title: (<>Innovative User<br /> Experience Design</>),
+        description: "Our real estate app development firm focuses on creating engaging, user-friendly experiences that enhance satisfaction and drive interaction.",
+    }
+];
+
+export const OffersContent = {
+    title: "Types of Real Estate Apps We Develop",
+    text: "As a leading real estate app development company, we offer tailored solutions for various real estate needs, focusing on functionality and user experience.",
+}
+
+export const OffersTabs = [
+
+    {
+        title: "Agent & Broker Platforms",
+        content: {
+            heading: "Agent & Broker Platforms",
+            description: "Designed for real estate professionals, our apps streamline management of listings, client interactions, and transactions. Key features include CRM integration, appointment scheduling, and performance analytics. These platforms boost efficiency and help agents manage their business effectively.",
+        },
+    },
+    {
+        title: "Real Estate Marketplace Apps",
+        content: {
+            heading: "Real Estate Marketplace Apps",
+            description: "Our marketplace apps support multiple agents or brokers listing properties on a single platform. Features include vendor management, property categorization, and secure payment processing. These apps facilitate transactions and expand market reach for real estate businesses.",
+        },
+    },
+    {
+        title: "Rental Management Apps",
+        content: {
+            heading: "Rental Management Apps",
+            description: "Focused on property management, our rental apps include lease tracking, maintenance requests, and tenant communication. Automated notifications and document management keep property managers organized, enhancing tenant satisfaction and operational efficiency.",
+        },
+    },
+    {
+        title: "Virtual Tour Apps",
+        content: {
+            heading: "Virtual Tour Apps",
+            description: "Our virtual tour apps enable remote property exploration through 360-degree views and interactive floor plans. Features include high-quality imagery, guided tours, and easy navigation. These apps provide an immersive experience, aiding buyers in making informed decisions without visiting properties in person.",
+        },
+    },
+    {
+        title: "Investment Property Analysis Apps",
+        content: {
+            heading: "Investment Property Analysis Apps",
+            description: "For investors, our apps offer tools for evaluating potential investments. Features include ROI calculators, market trend analysis, and property valuation tools. These apps help investors make informed decisions and identify profitable opportunities in the real estate market.",
+        },
+    },
+];
+
+export const FuelingContent1 = {
+    title: "Benefits of a Real Estate Mobile App",
+    text: "Building a real estate app enhances property search efficiency, increases market visibility, and strengthens client-agent interactions. It simplifies property management and provides valuable insights for better decision-making.",
+    FuelingImg1: FuelingImg1.src
+}
+
+export const FuelingList1 = [
+    {
+        title: "Enhanced User Engagement",
+        text: "Real estate app solutions offer personalized property dealing recommendations and updates based on user preferences. This customization keeps users engaged and returning, increasing the chance of finding their ideal property."
+    },
+    {
+        title: "Simplified Property Searches",
+        text: "Real estate app development services include advanced search filters and interactive maps that streamline property searches. Users can easily refine their searches and view detailed listings, making it easier to find properties that meet their criteria."
+    },
+    {
+        title: "Broadened Market Reach",
+        text: "A well-designed app from a real estate app development company showcases a diverse range of properties to a larger audience. This expanded visibility helps attract more potential buyers and renters, boosting lead generation and market reach."
+    },
+    {
+        title: "Strengthened Client Relationships",
+        text: "Real estate apps facilitate smooth communication between agents and clients. Features like appointment scheduling and client management tools improve interactions and support, fostering stronger client relationships."
+    },
+    {
+        title: "Efficient Property Management",
+        text: "For property managers, real estate app solutions offer features for managing leases, maintenance requests, and tenant communications efficiently. Automated notifications and easy document access keep operations organized and enhance tenant satisfaction."
+    },
+    {
+        title: "Data-Driven Insights",
+        text: "Real estate apps provide valuable analytics on user behavior and property trends. This data helps real estate professionals make informed decisions, optimize marketing strategies, and gain insights into market dynamics."
+    }
+];
 
 export const TestimonialContent = {
     title: "Client Testimonials",
@@ -377,107 +483,45 @@ export const TestimonialSLIDES = [
     }
 ]
 
-export const RisksContent = {
-    title: (<>Validate Your App <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} />Idea with MVP Development & Save <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> Big on Time & Money!</>),
-    text: "Develop your app concept cost-effectively with Hybrid frameworks!"
-}
-
-export const OffersContent = {
-    title: "Custom iOS App Development Services for Multi-Platforms",
-    text: "We specialize in creating custom iOS app development services across multiple platforms, providing seamless integration and exceptional user experiences. Our expertise covers a range of Apple devices, delivering tailored iPhone app solutions for your business needs.",
-}
-
-export const OffersTabs = [
-
-    {
-        title: "iOS App Development for Smartphones",
-        content: {
-            heading: "iOS App Development for Smartphones",
-            description:
-                "Our iOS app developers design high-performance iOS apps for iPhones, focusing on user engagement and seamless functionality. Using technologies like Swift and Objective-C, our apps are optimized for various screen sizes and iOS versions. We prioritize intuitive interfaces that enhance user satisfaction and deliver smooth performance. Our custom solutions cater to your business goals, providing a user-friendly experience that drives engagement and retention.",
-        },
-    },
-
-    {
-        title: "iOS App Development for iPad",
-        content: {
-            heading: "iOS App Development for iPad",
-            description:
-                "Our custom iOS apps for iPads leverage the larger screen to offer enhanced functionality and immersive experiences. We utilize SwiftUI and UIKit to create responsive, intuitive apps tailored for business, education, and entertainment. Our development maximizes engagement, providing a seamless and enjoyable user experience. The result is a powerful app that meets the specific needs of iPad users.",
-        },
-    },
-
-    {
-        title: "iOS App Development for Apple Watch",
-        content: {
-            heading: "iOS App Development for Apple Watch",
-            description:
-                "We extend our custom iOS app development services to Apple Watch, focusing on creating apps that deliver essential features and notifications directly to your wrist. Using WatchKit and Swift, we optimize user interaction for the smaller screen, allowing quick and efficient access to information. Our apps seamlessly integrate with iPhone applications, enhancing overall user experience and engagement through convenience and accessibility.",
-
-        },
-    },
-    {
-        title: "iOS App Development for Apple TV",
-        content: {
-            heading: "iOS App Development for Apple TV",
-            description:
-                "Our Apple TV apps are designed to deliver engaging content and interactive experiences on the big screen. We utilize tvOS and UIKit to optimize navigation and functionality, creating intuitive user interfaces. By leveraging Apple TV's capabilities, we develop immersive apps tailored for entertainment and media consumption, providing users with a seamless experience that enhances viewing pleasure and interaction.",
-
-        },
-    },
-    {
-        title: "iOS App Development for macOS",
-        content: {
-            heading: "iOS App Development for macOS",
-            description:
-                "As an iPhone app development company, we create custom iOS apps for macOS, focusing on seamless integration within the Apple ecosystem. Our development uses Swift and AppKit, making apps responsive and compatible across Mac devices. We design apps that enhance productivity and user experience, catering to both business and personal use. Our solutions maximize the capabilities of macOS, delivering functionality and aesthetics that users appreciate.",
-
-        },
-    },
-];
-
-export const FuelingContent = {
-    title: "Integrating Cutting-Edge Technologies in iOS App Development",
-    text: "We leverage emerging technologies to build impressive iOS apps, offering tailored solutions across various industries. Discover how these technologies enhance user experiences and boost app functionality.",
-    subtitle: "Launch a High-Performance iOS App with Flawless User Experience!",
-    subtext: "Our developers can build intuitive, engaging apps that are designed for maximum performance and scalability.",
+export const FuelingContent2 = {
+    title: "Integrating Cutting-Edge Technologies with Real Estate App Development",
+    text: "At BitsWits, we harness advanced technologies to build real estate apps that offer unmatched functionality and user experience. From virtual reality to AI-driven insights, we ensure your app stands out in the competitive real estate market.",
+    subtitle: "Explore Next-Generation Real Estate Technologies",
+    subtext: "Schedule a consultation to see how our real estate app development services can help you scale your real estate business and attract more clients.",
     FuelingImg: FuelingImg.src,
     FuelingImg1: FuelingImg1.src
 }
 
-export const FuelingList = [
+export const FuelingList2 = [
     {
-        title: "AI & ML",
-        text: "We use AI and ML to develop self-learning, adaptive apps that personalize user experiences. From healthcare to finance,AI & ML technologies enable predictive analytics and automation, boosting engagement and streamlining operations."
+        title: "AI for Real Estate",
+        text: "We use AI to enhance property search and recommendations. AI algorithms analyze user preferences and behaviors to suggest properties that match their needs. Chatbots provide instant responses to inquiries, improving customer service and streamlining the property-buying process."
     },
     {
-        title: "Augmented Reality (AR)",
-        text: "AR revolutionizes user interactions by overlaying digital elements in real-world settings. In retail and real estate, users can visualize products or properties, increasing engagement and driving conversions through immersive features."
+        title: "VR for Property Tours",
+        text: "Our VR technology allows users to take immersive virtual tours of properties. Prospective buyers can explore homes in 360 degrees from anywhere, reducing the need for physical visits. This technology helps clients experience properties in a lifelike way, increasing engagement and interest."
     },
     {
-        title: "Blockchain",
-        text: "Blockchain strengthens security and transparency, vital for finance and supply chains. It secures transactions and maintains data integrity, reducing fraud and building trust, making your app more reliable and robust."
+        title: "AR for Property Visualization",
+        text: "AR technology enables users to visualize how different design elements or furniture would look in a property. This feature helps potential buyers see the potential of a space, making it easier to make informed decisions and enhancing the overall property viewing experience."
     },
     {
-        title: "Cloud",
-        text: "Cloud technology offers scalable infrastructure, perfect for on-demand and fitness apps. It ensures seamless data storage and real-time updates, providing a responsive user experience that grows with your business."
+        title: "Blockchain for Secure Transactions",
+        text: "Blockchain technology enhances transaction security and transparency in real estate deals. By using smart contracts, we ensure that agreements are executed automatically when conditions are met, reducing fraud and increasing trust in the transaction process."
     },
     {
-        title: "Virtual Reality (VR)",
-        text: "VR creates immersive, interactive experiences in education and entertainment. Users engage in virtual simulations, enhancing learning and interaction, and delivering captivating app experiences that keep users coming back."
+        title: "Cloud Solutions for Scalability",
+        text: "Cloud technology provides a scalable and reliable infrastructure for your real estate app. It supports high traffic volumes, offers secure data storage, and ensures that your app performs smoothly even during peak usage times. This technology enhances app reliability and user experience."
+    },
+    {
+        title: "Data Analytics for Market Insights",
+        text: "We integrate advanced data analytics tools to provide valuable insights into market trends and user behavior. These insights help you make data-driven decisions, optimize your marketing strategies, and better understand client needs to stay ahead in the real estate market."
     }
 ];
 
-export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
-    title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
-    CtaEstimatedImg: CtaEstimatedImg.src
-}
-
 export const TechStackContent = {
-    title: "Our Tech Stack For iOS App Development",
-    text: "BitsWits, as a leading iOS app development agency, has complete control over the perfect tech stack for iOS app development. ",
+    title: "Our Real Estate App Development Tech Stack",
+    text: "Our advanced tech stack ensures that your real estate app is powerful, reliable, and scalable.",
 }
 
 export const TechStackTabs = [
@@ -485,27 +529,27 @@ export const TechStackTabs = [
         title: "Frontend",
         content: [
             {
-                heading: "SwiftUI",
+                heading: "React.js",
                 img: TAB1_1.src,
             },
             {
-                heading: "UIKit",
+                heading: "Angular",
                 img: TAB1_2.src,
             },
             {
-                heading: "Swift",
+                heading: "Vue.js",
                 img: TAB1_3.src,
             },
             {
-                heading: "Objective-C",
+                heading: "HTML5",
                 img: TAB1_4.src,
             },
             {
-                heading: "Combine",
+                heading: "CSS3",
                 img: TAB1_5.src,
             },
             {
-                heading: "React Native",
+                heading: "JavaScript",
                 img: TAB1_6.src,
             },
         ],
@@ -518,23 +562,23 @@ export const TechStackTabs = [
                 img: TAB2_1.src,
             },
             {
-                heading: "Python (Flask)",
-                img: TAB2_3.src,
+                heading: "Python (Django)",
+                img: TAB2_2.src,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_5.src,
+                img: TAB2_3.src,
             },
             {
-                heading: "Firebase",
+                heading: "Java (Spring Boot)",
                 img: TAB2_4.src,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_6.src,
+                img: TAB2_5.src,
             },
             {
-                heading: "GraphQL",
+                heading: "PHP (Laravel)",
                 img: TAB2_6.src,
             },
         ],
@@ -544,14 +588,10 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Swift (iOS)",
-                img: TAB3_6.src,
-            },
-            {
-                heading: "Kotlin Multiplatform",
                 img: TAB3_1.src,
             },
             {
-                heading: "Flutter",
+                heading: "Kotlin (Android)",
                 img: TAB3_2.src,
             },
             {
@@ -559,46 +599,50 @@ export const TechStackTabs = [
                 img: TAB3_3.src,
             },
             {
-                heading: "Xamarin",
+                heading: "Flutter",
                 img: TAB3_4.src,
             },
             {
-                heading: "Ionic",
+                heading: "Xamarin",
                 img: TAB3_5.src,
+            },
+            {
+                heading: "Ionic",
+                img: TAB3_6.src,
             },
         ],
     },
     {
-        title: "Database Management",
+        title: "Database",
         content: [
             {
-                heading: "CoreData",
+                heading: "MySQL",
                 img: TAB4_1.src,
-            },
-            {
-                heading: "Realm",
-                img: TAB4_1.src,
-            },
-            {
-                heading: "SQLite",
-                img: TAB4_2.src,
-            },
-            {
-                heading: "Firebase Realtime Database",
-                img: TAB4_3.src,
             },
             {
                 heading: "PostgreSQL",
+                img: TAB4_2.src,
+            },
+            {
+                heading: "MongoDB",
+                img: TAB4_3.src,
+            },
+            {
+                heading: "SQLite",
                 img: TAB4_4.src,
             },
             {
-                heading: "MySQL",
-                img: TAB4_4.src,
+                heading: "Redis",
+                img: TAB4_5.src,
+            },
+            {
+                heading: "Oracle",
+                img: TAB4_6.src,
             },
         ],
     },
     {
-        title: "Cloud",
+        title: "Cloud Platforms",
         content: [
             {
                 heading: "AWS (Amazon Web Services)",
@@ -613,44 +657,44 @@ export const TechStackTabs = [
                 img: TAB5_3.src,
             },
             {
-                heading: "Firebase",
+                heading: "Heroku",
                 img: TAB5_4.src,
             },
             {
-                heading: "Heroku",
+                heading: "DigitalOcean",
                 img: TAB5_5.src,
             },
             {
-                heading: "DigitalOcean",
+                heading: "Firebase",
                 img: TAB5_6.src,
             },
         ],
     },
     {
-        title: "Testing & QA",
+        title: "Integration Services",
         content: [
             {
-                heading: "XCTest",
+                heading: "Google Maps API",
                 img: TAB6_1.src,
             },
             {
-                heading: "TestFlight",
+                heading: "MLS Integration",
                 img: TAB6_2.src,
             },
             {
-                heading: "Appium",
+                heading: "Property Listing APIs",
                 img: TAB6_3.src,
             },
             {
-                heading: "Firebase Test Lab",
+                heading: "Payment Gateways (Stripe, PayPal, etc.)",
                 img: TAB6_4.src,
             },
             {
-                heading: "JUnit",
+                heading: "CRM Systems",
                 img: TAB6_5.src,
             },
             {
-                heading: "Selenium",
+                heading: "Data Analytics Tools",
                 img: TAB6_6.src,
             },
         ],
@@ -733,38 +777,27 @@ export const FaqsContent = {
 
 export const FaqsList = [
     {
-        title: "What programming languages are used in iOS app development?",
-        txt: "iOS app development primarily uses Swift and Objective-C. Swift, developed by Apple, is modern and user-friendly, while Objective-C offers robust capabilities. Choosing an iOS app development company ensures that experienced iOS app developers utilize these languages effectively, creating high-quality, responsive apps tailored to your business needs."
+        title: "What are the key features of a real estate app?",
+        txt: "A real estate app should include features like property listings with detailed descriptions, high-quality images, and interactive maps. Additionally, advanced search filters, virtual tours, and real-time notifications enhance user experience. Integrating CRM tools and secure transaction options can also improve functionality and user satisfaction."
     },
     {
-        title: "Can you launch an iOS app for free?",
-        txt: `Launching an iOS app typically involves costs such as development, App Store fees, and potential marketing expenses. While development isn’t free, using an experienced iPhone application development company like BitsWits ensures efficient use of resources, reducing overall costs. `
+        title: "How much does custom real estate app development cost?",
+        txt: "The cost of custom real estate app development varies based on complexity, features, and design requirements. Typically, development ranges from $30,000 to $150,000. Factors such as the app’s functionality, integration needs, and the development company’s expertise influence the final cost. For a precise estimate, discuss your needs with our real estate app development company."
     },
     {
-        title: "What are the benefits of hiring an iOS app development company?",
-        txt: "Hiring an iOS app development company provides access to experienced iOS app developers who understand the intricacies, unlike freelance app developers. They offer custom solutions, ensuring your app meets your business needs. Reputable iOS app development companies like BitsWits also take care of the ongoing support and updates, enhancing the app’s performance and user experience over time."
+        title: "What is the typical timeline for developing a real estate app?",
+        txt: "Developing a real estate app usually takes between three to six months. The timeline depends on the app’s complexity, the number of features, and the development team’s efficiency. Our real estate app development services use agile methodologies to streamline the process and ensure timely delivery."
     },
     {
-        title: "How long does it take to develop an iOS app?",
-        txt: "The time required for iOS app development varies based on the app’s complexity, features, and design. Typically, a basic app may take 3-6 months, while more complex apps can take up to a year. Partnering with an experienced iPhone application development company can streamline the process and promise timely delivery."
+        title: "What does your real estate app development company offer?",
+        txt: "We provide end-to-end real estate app development solutions, including design, development, and ongoing support. Our services cover everything from UI/UX design to backend integration and data security. We focus on creating apps that are tailored to your business needs and enhance user engagement."
     },
     {
-        title: "What should I look for when choosing an iOS app development company?",
-        txt: "When selecting an iOS app development company, consider their portfolio, client testimonials, and expertise in your industry. Look for an iOS app development team that offers comprehensive iOS app development services, including design, development, testing, and support. Effective communication and a clear understanding of your business goals are also crucial factors for keeping all the stakeholders involved and in check."
-    },
-    {
-        title: "How much does iOS app development cost?",
-        txt: "The cost of iOS app development depends on factors such as app complexity, features, and design requirements. A basic app may range from $10,000 to $50,000, while more advanced apps can exceed $100,000. Discuss your app development budget and requirements with a reputable iOS app development company to get an accurate estimate."
-    },
-    {
-        title: "What are the key features of successful iOS apps?",
-        txt: "Successful iOS apps typically include user-friendly interfaces, seamless navigation, high performance, and robust security measures. They often integrate advanced technologies like AI and AR to enhance user experience. Partnering with a professional iOS app development company can help you integrate such intricate features effectively, making your app competitive in the market."
-    },
-    {
-        title: "How do I maintain and update my iOS app post-launch?",
-        txt: "After launching your iOS app, regular updates and maintenance are crucial for top-notch performance and impregnable security. Hire an iOS app development company like BitsWits that offers ongoing support and services, including bug fixes, updates for new iOS versions, and feature enhancements to keep your app relevant and functional for the end users."
-    },
-]
+        title: "How can I get started with developing a real estate app?",
+        txt: "To start with custom real estate app development, book a consultation with our team. We’ll discuss your project requirements, goals, and provide a detailed proposal. Our experts will guide you through each step, from planning to launch, ensuring a smooth development process."
+    }
+];
+
 
 export const BlogsContent = {
     title: "Our Related Blog Posts",
@@ -795,6 +828,8 @@ export const BlogsList = [
         date: "July 10,2024"
     }
 ]
+
+
 
 
 

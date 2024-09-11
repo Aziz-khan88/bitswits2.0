@@ -2,7 +2,7 @@ import Blogs from "@/src/app/services/blogs";
 import Faqs from "@/src/app/services/faqs";
 import Fueling from "@/src/app/services/fueling";
 import IdeaCta from "@/src/app/services/ideacta";
-import Location from "@/src/app/services/location";
+
 import Offers from "@/src/app/services/offers";
 import Process from "@/src/app/services/process";
 import TechStack from "@/src/app/services/techstack";
@@ -48,7 +48,7 @@ export default function Home() {
             <Fueling data={FuelingContent} list={FuelingList} />
             <Faqs data={FaqsContent} list={FaqsList} />
             <Blogs data={BlogsContent} list={BlogsList} />
-            <Location />
+            
         </>
     );
 }

@@ -12,7 +12,7 @@ import {
   TechStackContent, IndustriesContent, IndustriesList, 
   IdeaCtaContent, FaqsContent, FaqsList, BlogsContent,
   BlogsList
-} from "@/src/app/real-estate-app-development-company/data/data";
+} from "@/src/app/social-media-app-development-company/data/data";
 
 import Banner from "@/src/app/industry/banner";
 import WhyChoose from "@/src/app/services/whychoose";
