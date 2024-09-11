@@ -2,8 +2,7 @@
 import Image from "next/image"
 
 // Bannar Images
-import BannerLogos from "media/services/bannerLogo.webp";
-import BanngBg from "media/services/bgBanner.webp";
+import BanngBg from "media/industry/bgBanner.webp";
 
 //========= CaseStudy Images
 import slider1 from "media/newmobileapp/slider-2.png";
@@ -45,6 +44,7 @@ import RisksIMG02 from "media/services/customImg02.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
+import FuelingImg1 from "media/industry/FuelingImg.webp"
 
 //========= CtaEstimated Images
 import CtaEstimatedImg from "media/services/ctaImg.webp"
@@ -57,7 +57,6 @@ import TAB1_4 from "media/services/tech/tab1/01.webp";
 import TAB1_5 from "media/services/tech/tab1/02.webp";
 import TAB1_6 from "media/services/tech/tab1/03.webp";
 import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/02.webp";
 import TAB2_3 from "media/services/tech/tab2/03.webp";
 import TAB2_4 from "media/services/tech/tab2/04.webp";
 import TAB2_5 from "media/services/tech/tab2/05.webp";
@@ -72,8 +71,6 @@ import TAB4_1 from "media/services/tech/tab4/01.webp";
 import TAB4_2 from "media/services/tech/tab4/02.webp";
 import TAB4_3 from "media/services/tech/tab4/03.webp";
 import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/03.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
 import TAB5_1 from "media/services/tech/tab5/01.webp";
 import TAB5_2 from "media/services/tech/tab5/02.webp";
 import TAB5_3 from "media/services/tech/tab5/03.webp";
@@ -107,49 +104,45 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
 export const BannerData = {
-    subtitle: "Quickly – Efficiently – Effortlessly",
-    title: "Leading Android App Development Company",
-    content: "BitsWits is a premier Android app development company, providing comprehensive services for fast-growing brands and enterprises. Our clients have collectively raised over $100 million and consistently rank at the top of the Google Play Store charts!",
-    BannerLogos: BannerLogos.src,
+    title: "Scalable Real Estate App Development Company for Growing Property Markets",
+    content: "BitsWits is a top-tier real estate app development company, empowering startups and SMBs to create feature-rich and scalable apps for iOS and Android. We deliver user-centric, custom real estate app solutions that help clients expand their reach, simplify property management, and make informed decisions.",
     BanngBg: BanngBg.src,
-    fromtitle: "Let’s Discuss Your App Idea",
-    fromtext: "Share your app business objectives with our experts and create your custom app."
 }
 
 export const CuttingedgeContent = {
-    title: "Custom Android App Development for Visionary Entrepreneurs",
-    text: "We deliver bespoke Android app development services for startups and SMEs, enabling them to break into the market swiftly and grow with a competitive edge.",
+    title: "Cutting-Edge iOS App Development Services for Ambitious Entrepreneurs",
+    text: "We offer custom iOS app development services for ambitious startups and SMEs to quickly penetrate the market and scale with a first mover advantage. ",
 }
 
 export const CuttingedgeList = [
     {
-        title: (<>Android App  <br />Strategy & Consulting</>),
-        txt: "Our experts offer strategic guidance to outline your app's goals, identify your target audience, and position your app effectively in the market, ensuring alignment with your business objectives and current trends.",
+        title: (<>iOS App  <br />Strategy & Consulting</>),
+        txt: "We provide strategic consulting to define app goals, target audience, and market positioning, ensuring your iOS app aligns with business objectives and market trends for maximum impact.",
         links: "",
     },
     {
-        title: (<>Android UI/UX  <br />Design </>),
-        txt: "Our UI/UX designers craft intuitive, eye-catching user interfaces that boosts user interaction and satisfaction. We keep a strong focus on delivering unparalleled user experiences while taking the aesthetic vibes up.",
+        title: (<>iOS UI/UX  <br />Design </>),
+        txt: "We create intuitive and visually appealing UI/UX designs that enhance user engagement and satisfaction, making your app stand out with exceptional look and feel!",
         links: "",
     },
     {
-        title: (<>Android App <br />Development </>),
-        txt: "Our experienced Android app developers build fully-functional and high-performance Android apps that deliver an exceptional user experience and provide you with an abundance of resources for customer success.",
+        title: (<>iOS App <br />Development </>),
+        txt: "Our skilled iOS app developers use the latest technologies and best practices to build robust, high-performance iOS apps that meet your business needs and provide an outstanding user experience.",
         links: "",
     },
     {
-        title: (<>Android App <br />Testing & QA</>),
-        txt: "We conduct thorough testing and quality assurance to detect and resolve issues proactively. Our top priority is to make sure your app runs seamlessly and provides a flawless experience across all Android devices.",
+        title: (<>iOS App <br />Testing </>),
+        txt: "Our expert QAs run tests to identify and fix issues, making sure your app operates smoothly on all iOS devices like iPad, iPhone, and Apple Watch.",
         links: "",
     },
     {
-        title: (<>Android App <br />Maintenance & Support</>),
-        txt: "We provide continuous maintenance and support, including updates, bug fixes, and performance enhancements, to keep your Android app relevant for the end users and wow them with unreal user experience.",
+        title: (<>iOS App <br />Maintenance & Support</>),
+        txt: "We offer ongoing maintenance and support services, including updates, bug fixes, and performance optimization, keeping your app up-to-date and meeting user expectations.",
         links: "",
     },
     {
-        title: (<>Google Play Store <br />Deployment & Optimization  </>),
-        txt: "We manage the entire Google Play Store submission process for your Android app, including compliance and optimizing for visibility, helping your app attract more downloads with effective ASO techniques.",
+        title: (<>iOS Store <br />Deployment & Optimization  </>),
+        txt: "We handle the entire App Store submission process, including compliance and optimization, to make sure your app is visible and attracts downloads through effective ASO strategies.",
         links: "",
     }
 ]
@@ -188,102 +181,102 @@ export const caseStudiesList = [
 ];
 
 export const AppIdeaContent = {
-    title: "Discover Our Android App Development Playbook!",
-    text: "Claim your free consultation to learn how we craft high-impact apps that stand out and succeed in the Google Play Store.",
+    title: "Get our Secret iOS App Development Blueprint! ",
+    text: "Book your free discovery call to learn how we build great apps that make it to the top charts!",
 }
 
 export const WhyChooseContent = {
     title: "Why Partner with BitsWits for Your Next Project?",
-    text: "BitsWits excels in Android app development with solutions that make a real impact. Here’s why we lead the pack:"
+    text: "BitsWits is the go-to iOS app development company, delivering tailored solutions that drive results. Here’s why you should choose BitsWits:"
 }
 
 export const WhyChooseList1 = [
     {
         Icon: <WhyChooseIcon03 />,
-        title: (<>Elite <br />Expertise </>),
-        description: "Our track record of 100+ successful Android apps highlights our capability to deliver standout solutions that drive business growth.",
+        title: (<>Proven <br />Expertise </>),
+        description: "Our iOS app development services have produced 100+ successful apps, showcasing our ability to deliver high-quality, impactful solutions that meet client goals.",
     },
     {
         Icon: <WhyChooseIcon01 />,
-        title: (<>Innovative <br />Design </>),
-        description: "Our approach focuses on creating compelling, intuitive experiences that captivate users and boost engagement.",
+        title: (<>Tailored <br />Solutions </>),
+        description: "We craft custom iOS apps that align with your business objectives, ensuring each project meets specific requirements and drives success.",
     }
 ];
 
 export const WhyChooseList2 = [
     {
         Icon: <WhyChooseIcon04 />,
-        title: (<>Cutting-Edge <br />Security </>),
-        description: "We employ state-of-the-art security features to protect your app and user data, ensuring a secure and trustworthy experience.",
+        title: (<>Advanced <br />Security </>),
+        description: "Our apps incorporate the latest security measures, safeguarding user data and ensuring secure transactions, building trust with your customers.",
     },
     {
         Icon: <WhyChooseIcon02 />,
-        title: (<>Dedicated <br />Support </>),
-        description: "From launch to long-term success, our ongoing support and updates keep your app at the forefront of technology and performance.",
+        title: (<>Continuous <br />Support </>),
+        description: "We offer ongoing maintenance and support, keeping your app updated with the latest features and innovations, ensuring long-term success.",
     }
 ];
 
 export const ProcessContent = {
-    title: "Our Android App Development Process",
-    text: "We develop top-notch Android apps by following an agile Android app development process. Our expert developers use the latest tools and technologies to make sure we deploy a game-changing app for you!"
+    title: "Our iOS App Development Process",
+    text: "We have a tried and tested iOS app development process that promises seamless execution from discovery to deployment. We utilize cutting-edge tools and technologies to deliver high-quality iOS mobile applications."
 }
 
 export const ProcessTabs = [
     {
         title: "Discovery",
         content: {
-            heading: "Discovery & Blueprinting",
+            heading: "Discovery and Planning",
             description:
-                "We kick off with a deep dive into your business goals. Using tools like Miro and Balsamiq, we sketch out the project’s blueprint and identify key user personas. This initial groundwork helps us understand your needs and set the stage for a strategic plan that aligns perfectly with your business vision, ensuring a solid foundation for your Android app.",
+                "In this initial phase, our iOS app developers conduct a comprehensive analysis of your business objectives. Using Figma and Miro, we define the project scope, identify target user personas, and create detailed wireframes. This foundation helps us outline a strategic roadmap, aligning the custom iOS app development process with your business goals, and setting the stage for maximum impact and success.",
             imgSrc: IMG.src,
         },
     },
     {
         title: "Wireframing",
         content: {
-            heading: "Design, Wireframing & Planning, & Mockups",
+            heading: "Wireframing and Prototyping",
             description:
-                "After defining the blueprint, we move on to creating detailed wireframes and planning the user journey. This step involves mapping out the app's architecture and flow, providing a clear visual guide for the development process. This meticulous planning ensures every aspect of the app is well thought out before moving forward.",
+                "Before moving into design, we develop interactive wireframes and prototypes using tools like InVision and Adobe XD. This phase allows us to visualize the app’s structure and flow, gathering early feedback to make necessary adjustments. It helps minimize risks in the design and development stages by clarifying expectations upfront.",
             imgSrc: IMG.src,
 
         },
     },
     {
-        title: "Designing",
+        title: "UI/UX Design",
         content: {
-            heading: "Designing the User Interface",
+            heading: "UI/UX Design",
             description:
-                "Our creative minds get to work with tools like Adobe XD and Figma, designing Android interfaces that are visually stunning and intuitive. We focus on creating a seamless user experience with clear navigation and engaging visuals, ensuring your app stands out in the crowded Android ecosystem and keeps users engaged.",
+                "Our talented iPhone app designers use Figma and Sketch to craft visually stunning, intuitive interfaces. We prioritize user experience, focusing on clear navigation and engaging aesthetics. By designing interfaces that resonate with your audience, we enhance user interaction and retention, making your app not only functional but also appealing in the competitive iOS marketplace, ultimately driving user satisfaction and loyalty.",
             imgSrc: IMG.src,
 
         },
     },
     {
-        title: "App Development",
+        title: "Development",
         content: {
-            heading: "App Development",
+            heading: "Development",
             description:
-                "In the development phase, our experts use Kotlin and Java to bring your app to life. We integrate backend solutions with Firebase and Room, ensuring that your app is fast, scalable, and reliable. This stage is all about crafting an app that performs flawlessly across all Android devices, setting it apart in the competitive market.",
+                "During the development stage, our team uses Swift and Objective-C to build high-performance iOS mobile applications. We integrate robust backend solutions with Firebase and CoreData, emphasizing scalability, performance, and reliability. Our development process delivers an app that meets your specific needs while providing a seamless user experience across all iOS devices, ensuring your application stands out in the market.",
             imgSrc: IMG.src,
 
         },
     },
     {
-        title: "Testing",
+        title: "Testing and QA",
         content: {
-            heading: "Testing and Quality Assurance",
+            heading: "Testing and QA",
             description:
-                "With tools like Espresso and Firebase Test Lab, we rigorously test your app to identify and fix any issues. Our comprehensive testing covers functionality, security, and performance across a range of devices, ensuring your app is rock-solid and ready for users. This thorough testing phase guarantees a smooth user experience and helps build trust with your audience.",
+                "Using tools like XCTest and TestFlight, our QA team conducts thorough testing to identify and resolve potential issues. This phase covers functionality, security, and performance across various devices. Our rigorous approach to testing ensures a stable and reliable application, providing users with a high-quality experience that enhances satisfaction and minimizes potential disruptions, fostering trust and long-term engagement.",
             imgSrc: IMG.src,
 
         },
     },
     {
-        title: "Launch",
+        title: "Deployment",
         content: {
-            heading: "Launch Preparation & App Store Optimization (ASO)",
+            heading: "Deployment",
             description:
-                "Before launching, we focus on preparing your app for the Google Play Store submission with precision, ensuring compliance and optimization. Our ASO strategies are designed to boost your app’s visibility and attract crucial downloads. This step is all about maximizing your app's potential to make a significant impact upon release.",
+                "We manage the App Store submission process, focusing on compliance and optimization. Our team enhances your app's visibility through effective App Store Optimization (ASO) strategies, improving discoverability. This approach facilitates a smooth launch, effectively reaching your target audience and maximizing initial downloads, setting the stage for sustained success in the competitive app market, and ensuring your app makes a significant impact.",
             imgSrc: IMG.src,
 
         },
@@ -291,9 +284,9 @@ export const ProcessTabs = [
     {
         title: "Support",
         content: {
-            heading: " Post-Launch Support & Continuous Improvement",
+            heading: "Maintenance and Support",
             description:
-                "After launch, we provide ongoing support and updates using tools like Jira and GitHub. From regular enhancements to performance tweaks, we ensure your app stays fresh and relevant. Our continuous improvement approach helps your app adapt to market changes and continue thriving, keeping you ahead in the competitive Android app landscape. ",
+                "After deployment, we provide continuous maintenance and support using tools like Jira. Our services include regular updates, performance improvements, and feature enhancements to keep your app current. As a dedicated iOS app development agency, we help your app adapt to changing market trends, maintaining user engagement and supporting long-term growth, ensuring your app remains relevant and competitive.",
             imgSrc: IMG.src,
 
         },
@@ -301,8 +294,8 @@ export const ProcessTabs = [
 ];
 
 export const TechnologiesContent = {
-    title: "Hire Premier Android App Development Agency for Growth & Sustainability",
-    text: (<><p>BitsWits is a leading <strong>Android app development</strong> company in USA, and partnering with us guarantees high-quality apps for unimaginable business growth! Our skilled <strong>Android app developers</strong> create custom apps tailored to your unique business needs, focusing sharply on user experience and customer satisfaction. Our approach to <strong>Android application development</strong> aims to attract top investors globally, setting your app on a path to success.</p>
+    title: "Hire Top-Tier iOS App Development Agency for Your App",
+    text: (<><p>Choosing BitsWits means partnering with an expert <strong>iOS app development company in the USA</strong> with prior experience building remarkable apps that are bringing a paradigm shift in the industry.  Our skilled <strong>iPhone app developers</strong> deliver high-quality, custom <strong>iOS application development</strong> services tailored to your business needs. Our strong focus on UX helps entrepreneurs attract not only end users for the app but also investors from leading VC firms across the world. </p>
     </>),
 
     TechImg: TechImg.src
@@ -385,92 +378,93 @@ export const TestimonialSLIDES = [
 ]
 
 export const RisksContent = {
-    title: (<>Test Your App <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} />Idea with a High-Impact MVP and <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> Maximize Your ROI!</>),
+    title: (<>Validate Your App <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} />Idea with MVP Development & Save <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> Big on Time & Money!</>),
     text: "Develop your app concept cost-effectively with Hybrid frameworks!"
 }
 
 export const OffersContent = {
-    title: "Custom Android App Development Across Multiple Devices",
-    text: "We excel in crafting custom Android apps that shine across a variety of devices, ensuring seamless integration and stellar user experiences. Our expertise spans a wide range of Android platforms, delivering tailored solutions that cater to your unique business needs.",
+    title: "Custom iOS App Development Services for Multi-Platforms",
+    text: "We specialize in creating custom iOS app development services across multiple platforms, providing seamless integration and exceptional user experiences. Our expertise covers a range of Apple devices, delivering tailored iPhone app solutions for your business needs.",
 }
 
 export const OffersTabs = [
 
     {
-        title: "Android App for Smartphones",
+        title: "iOS App Development for Smartphones",
         content: {
-            heading: "Android App Development for Smartphones",
+            heading: "iOS App Development for Smartphones",
             description:
-                "Our Android developers build high-performance apps for smartphones, focusing on engaging user experiences and smooth functionality. With Kotlin and Java at our core, we optimize apps for diverse screen sizes and Android versions, creating intuitive interfaces that captivate and retain users. Our custom solutions are designed to align with your business objectives, offering a user-friendly experience that drives interaction and loyalty.",
+                "Our iOS app developers design high-performance iOS apps for iPhones, focusing on user engagement and seamless functionality. Using technologies like Swift and Objective-C, our apps are optimized for various screen sizes and iOS versions. We prioritize intuitive interfaces that enhance user satisfaction and deliver smooth performance. Our custom solutions cater to your business goals, providing a user-friendly experience that drives engagement and retention.",
         },
     },
 
     {
-        title: "Android App for Tablets",
+        title: "iOS App Development for iPad",
         content: {
-            heading: "Android App Development for Tablets",
+            heading: "iOS App Development for iPad",
             description:
-                "We leverage the expansive screen of Android tablets to deliver powerful, immersive experiences. Using tools like Android Jetpack and Material Design, we craft responsive, intuitive apps tailored for business, education, and entertainment. Our development maximizes user engagement, ensuring a seamless and enjoyable experience that makes full use of the tablet’s capabilities.",
+                "Our custom iOS apps for iPads leverage the larger screen to offer enhanced functionality and immersive experiences. We utilize SwiftUI and UIKit to create responsive, intuitive apps tailored for business, education, and entertainment. Our development maximizes engagement, providing a seamless and enjoyable user experience. The result is a powerful app that meets the specific needs of iPad users.",
         },
     },
 
     {
-        title: "Android App for Wearables",
+        title: "iOS App Development for Apple Watch",
         content: {
-            heading: "Android App Development for Wearables",
+            heading: "iOS App Development for Apple Watch",
             description:
-                "Our custom Android apps for wearables focus on delivering essential features and notifications directly to your wrist. By utilizing Wear OS and Kotlin, we design apps that offer quick access to vital information while optimizing interaction for smaller screens. Seamlessly integrating with smartphone applications, our wearables enhance overall user experience with convenience and efficiency.",
+                "We extend our custom iOS app development services to Apple Watch, focusing on creating apps that deliver essential features and notifications directly to your wrist. Using WatchKit and Swift, we optimize user interaction for the smaller screen, allowing quick and efficient access to information. Our apps seamlessly integrate with iPhone applications, enhancing overall user experience and engagement through convenience and accessibility.",
 
         },
     },
     {
-        title: "Android App for TV",
+        title: "iOS App Development for Apple TV",
         content: {
-            heading: "Android App Development for TV",
+            heading: "iOS App Development for Apple TV",
             description:
-                "We create engaging apps for Android TV, designed to provide interactive and immersive experiences on the big screen. Leveraging Android TV’s capabilities and lean back UI principles, we develop intuitive interfaces that enhance media consumption and entertainment. Our apps are crafted to deliver a smooth, enjoyable viewing experience that captures the essence of Android TV.",
+                "Our Apple TV apps are designed to deliver engaging content and interactive experiences on the big screen. We utilize tvOS and UIKit to optimize navigation and functionality, creating intuitive user interfaces. By leveraging Apple TV's capabilities, we develop immersive apps tailored for entertainment and media consumption, providing users with a seamless experience that enhances viewing pleasure and interaction.",
 
         },
     },
     {
-        title: "Android App for Chrome OS",
+        title: "iOS App Development for macOS",
         content: {
-            heading: "Android App Development for Chrome OS",
+            heading: "iOS App Development for macOS",
             description:
-                "We extend our expertise to Chrome OS, developing custom Android apps that integrate seamlessly with the broader ecosystem. Using Android’s robust frameworks and Chrome OS optimization techniques, we create apps that enhance productivity and user experience on Chromebooks. Our solutions are designed to deliver functionality and performance that meet both professional and personal needs.",
+                "As an iPhone app development company, we create custom iOS apps for macOS, focusing on seamless integration within the Apple ecosystem. Our development uses Swift and AppKit, making apps responsive and compatible across Mac devices. We design apps that enhance productivity and user experience, catering to both business and personal use. Our solutions maximize the capabilities of macOS, delivering functionality and aesthetics that users appreciate.",
 
         },
     },
 ];
 
 export const FuelingContent = {
-    title: "Pioneering Android App Development with Emerging Tech",
-    text: "At BitsWits, we integrate cutting-edge technologies to craft standout Android apps, offering bespoke solutions across diverse industries. Explore how these innovations elevate user experiences and amplify app capabilities.",
-    subtitle: "Cut Development Time with Hybrid Frameworks!",
-    subtext: "Leverage hybrid technology to launch your app faster and more affordably.",
-    FuelingImg: FuelingImg.src
+    title: "Integrating Cutting-Edge Technologies in iOS App Development",
+    text: "We leverage emerging technologies to build impressive iOS apps, offering tailored solutions across various industries. Discover how these technologies enhance user experiences and boost app functionality.",
+    subtitle: "Launch a High-Performance iOS App with Flawless User Experience!",
+    subtext: "Our developers can build intuitive, engaging apps that are designed for maximum performance and scalability.",
+    FuelingImg: FuelingImg.src,
+    FuelingImg1: FuelingImg1.src
 }
 
 export const FuelingList = [
     {
-        title: "AI & Machine Learning",
-        text: "Harnessing the power of AI and ML, we create smart, adaptive apps that tailor themselves to individual user preferences. Whether in healthcare or finance, AI & ML drive predictive analytics and automation, enhancing user engagement and streamlining operations."
+        title: "AI & ML",
+        text: "We use AI and ML to develop self-learning, adaptive apps that personalize user experiences. From healthcare to finance,AI & ML technologies enable predictive analytics and automation, boosting engagement and streamlining operations."
     },
     {
         title: "Augmented Reality (AR)",
-        text: "AR transforms interactions by blending digital content with the real world. From retail to real estate, users can experience products or properties like never before, leading to higher engagement and conversions through captivating, immersive features."
+        text: "AR revolutionizes user interactions by overlaying digital elements in real-world settings. In retail and real estate, users can visualize products or properties, increasing engagement and driving conversions through immersive features."
     },
     {
         title: "Blockchain",
-        text: "Blockchain technology brings unparalleled security and transparency, essential for sectors like finance and logistics. It fortifies transactions and preserves data integrity, minimizing fraud and boosting trust, making your app a pillar of reliability."
+        text: "Blockchain strengthens security and transparency, vital for finance and supply chains. It secures transactions and maintains data integrity, reducing fraud and building trust, making your app more reliable and robust."
     },
     {
-        title: "Cloud Computing",
-        text: "Cloud tech provides a flexible infrastructure ideal for apps needing scalable resources, such as on-demand services and fitness trackers. It ensures seamless data management and real-time updates, delivering a fluid and responsive user experience that adapts with your business growth."
+        title: "Cloud",
+        text: "Cloud technology offers scalable infrastructure, perfect for on-demand and fitness apps. It ensures seamless data storage and real-time updates, providing a responsive user experience that grows with your business."
     },
     {
         title: "Virtual Reality (VR)",
-        text: "VR offers immersive, interactive experiences that shine in education and entertainment. Users dive into virtual worlds that enhance learning and engagement, creating unforgettable app experiences that keep users hooked and coming back for more."
+        text: "VR creates immersive, interactive experiences in education and entertainment. Users engage in virtual simulations, enhancing learning and interaction, and delivering captivating app experiences that keep users coming back."
     }
 ];
 
@@ -482,8 +476,8 @@ export const CtaEstimatedContent = {
 }
 
 export const TechStackContent = {
-    title: "Our Tech Stack for Android App Development",
-    text: "Here’s a glimpse into the tools and technologies we use to deliver unparalleled Android app development services:",
+    title: "Our Tech Stack For iOS App Development",
+    text: "BitsWits, as a leading iOS app development agency, has complete control over the perfect tech stack for iOS app development. ",
 }
 
 export const TechStackTabs = [
@@ -491,23 +485,23 @@ export const TechStackTabs = [
         title: "Frontend",
         content: [
             {
-                heading: "Kotlin",
+                heading: "SwiftUI",
                 img: TAB1_1.src,
             },
             {
-                heading: "Java",
+                heading: "UIKit",
                 img: TAB1_2.src,
             },
             {
-                heading: "Jetpack Compose",
+                heading: "Swift",
                 img: TAB1_3.src,
             },
             {
-                heading: "Android SDK",
+                heading: "Objective-C",
                 img: TAB1_4.src,
             },
             {
-                heading: "Material Design",
+                heading: "Combine",
                 img: TAB1_5.src,
             },
             {
@@ -524,32 +518,36 @@ export const TechStackTabs = [
                 img: TAB2_1.src,
             },
             {
-                heading: "Java (Spring Boot)",
-                img: TAB2_2.src,
-            },
-            {
                 heading: "Python (Flask)",
                 img: TAB2_3.src,
-            },
-            {
-                heading: "Firebase",
-                img: TAB2_4.src,
             },
             {
                 heading: "Ruby on Rails",
                 img: TAB2_5.src,
             },
             {
+                heading: "Firebase",
+                img: TAB2_4.src,
+            },
+            {
+                heading: ".NET Core",
+                img: TAB2_6.src,
+            },
+            {
                 heading: "GraphQL",
                 img: TAB2_6.src,
-            }
+            },
         ],
     },
     {
         title: "Mobile Development",
         content: [
             {
-                heading: "Kotlin (Android)",
+                heading: "Swift (iOS)",
+                img: TAB3_6.src,
+            },
+            {
+                heading: "Kotlin Multiplatform",
                 img: TAB3_1.src,
             },
             {
@@ -568,17 +566,17 @@ export const TechStackTabs = [
                 heading: "Ionic",
                 img: TAB3_5.src,
             },
-            {
-                heading: "NativeScript",
-                img: TAB3_6.src,
-            },
         ],
     },
     {
         title: "Database Management",
         content: [
             {
-                heading: "Room Database",
+                heading: "CoreData",
+                img: TAB4_1.src,
+            },
+            {
+                heading: "Realm",
                 img: TAB4_1.src,
             },
             {
@@ -594,12 +592,8 @@ export const TechStackTabs = [
                 img: TAB4_4.src,
             },
             {
-                heading: "MongoDB",
-                img: TAB4_5.src,
-            },
-            {
-                heading: "Realm",
-                img: TAB4_6.src,
+                heading: "MySQL",
+                img: TAB4_4.src,
             },
         ],
     },
@@ -636,15 +630,15 @@ export const TechStackTabs = [
         title: "Testing & QA",
         content: [
             {
-                heading: "Espresso",
+                heading: "XCTest",
                 img: TAB6_1.src,
             },
             {
-                heading: "JUnit",
+                heading: "TestFlight",
                 img: TAB6_2.src,
             },
             {
-                heading: "Robolectric",
+                heading: "Appium",
                 img: TAB6_3.src,
             },
             {
@@ -652,7 +646,7 @@ export const TechStackTabs = [
                 img: TAB6_4.src,
             },
             {
-                heading: "Appium",
+                heading: "JUnit",
                 img: TAB6_5.src,
             },
             {
@@ -730,7 +724,7 @@ export const IndustriesList = [
 export const IdeaCtaContent = {
     title: (<>Let’s Change<br /> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
-    formtitle: (<>Schedule a Free Consultation</>)
+    formtitle: (<>Let’s Create An <br />Amazing App Together!</>)
 }
 
 export const FaqsContent = {
@@ -739,40 +733,36 @@ export const FaqsContent = {
 
 export const FaqsList = [
     {
-        title: "What programming languages are used in Android app development?",
-        txt: "Android app development primarily uses Java and Kotlin. Java, a long-established language, provides robust functionality, while Kotlin, a newer language endorsed by Google, offers modern features and concise syntax. A skilled Android app development team will utilize these languages effectively to build responsive and high-performance apps tailored to your needs."
+        title: "What programming languages are used in iOS app development?",
+        txt: "iOS app development primarily uses Swift and Objective-C. Swift, developed by Apple, is modern and user-friendly, while Objective-C offers robust capabilities. Choosing an iOS app development company ensures that experienced iOS app developers utilize these languages effectively, creating high-quality, responsive apps tailored to your business needs."
     },
     {
-        title: "Can you launch an Android app for free?",
-        txt: `Launching an Android app involves costs such as development, Google Play Store fees, and potential marketing expenses. Although development is not free, partnering with an experienced Android app development company can optimize resource use and manage costs efficiently.`
+        title: "Can you launch an iOS app for free?",
+        txt: `Launching an iOS app typically involves costs such as development, App Store fees, and potential marketing expenses. While development isn’t free, using an experienced iPhone application development company like BitsWits ensures efficient use of resources, reducing overall costs. `
     },
     {
-        title: "Why hire an Android app development company?",
-        txt: "Hiring a specialized Android app development company provides access to experienced developers who understand the platform’s specifics. They offer custom solutions to meet business needs and handle ongoing support and updates. This approach often leads to a more efficient development process and a higher-quality final product."
+        title: "What are the benefits of hiring an iOS app development company?",
+        txt: "Hiring an iOS app development company provides access to experienced iOS app developers who understand the intricacies, unlike freelance app developers. They offer custom solutions, ensuring your app meets your business needs. Reputable iOS app development companies like BitsWits also take care of the ongoing support and updates, enhancing the app’s performance and user experience over time."
     },
     {
-        title: "How long does it take to develop an Android app?",
-        txt: "The development timeline for an Android app varies based on complexity, features, and design. Basic apps might take 3-6 months, while more complex apps could take up to a year. Working with a proficient Android app development team can help streamline the process and meet deadlines effectively."
+        title: "How long does it take to develop an iOS app?",
+        txt: "The time required for iOS app development varies based on the app’s complexity, features, and design. Typically, a basic app may take 3-6 months, while more complex apps can take up to a year. Partnering with an experienced iPhone application development company can streamline the process and promise timely delivery."
     },
     {
-        title: "What should I consider when choosing an Android app development company?",
-        txt: "When selecting an Android app development company, review their portfolio, client feedback, and industry expertise. Look for a team that provides comprehensive services, including design, development, testing, and support. Clear communication and a solid understanding of your project goals are crucial for a successful partnership."
+        title: "What should I look for when choosing an iOS app development company?",
+        txt: "When selecting an iOS app development company, consider their portfolio, client testimonials, and expertise in your industry. Look for an iOS app development team that offers comprehensive iOS app development services, including design, development, testing, and support. Effective communication and a clear understanding of your business goals are also crucial factors for keeping all the stakeholders involved and in check."
     },
     {
-        title: "How much does Android app development cost?",
-        txt: "The cost of Android app development depends on the app’s complexity, features, and design. Basic apps typically range from $10,000 to $50,000, while advanced apps can exceed $100,000. Discuss your budget and requirements with a reliable development company to get an accurate cost estimate."
+        title: "How much does iOS app development cost?",
+        txt: "The cost of iOS app development depends on factors such as app complexity, features, and design requirements. A basic app may range from $10,000 to $50,000, while more advanced apps can exceed $100,000. Discuss your app development budget and requirements with a reputable iOS app development company to get an accurate estimate."
     },
     {
-        title: "What features make Android apps successful?",
-        txt: "Successful Android apps feature user-friendly interfaces, efficient navigation, high performance, and strong security. Incorporating advanced technologies like AI and AR can further enhance user experience. A professional Android app development team can help integrate these features effectively."
+        title: "What are the key features of successful iOS apps?",
+        txt: "Successful iOS apps typically include user-friendly interfaces, seamless navigation, high performance, and robust security measures. They often integrate advanced technologies like AI and AR to enhance user experience. Partnering with a professional iOS app development company can help you integrate such intricate features effectively, making your app competitive in the market."
     },
     {
-        title: "How do I maintain and update my Android app after launch?",
-        txt: "Post-launch maintenance involves regular updates, bug fixes, and performance enhancements. Choose an Android app development company that offers ongoing support to address issues, update the app for new Android versions, and add new features as needed to keep the app functional and relevant."
-    },
-    {
-        title: "How do I ensure my Android app stands out in the market?",
-        txt: "To make your Android app stand out, focus on a unique value proposition, exceptional user experience, and effective marketing strategies. Incorporate feedback from user testing to refine the app and use data-driven insights to make improvements. Partnering with a skilled app development company can also help you achieve a competitive edge."
+        title: "How do I maintain and update my iOS app post-launch?",
+        txt: "After launching your iOS app, regular updates and maintenance are crucial for top-notch performance and impregnable security. Hire an iOS app development company like BitsWits that offers ongoing support and services, including bug fixes, updates for new iOS versions, and feature enhancements to keep your app relevant and functional for the end users."
     },
 ]
 

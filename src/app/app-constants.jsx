@@ -1011,26 +1011,14 @@ export function Instagram() {
 }
 export function ReadArrow() {
     return (
-        <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="31.379"
-            height="31.379"
-            viewBox="0 0 31.379 31.379"
-        >
-            <g
-                fill="none"
-                stroke="#ffc67b"
-                strokeLinecap="round"
-                strokeWidth="3"
-                data-name="Group 54164"
-                transform="rotate(-45 25.899 25.916)"
-            >
-                <path d="M6.723 11.465h24.924" data-name="Path 82588"></path>
-                <path
-                    d="M20.926 0l11.466 11.466-11.466 11.466"
-                    data-name="Path 82589"
-                ></path>
+        <svg xmlns="http://www.w3.org/2000/svg" width="19.71" height="15.321" viewBox="0 0 19.71 15.321">
+            <g id="Group_54449" data-name="Group 54449" transform="translate(-828.079 -3973.34)">
+                <g id="Group_53464" data-name="Group 53464" transform="translate(825.342 3983.055) rotate(-30)">
+                    <path id="Path_82588" data-name="Path 82588" d="M-1768.093,7954.23h17.721" transform="translate(1768.093 -7948.256)" fill="none" stroke="#ffc67b" stroke-width="1" />
+                    <path id="Path_82589" data-name="Path 82589" d="M-1768.645,7946.021l5.975,5.975-5.975,5.976" transform="translate(1780.779 -7946.021)" fill="none" stroke="#ffc67b" stroke-width="1" />
+                </g>
             </g>
         </svg>
+
     )
 }

@@ -4,25 +4,39 @@ import Image from "next/image"
 import ButtonCommon from "@/src/components/common/button"
 
 
-const Fueling = ({ data, list }) => {
+const Fueling = ({ data, list, bgWhite }) => {
     return (
-        <section className={`${styles.fuelingSection} p-100 bgBlack`}>
+        <section className={`${styles.fuelingSection} ${bgWhite ? styles.industryfueling : 'bgBlack'} p-100 `}>
             <Container>
                 <Row>
                     <Col lg={6} md={6}>
                         <div className={styles.fuelingSickty}>
                             <h2>{data?.title}</h2>
                             <p>{data?.text}</p>
-                            <div className={styles.fuelingBox}>
-                                <div className={styles.boxContent}>
-                                    <h5>{data?.subtitle}</h5>
-                                    <p>{data?.subtext}</p>
-                                </div>
-                                <div className={styles.boxImg}>
-                                    <Image src={data?.FuelingImg} alt="Bitswits Services" width={350} height={290} />
-                                </div>
-                            </div>
-                            <ButtonCommon txt="Free Consultation" />
+
+                            {bgWhite ?
+                                <>
+                                    <ButtonCommon txt="Free Consultation" />
+                                    <div className={styles.fuelingImg}>
+                                        <Image src={data?.FuelingImg1} alt="Bitswits Services" width={1140} height={985} />
+                                    </div>
+                                </>
+                                :
+                                <>
+                                    <div className={styles.fuelingBox}>
+                                        <div className={styles.boxContent}>
+                                            <h5>{data?.subtitle}</h5>
+                                            <p>{data?.subtext}</p>
+                                        </div>
+                                        <div className={styles.boxImg}>
+                                            <Image src={data?.FuelingImg} alt="Bitswits Services" width={350} height={290} />
+                                        </div>
+                                    </div>
+                                    <ButtonCommon txt="Free Consultation" />
+                                </>
+                            }
+
+
                         </div>
                     </Col>
                     <Col lg={5} md={6} className="offset-lg-1">

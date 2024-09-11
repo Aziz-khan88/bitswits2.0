@@ -5,13 +5,13 @@ import ButtonCommon from '@/src/components/common/button'
 
 import Image from 'next/image'
 
-const ContentSecLG = ({data}) => {
+const ContentSecLG = ({ data }) => {
     return (
         <section className={`${styles.largecContentSec} p-50 bgBlack`}>
             <Container>
                 <Row>
 
-                    <Col lg={6} md={7} className='my-auto'>
+                    <Col xl={6} lg={7} md={6} className='my-auto'>
                         <div className={styles.contentBox}>
                             <h2>{data?.title}</h2>
                             <div className={styles.contentscrollBox}>
@@ -20,7 +20,7 @@ const ContentSecLG = ({data}) => {
                             <ButtonCommon txt="Free Consultation" />
                         </div>
                     </Col>
-                    <Col lg={5} md={5} className='my-auto text-center offset-lg-1' >
+                    <Col xl={5} lg={5} md={6} className='m-auto text-center' >
                         <Image src={data?.BGIMG} alt="Bitswits Services" width={989} height={1100} />
                     </Col>
                 </Row>

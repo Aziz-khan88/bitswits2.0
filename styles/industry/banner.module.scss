@@ -1,0 +1,44 @@
+.industryBanner {
+    height: 750px;
+
+    h1,
+    p {
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .industryBanner {
+        height: 750px;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .industryBanner {
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .industryBanner {
+        height: 600px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .industryBanner {
+        height: 600px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .industryBanner {
+        height: 600px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .industryBanner {
+        height: 600px;
+    }
+}

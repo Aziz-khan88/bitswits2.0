@@ -21,8 +21,8 @@ import {
     ServicesList, GameCtaContent, ContentSecContent,
     ContentSecLGContent, ProcessContent,
     WhyChooseContent, WhyChooseList1,
-    WhyChooseList2, ProcessTabs,  TestimonialContent,
-    TestimonialSLIDES,  OffersContent, 
+    WhyChooseList2, ProcessTabs, TestimonialContent,
+    TestimonialSLIDES, OffersContent,
     OffersTabs, FuelingContent, FuelingList,
     TechStackTabs, TechStackContent, IdeaCtaContent,
     FaqsContent, FaqsList, BlogsContent,
@@ -37,12 +37,12 @@ export default function Home() {
             <Projectdiscuss data={ProjectdiscussContent} />
             <Services data={ServicesContent} list={ServicesList} />
             <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
-            <GameCta data={GameCtaContent}/>
-            <ContentSec data={ContentSecContent}/>
+            <GameCta data={GameCtaContent} />
+            <ContentSec data={ContentSecContent} />
             <Process data={ProcessContent} tabs={ProcessTabs} />
             <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
             <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
-            <ContentSecLG data={ContentSecLGContent}/>
+            <ContentSecLG data={ContentSecLGContent} />
             <IdeaCta data={IdeaCtaContent} />
             <TechStack data={TechStackContent} tabs={TechStackTabs} />
             <Fueling data={FuelingContent} list={FuelingList} />

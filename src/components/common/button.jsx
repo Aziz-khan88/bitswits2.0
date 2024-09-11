@@ -12,7 +12,7 @@ const ButtonCommon = ({ color, txt }) => {
         }
     };
     return (
-        <div className="catButton" onClick={handleChatOpen}>
+        <div className={`catButton ${color ? 'white' : ''}`} onClick={handleChatOpen} >
             <div><span>{txt}</span> <ArrowIcon /></div>
         </div >
     )

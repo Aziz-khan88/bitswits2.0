@@ -22,7 +22,8 @@ const Header = () => {
     }, []);
 
     const pathname = usePathname();
-    const isWhiteLogo = pathname === '/mobile-game-development-company';
+    const isWhiteLogo = pathname === '/mobile-game-development-company' || pathname === '/real-estate-app-development-company';
+
 
     return (
         <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`} >

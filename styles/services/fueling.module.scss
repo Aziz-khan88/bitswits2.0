@@ -1,4 +1,24 @@
 .fuelingSection {
+    &.industryfueling {
+        .fuelingSickty {
+            .fuelingImg {
+                margin: 20px auto 20px;
+            }
+        }
+
+        .fuelingSidebar {
+            .sicktyItem {
+                h5 {
+                    color: #000;
+                }
+
+                p {
+                    color: #000;
+                }
+            }
+        }
+    }
+
     .fuelingSickty {
         position: sticky;
         top: 20px;

@@ -143,7 +143,7 @@ export const CuttingedgeList = [
         title: (<>iOS App <br />Maintenance & Support</>),
         txt: "We offer ongoing maintenance and support services, including updates, bug fixes, and performance optimization, keeping your app up-to-date and meeting user expectations.",
         links: "",
-    }, 
+    },
     {
         title: (<>iOS Store <br />Deployment & Optimization  </>),
         txt: "We handle the entire App Store submission process, including compliance and optimization, to make sure your app is visible and attracts downloads through effective ASO strategies.",
@@ -189,7 +189,7 @@ export const AppIdeaContent = {
     text: "Book your free discovery call to learn how we build great apps that make it to the top charts!",
 }
 
-export const WhyChooseContent = { 
+export const WhyChooseContent = {
     title: "Why Partner with BitsWits for Your Next Project?",
     text: "BitsWits is the go-to iOS app development company, delivering tailored solutions that drive results. Here’s why you should choose BitsWits:"
 }
@@ -381,7 +381,7 @@ export const TestimonialSLIDES = [
     }
 ]
 
-export const RisksContent = {    
+export const RisksContent = {
     title: (<>Validate Your App <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} />Idea with MVP Development & Save <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> Big on Time & Money!</>),
     text: "Develop your app concept cost-effectively with Hybrid frameworks!"
 }
@@ -394,7 +394,7 @@ export const OffersContent = {
 export const OffersTabs = [
 
     {
-        title: "iOS App Development for Smartphones",
+        title: "iOS App for Smartphones",
         content: {
             heading: "iOS App Development for Smartphones",
             description:
@@ -403,7 +403,7 @@ export const OffersTabs = [
     },
 
     {
-        title: "iOS App Development for iPad",
+        title: "iOS App for iPad",
         content: {
             heading: "iOS App Development for iPad",
             description:
@@ -412,7 +412,7 @@ export const OffersTabs = [
     },
 
     {
-        title: "iOS App Development for Apple Watch",
+        title: "iOS App for Apple Watch",
         content: {
             heading: "iOS App Development for Apple Watch",
             description:
@@ -421,7 +421,7 @@ export const OffersTabs = [
         },
     },
     {
-        title: "iOS App Development for Apple TV",
+        title: "iOS App for Apple TV",
         content: {
             heading: "iOS App Development for Apple TV",
             description:
@@ -430,7 +430,7 @@ export const OffersTabs = [
         },
     },
     {
-        title: "iOS App Development for macOS",
+        title: "iOS App for macOS",
         content: {
             heading: "iOS App Development for macOS",
             description:
@@ -725,7 +725,7 @@ export const IndustriesList = [
 ];
 
 export const IdeaCtaContent = {
-    title: (<>Let’s Change<br/> The World With Your</>),
+    title: (<>Let’s Change<br /> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
     formtitle: (<>Let’s Create An <br />Amazing App Together!</>)
 }
@@ -798,7 +798,3 @@ export const BlogsList = [
         date: "July 10,2024"
     }
 ]
-
-
-
-
