@@ -4,13 +4,13 @@ import BannerLogos from "media/mobile-game-development-company/bannerLogo.webp"
 import BanngBg from "media/mobile-game-development-company/bannerIMG.webp"
 
 // services Images
-import GameBg1 from "media/mobile-game-development-company/services/gameBg1.webp"
-import GameBg2 from "media/mobile-game-development-company/services/gameBg2.webp"
-import GameBg3 from "media/mobile-game-development-company/services/gameBg2.webp"
-import GameBg4 from "media/mobile-game-development-company/services/gameBg4.webp"
-import GameBg5 from "media/mobile-game-development-company/services/gameBg5.webp"
-import GameBg6 from "media/mobile-game-development-company/services/gameBg6.webp"
-import GameBg7 from "media/mobile-game-development-company/services/gameBg7.webp"
+import GameBg1 from "media/mobile-game-development-company/services/GameBg01.webp"
+import GameBg2 from "media/mobile-game-development-company/services/GameBg02.webp"
+import GameBg3 from "media/mobile-game-development-company/services/GameBg03.webp"
+import GameBg4 from "media/mobile-game-development-company/services/GameBg04.webp"
+import GameBg5 from "media/mobile-game-development-company/services/GameBg05.webp"
+import GameBg6 from "media/mobile-game-development-company/services/GameBg06.webp"
+import GameBg7 from "media/mobile-game-development-company/services/GameBg07.webp"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
