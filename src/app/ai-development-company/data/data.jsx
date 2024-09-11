@@ -112,13 +112,14 @@ export const BannerData = {
     content: "BitsWits is the fastest-growing AI development company, building cutting-edge technology for the future! With a team of top-tier ML engineers, data scientists, and AI developers, we create future-ready applications for ambitious clients, powered by AI and machine learning.",
     BannerLogos: BannerLogos.src,
     BanngBg: BanngBg.src,
-    fromtitle: "Let’s Discuss Your App Idea",
-    fromtext: "Share your app business objectives with our experts and create your custom app."
+    fromtitle: "Let’s Discuss Your AI product Idea",
+    fromtext: "Share your AI product objectives with our experts and create your custom AI product."
 }
 
 export const CuttingedgeContent = {
     title: "Cutting-Edge AI Development Services for Ambitious Entrepreneurs",
     text: "We offer custom AI development services for ambitious startups and SMEs to quickly penetrate the market and scale with a first-mover advantage.",
+    subtext: "Estimate Your AI Product Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
@@ -160,8 +161,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven AI Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier AI products! As a trusted AI products development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -486,9 +487,9 @@ export const FuelingList = [
 ];
 
 export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
+    subtitle: "AI App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    text: (<>Get an instant estimate for your AI model’s development based on its complexity. AI apps typically range from <span>$10k to $100k+</span>.  Ready for a precise quote? Contact us today!</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -683,7 +684,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade AI development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [

@@ -108,6 +108,7 @@ export const BannerData = {
 export const CuttingedgeContent = {
     title: "Agile Flutter App Development Services for Growing Enterprises",
     text: "Our Flutter app development services are customized for aspiring startups and SMEs, enabling fast market entry and sustainable growth!",
+    subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
@@ -144,8 +145,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven Flutter App Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted flutter app development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -288,7 +289,6 @@ export const ProcessTabs = [
         },
     },
 ];
-
 
 export const TechnologiesContent = {
     title: "Strategic Advantages of Hiring BitsWits As Your Flutter Mobile App Development Company",
@@ -440,8 +440,8 @@ export const OffersTabs = [
 export const FuelingContent = {
     title: "Technologies We Use In Combination with Flutter",
     text: "We pair backend technologies and databases with Flutter to enhance mobile apps, providing seamless integration and robust performance for superior user experiences.",
-    subtitle: "Reduce Risk and Validate Your Idea With a Fast MVP Launch!",
-    subtext: "BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!",
+    subtitle: "Accelerate Your App Launch with Flutter’s Cross-Platform Efficiency!",
+    subtext: "Develop high-performance apps with seamless user experience across multiple platforms.",
     FuelingImg: FuelingImg.src
 }
 

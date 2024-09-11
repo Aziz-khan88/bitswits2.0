@@ -46,7 +46,7 @@ const Cuttingedge = ({ data, list }) => {
                             <div className={styles.ServicesSticky}>
                                 <div className={styles.stickyBox}>
                                     <Image src={IMG.src} alt="Btiswits Services" width={355} height={294} />
-                                    <h5>Estimate Your App Project’s Cost Now!</h5>
+                                    <h5>{data?.subtext}</h5>
                                     <NormalBtn text="Let’s Talk !" link="" bgcolor="#fff" txtcolor="#4D77EE" />
                                 </div>
 

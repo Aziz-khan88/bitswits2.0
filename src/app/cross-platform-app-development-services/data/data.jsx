@@ -110,6 +110,7 @@ export const BannerData = {
 export const CuttingedgeContent = {
     title: "Top-Tier Cross-Platform App Development Services for Forward-Thinking Startups",
     text: "We provide custom cross-platform app development for startups and SMEs, allowing you to reach both iOS and Android users faster and more cost-effectively.",
+    subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [

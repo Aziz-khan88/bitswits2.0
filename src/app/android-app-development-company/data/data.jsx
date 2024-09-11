@@ -104,8 +104,6 @@ import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
-
-
 export const BannerData = {
     subtitle: "Quickly – Efficiently – Effortlessly",
     title: "Leading Android App Development Company",
@@ -119,6 +117,7 @@ export const BannerData = {
 export const CuttingedgeContent = {
     title: "Custom Android App Development for Visionary Entrepreneurs",
     text: "We deliver bespoke Android app development services for startups and SMEs, enabling them to break into the market swiftly and grow with a competitive edge.",
+    subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
@@ -155,8 +154,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven Android Application Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted Android application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -386,7 +385,7 @@ export const TestimonialSLIDES = [
 
 export const RisksContent = {       
     title: (<>Test Your App <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} />Idea with a High-Impact MVP and <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> Maximize Your ROI!</>),
-    text: "Develop your app concept cost-effectively with Hybrid frameworks!"
+    text: "Validate your app concept with minimal risk before launching a full-scale app!"
 }
 
 export const OffersContent = {
@@ -446,8 +445,8 @@ export const OffersTabs = [
 export const FuelingContent = {
     title: "Pioneering Android App Development with Emerging Tech",
     text: "At BitsWits, we integrate cutting-edge technologies to craft standout Android apps, offering bespoke solutions across diverse industries. Explore how these innovations elevate user experiences and amplify app capabilities.",
-    subtitle: "Cut Development Time with Hybrid Frameworks!",
-    subtext: "Leverage hybrid technology to launch your app faster and more affordably.",
+    subtitle: "Launch a High-Performance Android App with Flawless User Experience!",
+    subtext: "Our developers can build intuitive, engaging apps that are designed for maximum performance and scalability.",
     FuelingImg: FuelingImg.src
 }
 
@@ -475,9 +474,9 @@ export const FuelingList = [
 ];
 
 export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
+    subtitle: "Android App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    text: (<>Get an instant estimate for your Android app’s development based on its complexity. Android apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -665,7 +664,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade Android app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [

@@ -578,8 +578,8 @@ export const TechStackTabs = [
 export const FuelingContent = {
     title: "Types Of Mobile Game Apps We Develop",
     text: "As a premier mobile game development agency, we create customized game apps for all genres and game types. Here are the types of mobile games we develop:",
-    subtitle: "Reduce Risk and Validate Your Idea With a Fast MVP Launch!",
-    subtext: "BitsWits takes a hands-on approach to guide your project, providing expertise and support at every stage!",
+    subtitle: "Build the Next Big Mobile Game with Expert Developers!",
+    subtext: "Deliver smooth, immersive gameplay that keeps players hooked and coming back.",
     FuelingImg: FuelingImg.src
 }
 

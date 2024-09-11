@@ -101,8 +101,6 @@ import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
-
-
 export const BannerData = {
     subtitle: "Quickly – Efficiently – Effortlessly",
     title: "Leading iOS App Development Company",
@@ -116,6 +114,7 @@ export const BannerData = {
 export const CuttingedgeContent = {
     title: "Cutting-Edge iOS App Development Services for Ambitious Entrepreneurs",
     text: "We offer custom iOS app development services for ambitious startups and SMEs to quickly penetrate the market and scale with a first mover advantage. ",
+    subtext: "Estimate Your App Project’s Cost Now!"
 }
 
 export const CuttingedgeList = [
@@ -152,8 +151,8 @@ export const CuttingedgeList = [
 ]
 
 export const caseStudiesContent = {
-    title: "Our Results-Driven Mobile Application Development Portfolio!",
-    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted mobile application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
+    title: "Our Results-Driven iOS Application Development Portfolio!",
+    text: "Drive business growth and enhance user engagement with our top-tier apps! As a trusted iOS application development company, our portfolio reflects our commitment to delivering high-impact solutions and showcases the success of our clients.",
 }
 
 export const caseStudiesList = [
@@ -383,7 +382,7 @@ export const TestimonialSLIDES = [
 
 export const RisksContent = {    
     title: (<>Validate Your App <Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} />Idea with MVP Development & Save <Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} /> Big on Time & Money!</>),
-    text: "Develop your app concept cost-effectively with Hybrid frameworks!"
+    text: "Launch an MVP to test your concept, reduce risks, and optimize resources."
 }
 
 export const OffersContent = {
@@ -472,9 +471,9 @@ export const FuelingList = [
 ];
 
 export const CtaEstimatedContent = {
-    subtitle: "Flutter App Development Costs: From Simple to Complex",
+    subtitle: "iOS App Development Costs: From Simple to Complex",
     title: "Your App’s Cost, Simplified",
-    text: (<>Get an instant estimate for your Flutter app’s development based on its complexity. Mobile apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today! .</>),
+    text: (<>Get an instant estimate for your iOS app’s development based on its complexity. iOS apps typically range from <span>$10k to $100k+</span>. Ready for a precise quote? Contact us today!</>),
     CtaEstimatedImg: CtaEstimatedImg.src
 }
 
@@ -662,7 +661,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade iOS app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [
