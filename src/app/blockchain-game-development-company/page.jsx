@@ -1,6 +1,6 @@
 
 import {
-  BannerData, CuttingedgeContent, CuttingedgeList,
+  BannerData, CuttingedgeContent, 
   AppIdeaContent, caseStudiesList,
   caseStudiesContent, ProcessContent,
   WhyChooseContent, WhyChooseList1,
@@ -14,6 +14,7 @@ import {
   FaqsContent, FaqsList, BlogsContent,
   BlogsList
 } from "@/src/app/blockchain-game-development-company/data/data";
+import { CuttingedgeList } from "./data/CuttingedgeList";
 
 import Achieved from "@/src/app/services/achieved";
 import Banner from "@/src/app/services/banner";
