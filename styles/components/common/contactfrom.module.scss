@@ -206,6 +206,55 @@
             }
         }
     }
+
+    &.popupFrom {
+        display: flex;
+        max-width: 350px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+
+        .fieldBox {
+            margin-bottom: 10px;
+            flex: 0 0 100%;
+
+            input {
+                background: hsl(0deg 0% 85% / 20%);
+                color: #73858F;
+                border-radius: 20px;
+                font-size: 12px;
+                padding: 0px 15px;
+                height: 45px;
+            }
+
+            &.checkBox {
+                margin: 0px;
+                display: none;
+            }
+
+            textarea {
+                height: 120px;
+                background: hsl(0deg 0% 85% / 20%);
+                color: #73858F;
+                border-radius: 20px;
+                font-size: 12px;
+                padding: 10px 15px;
+            }
+
+
+
+        }
+
+        .buttonBox {
+
+            button {
+                height: 40px;
+                font-weight: 500;
+                background: linear-gradient(91.47deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -308,6 +357,33 @@
             .buttonBox {
                 button {
                     background: #4D77EE;
+                }
+            }
+        }
+
+        &.popupFrom {
+            max-width: 300px;
+
+            .fieldBox {
+                margin-bottom: 10px;
+
+                input {
+                    font-size: 12px;
+                    padding: 0px 15px;
+                }
+
+                textarea {
+                    height: 120px;
+                }
+
+
+
+            }
+
+            .buttonBox {
+                button {
+                    height: 38px;
+                    font-weight: 500;
                 }
             }
         }
@@ -417,6 +493,35 @@
                 }
             }
         }
+
+        &.popupFrom {
+            max-width: 300px;
+
+            .fieldBox {
+                margin-bottom: 10px;
+
+                input {
+                    font-size: 12px;
+                    padding: 0px 15px;
+                    height: 40px;
+                }
+
+                textarea {
+                    height: 120px;
+                }
+
+
+
+            }
+
+            .buttonBox {
+                button {
+                    height: 38px;
+                    font-weight: 500;
+                }
+            }
+        }
+
     }
 }
 
@@ -522,6 +627,33 @@
             .buttonBox {
                 button {
                     background: #4D77EE;
+                }
+            }
+        }
+
+        &.popupFrom {
+
+            .fieldBox {
+                margin-bottom: 10px;
+
+                input {
+                    font-size: 12px;
+                    padding: 0px 15px;
+                    height: 40px;
+                }
+
+                textarea {
+                    height: 100px;
+                }
+
+
+
+            }
+
+            .buttonBox {
+                button {
+                    height: 35px;
+                    font-weight: 500;
                 }
             }
         }
@@ -633,6 +765,32 @@
                 }
             }
         }
+
+        &.popupFrom {
+            max-width: 300px;
+
+            .fieldBox {
+                margin-bottom: 10px;
+
+                input {
+                    font-size: 12px;
+                    padding: 0px 15px;
+                    height: 40px;
+                }
+
+                textarea {
+                    height: 100px;
+                }
+
+            }
+
+            .buttonBox {
+                button {
+                    height: 35px;
+                    font-weight: 500;
+                }
+            }
+        }
     }
 }
 
@@ -741,6 +899,32 @@
                 }
             }
         }
+
+        &.popupFrom {
+            max-width: 300px;
+
+            .fieldBox {
+                margin-bottom: 10px;
+
+                input {
+                    font-size: 12px;
+                    padding: 0px 15px;
+                    height: 40px;
+                }
+
+                textarea {
+                    height: 100px;
+                }
+
+            }
+
+            .buttonBox {
+                button {
+                    height: 35px;
+                    font-weight: 500;
+                }
+            }
+        }
     }
 }
 
@@ -821,53 +1005,29 @@
             }
         }
 
-        &.appideaFrom {
-            display: flex;
-            max-width: 450px;
-            flex-wrap: wrap;
-            justify-content: space-between;
+        &.popupFrom {
+            max-width: 300px;
 
             .fieldBox {
-                margin-bottom: 15px;
-                flex: 0 0 100%;
+                margin-bottom: 10px;
 
                 input {
-                    background: #F2F4F9;
-                    color: #9AA2A7;
-
-                    &[type='checkbox'] {
-                        display: none;
-                    }
-                }
-
-                &.checkBox {
-                    margin: 0px;
-                    display: none;
-                }
-
-                .checkTxt {
-                    color: #fff;
-                    font-size: 15px;
-                    position: relative;
-                    top: -3px;
-                    font-weight: 500;
-                    cursor: pointer;
-                    display: none;
+                    font-size: 12px;
+                    padding: 0px 15px;
+                    height: 40px;
                 }
 
                 textarea {
-                    height: 120px;
-                    background: #F2F4F9;
-                    color: #9AA2A7;
+                    height: 100px;
+                    font-size: 12px;
                 }
-
-
 
             }
 
             .buttonBox {
                 button {
-                    background: #4D77EE;
+                    height: 35px;
+                    font-weight: 500;
                 }
             }
         }

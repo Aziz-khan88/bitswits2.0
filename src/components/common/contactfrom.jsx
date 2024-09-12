@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 
 
-const ContactFrom = ({ idea, appidea, discussion }) => {
+const ContactFrom = ({ idea, appidea, discussion, popup }) => {
     // const { title, desc } = content;
     const [checkboxes, setCheckboxes] = useState([]);
     const [ip, setIP] = useState('');
@@ -153,7 +153,7 @@ const ContactFrom = ({ idea, appidea, discussion }) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <div className={`${styles.commonFrom} ${idea === 'yes' ? styles.ideaFrom : ''} ${appidea === 'yes' ? styles.appideaFrom : ''} ${discussion ? styles.discussionFrom : ''}`}>
+            <div className={`${styles.commonFrom} ${idea ? styles.ideaFrom : ''} ${appidea ? styles.appideaFrom : ''} ${discussion ? styles.discussionFrom : ''} ${popup ? styles.popupFrom : ''}`}>
                 <div className={styles.fieldBox}>
                     <input type="text" name="name" placeholder='Your Name' required />
                 </div>
@@ -171,10 +171,15 @@ const ContactFrom = ({ idea, appidea, discussion }) => {
                         <div className={styles.fieldBox}>
                             <textarea name="comment" placeholder='Tell us about your Project'></textarea>
                         </div>
-                        <div className={`${styles.fieldBox} ${styles.checkBox} `}>
-                            <input type="checkbox" id="check" name="nda" checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
-                            <label htmlFor="check" className={styles.checkTxt}>Share Non Disclosure Agreement</label>
-                        </div>
+                        {popup ?
+                            null
+                            :
+                            <div className={`${styles.fieldBox} ${styles.checkBox} `}>
+                                <input type="checkbox" id="check" name="nda" checked={checkboxes.includes('Share Non Disclosure Agreement')} onChange={handleOptionChange3} value='Share Non Disclosure Agreement' />
+                                <label htmlFor="check" className={styles.checkTxt}>Share Non Disclosure Agreement</label>
+                            </div>
+                        }
+
                     </>
                 }
                 <div className={styles.buttonBox}>
