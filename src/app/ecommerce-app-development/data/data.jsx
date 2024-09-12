@@ -134,7 +134,7 @@ export const IndustryServiceList = [
 
 export const IndustryCtaContent = {
     title: "UX-Driven eCommerce App Development Services",
-    text: "Give your business an unfair advantage with our UX-driven ecommerce app development services. Expand your reach and sell more to a global audience. Let's take your business global!",
+    text: "Give your business an unfair advantage with our UX-driven ecommerce app development services. Expand your reach and sell more to a global audience. Let’s take your business global!",
 }
 
 export const IndustrySliderContent = {
@@ -786,7 +786,7 @@ export const FaqsList = [
     },
     {
         title: "How long does it take to develop an eCommerce app?",
-        txt: "Developing an eCommerce app typically takes three to six months. The timeline varies based on the app's complexity, features, and the development team’s proficiency. Proactive planning and the use of agile development practices can streamline the development time to much shorter. Let’s connect and get a detailed app cost breakdown with turnaround time.",
+        txt: "Developing an eCommerce app typically takes three to six months. The timeline varies based on the app’s complexity, features, and the development team’s proficiency. Proactive planning and the use of agile development practices can streamline the development time to much shorter. Let’s connect and get a detailed app cost breakdown with turnaround time.",
     },
     {
         title: "What eCommerce application development services does BitsWits offer?",

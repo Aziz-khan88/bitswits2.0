@@ -123,7 +123,7 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Cross-Platform <br />Real Estate Solutions</>),
-        txt: "Our cross-platform apps offer consistent performance, cutting costs while maximizing reach and engagement. We're the top choice for real estate app development partnerships.",
+        txt: "Our cross-platform apps offer consistent performance, cutting costs while maximizing reach and engagement. We’re the top choice for real estate app development partnerships.",
     },
     {
         title: (<>Modular <br />Real Estate Platforms</>),

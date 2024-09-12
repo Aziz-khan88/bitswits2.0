@@ -96,7 +96,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 export const BannerData = {
     title: "Leading Education App Development Company for Engaging Learning Solutions",
-    content: "BitsWits is a market-leading education app development company delivering smart e-learning solutions on Android, iOS, and other platforms. With our scalable educational app development services, we've redefined the learning experience for 10 million+ students and trainers worldwide!",
+    content: "BitsWits is a market-leading education app development company delivering smart e-learning solutions on Android, iOS, and other platforms. With our scalable educational app development services, we’ve redefined the learning experience for 10 million+ students and trainers worldwide!",
     BanngBg: BanngBg.src,
 }
 
@@ -151,7 +151,7 @@ export const IndustrySliderList = [
     {
         img: IndustrySliderIMG01.src,
         title: "Skill Boosting Apps",
-        txt: "We develop skill-boosting apps that enhance employees' abilities through gamification and engaging content. These apps help employees stay relevant with tech courses, leadership training, and power skills.",
+        txt: "We develop skill-boosting apps that enhance employees’ abilities through gamification and engaging content. These apps help employees stay relevant with tech courses, leadership training, and power skills.",
     },
     {
         img: IndustrySliderIMG01.src,
@@ -242,7 +242,7 @@ export const TechnologiesContent = {
     title: "Hire Skilled Developers for Education App Development",
     text: (<>
         <p>Our developers specialize in creating effective <strong>Education App’s</strong> using technologies like Flutter, Swift, Kotlin, and React Native. </p>
-        <p>They design intuitive, engaging solutions that support interactive learning and improve educational outcomes. Whether it's a mobile app for online courses or a platform for virtual classrooms, our team delivers tailored solutions that cater to the needs of modern education.</p>
+        <p>They design intuitive, engaging solutions that support interactive learning and improve educational outcomes. Whether it’s a mobile app for online courses or a platform for virtual classrooms, our team delivers tailored solutions that cater to the needs of modern education.</p>
         <p>Use our free app cost calculator to get an instant breakdown of your app cost!</p>
     </>),
 

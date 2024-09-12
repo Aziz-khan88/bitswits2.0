@@ -177,7 +177,7 @@ export const IndustrySliderList = [
 export const ExpertiseContent = {
     title: "Expertise And Competencies",
     subtitle: "Must-Have Social Media App Features for Maximum Engagement",
-    subtext: "As a leading social networking app development company, we understand that key features have the power to convert your idea into a successful business. Here are the features you'll be getting in your social media app:",
+    subtext: "As a leading social networking app development company, we understand that key features have the power to convert your idea into a successful business. Here are the features you’ll be getting in your social media app:",
 }
 
 export const ExpertiseList1 = [

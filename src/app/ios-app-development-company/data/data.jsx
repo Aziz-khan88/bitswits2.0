@@ -279,7 +279,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment",
             description:
-                "We manage the App Store submission process, focusing on compliance and optimization. Our team enhances your app's visibility through effective App Store Optimization (ASO) strategies, improving discoverability. This approach facilitates a smooth launch, effectively reaching your target audience and maximizing initial downloads, setting the stage for sustained success in the competitive app market, and ensuring your app makes a significant impact.",
+                "We manage the App Store submission process, focusing on compliance and optimization. Our team enhances your app’s visibility through effective App Store Optimization (ASO) strategies, improving discoverability. This approach facilitates a smooth launch, effectively reaching your target audience and maximizing initial downloads, setting the stage for sustained success in the competitive app market, and ensuring your app makes a significant impact.",
             imgSrc: IMG.src,
 
         },
@@ -424,7 +424,7 @@ export const OffersTabs = [
         content: {
             heading: "iOS App Development for Apple TV",
             description:
-                "Our Apple TV apps are designed to deliver engaging content and interactive experiences on the big screen. We utilize tvOS and UIKit to optimize navigation and functionality, creating intuitive user interfaces. By leveraging Apple TV's capabilities, we develop immersive apps tailored for entertainment and media consumption, providing users with a seamless experience that enhances viewing pleasure and interaction.",
+                "Our Apple TV apps are designed to deliver engaging content and interactive experiences on the big screen. We utilize tvOS and UIKit to optimize navigation and functionality, creating intuitive user interfaces. By leveraging Apple TV’s capabilities, we develop immersive apps tailored for entertainment and media consumption, providing users with a seamless experience that enhances viewing pleasure and interaction.",
 
         },
     },

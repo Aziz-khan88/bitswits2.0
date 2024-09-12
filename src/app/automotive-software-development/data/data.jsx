@@ -298,7 +298,7 @@ export const ProcessTabs = [
         title: "Wireframe",
         content: {
             heading: "Wireframe Development",
-            description: "Before jumping into coding, we craft a detailed wireframe to visually represent your automotive software's structure and user flow. This step helps ensure that all stakeholders are aligned on the project’s direction, providing a clear understanding of how all elements will interact in the final product.",
+            description: "Before jumping into coding, we craft a detailed wireframe to visually represent your automotive software’s structure and user flow. This step helps ensure that all stakeholders are aligned on the project’s direction, providing a clear understanding of how all elements will interact in the final product.",
             imgSrc: IMG.src,
         },
     },
@@ -762,7 +762,7 @@ export const FaqsList = [
         txt: "The cost of building a smooth automotive software that comes with all basic features can be between $35000 and $50000. However, this is just the starting point. The value for an custom automotive software development project can even go up to $500000, given that the client requires high level of complex features, and integrations. To get a more precise estimate for the pricing, make sure to sign up for our consultation for automotive software development services."
     },
     {
-        title: "Do you assure complete confidentiality and security of the client's automotive software development idea?",
+        title: "Do you assure complete confidentiality and security of the client’s automotive software development idea?",
         txt: "Yes, BitsWits guarantees complete continentality for client data, and project vision. For years, BitsWits has been in the business of software development for automotive industry. We’re trusted for our work. We even sign a strict NDA to confine our professional interest to client project, thus prioritizing client goals above everything else. Through NDA, we’re always ensuring that all data, and information related to client’s project is secured."
     },
     {
