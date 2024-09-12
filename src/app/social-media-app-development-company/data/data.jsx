@@ -122,7 +122,7 @@ export const IndustryServiceList = [
         txt: "We develop social game apps that integrate networking and gaming, designed to engage your audience and maximize end-user interaction.",
     },
     {
-        title: (<>Image/Video Sharing Social Media App <br />Development</>),
+        title: (<>Image/Video Sharing Social Media App Development</>),
         txt: "We create image/video sharing apps with advanced social sharing features, inspired by platforms like Instagram, to help users effortlessly connect, share, and engage.",
     },
     {
@@ -175,8 +175,9 @@ export const IndustrySliderList = [
 ];
 
 export const ExpertiseContent = {
-    title: "Must-Have Social Media App Features for Maximum Engagement",
-    text: "As a leading social networking app development company, we understand that key features have the power to convert your idea into a successful business. Here are the features you'll be getting in your social media app:",
+    title: "Expertise And Competencies",
+    subtitle: "Must-Have Social Media App Features for Maximum Engagement",
+    subtext: "As a leading social networking app development company, we understand that key features have the power to convert your idea into a successful business. Here are the features you'll be getting in your social media app:",
 }
 
 export const ExpertiseList1 = [
@@ -370,7 +371,6 @@ export const WhyChooseList1 = [
         description: "A dedicated team of 150+ including social media app developers that focus on delivering high-end business solutions using the latest frameworks.",
     },
 ];
-
 
 export const WhyChooseList2 = [
     {

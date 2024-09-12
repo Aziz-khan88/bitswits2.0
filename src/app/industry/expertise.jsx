@@ -23,12 +23,12 @@ const Expertise = ({data, list1, list2}) => {
             <Container>
                 <Row>
                     <Col lg={12} md={12} >
-                        <h2>Expertise And Competencies</h2>
+                        <h2>{data?.title}</h2>
                     </Col>
                     <Col lg={4} md={12}>
                         <div className={styles.titSec}>
-                        <h4>{data?.title}</h4>
-                        <p>{data?.text}</p>
+                        <h4>{data?.subtitle}</h4>
+                        <p>{data?.subtext}</p>
                             <ButtonCommon txt="Free Consultation" />
                         </div>
                     </Col>

@@ -165,8 +165,9 @@ export const IndustrySliderList = [
 ];
 
 export const ExpertiseContent = {
-    title: "Essential Features for Real Estate Apps",
-    text: "To excel in the real estate market, your app must include key features that enhance user experience and streamline property transactions. Here are 12 must-have features for a successful real estate app:",
+    title: "Expertise And Competencies",
+    subtitle: "Essential Features for Real Estate Apps",
+    subtext: "To excel in the real estate market, your app must include key features that enhance user experience and streamline property transactions. Here are 12 must-have features for a successful real estate app:",
 }
 
 export const ExpertiseList1 = [
