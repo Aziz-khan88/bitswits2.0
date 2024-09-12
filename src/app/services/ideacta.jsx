@@ -3,7 +3,7 @@ import styles from '@/styles/services/ideacta.module.scss'
 import { Col, Container, Row } from "react-bootstrap"
 
 
-const IdeaCta = ({data}) => {
+const IdeaCta = ({ data }) => {
     return (
         <section className={`${styles.appideaSection} p-50`} id="Contact">
             <Container className='h-100'>
@@ -12,14 +12,14 @@ const IdeaCta = ({data}) => {
                         <div className={styles.boxItem}>
                             <h2>{data?.title}</h2>
                             <div className={styles.custumTitle}>
-                            {data?.text}
+                                {data?.text}
                             </div>
                         </div>
                     </Col>
                     <Col lg={5} md={6}>
                         <div className={styles.ideaBox}>
                             <h5>{data?.formtitle}</h5>
-                            <ContactFrom appidea="yes" />
+                            <ContactFrom appidea={true} />
                         </div>
                     </Col>
                 </Row>

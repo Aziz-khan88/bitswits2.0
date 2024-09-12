@@ -6,7 +6,7 @@ import ContactFrom from "@/src/components/common/contactfrom"
 
 
 const AppIdea = ({ data }) => {
-    
+
     return (
         <section className={`${styles.appideaSection} p-50`}>
             <Container>
@@ -20,7 +20,7 @@ const AppIdea = ({ data }) => {
                         <h2>{data.title}</h2>
                         <p>{data?.text}</p>
                         <div className={styles.appIdeaFrom}>
-                            <ContactFrom idea="yes" />
+                            <ContactFrom idea={true} />
                         </div>
                     </Col>
                 </Row>
