@@ -523,11 +523,11 @@ export const TechStackTabs = [
                 img: TAB2_1.src,
             },
             {
-                heading: "Java (Spring Boot)",
+                heading: "Java",
                 img: TAB2_2.src,
             },
             {
-                heading: "Python (Flask)",
+                heading: "Python",
                 img: TAB2_3.src,
             },
             {
@@ -548,7 +548,7 @@ export const TechStackTabs = [
         title: "Mobile Development",
         content: [
             {
-                heading: "Kotlin (Android)",
+                heading: "Kotlin",
                 img: TAB3_1.src,
             },
             {

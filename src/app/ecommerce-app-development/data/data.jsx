@@ -558,7 +558,7 @@ export const TechStackTabs = [
                 img: TAB2_1.src,
             },
             {
-                heading: "Python (Django)",
+                heading: "Python",
                 img: TAB2_2.src,
             },
             {
@@ -566,7 +566,7 @@ export const TechStackTabs = [
                 img: TAB2_3.src,
             },
             {
-                heading: "Java (Spring Boot)",
+                heading: "Java",
                 img: TAB2_4.src,
             },
             {
@@ -574,7 +574,7 @@ export const TechStackTabs = [
                 img: TAB2_5.src, 
             },
             {
-                heading: "PHP (Laravel)",
+                heading: "PHP",
                 img: TAB2_6.src, 
             }
         ],
@@ -583,11 +583,11 @@ export const TechStackTabs = [
         title: "Mobile Development",
         content: [
             {
-                heading: "Swift (iOS)",
+                heading: "Swift",
                 img: TAB3_1.src,
             },
             {
-                heading: "Kotlin (Android)",
+                heading: "Kotlin",
                 img: TAB3_2.src,
             },
             {
@@ -641,11 +641,11 @@ export const TechStackTabs = [
         title: "Cloud",
         content: [
             {
-                heading: "AWS (Amazon Web Services)",
+                heading: "AWS",
                 img: TAB5_1.src,
             },
             {
-                heading: "Google Cloud Platform",
+                heading: "Google Cloud",
                 img: TAB5_2.src,
             },
             {

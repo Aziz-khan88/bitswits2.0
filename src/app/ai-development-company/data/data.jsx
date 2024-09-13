@@ -519,7 +519,7 @@ export const TechStackTabs = [
                 img: TAB1_4.src,
             },
             {
-                heading: "TensorFlow Extended (TFX)",
+                heading: "TensorFlow Extended",
                 img: TAB1_5.src,
             },
             {
@@ -573,7 +573,7 @@ export const TechStackTabs = [
                 img: TAB3_1.src,
             },
             {
-                heading: "Natural Language Toolkit (NLTK)",
+                heading: "Natural Language Toolkit",
                 img: TAB3_2.src,
             },
             {
@@ -606,7 +606,7 @@ export const TechStackTabs = [
                 img: TAB4_2.src,
             },
             {
-                heading: "YOLO (You Only Look Once)",
+                heading: "YOLO",
                 img: TAB4_3.src,
             },
             {

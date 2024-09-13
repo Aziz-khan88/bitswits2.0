@@ -484,7 +484,7 @@ export const TechStackTabs = [
                 img: TAB2_1.src, 
             },
             {
-                heading: "Python (Django)",
+                heading: "Python",
                 img: TAB2_2.src, 
             },
             {
@@ -555,7 +555,7 @@ export const TechStackTabs = [
         title: "Cloud Services",
         content: [
             {
-                heading: "AWS (Amazon Web Services)",
+                heading: "AWS",
                 img: TAB5_1.src, 
             },
             {
