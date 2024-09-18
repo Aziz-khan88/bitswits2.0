@@ -413,7 +413,7 @@ export const OffersTabs = [
 
 export const FuelingContent = {
     title: "Best Cross-Platform App Development Technologies",
-    text: "Choosing the right technology stack for cross-platform app development is pivotal. Here's a deeper dive into the standout options, each offering unique strengths to align with diverse project requirements.",
+    text: "Choosing the right technology stack for cross-platform app development is pivotal. Here’s a deeper dive into the standout options, each offering unique strengths to align with diverse project requirements.",
     subtitle: "Create Versatile Apps with Cross-Platform Development for Greater Flexibility!",
     subtext: "Our expert team builds apps that work seamlessly on iOS, Android, and more.",
     FuelingImg: FuelingImg.src
@@ -484,7 +484,7 @@ export const TechStackTabs = [
                 img: TAB2_1.src, 
             },
             {
-                heading: "Python (Django)",
+                heading: "Python",
                 img: TAB2_2.src, 
             },
             {
@@ -555,7 +555,7 @@ export const TechStackTabs = [
         title: "Cloud Services",
         content: [
             {
-                heading: "AWS (Amazon Web Services)",
+                heading: "AWS",
                 img: TAB5_1.src, 
             },
             {

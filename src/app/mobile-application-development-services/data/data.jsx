@@ -369,13 +369,13 @@ export const TestimonialContent = {
 
 export const TestimonialSLIDES = [
     {
-        txt: "The team's deep understanding of our business's nature was impressive. Their technical knowledge was evident in ensuring the app functioned smoothly.",
-        name: "Joseph D'Amora",
+        txt: "The team’s deep understanding of our business’s nature was impressive. Their technical knowledge was evident in ensuring the app functioned smoothly.",
+        name: "Joseph D’Amora",
         position: "Director of Inside Sales",
         img: Joseph,
     },
     {
-        txt: "BitsWits transformed my vision into a stunning, user-friendly app. I couldn't be happier with the result and their professionalism.",
+        txt: "BitsWits transformed my vision into a stunning, user-friendly app. I couldn’t be happier with the result and their professionalism.",
         name: "Ryan Jaden",
         position: "Technical Team Lead",
         img: RyanJaden,
@@ -819,7 +819,7 @@ export const FaqsList = [
     },
     {
         title: "How can I monitor the progress of my outsourced project with BitsWits?",
-        txt: "We provide regular updates, progress reports, and access to project management tools. You'll have a dedicated project manager for clear communication and visibility throughout the development process."
+        txt: "We provide regular updates, progress reports, and access to project management tools. You’ll have a dedicated project manager for clear communication and visibility throughout the development process."
     },
     {
         title: "Can you integrate existing systems with a new mobile app?",

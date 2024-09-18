@@ -282,6 +282,10 @@
 
 }
 
+.mainMobileNavigation {
+    display: none;
+}
+
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .mainNavigation {
         height: 80px;
@@ -711,11 +715,11 @@
         transition: width 0.5s, opacity 0.5s;
         z-index: 9;
         opacity: 0;
-        overflow: hidden;
+        overflow: auto;
         animation: slideFromTop 0.5s forwards;
         border: 0px;
         border-radius: 0px;
-        height: 100vh;
+        display: flex;
 
         &.active {
             right: 0px;

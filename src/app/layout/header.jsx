@@ -40,7 +40,7 @@ const Header = () => {
                                 <MainLogo />
                             )
                             } */}
-                            <MainLogo />
+                            <WhiteLogo />
                         </Link>
                     </Col>
                     <Col md={10} xs={6} sm={6} className="m-auto">

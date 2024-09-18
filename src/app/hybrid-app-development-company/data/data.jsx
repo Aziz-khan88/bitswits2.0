@@ -130,7 +130,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>Maintenance <br />and Support</>),
-        txt: "Our 24/7 responsive maintenance and support ensure your app's optimum performance, even during peak load times. With technically proficient teams and effective monitoring, we keep your hybrid app running smoothly and efficiently.",
+        txt: "Our 24/7 responsive maintenance and support ensure your app’s optimum performance, even during peak load times. With technically proficient teams and effective monitoring, we keep your hybrid app running smoothly and efficiently.",
         links: "",
     }, 
     {
@@ -401,7 +401,7 @@ export const OffersTabs = [
         content: {
             heading: "Beacon Integration",
             description:
-                "Our expert-vetted hybrid developers use Beacon integration to provide precise location-based services using wireless transmitters that interact with nearby devices within range. This enables specific actions like proximity marketing, indoor navigation, and contextual notifications while delivering valuable analytics and insights to enhance your hybrid app's functionality.",
+                "Our expert-vetted hybrid developers use Beacon integration to provide precise location-based services using wireless transmitters that interact with nearby devices within range. This enables specific actions like proximity marketing, indoor navigation, and contextual notifications while delivering valuable analytics and insights to enhance your hybrid app’s functionality.",
         },
     },
 

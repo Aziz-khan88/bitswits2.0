@@ -610,7 +610,7 @@ export const TechStackTabs = [
                 img: TAB6_3.src, 
             },
             {
-                heading: "Git (Version Control Tools)",
+                heading: "Git ",
                 img: TAB6_4.src, 
             }
         ],

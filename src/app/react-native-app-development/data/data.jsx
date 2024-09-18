@@ -133,7 +133,7 @@ export const CuttingedgeList = [
     },
     {
         title: (<>React Native <br />Support & Maintenance</>),
-        txt: "Maintain your app's success with ongoing support and maintenance, involving performance optimization, bug fixes, constant upgrades, and error resolution even after app deployment to keep your technology up-to-date and efficient.",
+        txt: "Maintain your app’s success with ongoing support and maintenance, involving performance optimization, bug fixes, constant upgrades, and error resolution even after app deployment to keep your technology up-to-date and efficient.",
         links: "",
     }
 ]
@@ -438,7 +438,7 @@ export const FuelingContent = {
 export const FuelingList = [
     {
         title: "React Native + Redux",
-        text: "Combining React Native with Redux, we create high-performing apps with centralized state management. Redux helps us track changes efficiently, ensuring consistency and reliability across your app's user experience."
+        text: "Combining React Native with Redux, we create high-performing apps with centralized state management. Redux helps us track changes efficiently, ensuring consistency and reliability across your app’s user experience."
     },
     {
         title: "React Native + Firebase",
@@ -664,7 +664,7 @@ export const FaqsList = [
     },
     {
         title: "How much does react native development cost?",
-        txt: "The cost of developing a React Native app typically ranges from $15,000 to $300,000 or more. This estimate depends heavily on the app's complexity, including features, design, and functionality. Simple apps are generally less expensive, while more complex apps with advanced features and integrations can increase the overall cost significantly."
+        txt: "The cost of developing a React Native app typically ranges from $15,000 to $300,000 or more. This estimate depends heavily on the app’s complexity, including features, design, and functionality. Simple apps are generally less expensive, while more complex apps with advanced features and integrations can increase the overall cost significantly."
     },
     {
         title: "Can React Native be used for complex applications?",
@@ -680,7 +680,7 @@ export const FaqsList = [
     },
     {
         title: "What is the development time for a React Native app?",
-        txt: "The development time for a React Native app varies based on the app's complexity and features. Simple apps can be developed in a few weeks, while more complex apps may take several months. React Native's reusable components and single codebase help reduce overall development time compared to native development."
+        txt: "The development time for a React Native app varies based on the app’s complexity and features. Simple apps can be developed in a few weeks, while more complex apps may take several months. React Native’s reusable components and single codebase help reduce overall development time compared to native development."
     },
     {
         title: "Do any big companies use React Native?",
@@ -688,7 +688,7 @@ export const FaqsList = [
     },
     {
         title: "Can existing apps be converted to React Native?",
-        txt: "Yes, existing apps can be partially or fully converted to React Native. This process involves integrating React Native components into the existing codebase, allowing for a gradual transition. This approach helps maintain functionality while gradually enhancing the app's cross-platform capabilities and performance."
+        txt: "Yes, existing apps can be partially or fully converted to React Native. This process involves integrating React Native components into the existing codebase, allowing for a gradual transition. This approach helps maintain functionality while gradually enhancing the app’s cross-platform capabilities and performance."
     },
 ]
 

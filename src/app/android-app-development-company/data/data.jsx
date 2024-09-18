@@ -123,7 +123,7 @@ export const CuttingedgeContent = {
 export const CuttingedgeList = [
     {
         title: (<>Android App  <br />Strategy & Consulting</>),
-        txt: "Our experts offer strategic guidance to outline your app's goals, identify your target audience, and position your app effectively in the market, ensuring alignment with your business objectives and current trends.",
+        txt: "Our experts offer strategic guidance to outline your app’s goals, identify your target audience, and position your app effectively in the market, ensuring alignment with your business objectives and current trends.",
         links: "",
     },
     {
@@ -242,7 +242,7 @@ export const ProcessTabs = [
         content: {
             heading: "Design, Wireframing & Planning, & Mockups",
             description:
-                "After defining the blueprint, we move on to creating detailed wireframes and planning the user journey. This step involves mapping out the app's architecture and flow, providing a clear visual guide for the development process. This meticulous planning ensures every aspect of the app is well thought out before moving forward.",
+                "After defining the blueprint, we move on to creating detailed wireframes and planning the user journey. This step involves mapping out the app’s architecture and flow, providing a clear visual guide for the development process. This meticulous planning ensures every aspect of the app is well thought out before moving forward.",
             imgSrc: IMG.src,
 
         },
@@ -282,7 +282,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch Preparation & App Store Optimization (ASO)",
             description:
-                "Before launching, we focus on preparing your app for the Google Play Store submission with precision, ensuring compliance and optimization. Our ASO strategies are designed to boost your app’s visibility and attract crucial downloads. This step is all about maximizing your app's potential to make a significant impact upon release.",
+                "Before launching, we focus on preparing your app for the Google Play Store submission with precision, ensuring compliance and optimization. Our ASO strategies are designed to boost your app’s visibility and attract crucial downloads. This step is all about maximizing your app’s potential to make a significant impact upon release.",
             imgSrc: IMG.src,
 
         },
@@ -523,11 +523,11 @@ export const TechStackTabs = [
                 img: TAB2_1.src,
             },
             {
-                heading: "Java (Spring Boot)",
+                heading: "Java",
                 img: TAB2_2.src,
             },
             {
-                heading: "Python (Flask)",
+                heading: "Python",
                 img: TAB2_3.src,
             },
             {
@@ -548,7 +548,7 @@ export const TechStackTabs = [
         title: "Mobile Development",
         content: [
             {
-                heading: "Kotlin (Android)",
+                heading: "Kotlin",
                 img: TAB3_1.src,
             },
             {

@@ -123,7 +123,7 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Cross-Platform <br />Real Estate Solutions</>),
-        txt: "Our cross-platform apps offer consistent performance, cutting costs while maximizing reach and engagement. We're the top choice for real estate app development partnerships.",
+        txt: "Our cross-platform apps offer consistent performance, cutting costs while maximizing reach and engagement. We’re the top choice for real estate app development partnerships.",
     },
     {
         title: (<>Modular <br />Real Estate Platforms</>),
@@ -165,8 +165,9 @@ export const IndustrySliderList = [
 ];
 
 export const ExpertiseContent = {
-    title: "Essential Features for Real Estate Apps",
-    text: "To excel in the real estate market, your app must include key features that enhance user experience and streamline property transactions. Here are 12 must-have features for a successful real estate app:",
+    title: "Expertise And Competencies",
+    subtitle: "Essential Features for Real Estate Apps",
+    subtext: "To excel in the real estate market, your app must include key features that enhance user experience and streamline property transactions. Here are 12 must-have features for a successful real estate app:",
 }
 
 export const ExpertiseList1 = [
@@ -562,7 +563,7 @@ export const TechStackTabs = [
                 img: TAB2_1.src,
             },
             {
-                heading: "Python (Django)",
+                heading: "Python",
                 img: TAB2_2.src,
             },
             {
@@ -570,7 +571,7 @@ export const TechStackTabs = [
                 img: TAB2_3.src,
             },
             {
-                heading: "Java (Spring Boot)",
+                heading: "Java",
                 img: TAB2_4.src,
             },
             {
@@ -578,7 +579,7 @@ export const TechStackTabs = [
                 img: TAB2_5.src,
             },
             {
-                heading: "PHP (Laravel)",
+                heading: "PHP ",
                 img: TAB2_6.src,
             },
         ],
@@ -587,11 +588,11 @@ export const TechStackTabs = [
         title: "Mobile Development",
         content: [
             {
-                heading: "Swift (iOS)",
+                heading: "Swift",
                 img: TAB3_1.src,
             },
             {
-                heading: "Kotlin (Android)",
+                heading: "Kotlin ",
                 img: TAB3_2.src,
             },
             {
@@ -645,7 +646,7 @@ export const TechStackTabs = [
         title: "Cloud Platforms",
         content: [
             {
-                heading: "AWS (Amazon Web Services)",
+                heading: "AWS ",
                 img: TAB5_1.src,
             },
             {
@@ -686,7 +687,7 @@ export const TechStackTabs = [
                 img: TAB6_3.src,
             },
             {
-                heading: "Payment Gateways (Stripe, PayPal, etc.)",
+                heading: "Payment Gateways ",
                 img: TAB6_4.src,
             },
             {

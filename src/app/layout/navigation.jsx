@@ -68,31 +68,31 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                                 <div className={styles.submenuItem}>
                                     <div className={styles.title}>Services</div>
                                     <ul>
-                                        <li><Link href="#">Flutter app development</Link></li>
-                                        <li><Link href="#">Android app development</Link></li>
-                                        <li><Link href="#">React Native app development</Link></li>
-                                        <li><Link href="#">iOS app development</Link></li>
-                                        <li><Link href="#">Cross Platform app development</Link></li>
-                                        <li><Link href="#">NFT game development</Link></li>
-                                        <li><Link href="#">3D game development</Link></li>
-                                        <li><Link href="#">Blockchain game development</Link></li>
-                                        <li><Link href="#">2D game development</Link></li>
-                                        <li><Link href="#">Hybrid app development</Link></li>
+                                        <li><Link href="/flutter-app-development">Flutter app development</Link></li>
+                                        <li><Link href="/android-app-development-company">Android app development</Link></li>
+                                        <li><Link href="/react-native-app-development">React Native app development</Link></li>
+                                        <li><Link href="/ios-app-development-company">iOS app development</Link></li>
+                                        <li><Link href="/cross-platform-app-development-services">Cross Platform app development</Link></li>
+                                        <li><Link href="/nft-game-development-company ">NFT game development</Link></li>
+                                        <li><Link href="/ai-development-company">AI Development Company</Link></li>
+                                        <li><Link href="/blockchain-game-development-company">Blockchain game development</Link></li>
+                                        <li><Link href="/mobile-game-development-company ">Mobile Game Development</Link></li>
+                                        <li><Link href="/hybrid-app-development-company ">Hybrid app development</Link></li>
                                     </ul>
                                 </div>
                                 <div className={styles.submenuItem}>
                                     <div className={styles.title}>Industries</div>
                                     <ul>
-                                        <li><Link href="#">Healthcare</Link></li>
-                                        <li><Link href="#">E-Commerce</Link></li>
-                                        <li><Link href="#">Education</Link></li>
-                                        <li><Link href="#">Banking</Link></li>
-                                        <li><Link href="#">Lifestyle</Link></li>
-                                        <li><Link href="#">Restaurants</Link></li>
-                                        <li><Link href="#">Travel</Link></li>
-                                        <li><Link href="#">Social</Link></li>
+                                        <li><Link href="/healthcare-app-development-services">Healthcare</Link></li>
+                                        <li><Link href="/ecommerce-app-development">E-Commerce</Link></li>
+                                        <li><Link href="/education-app-development">Education</Link></li>
+                                        <li><Link href="/real-estate-app-development-company">Real Estate</Link></li>
+                                        <li><Link href="/music-app-development-company">Music</Link></li>
+                                        <li><Link href="/automotive-software-development">Automotive</Link></li>
+                                        <li><Link href="/social-media-app-development-company">Social Media</Link></li>
                                         <li><Link href="#">Entertainment</Link></li>
                                         <li><Link href="#">Game</Link></li>
+                                        <li><Link href="#">Travel</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -133,31 +133,32 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                     <li className={styles.subMobileMenu}>
                         <Link href="#">Services <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
-                            <li><Link href="#">Flutter app development</Link></li>
-                            <li><Link href="#">Android app development</Link></li>
-                            <li><Link href="#">React Native app development</Link></li>
-                            <li><Link href="#">iOS app development</Link></li>
-                            <li><Link href="#">Cross Platform app development</Link></li>
-                            <li><Link href="#">NFT game development</Link></li>
-                            <li><Link href="#">3D game development</Link></li>
-                            <li><Link href="#">Blockchain game development</Link></li>
-                            <li><Link href="#">2D game development</Link></li>
-                            <li><Link href="#">Hybrid app development</Link></li>
+                            <li><Link href="/flutter-app-development">Flutter app development</Link></li>
+                            <li><Link href="/android-app-development-company">Android app development</Link></li>
+                            <li><Link href="/react-native-app-development">React Native app development</Link></li>
+                            <li><Link href="/ios-app-development-company">iOS app development</Link></li>
+                            <li><Link href="/cross-platform-app-development-services">Cross Platform app development</Link></li>
+                            <li><Link href="/nft-game-development-company ">NFT game development</Link></li>
+                            <li><Link href="/ai-development-company">AI Development Company</Link></li>
+                            <li><Link href="/blockchain-game-development-company">Blockchain game development</Link></li>
+                            <li><Link href="/mobile-game-development-company ">Mobile Game Development</Link></li>
+                            <li><Link href="/hybrid-app-development-company ">Hybrid app development</Link></li>
+
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
                         <Link href="#">Industries <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
-                            <li><Link href="#">Healthcare</Link></li>
-                            <li><Link href="#">E-Commerce</Link></li>
-                            <li><Link href="#">Education</Link></li>
-                            <li><Link href="#">Banking</Link></li>
-                            <li><Link href="#">Lifestyle</Link></li>
-                            <li><Link href="#">Restaurants</Link></li>
-                            <li><Link href="#">Travel</Link></li>
-                            <li><Link href="#">Social</Link></li>
+                            <li><Link href="/healthcare-app-development-services">Healthcare</Link></li>
+                            <li><Link href="/ecommerce-app-development">E-Commerce</Link></li>
+                            <li><Link href="/education-app-development">Education</Link></li>
+                            <li><Link href="/real-estate-app-development-company">Real Estate</Link></li>
+                            <li><Link href="/music-app-development-company">Music</Link></li>
+                            <li><Link href="/automotive-software-development">Automotive</Link></li>
+                            <li><Link href="/social-media-app-development-company">Social Media</Link></li>
                             <li><Link href="#">Entertainment</Link></li>
                             <li><Link href="#">Game</Link></li>
+                            <li><Link href="#">Travel</Link></li>
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>

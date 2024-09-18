@@ -541,7 +541,7 @@ export const TechStackTabs = [
         title: "Database Management",
         content: [
             {
-                heading: "IPFS (InterPlanetary File System)",
+                heading: "IPFS",
                 img: TAB4_1.src,
             },
             {
@@ -566,7 +566,7 @@ export const TechStackTabs = [
                 img: TAB5_1.src,
             },
             {
-                heading: "Google Cloud Platform for backend services",
+                heading: "Google Cloud",
                 img: TAB5_2.src,
             },
             {
