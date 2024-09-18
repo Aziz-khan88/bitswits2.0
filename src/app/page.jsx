@@ -1,64 +1,88 @@
-
-import {
-  BannerData, CuttingedgeContent, CuttingedgeList,
-  AppIdeaContent, caseStudiesList,
-  caseStudiesContent, ProcessContent,
-  WhyChooseContent, WhyChooseList1,
-  WhyChooseList2, ProcessTabs, TechnologiesContent,
-  TechnologiesIcons, TestimonialContent,
-  TestimonialSLIDES, RisksContent,
-  OffersContent, OffersTabs, FuelingContent, FuelingList,
-  CtaEstimatedContent, TechStackTabs,
-  TechStackContent, IndustriesContent,
-  IndustriesList, IdeaCtaContent,
-  FaqsContent, FaqsList, BlogsContent,
-  BlogsList
-} from "@/src/app/mobile-application-development-services/data/data";
-
-import Achieved from "@/src/app/services/achieved";
-import Banner from "@/src/app/services/banner";
-import Cuttingedge from "@/src/app/services/cuttingedge";
-import CaseStudySection from "@/src/app/services/casestudy";
-import AppIdea from "@/src/app/services/appidea";
-import Process from "@/src/app/services/process";
-import Technologies from "@/src/app/services/technologies";
-import Testimonial from "@/src/app/services/testimonial";
-import WhyChoose from "@/src/app/services/whychoose";
-import Risks from "@/src/app/services/risks";
-import Offers from "@/src/app/services/offers";
-import Fueling from "@/src/app/services/fueling";
-import CtaEstimated from "@/src/app/services/cat";
-import TechStack from "@/src/app/services/techstack";
-import Industries from "@/src/app/services/industries";
+import Process from "@/src/app/home/components/process";
+import Banner from "@/src/app/home/components/banner";
+import CaseStudy from "@/src/app/home/components/casestudy";
+import CompanyInfo from "@/src/app/home/components/companyinfo";
+import DigitalCta from "@/src/app/home/components/digitalcta";
+import ExtendedServices from "@/src/app/home/components/extendedservices";
+import HomeServices from "@/src/app/home/components/homeservices";
+import Testimonial from "@/src/app/home/components/testimonial";
+import Solutions from "@/src/app/home/components/solutions";
+import Engagement from "@/src/app/home/components/engagement";
+import Faqs from "@/src/app/home/components/faqs";
 import IdeaCta from "@/src/app/services/ideacta";
-import Faqs from "@/src/app/services/faqs";
-import Blogs from "@/src/app/services/blogs";
+import Industries from "@/src/app/home/components/industries";
+import { Automotive, ECommerce, Education, Food, Healthcare, Insurance, Music, RealEstate, SocialMedia } from "@/src/app/app-constants"
 
+const IdeaCtaContent = {
+  title: (<>Let’s Change<br /> The World With Your</>),
+  text: (<> App <span>Idea!</span></>),
+  formtitle: (<>Let’s Create An Amazing<br /> Mobile App Together!</>)
+}
 
-
-export default function Home() {
-
+const OPTIONS = { loop: true, align: 'center' }
+const SLIDES = [
+  {
+    title: "Healthcare",
+    icon: <Healthcare />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  },
+  {
+    title: "Food",
+    icon: <Food />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  },
+  {
+    title: "Education",
+    icon: <Education />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  },
+  {
+    title: "Real Estate",
+    icon: <RealEstate />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  },
+  {
+    title: "Automotive",
+    icon: <Automotive />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  },
+  {
+    title: "Music",
+    icon: <Music />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  },
+  {
+    title: "Social Media",
+    icon: <SocialMedia />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  },
+  {
+    title: "Insurance",
+    icon: <Insurance />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  },
+  {
+    title: "eCommerce",
+    icon: <ECommerce />,
+    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+  }
+]
+export default function Page() {
   return (
     <>
-      <Banner data={BannerData} />
-      <Achieved />
-      <Cuttingedge data={CuttingedgeContent} list={CuttingedgeList} />
-      <CaseStudySection data={caseStudiesContent} caseStudies={caseStudiesList} />
-      <AppIdea data={AppIdeaContent} />
-      <WhyChoose data={WhyChooseContent} list1={WhyChooseList1} list2={WhyChooseList2} />
-      <Process data={ProcessContent} tabs={ProcessTabs} />
-      <Technologies data={TechnologiesContent} list={TechnologiesIcons} />
-      <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
-      <Risks data={RisksContent} />
-      <Offers bg={true} data={OffersContent} tabs={OffersTabs} />
-      <Fueling data={FuelingContent} list={FuelingList}/>
-      <CtaEstimated data={CtaEstimatedContent} />
-      <TechStack data={TechStackContent} tabs={TechStackTabs}/>
-      <Industries data={IndustriesContent} list={IndustriesList}/>
-      <IdeaCta data={IdeaCtaContent}/>
-      <Faqs data={FaqsContent} list={FaqsList}/>
-      <Blogs data={BlogsContent} list={BlogsList}/>
-      
+      <Banner />
+      <CompanyInfo />
+      <HomeServices />
+      <CaseStudy />
+      <ExtendedServices />
+      <DigitalCta />
+      <Process />
+      <Testimonial />
+      <Solutions />
+      <Engagement />
+      <Industries slides={SLIDES} options={OPTIONS} />
+      <Faqs />
+      <IdeaCta data={IdeaCtaContent} />
     </>
   );
 }

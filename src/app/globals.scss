@@ -3,7 +3,7 @@ a {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
 }
 
 .p-100 {
@@ -25,6 +25,25 @@ a {
 .pb-50 {
   padding-bottom: 50px;
 }
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
 
 ul {
   padding: 0px;
@@ -354,6 +373,44 @@ li {
       #4a78ef 110.98%);
 }
 
+.subTitle {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.165px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+
+  &.txtColor {
+    background: linear-gradient(90deg, #F32F56 -78.17%, #F32FAE 2%, #4A78EF 19%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.txtColor {
+  background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.modal {
+  .modal-lg {
+    --bs-modal-width: 900px;
+
+    .modal-content {
+      border-radius: 20px;
+    }
+  }
+}
+
+.modal-backdrop.show {
+  opacity: .8;
+}
+
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .container {
     max-width: 1280px;
@@ -463,21 +520,14 @@ li {
       }
     }
   }
-}
 
-.modal {
-  .modal-lg {
-    --bs-modal-width: 900px;
-
-    .modal-content {
-      border-radius: 20px;
-    }
+  .subTitle {
+    font-size: 24px;
+    line-height: 34px;
   }
 }
 
-.modal-backdrop.show {
-  opacity: .8;
-}
+
 
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
@@ -578,6 +628,11 @@ li {
         top: 6px;
       }
     }
+  }
+
+  .subTitle {
+    font-size: 22px;
+    line-height: 32px;
   }
 }
 
@@ -681,6 +736,11 @@ li {
         top: 6px;
       }
     }
+  }
+
+  .subTitle {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
@@ -800,6 +860,11 @@ li {
         border-radius: 20px;
       }
     }
+  }
+
+  .subTitle {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 
@@ -923,6 +988,11 @@ li {
       }
     }
   }
+
+  .subTitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 599px) {
@@ -1042,5 +1112,10 @@ li {
         border-radius: 20px;
       }
     }
+  }
+
+  .subTitle {
+    font-size: 18px;
+    line-height: 28px;
   }
 }

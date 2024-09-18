@@ -1,7 +1,7 @@
 "use client"
 import { Col, Container, Row } from 'react-bootstrap'
 import useEmblaCarousel from 'embla-carousel-react'
-import styles from "/styles/services/location.module.scss"
+import styles from "@/styles/services/location.module.scss"
 import Link from 'next/link'
 import { ArrowIcon, EmailIcon, PhoneIcon } from '@/src/app/app-constants'
 import Autoplay from 'embla-carousel-autoplay'
@@ -141,19 +141,20 @@ const Location = () => {
     const nextButtonHandler = () => {
         if (embla) embla.scrollNext();
     };
+
     return (
         <section className={`${styles.locationSection} bgBlack pt-100`}>
             <Container>
                 <Row>
                     <Col lg={12} md={12}>
                         <h2>Our Global Presence</h2>
-                        <section className={styles.embla}>
+                        <div className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
                                     {LocationList.map((item, index) => (
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.locationBox}>
-                                                <div className={styles.imgBox}>
+                                                <div className={styles.imgBox} >
                                                     <Image src={item.img} alt="Houston" fill />
                                                     <div className={styles.locationTitle}>
                                                         {item.state}
@@ -161,11 +162,10 @@ const Location = () => {
                                                 </div>
 
                                                 <div className={styles.locationContent}>
-                                                    {/* <div className={styles.locOffice}>{item.off}</div> */}
                                                     <div className={styles.locState}>{item.state}</div>
                                                     <div className={styles.locAdd}>{item.add}</div>
                                                     <ul>
-                                                        <li>
+                                                        <li >
                                                             <Link href={`tel:${item.phone}`}>
                                                                 <PhoneIcon />
                                                                 {item.phone}
@@ -192,11 +192,11 @@ const Location = () => {
                                     <ArrowIcon direction="next" />
                                 </div>
                             </div>
-                        </section>
+                        </div>
                     </Col>
                 </Row>
             </Container>
-        </section >
+        </section>
     )
 }
 
