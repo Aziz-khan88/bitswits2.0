@@ -45,7 +45,7 @@ const Header = () => {
                     </Col>
                     <Col md={10} xs={6} sm={6} className="m-auto">
                         {/* <Navigation isWhiteLogo={isWhiteLogo} scrolled={scrolled} /> */}
-                        <Navigation />
+                        <Navigation scrolled={scrolled} />
                     </Col>
                 </Row>
             </Container >

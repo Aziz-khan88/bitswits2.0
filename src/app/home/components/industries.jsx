@@ -1,7 +1,7 @@
 "use client"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/industries.module.scss"
-import { ServiceArrow } from "@/src/app/app-constants"
+import { ServiceArrow } from "../../app-constants"
 import useEmblaCarousel from 'embla-carousel-react'
 import Link from "next/link"
 import { useState } from "react"

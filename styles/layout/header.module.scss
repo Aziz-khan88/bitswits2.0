@@ -8,9 +8,10 @@
 
     &.active {
         position: fixed;
-        background: #fff;
-        box-shadow: 0px 10px 20px #0000001c;
-        top: 0px
+        background: #FFF;
+        box-shadow: 0px 4px 20px 0px rgba(111, 111, 111, 0.05);
+        top: 0px;
+
     }
 
 }
@@ -24,17 +25,22 @@
 @media only screen and (min-width: 900px) and (max-width:1099px) {
     .headerSection {
         height: 60px;
+        top: 10px;
     }
 }
 
 @media only screen and (min-width: 600px) and (max-width:899px) {
     .headerSection {
         height: 50px;
+        top: 0px;
+        background: #fff;
     }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 599px) {
     .headerSection {
         height: 50px;
+        top: 0px;
+        background: #fff;
     }
 }
