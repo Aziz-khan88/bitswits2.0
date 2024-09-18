@@ -21,8 +21,8 @@ const Header = () => {
         };
     }, []);
 
-    const pathname = usePathname();
-    const isWhiteLogo = pathname === '/home' || pathname === '/mobile-game-development-company' || pathname === '/real-estate-app-development-company' || pathname === '/social-media-app-development-company';
+    // const pathname = usePathname();
+    // const isWhiteLogo = pathname === '/';
 
 
     return (
@@ -31,7 +31,7 @@ const Header = () => {
                 <Row className="h-100">
                     <Col md={2} xs={6} sm={6} className="m-auto">
                         <Link href="/">
-                            {isWhiteLogo && !scrolled ? (
+                            {/* {isWhiteLogo && !scrolled ? (
                                 <WhiteLogo />
 
                             ) : isWhiteLogo && scrolled ? (
@@ -39,11 +39,13 @@ const Header = () => {
                             ) : (
                                 <MainLogo />
                             )
-                            }
+                            } */}
+                            <MainLogo />
                         </Link>
                     </Col>
                     <Col md={10} xs={6} sm={6} className="m-auto">
-                        <Navigation isWhiteLogo={isWhiteLogo} scrolled={scrolled} />
+                        {/* <Navigation isWhiteLogo={isWhiteLogo} scrolled={scrolled} /> */}
+                        <Navigation />
                     </Col>
                 </Row>
             </Container >

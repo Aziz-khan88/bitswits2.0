@@ -1,7 +1,7 @@
 .headerSection {
     height: 80px;
     position: absolute;
-    top: 0px;
+    top: 20px;
     width: 100%;
     left: 0px;
     z-index: 999;
@@ -10,6 +10,7 @@
         position: fixed;
         background: #fff;
         box-shadow: 0px 10px 20px #0000001c;
+        top: 0px
     }
 
 }

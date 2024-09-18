@@ -3,33 +3,33 @@ import styles from "@/styles/layout/navigation.module.scss"
 import { PhoneIcon, SubMenuIcon } from "@/src/app/app-constants"
 
 const Navigation = ({ isWhiteLogo, scrolled }) => {
-    const HeaderChanges = isWhiteLogo
-        ? scrolled
-            ? `${styles.whiteNav} ${styles.whiteNavScroll}`
-            : styles.whiteNav
-        : "";
+    // const HeaderChanges = isWhiteLogo
+    //     ? scrolled
+    //         ? `${styles.whiteNav} ${styles.NavScroll}`
+    //         : styles.whiteNav
+    //     : "";
     return (
-        <ul className={`${styles.mainNavigation} ${HeaderChanges}`}>
+        // <ul className={`${styles.mainNavigation} ${HeaderChanges}`}>
+        <ul className={`${styles.mainNavigation} ${scrolled ? styles.NavScroll : ''}`}>
             <li>
-                <Link href="#Services">Services</Link>
+                <Link href="/">Home</Link>
             </li>
             <li>
-                <Link href="#Casestudies">Case Studies</Link>
+                <Link href="#">About</Link>
             </li>
             <li>
-                <Link href="#Process">Process</Link>
+                <Link href="#">Services</Link>
             </li>
             <li>
-                <Link href="#Testimonials">Testimonials</Link>
+                <Link href="#">Blog</Link>
             </li>
             <li>
-                <Link href="#Contact">Contact Us</Link>
+                <Link href="#Contact">Portfolio</Link>
             </li>
-
             <li className={styles.btnHeader}>
-                <a href="tel:+18335006007"><PhoneIcon />+1 833 500 6007</a>
+                <Link href="#">Connect Now</Link>
             </li>
-        </ul >
+        </ul>
     )
 }
 

@@ -1,38 +1,50 @@
 .mainNavigation {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    background: red;
+    height: 80px;
+    border-radius: 73px;
+    background: rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(6px);
+    padding: 0px 30px;
+    max-width: 60%;
+    margin-left: auto;
 
-    &.whiteNav {
-        li {
-            a {
-                color: #fff;
-            }
-        }
-
-        &.whiteNavScroll {
-            li {
-                a {
-                    color: #000000;
-                }
-
-                &.btnHeader {
-                    a {
-                        color: #fff;
-                    }
-                }
-            }
-
-
-        }
+    &.NavScroll {
+        background: transparent;
+        backdrop-filter: blur(0px);
     }
+
+    // &.whiteNav {
+    //     li {
+    //         a {
+    //             color: #fff;
+    //         }
+    //     }
+
+    //     &.whiteNavScroll {
+    //         li {
+    //             a {
+    //                 color: #000000;
+    //             }
+
+    //             &.btnHeader {
+    //                 a {
+    //                     color: #fff;
+    //                 }
+    //             }
+    //         }
+
+
+    //     }
+    // }
 
     li {
         a {
             font-size: 16px;
             font-weight: 400;
-            color: #000000;
+            color: #fff;
             line-height: normal;
             transition: .3s linear;
 
@@ -43,13 +55,13 @@
 
             &:hover {
                 transition: .3s linear;
-                color: #4D77EE;
+                color: #F32FAF;
 
                 svg {
                     transition: .3s linear;
 
                     path {
-                        fill: #4D77EE;
+                        fill: #F32FAF;
                     }
                 }
             }
@@ -57,7 +69,6 @@
 
 
         &.btnHeader {
-            margin-left: 10px;
             height: 50px;
             min-width: 150px;
             padding: 0px 30px;
@@ -66,32 +77,18 @@
             align-items: center;
             transition: .3s linear;
             border-radius: 50px;
-            // background: #4D77EE;
-            background: linear-gradient(91.47deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+            background: transparent;
             font-size: 16px;
+            border: 2px solid #F32FAF;
 
-            a {
-                color: #fff;
-                font-weight: 700;
 
-                svg {
-                    height: 14px;
-                    width: 14px;
-                    margin-right: 10px;
-                }
-            }
 
             &:hover {
                 transition: .3s linear;
-                background: #4D77EE;
+                background: #F32FAF;
 
-                svg {
-                    height: 14px;
-                    width: 14px;
-
-                    path {
-                        fill: #fff;
-                    }
+                a {
+                    color: #fff;
                 }
             }
         }
