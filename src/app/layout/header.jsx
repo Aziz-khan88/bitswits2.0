@@ -21,8 +21,8 @@ const Header = () => {
         };
     }, []);
 
-    // const pathname = usePathname();
-    // const isWhiteLogo = pathname === '/';
+    const pathname = usePathname();
+    const isWhiteLogo = pathname === '/' || pathname === '/healthcare-app-development-services' || pathname === '/education-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/ecommerce-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/real-estate-app-development-company' || pathname === '/automotive-software-development';
 
 
     return (
@@ -31,7 +31,7 @@ const Header = () => {
                 <Row className="h-100">
                     <Col md={2} xs={6} sm={6} className="m-auto">
                         <Link href="/">
-                            {/* {isWhiteLogo && !scrolled ? (
+                            {isWhiteLogo && !scrolled ? (
                                 <WhiteLogo />
 
                             ) : isWhiteLogo && scrolled ? (
@@ -39,13 +39,11 @@ const Header = () => {
                             ) : (
                                 <MainLogo />
                             )
-                            } */}
-                            <WhiteLogo />
+                            }
                         </Link>
                     </Col>
                     <Col md={10} xs={6} sm={6} className="m-auto">
-                        {/* <Navigation isWhiteLogo={isWhiteLogo} scrolled={scrolled} /> */}
-                        <Navigation scrolled={scrolled} />
+                        <Navigation scrolled={scrolled} isWhiteLogo={isWhiteLogo} />
                     </Col>
                 </Row>
             </Container >

@@ -1,29 +1,11 @@
 import Link from "next/link"
 import styles from "@/styles/layout/navigation.module.scss"
-import { ArrowIcon, NavIcon, PhoneIcon, ServiceArrow, SubMenuIcon } from "@/src/app/app-constants"
-import { Col, Container, Row } from "react-bootstrap"
-import { useEffect, useState } from "react"
+import { NavIcon, ServiceArrow, SubMenuIcon } from "@/src/app/app-constants"
+import { Container } from "react-bootstrap"
+import { useState } from "react"
 
 const Navigation = ({ isWhiteLogo, scrolled }) => {
     const [isActive, setIsActive] = useState(false);
-    const [isMobileView, setIsMobileView] = useState(false);
-
-    useEffect(() => {
-        // Check screen size on mount
-        const checkScreenSize = () => {
-            if (typeof window !== 'undefined') {
-                const isMobile = window.innerWidth <= 800;
-                setIsMobileView(isMobile);
-                if (!isMobile && isActive) {
-                    handleClosed();
-                }
-            }
-        };
-
-        checkScreenSize();
-        window.addEventListener('resize', checkScreenSize);
-        return () => window.removeEventListener('resize', checkScreenSize);
-    }, [isActive]);
 
     const handleClick = () => {
         setIsActive(!isActive);
@@ -34,26 +16,17 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
         }
     };
 
-    const handleClosed = () => {
-        setIsActive(false);
-        document.body.classList.remove('active');
-    };
+    const HeaderWhite = isWhiteLogo ? `${styles.whiteNav}` : '';
+    const HeaderScroll = scrolled ? `${styles.NavScroll}` : '';
 
 
-
-    // const HeaderChanges = isWhiteLogo
-    //     ? scrolled
-    //         ? `${styles.whiteNav} ${styles.NavScroll}`
-    //         : styles.whiteNav
-    //     : "";
     return (
-        // <ul className={`${styles.mainNavigation} ${HeaderChanges}`}>
         <>
             <div onClick={handleClick}
                 className={`${isActive ? 'navIcon active' : 'navIcon'}`}>
                 <NavIcon />
             </div>
-            <ul className={`${styles.mainNavigation} ${scrolled ? styles.NavScroll : ''}`} >
+            <ul className={`${styles.mainNavigation} ${HeaderWhite} ${HeaderScroll}`} >
                 <li>
                     <Link href="/">Home</Link>
                 </li>

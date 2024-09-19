@@ -22,6 +22,34 @@
         z-index: -1;
     }
 
+    &.whiteNav {
+        background: transparent;
+
+        &::after {
+            display: block;
+        }
+
+        li {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                font-size: 16px;
+                font-weight: 500;
+                color: #fff;
+                line-height: normal;
+                transition: .3s linear;
+
+                &:hover {
+                    transition: .3s linear;
+                    color: #F32FAF;
+                }
+            }
+        }
+    }
+
     li {
         height: 100%;
         display: flex;
@@ -31,7 +59,7 @@
         a {
             font-size: 16px;
             font-weight: 500;
-            color: #fff;
+            color: #000;
             line-height: normal;
             transition: .3s linear;
 
@@ -279,6 +307,8 @@
             }
         }
     }
+
+
 
 }
 
