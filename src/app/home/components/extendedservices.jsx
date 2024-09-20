@@ -70,7 +70,7 @@ const ExtendedServices = () => {
                         <div className="subTitle txtColor">Extended Services</div>
                         <h2>Some work we are proud of</h2>
                     </Col>
-                    <Col lg={6} md={6} className="mt-auto">
+                    <Col lg={6} md={6} className="m-auto">
                         <p>Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.</p>
                     </Col>
                 </Row>
