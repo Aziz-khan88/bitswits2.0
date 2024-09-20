@@ -36,7 +36,7 @@ const Engagement = ({ data, list }) => {
                                 </div>
                             </div>
                             {list.map((item, index) => (
-                                <div className={styles.engagementItem}>
+                                <div className={styles.engagementItem} key={index}>
                                 <div className={styles.mainTitle}>
                                     {item?.logo}
                                     <h6>{item?.title}</h6>

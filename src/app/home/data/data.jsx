@@ -198,25 +198,25 @@ export const TestimonialSLIDES = [
     },
     {
         logo: <ClutchLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
+        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm’s workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
         name: "Daniel Gonzalez",
         designation: "CTO / Pronftdesign.com"
     },
     {
         logo: <GoogleLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
+        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm’s workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
         name: "Daniel Gonzalez",
         designation: "CTO / Pronftdesign.com"
     },
     {
         logo: <ClutchLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
+        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm’s workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
         name: "Daniel Gonzalez",
         designation: "CTO / Pronftdesign.com"
     },
     {
         logo: <GoogleLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm's workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
+        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm’s workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
         name: "Daniel Gonzalez",
         designation: "CTO / Pronftdesign.com"
     },

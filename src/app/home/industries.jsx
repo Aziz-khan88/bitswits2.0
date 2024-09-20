@@ -11,20 +11,20 @@ const Industries = ({data, slides, options }) => {
     const [activeSlide, setActiveSlide] = useState(0);
     const [isPaused, setIsPaused] = useState(false);
 
-    const activateSlide = (index) => {
+    const activateSlide = useCallback((index) => {
         if (emblaApi) {
             emblaApi.scrollTo(index);
             setActiveSlide(index);
         }
-    };
-
+    }, [emblaApi]);
+    
     const nextSlide = useCallback(() => {
         if (emblaApi && !isPaused) {
             const slideCount = emblaApi.slideNodes().length;
             const nextIndex = (activeSlide + 1) % slideCount;
             activateSlide(nextIndex);
         }
-    }, [activeSlide, emblaApi, isPaused]);
+    }, [activeSlide, emblaApi, isPaused, activateSlide]);
 
     useEffect(() => {
         const interval = setInterval(() => {

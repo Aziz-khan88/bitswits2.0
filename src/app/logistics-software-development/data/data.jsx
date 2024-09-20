@@ -841,7 +841,7 @@ export const FaqsContent = {
 export const FaqsList = [
     {
         title: "How long does it take to develop logistics software?",
-        txt: "The timeline for logistics software development depends on the project's scope, complexity, and features. Generally, a basic logistics solution may take 3-6 months, while more complex, customized solutions may require 9-12 months, including testing, integration, and deployment."
+        txt: "The timeline for logistics software development depends on the project’s scope, complexity, and features. Generally, a basic logistics solution may take 3-6 months, while more complex, customized solutions may require 9-12 months, including testing, integration, and deployment."
     },
     {
         title: "How much does logistics software development cost?",
