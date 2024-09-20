@@ -13,7 +13,7 @@
 
                 .embla__slide {
                     transform: translate3d(0, 0, 0);
-                    flex: 0 0 158px;
+                    flex: 0 0 130px;
                     min-width: 0;
                     padding-left: 10px;
                     height: 480px;
@@ -88,7 +88,7 @@
                     }
 
                     &.active {
-                        flex: 0 0 633px;
+                        flex: 0 0 400px;
 
                         .industriesItem {
                             justify-content: flex-end;
@@ -229,11 +229,18 @@
                 .embla__container {
 
                     .embla__slide {
-                        flex: 0 0 158px;
-                        height: 480px;
+                        flex: 0 0 130px;
+                        height: 450px;
 
                         .industriesItem {
                             padding: 20px;
+
+                            .industriesIcon {
+                                svg {
+                                    height: 50px;
+                                    width: auto;
+                                }
+                            }
 
                             .industriesTxt {
 
@@ -263,7 +270,7 @@
                         }
 
                         &.active {
-                            flex: 0 0 633px;
+                            flex: 0 0 400px;
 
                             .industriesItem {
                                 padding: 30px;
@@ -333,11 +340,18 @@
                 .embla__container {
 
                     .embla__slide {
-                        flex: 0 0 158px;
-                        height: 480px;
+                        flex: 0 0 120px;
+                        height: 420px;
 
                         .industriesItem {
                             padding: 20px;
+
+                            .industriesIcon {
+                                svg {
+                                    height: 50px;
+                                    width: auto;
+                                }
+                            }
 
                             .industriesTxt {
 
@@ -367,7 +381,7 @@
                         }
 
                         &.active {
-                            flex: 0 0 600px;
+                            flex: 0 0 400px;
 
                             .industriesItem {
                                 padding: 30px;
@@ -437,15 +451,15 @@
                 .embla__container {
 
                     .embla__slide {
-                        flex: 0 0 140px;
-                        height: 430px;
+                        flex: 0 0 100px;
+                        height: 400px;
 
                         .industriesItem {
                             padding: 20px;
 
                             .industriesIcon {
                                 svg {
-                                    height: 50px;
+                                    height: 45px;
                                     width: auto;
                                 }
                             }
@@ -478,7 +492,7 @@
                         }
 
                         &.active {
-                            flex: 0 0 500px;
+                            flex: 0 0 350px;
 
                             .industriesItem {
                                 padding: 30px;
@@ -548,15 +562,17 @@
                 .embla__container {
 
                     .embla__slide {
-                        flex: 0 0 140px;
-                        height: 430px;
+                        flex: 0 0 90px;
+                        height: 380px;
+
 
                         .industriesItem {
                             padding: 20px;
+                            border-radius: 15px;
 
                             .industriesIcon {
                                 svg {
-                                    height: 50px;
+                                    height: 40px;
                                     width: auto;
                                 }
                             }
@@ -589,17 +605,19 @@
                         }
 
                         &.active {
-                            flex: 0 0 500px;
+                            flex: 0 0 350px;
 
                             .industriesItem {
                                 padding: 30px;
-
+                                border-radius: 15px;
 
                                 .industriesIcon {
                                     margin-bottom: 70px;
                                 }
 
                                 .industriesTxt {
+                                    border-radius: 15px;
+
                                     h5 {
                                         left: 0px;
                                         top: -45px;
@@ -659,15 +677,16 @@
                 .embla__container {
 
                     .embla__slide {
-                        flex: 0 0 140px;
-                        height: 430px;
+                        flex: 0 0 80px;
+                        height: 380px;
 
                         .industriesItem {
-                            padding: 20px;
+                            padding: 20px 10px;
+                            border-radius: 12px;
 
                             .industriesIcon {
                                 svg {
-                                    height: 50px;
+                                    height: 40px;
                                     width: auto;
                                 }
                             }
@@ -700,20 +719,20 @@
                         }
 
                         &.active {
-                            flex: 0 0 500px;
+                            flex: 0 0 320px;
 
                             .industriesItem {
-                                padding: 30px;
-
+                                padding: 20px;
+                                border-radius: 12px;
 
                                 .industriesIcon {
-                                    margin-bottom: 70px;
+                                    margin-bottom: 50px;
                                 }
 
                                 .industriesTxt {
                                     h5 {
                                         left: 0px;
-                                        top: -45px;
+                                        top: -35px;
                                         margin-bottom: 20px;
                                     }
 
@@ -770,15 +789,16 @@
                 .embla__container {
 
                     .embla__slide {
-                        flex: 0 0 120px;
-                        height: 430px;
+                        flex: 0 0 80px;
+                        height: 350px;
 
                         .industriesItem {
-                            padding: 20px;
+                            padding: 20px 10px;
+                            border-radius: 10px;
 
                             .industriesIcon {
                                 svg {
-                                    height: 45px;
+                                    height: 35px;
                                     width: auto;
                                 }
                             }
@@ -811,20 +831,20 @@
                         }
 
                         &.active {
-                            flex: 0 0 100%;
+                            flex: 0 0 80%;
 
                             .industriesItem {
                                 padding: 20px;
 
 
                                 .industriesIcon {
-                                    margin-bottom: 70px;
+                                    margin-bottom: 40px;
                                 }
 
                                 .industriesTxt {
                                     h5 {
                                         left: 0px;
-                                        top: -45px;
+                                        top: -30px;
                                         margin-bottom: 20px;
                                     }
 
@@ -837,6 +857,8 @@
 
                                         a {
                                             .btnBox {
+                                                height: 35px;
+                                                width: 35px;
 
                                                 svg {
                                                     width: 15px;
@@ -853,7 +875,7 @@
             }
 
             .embla_container {
-                margin: 40px 0px 0px;
+                margin: 30px 0px 0px;
                 gap: 15px;
 
                 div {
