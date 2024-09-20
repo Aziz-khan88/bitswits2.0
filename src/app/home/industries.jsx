@@ -1,13 +1,12 @@
 "use client"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/industries.module.scss"
-import { ServiceArrow } from "../../app-constants"
+import { ServiceArrow } from "../app-constants"
 import useEmblaCarousel from 'embla-carousel-react'
 import Link from "next/link"
 import { useState, useEffect, useCallback } from "react"
 
-const Industries = (props) => {
-    const { slides, options } = props
+const Industries = ({data, slides, options }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(options);
     const [activeSlide, setActiveSlide] = useState(0);
     const [isPaused, setIsPaused] = useState(false);
@@ -49,11 +48,11 @@ const Industries = (props) => {
             <Container>
                 <Row>
                     <Col lg={7} md={7}>
-                        <div className="subTitle txtColor">Industries</div>
-                        <h2>We transform innovative ideas into powerful digital experiences.</h2>
+                        <div className="subTitle txtColor">{data?.subtitle}</div>
+                        <h2>{data?.title}</h2>
                     </Col>
                     <Col lg={5} md={5} className="mt-auto">
-                        <p>Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.</p>
+                        <p>{data?.content}</p>
                     </Col>
                 </Row>
                 <Row>

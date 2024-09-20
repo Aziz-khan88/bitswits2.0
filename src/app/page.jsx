@@ -1,87 +1,44 @@
-import Process from "@/src/app/home/components/process";
-import Banner from "@/src/app/home/components/banner";
-import CaseStudy from "@/src/app/home/components/casestudy";
-import CompanyInfo from "@/src/app/home/components/companyinfo";
-import DigitalCta from "@/src/app/home/components/digitalcta";
-import ExtendedServices from "@/src/app/home/components/extendedservices";
-import HomeServices from "@/src/app/home/components/homeservices";
-import Testimonial from "@/src/app/home/components/testimonial";
-import Solutions from "@/src/app/home/components/solutions";
-import Engagement from "@/src/app/home/components/engagement";
-import Faqs from "@/src/app/home/components/faqs";
+import {
+  BannerData, CompanyInfoContent, HomeServicesContent, 
+  HomeServicesList, CaseStudyContent, ExtendedServicesContent,
+  ExtendedServicesList, ProcessContent, ProcessList,
+  TestimonialContent, TestimonialSLIDES, SolutionsContent,
+  SolutionsList, EngagementContent, EngagementList,
+  IndustriesContent, IndustriesSLIDES, FaqsContent,
+  FaqsList, IdeaCtaContent,
+} from "@/src/app/home/data/data";
+import Process from "@/src/app/home/process";
+import Banner from "@/src/app/home/banner";
+import CaseStudy from "@/src/app/home/casestudy";
+import CompanyInfo from "@/src/app/home/companyinfo";
+import DigitalCta from "@/src/app/home/digitalcta";
+import ExtendedServices from "@/src/app/home/extendedservices";
+import HomeServices from "@/src/app/home/homeservices";
+import Testimonial from "@/src/app/home/testimonial";
+import Solutions from "@/src/app/home/solutions";
+import Engagement from "@/src/app/home/engagement";
+import Faqs from "@/src/app/home/faqs";
 import IdeaCta from "@/src/app/services/ideacta";
-import Industries from "@/src/app/home/components/industries";
-import { Automotive, ECommerce, Education, Food, Healthcare, Insurance, Music, RealEstate, SocialMedia } from "@/src/app/app-constants"
+import Industries from "@/src/app/home/industries";
 
-const IdeaCtaContent = {
-  title: (<>Let’s Change<br /> The World With Your</>),
-  text: (<> App <span>Idea!</span></>),
-  formtitle: (<>Let’s Create An Amazing<br /> Mobile App Together!</>)
-}
 
 const OPTIONS = { loop: true, align: 'center' }
-const SLIDES = [
-  {
-    title: "Healthcare",
-    icon: <Healthcare />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  },
-  {
-    title: "Food",
-    icon: <Food />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  },
-  {
-    title: "Education",
-    icon: <Education />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  },
-  {
-    title: "Real Estate",
-    icon: <RealEstate />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  },
-  {
-    title: "Automotive",
-    icon: <Automotive />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  },
-  {
-    title: "Music",
-    icon: <Music />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  },
-  {
-    title: "Social Media",
-    icon: <SocialMedia />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  },
-  {
-    title: "Insurance",
-    icon: <Insurance />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  },
-  {
-    title: "eCommerce",
-    icon: <ECommerce />,
-    txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
-  }
-]
+
 export default function Page() {
   return (
     <>
-      <Banner />
-      <CompanyInfo />
-      <HomeServices />
-      <CaseStudy />
-      <ExtendedServices />
+      <Banner data={BannerData}/>
+      <CompanyInfo data={CompanyInfoContent}/>
+      <HomeServices data={HomeServicesContent} list={HomeServicesList}/>
+      <CaseStudy data={CaseStudyContent}/>
+      <ExtendedServices data={ExtendedServicesContent} list={ExtendedServicesList}/>
       <DigitalCta />
-      <Process />
-      <Testimonial />
-      <Solutions />
-      <Engagement />
-      <Industries slides={SLIDES} options={OPTIONS} />
-      <Faqs />
+      <Process data={ProcessContent} list={ProcessList}/>
+      <Testimonial data={TestimonialContent} list={TestimonialSLIDES}/>
+      <Solutions data={SolutionsContent} list={SolutionsList}/>
+      <Engagement data={EngagementContent} list={EngagementList}/>
+      <Industries data={IndustriesContent} slides={IndustriesSLIDES} options={OPTIONS} />
+      <Faqs data={FaqsContent} list={FaqsList}/>
       <IdeaCta data={IdeaCtaContent} />
     </>
   );

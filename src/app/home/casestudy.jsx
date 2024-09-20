@@ -13,7 +13,7 @@ import { ServiceArrow } from "@/src/app/app-constants";
 const options = { align: 'start', loop: "true" }
 
 
-const CaseStudy = () => {
+const CaseStudy = ({ data }) => {
     const [emblaRef, embla] = useEmblaCarousel(options, [Autoplay()]);
 
     const prevButtonHandler = () => {
@@ -28,13 +28,22 @@ const CaseStudy = () => {
             <Container>
                 <Row>
                     <Col lg={7} md={7}>
+                        <div className="subTitle txtColor">{data?.subtitle}</div>
+                        <h2>{data?.title}</h2>
+                    </Col>
+                    <Col lg={5} md={5} className="mt-auto">
+                        <p>{data?.content}</p>
+                    </Col>
+                </Row>
+                {/* <Row>
+                    <Col lg={7} md={7}>
                         <div className="subTitle txtColor">Case Studies</div>
                         <h2>We transform innovative ideas into powerful digital experiences.</h2>
                     </Col>
                     <Col lg={5} md={5} className="mt-auto">
                         <p>Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.</p>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row>
                     <Col>
                         <section className={styles.embla}>
