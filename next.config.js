@@ -19,8 +19,4 @@ module.exports = {
 
         return config;
     },
-    reactStrictMode: true,
-    experimental: {
-        reactRoot: true,  // Enables new React concurrent features
-    },
 }

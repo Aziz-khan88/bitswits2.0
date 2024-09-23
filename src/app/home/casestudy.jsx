@@ -24,7 +24,7 @@ const CaseStudy = ({ data }) => {
         if (embla) embla.scrollNext();
     };
     return (
-        <section className={`${styles.homeCaseStudy} p-100`}>
+        <section className={`${styles.homeCaseStudy} pt-100`}>
             <Container>
                 <Row>
                     <Col lg={7} md={7}>
