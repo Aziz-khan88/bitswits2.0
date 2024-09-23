@@ -37,7 +37,7 @@ export const Awards = [
         AwardsIMG: IMG07.src
     },
 ]
-const CompanyInfo = () => {
+const CompanyInfo = ({ data }) => {
     const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
     return (
         <section className={`${styles.companyInfoSection} p-100`}>
@@ -45,8 +45,8 @@ const CompanyInfo = () => {
                 <Row className="h-100">
                     <Col lg={8} md={12} className="my-auto">
                         <div className="subTitle txtColor">Who We Are</div>
-                        <h2>Some work we are proud of</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit</p>
+                        <h2>{data?.title}</h2>
+                        <p>{data?.content}</p>
                         <div className={styles.companyStats}>
                             <div className={styles.statsItem}>
                                 <div className="txtColor">10+</div>
