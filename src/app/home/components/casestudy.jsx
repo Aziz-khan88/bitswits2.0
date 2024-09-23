@@ -24,14 +24,14 @@ const CaseStudy = () => {
         if (embla) embla.scrollNext();
     };
     return (
-        <section className={`${styles.homeCaseStudy} p-100`}>
+        <section className={`${styles.homeCaseStudy} pt-100`}>
             <Container>
                 <Row>
                     <Col lg={7} md={7}>
                         <div className="subTitle txtColor">Case Studies</div>
                         <h2>We transform innovative ideas into powerful digital experiences.</h2>
                     </Col>
-                    <Col lg={5} md={5} className="m-auto">
+                    <Col lg={5} md={5} className="mt-auto">
                         <p>Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.</p>
                     </Col>
                 </Row>

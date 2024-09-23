@@ -51,7 +51,7 @@ const Solutions = () => {
                         <div className="subTitle txtColor">Solutions We Provide</div>
                         <h2>We transform innovative ideas into powerful digital experiences.</h2>
                     </Col>
-                    <Col lg={5} md={5} className="m-auto">
+                    <Col lg={5} md={5} className="mt-auto">
                         <p>Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.</p>
                     </Col>
                 </Row>
