@@ -1,5 +1,5 @@
 // Overview Images
-import OverviewImg from "media/casestudies/singles-up/OverviewImg.webp"
+import OverviewImg from "media/casestudies/singles-up/Overview.webp"
 
 // Features Images
 import FeaturesImg from "media/casestudies/singles-up/FeaturesLogo.webp"

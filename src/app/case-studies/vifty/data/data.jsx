@@ -1,5 +1,5 @@
 // Overview Images
-import OverviewImg from "media/casestudies/vifty/OverviewImg.webp"
+import OverviewImg from "media/casestudies/vifty/Overview.webp"
 
 // Features Images
 import FeaturesImg from "media/casestudies/vifty/FeaturesLogo.webp"
