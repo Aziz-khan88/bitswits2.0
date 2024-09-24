@@ -1,17 +1,17 @@
 // Overview Images
-import overview from "media/casestudies/vifty/overviewimage.webp"
+import overview from "media/casestudies/Vifty/OverviewImg.webp"
 
 // Features Images
-import features from "media/casestudies/vifty/featuresimage.webp"
+import features from "media/casestudies/Vifty/FeaturesLogo.webp"
 
 // Problem Images
-import problem from "media/casestudies/vifty/problemimage.webp"
+import problem from "media/casestudies/Vifty/ProblemImg.webp"
 
 // Solution Images
-import solution from "media/casestudies/vifty/solutionimage.webp"
+import solution from "media/casestudies/Vifty/SolutionImg.webp"
 
 // Result Images
-import result from "media/casestudies/vifty/resultimage.webp"
+import result from "media/casestudies/Vifty/ResultImg.webp"
 
 export const BannerData = {
     subtitle: "Vifty",

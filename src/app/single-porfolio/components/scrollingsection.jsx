@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/portfolio/scrollingsection.module.scss"
-import BgImg from "media/casestudies/vifty/ScrollingImage.webp"
+import BgImg from "media/casestudies/Vifty/ScrollingImage.webp"
 import Image from "next/image"
 
 const ScrollingSection = () => {
