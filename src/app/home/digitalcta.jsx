@@ -2,14 +2,15 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/digitalcta.module.scss"
 import ButtonCommon from "@/src/components/common/button"
 
-const DigitalCta = () => {
+const DigitalCta = ({data}) => {
     return (
         <section className={`${styles.digitalSection}  p-100`}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={12} md={12} className="my-auto" >
                         <div className={styles.digitalContent}>
-                            <span>Transform<br />Your</span>Digital
+                            {data?.content}
+                            {/* <span>Transform<br />Your</span>Digital */}
                         </div>
                         <div className={styles.digitalAnimatedBox}>
                             <div className={styles.digitalAnimatedTxt}>

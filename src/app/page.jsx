@@ -3,9 +3,9 @@ import {
   HomeServicesList, CaseStudyContent, ExtendedServicesContent,
   ExtendedServicesList, ProcessContent, ProcessList,
   TestimonialContent, TestimonialSLIDES, SolutionsContent,
-  SolutionsList, EngagementContent, EngagementList,
+  SolutionsList, EngagementContent, EngagementDetailList, EngagementList,
   IndustriesContent, IndustriesSLIDES, FaqsContent,
-  FaqsList, IdeaCtaContent,
+  FaqsList, IdeaCtaContent, DigitalCtaContent
 } from "@/src/app/home/data/data";
 import Process from "@/src/app/home/process";
 import Banner from "@/src/app/home/banner";
@@ -32,11 +32,11 @@ export default function Page() {
       <HomeServices data={HomeServicesContent} list={HomeServicesList}/>
       <CaseStudy data={CaseStudyContent}/>
       <ExtendedServices data={ExtendedServicesContent} list={ExtendedServicesList}/>
-      <DigitalCta />
+      <DigitalCta data={DigitalCtaContent}/>
       <Process data={ProcessContent} list={ProcessList}/>
       <Testimonial data={TestimonialContent} list={TestimonialSLIDES}/>
       <Solutions data={SolutionsContent} list={SolutionsList}/>
-      <Engagement data={EngagementContent} list={EngagementList}/>
+      <Engagement data={EngagementContent} listDetail={EngagementDetailList} list={EngagementList}/>
       <Industries data={IndustriesContent} slides={IndustriesSLIDES} options={OPTIONS} />
       <Faqs data={FaqsContent} list={FaqsList}/>
       <IdeaCta data={IdeaCtaContent} />

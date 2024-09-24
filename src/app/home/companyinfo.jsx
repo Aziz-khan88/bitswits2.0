@@ -44,7 +44,7 @@ const CompanyInfo = ({ data }) => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={8} md={12} className="my-auto">
-                        <div className="subTitle txtColor">Who We Are</div>
+                        <div className="subTitle txtColor">{data?.subtitle}</div>
                         <h2>{data?.title}</h2>
                         <p>{data?.content}</p>
                         <div className={styles.companyStats}>

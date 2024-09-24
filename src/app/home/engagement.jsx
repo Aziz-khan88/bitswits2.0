@@ -3,7 +3,7 @@ import styles from "@/styles/home/engagement.module.scss"
 import Link from "next/link"
 
 
-const Engagement = ({ data, list }) => {
+const Engagement = ({ data, listDetail, list }) => {
     return (
         <section className={`${styles.engagementSolution} p-100`}>
             <Container>
@@ -24,12 +24,9 @@ const Engagement = ({ data, list }) => {
 
                                 </div>
                                 <div className={styles.mainItemList}>
-                                    <div>Suited For</div>
-                                    <div>Size of Project</div>
-                                    <div>Requirement Type</div>
-                                    <div>Client’s Involvement</div>
-                                    <div>Time Frame</div>
-                                    <div>Budget</div>
+                                    {listDetail.map((item, index) => (
+                                        <div key={index}>{item}</div>
+                                    ))}
                                 </div>
                                 <div className={styles.mainButtton}>
 
@@ -37,19 +34,19 @@ const Engagement = ({ data, list }) => {
                             </div>
                             {list.map((item, index) => (
                                 <div className={styles.engagementItem} key={index}>
-                                <div className={styles.mainTitle}>
-                                    {item?.logo}
-                                    <h6>{item?.title}</h6>
+                                    <div className={styles.mainTitle}>
+                                        {item?.logo}
+                                        <h6>{item?.title}</h6>
+                                    </div>
+                                    <div className={styles.mainItemList}>
+                                        {item.detail.map((item, index) => (
+                                            <div key={index}>{item}</div>
+                                        ))}
+                                    </div>
+                                    <div className={styles.mainButtton}>
+                                        <Link href="">Read More</Link>
+                                    </div>
                                 </div>
-                                <div className={styles.mainItemList}>
-                                {item.detail.map((item, index) => (
-                                    <div key={index}>{item}</div>
-                                ))}
-                                </div>
-                                <div className={styles.mainButtton}>
-                                    <Link href="">Read More</Link>
-                                </div>
-                            </div>
                             ))}
                         </div>
                     </Col>
