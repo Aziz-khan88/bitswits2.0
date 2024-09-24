@@ -13,8 +13,6 @@ import SolutionImg from "media/casestudies/vifty/SolutionImg.webp"
 // Result Images
 import ResultImg from "media/casestudies/vifty/ResultImg.webp"
 
-
-
 export const BannerData = {
     subtitle: "Vifty",
     title: "Connect, share, and discover",

@@ -14,8 +14,6 @@ import SolutionImg from "media/casestudies/singles-up/SolutionImg.webp"
 import ResultImg from "media/casestudies/singles-up/ResultImg.webp"
 
 
-
-
 export const BannerData = {
     subtitle: "Single’s Up",
     title: "Connect, share, and discover",
