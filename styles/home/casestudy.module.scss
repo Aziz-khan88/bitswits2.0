@@ -54,7 +54,7 @@
                             padding: 0px 30px;
 
                             .casestudyTxt {
-                                flex: 0 0 60%;
+                                flex: 0 0 70%;
 
                                 .logoSec {
                                     display: flex;
@@ -94,24 +94,24 @@
                                         display: flex;
                                         justify-content: flex-start;
                                         align-items: center;
-                                        gap: 20px;
+                                        gap: 10px;
                                         flex-wrap: wrap;
 
                                         li {
-                                            flex: 0 0 calc(25% - 20px);
+                                            flex: 0 0 calc(25% - 10px);
                                             border: 1px solid #fff;
                                             border-radius: 23px;
                                             color: #FFF;
-                                            font-size: 16px;
+                                            font-size: 15px;
                                             font-style: normal;
-                                            font-weight: 500;
+                                            font-weight: 400;
                                             line-height: 35px;
                                             letter-spacing: -0.165px;
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
                                             height: 40px;
-                                            max-width: 170px;
+                                            padding: 0px 10px;
                                         }
                                     }
                                 }
@@ -119,14 +119,14 @@
                             }
 
                             .btnSec {
-                                flex: 0 0 40%;
+                                flex: 0 0 30%;
                                 text-align: right;
                             }
                         }
 
                         &:hover {
                             &::before {
-                                bottom: 0px;
+                                bottom: 0;
                             }
 
                             .casestudyContent {
@@ -174,7 +174,7 @@
                                 padding: 0px 30px;
 
                                 .casestudyTxt {
-                                    flex: 0 0 60%;
+                                    flex: 0 0 70%;
 
                                     .logoSec {
 
@@ -188,14 +188,13 @@
                                     .casestudyPara {
 
                                         ul {
-                                            gap: 20px;
+                                            gap: 10px;
 
                                             li {
-                                                flex: 0 0 calc(25% - 20px);
-                                                font-size: 16px;
+                                                flex: 0 0 calc(25% - 10px);
+                                                font-size: 15px;
                                                 line-height: 35px;
                                                 height: 40px;
-                                                max-width: 170px;
                                             }
                                         }
                                     }
@@ -203,28 +202,10 @@
                                 }
 
                                 .btnSec {
-                                    flex: 0 0 40%;
+                                    flex: 0 0 30%;
                                 }
                             }
 
-                        }
-                    }
-                }
-            }
-
-            .embla_container {
-                margin: 30px 0px 0px;
-
-                div {
-                    height: 45px;
-                    width: 45px;
-
-                    svg {
-                        width: 16px;
-                        height: 16px;
-
-                        path {
-                            stroke: #7C7C7C;
                         }
                     }
                 }
@@ -236,7 +217,7 @@
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .homeCaseStudy {
         .embla {
-            margin-top: 60px;
+            margin-top: 40px;
 
             .embla__viewport {
                 .embla__container {
@@ -255,142 +236,9 @@
                                 padding: 0px 30px;
 
                                 .casestudyTxt {
-                                    flex: 0 0 60%;
-
-                                    .logoSec {
-
-                                        span {
-                                            margin-left: 20px;
-                                            font-size: 45px;
-                                            line-height: 52px;
-                                        }
-                                    }
-
-                                    .casestudyPara {
-
-                                        ul {
-                                            gap: 15px;
-
-                                            li {
-                                                flex: 0 0 calc(25% - 15px);
-                                                font-size: 15px;
-                                                line-height: 35px;
-                                                height: 40px;
-                                                max-width: 170px;
-                                            }
-                                        }
-                                    }
-
-                                }
-
-                                .btnSec {
-                                    flex: 0 0 40%;
-                                }
-                            }
-
-                        }
-                    }
-                }
-            }
-
-
-        }
-    }
-}
-
-@media only screen and (min-width: 1100px) and (max-width: 1299px) {
-    .homeCaseStudy {
-        .embla {
-            margin-top: 60px;
-
-            .embla__viewport {
-                .embla__container {
-
-                    .embla__slide {
-                        height: 550px;
-
-                        .casestudyBox {
-                            &::before {
-                                height: 480px;
-                                bottom: -220px;
-                            }
-
-                            .casestudyContent {
-                                bottom: 30px;
-                                padding: 0px 30px;
-
-                                .casestudyTxt {
-                                    flex: 0 0 60%;
-
-                                    .logoSec {
-
-                                        span {
-                                            margin-left: 20px;
-                                            font-size: 45px;
-                                            line-height: 52px;
-                                        }
-                                    }
-
-                                    .casestudyPara {
-
-                                        ul {
-                                            gap: 15px;
-
-                                            li {
-                                                flex: 0 0 calc(25% - 15px);
-                                                font-size: 14px;
-                                                height: 40px;
-                                                max-width: 170px;
-                                            }
-                                        }
-                                    }
-
-                                }
-
-                                .btnSec {
-                                    flex: 0 0 40%;
-                                }
-                            }
-
-                        }
-                    }
-                }
-            }
-
-
-        }
-    }
-}
-
-@media only screen and (min-width: 900px) and (max-width:1099px) {
-    .homeCaseStudy {
-        .embla {
-            margin-top: 60px;
-
-            .embla__viewport {
-                .embla__container {
-
-                    .embla__slide {
-                        height: 550px;
-
-                        .casestudyBox {
-                            &::before {
-                                height: 480px;
-                                bottom: -220px;
-                            }
-
-                            .casestudyContent {
-                                bottom: 30px;
-                                padding: 0px 30px;
-
-                                .casestudyTxt {
                                     flex: 0 0 70%;
 
                                     .logoSec {
-                                        img {
-                                            height: 90px;
-                                            width: auto;
-                                        }
 
                                         span {
                                             margin-left: 20px;
@@ -402,13 +250,13 @@
                                     .casestudyPara {
 
                                         ul {
-                                            gap: 15px;
+                                            gap: 10px;
 
                                             li {
-                                                flex: 0 0 calc(25% - 15px);
+                                                flex: 0 0 calc(25% - 10px);
                                                 font-size: 14px;
+                                                line-height: 35px;
                                                 height: 40px;
-                                                max-width: 170px;
                                             }
                                         }
                                     }
@@ -430,10 +278,138 @@
     }
 }
 
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .homeCaseStudy {
+        .embla {
+            margin-top: 40px;
+
+            .embla__viewport {
+                .embla__container {
+
+                    .embla__slide {
+                        height: 550px;
+
+                        .casestudyBox {
+                            &::before {
+                                height: 480px;
+                                bottom: -220px;
+                            }
+
+                            .casestudyContent {
+                                bottom: 30px;
+                                padding: 0px 30px;
+
+                                .casestudyTxt {
+                                    flex: 0 0 70%;
+
+                                    .logoSec {
+
+                                        span {
+                                            margin-left: 20px;
+                                            font-size: 45px;
+                                            line-height: 52px;
+                                        }
+                                    }
+
+                                    .casestudyPara {
+
+                                        ul {
+                                            gap: 10px;
+
+                                            li {
+                                                flex: 0 0 calc(25% - 10px);
+                                                font-size: 14px;
+                                                height: 40px;
+                                            }
+                                        }
+                                    }
+
+                                }
+
+                                .btnSec {
+                                    flex: 0 0 30%;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .homeCaseStudy {
+        .embla {
+            margin-top: 40px;
+
+            .embla__viewport {
+                .embla__container {
+
+                    .embla__slide {
+                        height: 550px;
+
+                        .casestudyBox {
+                            &::before {
+                                height: 480px;
+                                bottom: -220px;
+                            }
+
+                            .casestudyContent {
+                                bottom: 30px;
+                                padding: 0px 30px;
+
+                                .casestudyTxt {
+                                    flex: 0 0 75%;
+
+                                    .logoSec {
+                                        img {
+                                            height: 90px;
+                                            width: auto;
+                                        }
+
+                                        span {
+                                            margin-left: 20px;
+                                            font-size: 35px;
+                                            line-height: 45px;
+                                        }
+                                    }
+
+                                    .casestudyPara {
+
+                                        ul {
+                                            gap: 10px;
+
+                                            li {
+                                                flex: 0 0 calc(33.33% - 10px);
+                                                font-size: 13px;
+                                                height: 40px;
+                                            }
+                                        }
+                                    }
+
+                                }
+
+                                .btnSec {
+                                    flex: 0 0 25%;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (min-width: 600px) and (max-width:899px) {
     .homeCaseStudy {
         .embla {
-            margin-top: 50px;
+            margin-top: 30px;
 
             .embla__viewport {
                 .embla__container {
@@ -450,9 +426,10 @@
                             .casestudyContent {
                                 bottom: 20px;
                                 padding: 0px 20px;
+                                flex-wrap: wrap;
 
                                 .casestudyTxt {
-                                    flex: 0 0 70%;
+                                    flex: 0 0 100%;
 
                                     .logoSec {
                                         img {
@@ -470,13 +447,12 @@
                                     .casestudyPara {
 
                                         ul {
-                                            gap: 15px;
+                                            gap: 10px;
 
                                             li {
-                                                flex: 0 0 calc(33.33% - 15px);
-                                                font-size: 13px;
-                                                height: 40px;
-                                                max-width: 170px;
+                                                flex: 0 0 calc(25% - 10px);
+                                                font-size: 12px;
+                                                height: 35px;
                                             }
                                         }
                                     }
@@ -484,7 +460,9 @@
                                 }
 
                                 .btnSec {
-                                    flex: 0 0 30%;
+                                    flex: 0 0 100%;
+                                    text-align: left;
+                                    margin-top: 15px;
                                 }
                             }
 
@@ -528,28 +506,27 @@
 
                                     .logoSec {
                                         img {
-                                            height: 70px;
+                                            height: 60px;
                                             width: auto;
                                         }
 
                                         span {
                                             margin-left: 15px;
-                                            font-size: 40px;
-                                            line-height: 45px;
+                                            font-size: 30px;
+                                            line-height: 35px;
                                         }
                                     }
 
                                     .casestudyPara {
 
                                         ul {
-                                            gap: 10px;
+                                            gap: 5px;
                                             margin-bottom: 10px;
 
                                             li {
-                                                flex: 0 0 calc(50% - 10px);
-                                                font-size: 13px;
+                                                flex: 0 0 calc(50% - 5px);
+                                                font-size: 12px;
                                                 height: 35px;
-                                                max-width: 170px;
                                             }
                                         }
                                     }

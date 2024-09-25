@@ -31,7 +31,7 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="#">About</Link>
+                    <Link href="/about-us">About</Link>
                 </li>
                 <li className={styles.subMenu}>
                     <Link href="#">Services</Link>
@@ -63,26 +63,26 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                                         <li><Link href="/music-app-development-company">Music</Link></li>
                                         <li><Link href="/automotive-software-development">Automotive</Link></li>
                                         <li><Link href="/social-media-app-development-company">Social Media</Link></li>
-                                        <li><Link href="#">Entertainment</Link></li>
-                                        <li><Link href="#">Game</Link></li>
-                                        <li><Link href="#">Travel</Link></li>
+                                        <li><Link href="/logistics-software-development">Logistics</Link></li>
+                                        {/* <li><Link href="#">Entertainment</Link></li>
+                                        <li><Link href="#">Fintech</Link></li> */}
                                     </ul>
                                 </div>
                             </div>
                             <div className={styles.submenuItemLast}>
                                 <ul>
-                                    <li><Link href="#">Austin <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Chicago <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Dallas <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Denver <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Dubai <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Florida <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Miami <ServiceArrow /></Link></li>
-                                    <li><Link href="#">New York <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Saudi Arabia <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Toronto <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Washington DC <ServiceArrow /></Link></li>
-                                    <li><Link href="#">Houston <ServiceArrow /></Link></li>
+                                    <li><Link href="/app-development-austin">Austin <ServiceArrow /></Link></li>
+                                    <li><Link href="/app-development-chicago">Chicago <ServiceArrow /></Link></li>
+                                    <li><Link href="/mobile-app-development-company-dallas">Dallas <ServiceArrow /></Link></li>
+                                    <li><Link href="/mobile-app-development-company-denver">Denver <ServiceArrow /></Link></li>
+                                    <li><Link href="/mobile-app-development-company-dubai">Dubai <ServiceArrow /></Link></li>
+                                    <li><Link href="/app-development-florida">Florida <ServiceArrow /></Link></li>
+                                    <li><Link href="/mobile-app-development-company-miami">Miami <ServiceArrow /></Link></li>
+                                    <li><Link href="/app-development-company-new-york">New York <ServiceArrow /></Link></li>
+                                    <li><Link href="/mobile-app-development-company-saudi-arabia">Saudi Arabia <ServiceArrow /></Link></li>
+                                    <li><Link href="/app-development-company-toronto">Toronto <ServiceArrow /></Link></li>
+                                    <li><Link href="/app-development-company-washington-dc">Washington DC <ServiceArrow /></Link></li>
+                                    <li><Link href="/app-development-houston">Houston <ServiceArrow /></Link></li>
                                 </ul>
                             </div>
                         </Container>
@@ -90,19 +90,23 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                     </div>
                 </li>
                 <li>
-                    <Link href="#">Blog</Link>
+                    <Link href="/blog">Blog</Link>
                 </li>
                 <li>
-                    <Link href="#">Portfolio</Link>
+                    <Link href="/portfolio">Portfolio</Link>
                 </li>
                 <li className={styles.btnHeader}>
-                    <Link href="#">Connect Now</Link>
+                    <Link href="/contact-us">Connect Now</Link>
                 </li>
             </ul>
             <div className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ''}`} >
                 <ul className={styles.mobileNavigation}>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="#">About</Link></li>
+                    <li>
+                        <Link href="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link href="/about-us">About</Link>
+                    </li>
                     <li className={styles.subMobileMenu}>
                         <Link href="#">Services <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
@@ -129,30 +133,28 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                             <li><Link href="/music-app-development-company">Music</Link></li>
                             <li><Link href="/automotive-software-development">Automotive</Link></li>
                             <li><Link href="/social-media-app-development-company">Social Media</Link></li>
-                            <li><Link href="#">Entertainment</Link></li>
-                            <li><Link href="#">Game</Link></li>
-                            <li><Link href="#">Travel</Link></li>
+                            <li><Link href="/logistics-software-development">Logistics</Link></li>
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
                         <Link href="#">Locations <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
-                            <li><Link href="#">Austin</Link></li>
-                            <li><Link href="#">Chicago</Link></li>
-                            <li><Link href="#">Dallas</Link></li>
-                            <li><Link href="#">Denver</Link></li>
-                            <li><Link href="#">Dubai</Link></li>
-                            <li><Link href="#">Florida</Link></li>
-                            <li><Link href="#">Miami</Link></li>
-                            <li><Link href="#">New York</Link></li>
-                            <li><Link href="#">Saudi Arabia</Link></li>
-                            <li><Link href="#">Toronto</Link></li>
-                            <li><Link href="#">Washington DC</Link></li>
-                            <li><Link href="#">Houston</Link></li>
+                            <li><Link href="/app-development-austin">Austin</Link></li>
+                            <li><Link href="/app-development-chicago">Chicago</Link></li>
+                            <li><Link href="/mobile-app-development-company-dallas">Dallas</Link></li>
+                            <li><Link href="/mobile-app-development-company-denver">Denver</Link></li>
+                            <li><Link href="/mobile-app-development-company-dubai">Dubai</Link></li>
+                            <li><Link href="/app-development-florida">Florida</Link></li>
+                            <li><Link href="/mobile-app-development-company-miami">Miami</Link></li>
+                            <li><Link href="/app-development-company-new-york">New York</Link></li>
+                            <li><Link href="/mobile-app-development-company-saudi-arabia">Saudi Arabia</Link></li>
+                            <li><Link href="/app-development-company-toronto">Toronto</Link></li>
+                            <li><Link href="/app-development-company-washington-dc">Washington DC</Link></li>
+                            <li><Link href="/app-development-houston">Houston</Link></li>
                         </ul>
                     </li>
-                    <li><Link href="#">Portfolio</Link></li>
-                    <li><Link href="#">Connect Now</Link></li>
+                    <li><Link href="/portfolio">Portfolio</Link></li>
+                    <li><Link href="/contact-us">Connect Now</Link></li>
                 </ul>
             </div>
         </>

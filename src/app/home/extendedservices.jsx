@@ -19,7 +19,7 @@ const ExtendedServices = ({ data, list }) => {
                         <div className="subTitle txtColor">{data?.subtitle}</div>
                         <h2>{data?.title}</h2>
                     </Col>
-                    <Col lg={6} md={6} className="mt-auto">
+                    <Col lg={6} md={6} className="my-auto">
                         <p>{data?.content}</p>
                     </Col>
                 </Row>

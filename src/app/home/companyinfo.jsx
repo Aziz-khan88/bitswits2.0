@@ -10,6 +10,7 @@ import IMG04 from "media/home/awards/award04.webp"
 import IMG05 from "media/home/awards/award05.webp"
 import IMG06 from "media/home/awards/award06.webp"
 import IMG07 from "media/home/awards/award07.webp"
+import IMG08 from "media/home/awards/award08.webp"
 import Image from "next/image"
 
 const options = { align: 'start', loop: "true" }
@@ -36,6 +37,9 @@ export const Awards = [
     {
         AwardsIMG: IMG07.src
     },
+    {
+        AwardsIMG: IMG08.src
+    },
 ]
 const CompanyInfo = ({ data }) => {
     const [emblaRef] = useEmblaCarousel(options, [Autoplay()]);
@@ -49,20 +53,20 @@ const CompanyInfo = ({ data }) => {
                         <p>{data?.content}</p>
                         <div className={styles.companyStats}>
                             <div className={styles.statsItem}>
-                                <div className="txtColor">10+</div>
-                                <span>Years of Experience</span>
+                                <div className="txtColor">5K+</div>
+                                <span>Brainstorms Held (and counting)</span>
                             </div>
                             <div className={styles.statsItem}>
-                                <div className="txtColor">1,200+</div>
-                                <span>Successful Projects</span>
+                                <div className="txtColor">0%</div>
+                                <span>Distractions — Because We Only Focus on Your Success</span>
                             </div>
                             <div className={styles.statsItem}>
-                                <div className="txtColor">60+</div>
-                                <span>Experts</span>
+                                <div className="txtColor">98%</div>
+                                <span>Clients Recommend Us Without Being Asked</span>
                             </div>
                             <div className={styles.statsItem}>
-                                <div className="txtColor">100+</div>
-                                <span>Global Clients</span>
+                                <div className="txtColor">1M+</div>
+                                <span>Lines of Code Written With Care (and a Little Caffeine)</span>
                             </div>
                         </div>
                     </Col>

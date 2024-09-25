@@ -12,7 +12,7 @@ const Engagement = ({ data, listDetail, list }) => {
                         <div className="subTitle txtColor">{data?.subtitle}</div>
                         <h2>{data?.title}</h2>
                     </Col>
-                    <Col lg={5} md={5} className="mt-auto">
+                    <Col lg={5} md={5} className="my-auto">
                         <p>{data?.content}</p>
                     </Col>
                 </Row>
