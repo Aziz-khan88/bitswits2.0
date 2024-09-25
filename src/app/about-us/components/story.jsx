@@ -39,15 +39,14 @@ const Story = () => {
                 <Row>
                     <Col lg={5} md={6}>
                         <div className="subTitle txtColor">Our Story</div>
-                        <h2>Driving Growth in the Digital Ecosystem with Elite Product Teams</h2>
-                        <p>Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.</p>
+                        <h2>From Global Frustration to Local Solutions</h2>
+                        <p>In the early days, before BitsWits became a name synonymous with digital innovation, our founders scattered across different countries were individually grappling with a universal issue in tech: the cumbersome complexity of digital tools which often hindered more than helped. Each had witnessed firsthand the frustration of businesses struggling to harness the power of technology to enhance their operations.</p>
                     </Col>
                     <Col lg={6} md={6} className="my-auto offset-lg-1">
                         <div className={styles.storyPoints}>
                             {data.map((item, index) => (
                                 <div
-                                    className={`${styles.storyItem} ${index === activeIndex ? styles.active : ""
-                                        }`}
+                                    className={`${styles.storyItem} ${index === activeIndex ? styles.active : ""}`}
                                     key={index}
                                 >
                                     {item.points}

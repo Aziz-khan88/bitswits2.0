@@ -21,16 +21,11 @@ const Clients = () => {
             <Container>
                 <Row>
                     <Col lg={7} md={7}>
-                        <div className="subTitle txtColor">Our Clients</div>
-                        <h2>We transform innovative ideas into powerful digital experiences.</h2>
+                        <div className="subTitle txtColor">Our Milestones</div>
+                        <h2>A Legacy Built on Innovation and Excellence</h2>
                     </Col>
                     <Col lg={5} md={5} className="mt-auto">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis
-                            nunc nulla neque blandit. Sed donec neque blandit lorem non neque
-                            blandit. nulla neque blandit. Sed donec neque blandit lorem non
-                            neque.
-                        </p>
+                        <p>Over the years, we’ve built strong partnerships with leading technology companies, who have highlighted our commitment to understanding our clients’ needs and ability to deliver top-tier app development solutions.</p>
                     </Col>
                 </Row>
                 <Row>

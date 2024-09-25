@@ -9,8 +9,8 @@ const AbtCta = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col lg={10} md={12} className="text-center m-auto">
-                        <h2>Let’s Help You Turn Your
-                            <div className={styles.extraFonts}>Vision into Reality.</div>
+                        <h2>One Call Can Change
+                            <div className={styles.extraFonts}>Everything For Your Business</div>
                         </h2>
                         <ButtonCommon txt="Lets Discuss!" />
                     </Col>

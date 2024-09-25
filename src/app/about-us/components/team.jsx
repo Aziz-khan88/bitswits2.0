@@ -52,11 +52,11 @@ const Team = () => {
             <Container>
                 <Row>
                     <Col lg={7} md={7}>
-                        <div className="subTitle txtColor">Our Experts</div>
-                        <h2>Some work we are proud of</h2>
+                        <div className="subTitle txtColor">Meet Our Experts </div>
+                        <h2>The Team Behind Your Success</h2>
                     </Col>
                     <Col lg={5} md={5} className="mt-auto">
-                        <p>Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit.</p>
+                        <p>We’re a global group of passionate professionals who work together to bring your ideas to life. No matter the challenge, we’re here to provide the expertise and support your business needs to succeed.</p>
                     </Col>
 
                 </Row>

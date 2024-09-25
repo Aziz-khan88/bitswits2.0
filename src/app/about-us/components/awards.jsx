@@ -58,9 +58,9 @@ const Awards = () => {
                     <Col lg={12} md={12} className="m-auto text-center">
                         <div className={styles.aboutContainer}>
                             <div className={styles.aboutTxt}>
-                                <div className="subTitle txtColorCenter">Features</div>
-                                <h2>Awards That Validate Our Impactful App Solutions</h2>
-                                <p>We have earned awards and recognition for our quality-first approach, successfully delivering advanced, complex projects with a talented team of developers, designers, and project managers.</p>
+                                <div className="subTitle txtColorCenter">Awards</div>
+                                <h2>Recognized for Excellence in Software Development</h2>
+                                <p>Our awards and recognition from industry leaders stand as a testament to our dedication to innovation and excellence in software development.</p>
                             </div>
                             <div className={styles.aboutAwards}>
                                 {data.map((item, index) => (

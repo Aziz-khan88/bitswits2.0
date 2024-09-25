@@ -21,7 +21,7 @@ export default function Page() {
             <Awards />
             <Story />
             <AbtCta />
-            <Team />
+            {/* <Team /> */}
             <Clients />
             <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
         </>

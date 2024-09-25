@@ -9,14 +9,15 @@ export default function Page() {
             <Container>
                 <Row>
                     <Col lg={5} md={6}>
-                        <div className="subTitle txtColor">We’re excited to hear from you!</div>
-                        <h2>Please fill out the form below, and we’ll respond as soon as possible.</h2>
+                        <div className="subTitle txtColor">Let’s Build Something You’ll Love</div>
+                        <h2>We’re the best at what we do, delivering top-notch app solutions tailored to your needs.</h2>
                         <ul className={styles.greenBullet}>
-                            <li><CheckList />Scalable and Secure Apps</li>
-                            <li><CheckList />User-Centric Design</li>
-                            <li><CheckList />Customized Development</li>
-                            <li><CheckList />Error-Free Delivery</li>
-                            <li><CheckList />Transparent Communication</li>
+                            <li><CheckList />Scalable solutions</li>
+                            <li><CheckList />Full Data Security.</li>
+                            <li><CheckList />User-Friendliness</li>
+                            <li><CheckList />Custom Development</li>
+                            <li><CheckList />Future-Reay Technology</li>
+                            <li><CheckList />Budget Friendly</li>
                             <li><CheckList />Support and Maintenance</li>
                         </ul>
                     </Col>
