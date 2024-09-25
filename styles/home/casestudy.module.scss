@@ -63,6 +63,11 @@
                                     margin-bottom: 0px;
                                     transition: margin-bottom 0.3s ease-in-out;
 
+                                    img {
+                                        max-height: 110px;
+                                        width: auto;
+                                    }
+
                                     span {
                                         margin-left: 20px;
                                         color: #FFF;
