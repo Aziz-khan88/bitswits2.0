@@ -409,14 +409,23 @@ li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  &.txtColorCenter {
+    background: linear-gradient(90deg, #F32F56 -40%, #F32FAF 40%, #4A78EF 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 .txtColor {
-  background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+  background: linear-gradient(90deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
 
 .modal {
   .modal-lg {
@@ -521,6 +530,53 @@ li {
       .bottom {
         stroke-dashoffset: 0%;
       }
+    }
+  }
+}
+
+.commonSlider {
+  .embla_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 20px;
+    gap: 15px;
+
+    div {
+      cursor: pointer;
+      border-radius: 64px;
+      background-color: transparent;
+      height: 45px;
+      width: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: .3s linear;
+      border: 1px solid #D3D7E3;
+
+      svg {
+        width: 16px;
+        height: 16px;
+
+        path {
+          stroke: #7C7C7C;
+        }
+      }
+
+      &:hover {
+        transition: .3s linear;
+        background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+
+        svg {
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+
+    .embla_prev {
+      transform: rotate(-180deg);
     }
   }
 }
@@ -639,10 +695,26 @@ li {
     font-size: 24px;
     line-height: 34px;
   }
+
+  .commonSlider {
+    .embla_container {
+      div {
+        height: 45px;
+        width: 45px;
+
+        svg {
+          width: 16px;
+          height: 16px;
+
+          path {
+            stroke: #7C7C7C;
+          }
+        }
+      }
+    }
+  }
+
 }
-
-
-
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .container {
@@ -747,6 +819,21 @@ li {
   .subTitle {
     font-size: 22px;
     line-height: 32px;
+  }
+
+  .commonSlider {
+    .embla_container {
+
+      div {
+        height: 45px;
+        width: 45px;
+
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
   }
 }
 
@@ -855,6 +942,21 @@ li {
   .subTitle {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .commonSlider {
+    .embla_container {
+
+      div {
+        height: 40px;
+        width: 40px;
+
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
   }
 }
 
@@ -979,6 +1081,22 @@ li {
   .subTitle {
     font-size: 16px;
     line-height: 26px;
+  }
+
+  .commonSlider {
+    .embla_container {
+
+      div {
+        height: 35px;
+        width: 35px;
+
+        svg {
+          width: 15px;
+          height: 15px;
+
+        }
+      }
+    }
   }
 }
 
@@ -1114,6 +1232,22 @@ li {
     font-size: 16px;
     line-height: 26px;
   }
+
+  .commonSlider {
+    .embla_container {
+
+      div {
+        height: 35px;
+        width: 35px;
+
+        svg {
+          width: 15px;
+          height: 15px;
+
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 599px) {
@@ -1246,4 +1380,22 @@ li {
     font-size: 16px;
     line-height: 26px;
   }
+
+  .commonSlider {
+    .embla_container {
+      margin: 20px 0px 20px;
+
+      div {
+        height: 35px;
+        width: 35px;
+
+        svg {
+          width: 15px;
+          height: 15px;
+
+        }
+      }
+    }
+  }
+
 }
