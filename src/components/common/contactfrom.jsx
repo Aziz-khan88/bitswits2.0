@@ -11,13 +11,13 @@ const ContactFrom = ({ idea, appidea, discussion, popup }) => {
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
     // Creating function to load IP address from the API
-    const getIPData = async () => {
+    const getIPData = () => {
         try {
-            const response = await fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
+            const response = fetch('https://ipinfo.io/?token=229b1c3fa2e54c');
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
-            const data = await response.json();
+            const data = response.json();
             setIP(data);
         } catch (error) {
             console.error('Error fetching IP data:', error);

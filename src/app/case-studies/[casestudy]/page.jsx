@@ -1,11 +1,12 @@
-import {
-    BannerData,
-    OverviewData,
-    FeaturesData,
-    ProblemData,
-    SolutionData,
-    ResultData
-} from "@/src/app/case-studies/nutri-snap/data/data";
+"use client"
+// import {
+//     BannerData,
+//     OverviewData,
+//     FeaturesData,
+//     ProblemData,
+//     SolutionData,
+//     ResultData
+// } from "@/src/app/case-studies/vifty/data/data";
 
 import Banner from "@/src/app/case-studies/components/banner"
 import Problem from "@/src/app/case-studies/components/problem"
@@ -17,13 +18,31 @@ import ScrollingSection from "@/src/app/case-studies/components/scrollingsection
 import TechStack from "@/src/app/case-studies/components/techstack"
 import Results from "@/src/app/case-studies/components/results"
 import CatLast from "@/src/app/case-studies/components/catlast"
+// import { useEffect, useState } from "react"
 
 
 
-const Page = () => {
+const Page = (params) => {
+    // const [dataset, setDataset] = useState(null);
+
+    // useEffect(() => {
+    //     console.log("Current case study:", params.casestudy);
+    //     const loadData = async () => {
+    //         try {
+    //             const module = await import(`@/src/app/case-studies/${params.casestudy}/data/data`);
+    //             setDataset(module);
+    //         } catch (error) {
+    //             console.error("Error loading data:", error);
+    //         }
+    //     };
+
+    //     loadData();
+    // }, [params.casestudy]);
+
+    // if (!dataset) return <div>Loading...</div>;
     return (
         <>
-            <Banner data={BannerData} />
+            {/* <Banner data={BannerData} />
             <Overview data={OverviewData} />
             <Features data={FeaturesData} />
             <Problem data={ProblemData} />
@@ -32,7 +51,7 @@ const Page = () => {
             <ScrollingSection />
             <TechStack />
             <Results data={ResultData} />
-            <CatLast />
+            <CatLast /> */}
         </>
     )
 }
