@@ -22,7 +22,7 @@ const Header = () => {
     }, []);
 
     const pathname = usePathname();
-    const isWhiteLogo = pathname === '/' || pathname === '/single-porfolio' || pathname === '/healthcare-app-development-services' || pathname === '/education-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/ecommerce-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/real-estate-app-development-company' || pathname === '/automotive-software-development';
+    const isWhiteLogo = pathname === '/' || pathname === '/single-porfolio' || pathname === '/healthcare-app-development-services' || pathname === '/education-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/ecommerce-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/real-estate-app-development-company' || pathname === '/automotive-software-development' || pathname.startsWith('/case-studies/');
 
 
     return (

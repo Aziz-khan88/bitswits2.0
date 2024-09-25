@@ -22,12 +22,12 @@ const Expertise = ({data, list1, list2}) => {
         <section className={`${styles.expertiseSection} bgBlack p-100 `}>
             <Container>
                 <Row>
-                    <Col lg={12} md={12} >
+                    {/* <Col lg={12} md={12} >
                         <h2>{data?.title}</h2>
-                    </Col>
+                    </Col> */}
                     <Col lg={4} md={12}>
                         <div className={styles.titSec}>
-                        <h4>{data?.subtitle}</h4>
+                        <h2>{data?.subtitle}</h2>
                         <p>{data?.subtext}</p>
                             <ButtonCommon txt="Free Consultation" />
                         </div>

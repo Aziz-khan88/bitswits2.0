@@ -107,28 +107,28 @@ export const IndustryServiceContent = {
 
 export const IndustryServiceList = [
     {
-        title: (<>Microservices-based eCommerce Development</>),
-        txt: "We create microservices-based eCommerce apps with intuitive user journeys, integrating APIs and cart systems to promote seamless conversions, much like Walmart’s scalable online platform.",
+        title: (<>eCommerce Mobile App Development</>),
+        txt: "Our eCommerce mobile app development services deliver smooth, intuitive, and scalable apps that keep your customers engaged and drives sales.",
     },
     {
-        title: (<>Backend, Frontend, & CRM Development</>),
-        txt: "We build robust backend architecture and intuitive frontends, along with CRM systems to enhance shopping experiences, retention, and sales initiatives.",
+        title: (<>eCommerce Design and Development</>),
+        txt: "Our team of experts creates intuitive, user-friendly apps that engage customers and drive sales, ensuring a strong business stand in the digital marketplace.",
     },
     {
-        title: (<>Aggregator Portals</>),
-        txt: "We develop aggregator portals that list vendors and products, connecting consumers with services and products for a seamless experience.",
+        title: (<>eCommerce Migration Services</>),
+        txt: "We ensure an easy, smooth transition that preserves your data and enhances performance to keep your business running without a single downtime.",
     },
     {
-        title: (<>Progressive Web Apps (PWAs)</>),
-        txt: "Our PWA eCommerce solutions enhance the shopping experience for customers, allowing seamless access without downloading an app.",
+        title: (<>eCommerce Integration Services</>),
+        txt: "The eCommerce app development team at BitsWits seamlessly connects your app with essential third-party tools and systems streamlining workflow.",
     },
     {
-        title: (<>Cross-Platform eCommerce Apps</>),
-        txt: "With a single codebase, these apps function on multiple platforms, reducing development time and cost while maintaining consistent user experiences.",
+        title: (<>Custom eCommerce Analytics Solutions</>),
+        txt: "We provide in-depth reporting and insights to help you track customer behavior, optimize conversions, and make data-driven decisions for your business.",
     },
     {
-        title: (<>Headless Commerce Apps</>),
-        txt: "These apps decouple the front and back ends, allowing greater flexibility in design and easy integration with various systems and platforms.",
+        title: (<>eCommerce Strategy and Consultancy</>),
+        txt: "Our e-commerce strategy and consultancy services provide actionable insights and individual strategies to optimize the performance of your apps.",
     },
 ];
 
@@ -145,23 +145,33 @@ export const IndustrySliderContent = {
 export const IndustrySliderList = [
     {
         img: IndustrySliderIMG01.src,
-        title: "eCommerce Migration Services",
-        txt: "Effortlessly migrate your current eCommerce platform using our expert migration services. We ensure an easy, smooth transition that preserves your data and enhances performance to keep your business running without a single downtime."
+        title: "Microservices eCommerce",
+        txt: "We create microservices-based eCommerce apps that integrate APIs and cart systems with intuitive user journeys, ensuring seamless shopping experiences and scalable solutions, similar to Walmart’s successful online platform."
     },
     {
         img: IndustrySliderIMG01.src, 
-        title: "eCommerce Design and Development",
-        txt: "Bring your brand to a whole new level with eCommerce design and development services. Our team of experts in the creation of intuitive, user-friendly apps engages customers and drives sales, ensuring a strong business stand for yourself in the digital marketplace."
+        title: "Integrated CRM Solutions",
+        txt: "We design robust backend systems, user-friendly frontends, and integrated CRM solutions to enhance customer interactions, streamline shopping experiences, improve retention, and drive sales in eCommerce businesses."
     },
     {
         img: IndustrySliderIMG01.src, 
-        title: "eCommerce Strategy and Consultancy",
-        txt: "Our e-commerce strategy and consultancy services can help maximize your business potential. We provide actionable insights and individual strategies to optimize the performance of your apps, thus attaining business goals efficiently."
+        title: "Aggregator Portals",
+        txt: "We develop comprehensive aggregator portals that list vendors and products, offering consumers a seamless connection with services and products while improving user experience and expanding business reach."
     },
     {
         img: IndustrySliderIMG01.src, 
-        title: "eCommerce Integration Services",
-        txt: "Streamline your operations with our eCommerce integration services. We seamlessly connect your app with essential third-party tools and systems, enhancing your workflow and ensuring a cohesive, efficient business environment."
+        title: "Progressive Web Apps",
+        txt: "Our PWA solutions for eCommerce provide app-like experiences without needing downloads, offering customers fast, reliable access to online stores across devices, improving engagement and conversion rates."
+    },
+    {
+        img: IndustrySliderIMG01.src, 
+        title: "Cross-Platform Development",
+        txt: "We build cross-platform eCommerce apps using a single codebase, ensuring fast development, reduced costs, and consistent user experiences across iOS, Android, and web platforms for enhanced accessibility."
+    },
+    {
+        img: IndustrySliderIMG01.src, 
+        title: "Headless Commerce Apps",
+        txt: "Our headless commerce apps decouple the frontend from the backend, providing greater flexibility in design and smooth integration with other systems for a personalized, scalable shopping experience."
     }
 ];
 
@@ -273,7 +283,7 @@ export const TechnologiesIcons = [
 
 export const ProcessContent = {
     title: "eCommerce App Development Process at BitsWits",
-    text: "At BitsWits, we have a tried and tested blueprint for building successful ecommerce apps. We follow an agile development approach with a strong focus on user experience and scalability. "
+    text: "At BitsWits, we follow a scalable, agile development approach tailored for building high-performance ecommerce apps, ensuring seamless customer journeys and conversion optimization at every stage."
 }
 
 export const ProcessTabs = [
@@ -281,7 +291,7 @@ export const ProcessTabs = [
         title: "Discovery",
         content: {
             heading: "Discovery Session",
-            description: "At BitsWits, the ecommerce app development process initiates with a discovery session. We work with you to discover your business goals, target audience, and exact requirements. This will help us in selecting the right e-commerce platform and identifying features required for developing your custom e-commerce app. After studying your approach, we make sure that the product meets up to your expectations and effectively serve your business.",
+            description: "Our ecommerce app development process begins with a comprehensive business requirement analysis to understand your target market, sales objectives, and customer personas. This helps in selecting the ideal eCommerce platform and defining the must-have features, like inventory management, multi-currency support, and payment gateway integrations that align with your business model.",
             imgSrc: IMG.src,
         },
     },
@@ -289,7 +299,7 @@ export const ProcessTabs = [
         title: "Documentation",
         content: {
             heading: "Documentation",
-            description: "After the discovery session, we proceed with detailed project documentation. At this stage, every little technical and functional requirement has to be detailed, pinpointing a clear blueprint for the development process. Our documentation will cover every aspect of integration, from the eCommerce app design to third-party services. We reduce misunderstandings by clearly and articulately detailing the project.",
+            description: "We create detailed documentation that outlines the technical architecture, including API integrations for shipping, payment processing, and ERP systems. This blueprint ensures a seamless integration of third-party services and provides a clear roadmap for developers, minimizing risks and misunderstandings throughout the project.",
             imgSrc: IMG.src,
         },
     },
@@ -297,7 +307,7 @@ export const ProcessTabs = [
         title: "UI/UX Design",
         content: {
             heading: "UI/UX Design",
-            description: "We follow user-centered design techniques to design interfaces that not only look good but are fully functional as well. Our eCommerce app design is based on increasing user satisfaction by easy navigation and high conversions. This phase lays the base for the development of an app that users will love to use.",
+            description: "Our design phase focuses on conversion-driven UI/UX techniques. We use data-driven insights to create a user-friendly interface, optimizing the checkout flow, product search filters, and call-to-action elements. The aim is to boost user engagement, enhance navigation, and ensure higher conversion rates.",
             imgSrc: IMG.src,
         },
     },
@@ -305,7 +315,7 @@ export const ProcessTabs = [
         title: "Development",
         content: {
             heading: "Development",
-            description: "Our agile development approach ensures flexibility and responsiveness to changing requirements. We build the app incrementally, allowing for continuous testing and feedback. This method ensures that the custom eCommerce app development process is efficient and adaptive, incorporating necessary changes swiftly. By focusing on scalability, we ensure that your app can grow with your business, handling increased traffic and evolving market demands seamlessly.",
+            description: "Using an agile development process, we build the app incrementally, incorporating product catalog management, real-time inventory tracking, and customer personalization engines. This ensures flexibility for evolving requirements while focusing on scalability and load-balancing to handle high traffic and expanding product catalogs seamlessly.",
             imgSrc: IMG.src,
         },
     },
@@ -313,7 +323,7 @@ export const ProcessTabs = [
         title: "Quality Assurance",
         content: {
             heading: "Quality Assurance",
-            description: "Quality assurance is an integral part of the process, and all functionality, performance, and security-related vigorous testing of the app is done. All issues are recognized and resolved by our QA team prior to launch to ensure a smooth user experience. This is very important in maintaining high standards in our eCommerce app development services and ensuring that the final product turns out to be robust, reliable, and fully meets all user expectations.",
+            description: "Our quality assurance phase involves performance testing, security audits, and cross-device functionality testing to ensure the app handles high user loads and transactions securely. We rigorously test for PCI compliance, data encryption, and vulnerability protection to deliver a secure and robust ecommerce solution.",
             imgSrc: IMG.src,
         },
     },
@@ -321,7 +331,7 @@ export const ProcessTabs = [
         title: "Launch",
         content: {
             heading: "Launch",
-            description: "Once the app passes all quality checks, we proceed with the launch. This involves deploying the app on the chosen eCommerce platforms and ensuring it is accessible to users. Our team monitors the launch closely, addressing any potential issues promptly. A successful launch is crucial for user adoption, and we strive to make this process as smooth and efficient as possible.",
+            description: "Once the app clears all testing phases, it is deployed across your chosen platforms with ASO (App Store Optimization) and multi-channel marketing support. We ensure the app is optimized for mobile and web, delivering a seamless experience across devices for user acquisition and retention.",
             imgSrc: IMG.src,
         },
     },
@@ -329,7 +339,7 @@ export const ProcessTabs = [
         title: "Support",
         content: {
             heading: "Post-launch Support",
-            description: "We provide post-launch support, updates, maintenance, and enhancements for applications so that your app comes up to par with new trends and technologies and remains competitive. On-going support under our eCommerce app development service helps your business adapt to the ever-changing field of eCommerce.",
+            description: "Our post-launch services include performance monitoring, bug fixes, and feature enhancements to adapt to emerging ecommerce trends like voice commerce, AR product previews, and subscription models. Continuous updates keep your app aligned with new technologies and customer expectations, ensuring long-term competitiveness.",
             imgSrc: IMG.src,
         },
     },
@@ -343,26 +353,26 @@ export const WhyChooseContent = {
 export const WhyChooseList1 = [
     {
         Icon: <WhyChooseIcon03 />,
-        title: "Proven Track Record of Success",
-        description: "We have developed successful eCommerce apps with over 3 million combined downloads, showcasing our ability to drive results and engagement.",
+        title: "Proven Sales Increase",
+        description: "Our eCommerce apps generate revenue growth and user retention, with a strong focus on improving average order value (AOV) and customer lifetime value (CLV).",
     },
     {
         Icon: <WhyChooseIcon01 />,
         title: "Expert Development Team",
-        description: "Our team of experienced professionals in the development of eCommerce apps ensures you get timely, quality solutions that match all your needs.",
+        description: "The team at BitsWits builds multi-vendor marketplaces, subscription models, and inventory management, ensuring your app delivers seamless shopping experiences.",
     },
 ];
 
 export const WhyChooseList2 = [
     {
         Icon: <WhyChooseIcon04 />, 
-        title: "Customized Solutions",
-        description: "We offer tailored app development that meets your unique business requirements, providing functionality and features that align with your goals.",
+        title: "Advanced Security",
+        description: "Our team implements PCI-compliant security, multi-layer encryption, and fraud detection systems to safeguard payment data and ensure secure transactions.",
     },
     {
         Icon: <WhyChooseIcon02 />, 
-        title: "User-Centric Design Approach",
-        description: "We focus on creating intuitive, engaging user experiences that enhance customer satisfaction and drive higher conversion rates.",
+        title: "Scalable Solutions",
+        description: "We build apps with modular architecture, allowing you to easily add features like cross-border shipping and AI-driven suggestions as your business expands.",
     },
 ];
 
@@ -699,14 +709,14 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade ecommerce development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [
     {
         icon: <Icon01 />,
-        title: "Ecommerce",
-        txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
+        title: "Logistics",
+        txt: "We develop logistics apps that optimize fleet management and shipment tracking. eCommerce functionality allows businesses to manage and sell logistics services directly to their clients.",
         url: "#",
         img: Ecommerce.src,
     },

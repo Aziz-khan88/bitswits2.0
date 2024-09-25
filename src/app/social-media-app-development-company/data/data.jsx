@@ -106,11 +106,7 @@ export const IndustryServiceContent = {
 
 export const IndustryServiceList = [
     {
-        title: (<>Social Media App <br />Development Consultation</>),
-        txt: "As a leading social app development company, we provide in-depth consultations to define a clear vision, covering all aspects from features to the tech stack.",
-    },
-    {
-        title: (<>Custom Social Media App <br />Development</>),
+        title: (<>Social Media App <br />Development </>),
         txt: "We offer custom social media app development, providing high-level solutions that enable users to add friends, manage networks, and send requests seamlessly.",
     },
     {
@@ -118,15 +114,19 @@ export const IndustryServiceList = [
         txt: "We create modern-day social media app designs that appeal to and engage your target market, delivering user-friendly interfaces tailored to your audience.",
     },
     {
-        title: (<>Social Games App <br />Development</>),
-        txt: "We develop social game apps that integrate networking and gaming, designed to engage your audience and maximize end-user interaction.",
+        title: (<>Social Commerce App <br />Development</>),
+        txt: "We build social commerce apps that integrate shopping features with social interactions, enabling users to browse, purchase, and share products seamlessly.",
     },
     {
-        title: (<>Image/Video Sharing Social Media App Development</>),
-        txt: "We create image/video sharing apps with advanced social sharing features, inspired by platforms like Instagram, to help users effortlessly connect, share, and engage.",
+        title: (<>Private Messaging App <br />Development</>),
+        txt: "We design secure private messaging apps with features like end-to-end encryption, file sharing, and voice/video calls to enhance communication on social platforms.",
     },
     {
-        title: (<>Social Media <br />Maintenance and Support</>),
+        title: (<>Social Media App <br /> Consultation</>),
+        txt: "As a leading social app development company, we provide in-depth consultations to define a clear vision, covering all aspects from features to the tech stack.",
+    },
+    {
+        title: (<>Social Media Maintenance <br /> and Support</>),
         txt: "Keep your social media app updated, secure, and fully functional with our consistent maintenance and support services, providing long-term reliability for your platform.",
     }
 ];
@@ -175,7 +175,6 @@ export const IndustrySliderList = [
 ];
 
 export const ExpertiseContent = {
-    title: "Expertise And Competencies",
     subtitle: "Must-Have Social Media App Features for Maximum Engagement",
     subtext: "As a leading social networking app development company, we understand that key features have the power to convert your idea into a successful business. Here are the features you’ll be getting in your social media app:",
 }
@@ -300,7 +299,7 @@ export const ProcessTabs = [
         title: "Project Planning",
         content: {
             heading: "Project Planning",
-            description: "In the project planning stage of our social media app development services, we establish the purpose and parameters of your app. This includes identifying your target market, selecting the appropriate platforms and tech stack, and defining key features and functionalities to align with your business objectives and user needs.",
+            description: "In the project planning stage of our social media app development services, we establish the purpose and parameters of your app. Our social media app development process starts with a target audience analysis and defining key features like real-time interactions, push notifications, and user-generated content moderation. We identify the best platforms, tech stack, and API integrations to support scalable social network infrastructures.",
             imgSrc: IMG.src,
         },
     },
@@ -308,7 +307,7 @@ export const ProcessTabs = [
         title: "Design",
         content: {
             heading: "Design",
-            description: "As a top-grade social media app development company, our design process focuses on developing a user-friendly interface with visually appealing elements. We illustrate app features through prototyping and conduct user testing to refine the design, aiming to create a simple, intuitive experience that resonates with your target audience.",
+            description: "As a top-grade social media app development company, our design phase focuses on developing an intuitive UI/UX, optimized for multi-platform responsiveness. Prototypes are created to showcase features like in-app messaging, customizable user profiles, and content-sharing mechanisms. User testing is conducted to refine the design and enhance engagement.",
             imgSrc: IMG.src,
         },
     },
@@ -316,7 +315,7 @@ export const ProcessTabs = [
         title: "Development",
         content: {
             heading: "Development",
-            description: "Our social media app developers work on both frontend and backend development to build seamless functionality. Using advanced programming languages and social media API integration, we develop core features such as user profiles, messaging, and content sharing. This comprehensive approach creates a robust and interactive app that meets modern user expectations.",
+            description: "Our social media app developers build on both frontend and backend, using microservices architecture and integrating core features such as live chat, news feeds, and social graph algorithms. We also ensure API integration with third-party services like OAuth for seamless login and social media plugins for cross-platform sharing.",
             imgSrc: IMG.src,
         },
     },
@@ -324,7 +323,7 @@ export const ProcessTabs = [
         title: "App Testing",
         content: {
             heading: "App Testing",
-            description: "We conduct thorough end-to-end testing with our team of QA experts and social media app developers, identifying and resolving any issues for a glitch-free app. This comprehensive testing phase thoroughly vets all functionalities before moving to the next stage of deployment, providing a reliable user experience.",
+            description: "We run extensive load testing, security audits, and API validation to ensure the app can handle high volumes of traffic and is secure against breaches. Automated testing tools are used for end-to-end verification, ensuring all functionalities are stable and scalable.",
             imgSrc: IMG.src,
         },
     },
@@ -332,7 +331,7 @@ export const ProcessTabs = [
         title: "Deployment",
         content: {
             heading: "Deployment",
-            description: "We deploy your app to the chosen platforms, whether iOS, Android, or both. The deployment process differs for each platform, involving specific guidelines and approval procedures. Our team manages these steps carefully, making the transition from development to live status smooth and fully compliant with all platform requirements.",
+            description: "The deployment phase covers all platform-specific guidelines and app store compliance. Our team handles the final app release, ensuring it meets the guidelines for App Store Optimization (ASO) and that your app is readily discoverable by the target audience.",
             imgSrc: IMG.src,
         },
     },
@@ -340,7 +339,7 @@ export const ProcessTabs = [
         title: "Launch",
         content: {
             heading: "Launch",
-            description: "We launch the beta version or MVP of your app to gather input from real users and find any remaining issues. This feedback helps identify problems that need to be fixed before the final release. Our approach allows your app idea to evolve into a polished, fully functional product.",
+            description: "We launch an MVP or beta version to gather real-time user feedback. Features like user engagement analytics, social activity tracking, and A/B testing help refine the app before the final release, ensuring it aligns with user behavior.",
             imgSrc: IMG.src,
         },
     },
@@ -348,7 +347,7 @@ export const ProcessTabs = [
         title: "Maintenance and Support",
         content: {
             heading: "Maintenance and Support",
-            description: "We monitor your app’s functionality and user reviews to address any problems. Our maintenance and support services include regular updates, bug patches, and enhancements, keeping your app aligned with platform upgrades and technological advancements for a smooth, up-to-date user experience.",
+            description: "Post-launch, we provide continuous updates, including algorithm improvements, feature enhancements, and bug fixes. Our team ensures the app stays compliant with platform updates and maintains social media trends like live streaming and influencer integration.",
             imgSrc: IMG.src,
         },
     }
@@ -361,27 +360,27 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
-        title: (<>Agile <br />Process</>),
+        Icon: <WhyChooseIcon04 />, 
+        title: (<>Agile Process for <br /> Social Ecosystems </>),
         description: "As a leading social media app development company, we utilize agile processes to optimize practices and deliver the best outcomes.",
     },
     {
-        Icon: <WhyChooseIcon01 />,
-        title: (<>150+ <br />Dedicated Developers</>),
-        description: "A dedicated team of 150+ including social media app developers that focus on delivering high-end business solutions using the latest frameworks.",
+        Icon: <WhyChooseIcon02 />, 
+        title: (<>Dedicated  <br />Developers</>),
+        description: "Our social media app developers specialize in API integrations, real-time messaging, and social networking algorithms, delivering custom solutions with the latest technologies.",
     },
 ];
 
 export const WhyChooseList2 = [
     {
         Icon: <WhyChooseIcon04 />, 
-        title: (<>Secured <br />Infrastructure</>),
-        description: "Our social app solutions are built on secured infrastructure, adhering to strict security regulations to protect user data and sensitive information.",
+        title: (<>Data Security <br />and Privacy </>),
+        description: "Our social app solutions are built with GDPR-compliant security, utilizing encrypted communication protocols and advanced user privacy features to safeguard sensitive user information.",
     },
     {
         Icon: <WhyChooseIcon02 />, 
         title: (<>Proven <br />Track Record</>),
-        description: "We have a proven track record of consistently completing projects to high levels of quality and client satisfaction.",
+        description: "With a history of delivering successful social media projects, our track record includes apps with high daily active user engagement and seamless scalability.",
     },
 ];
 
@@ -510,23 +509,23 @@ export const FuelingContent2 = {
 export const FuelingList2 = [
     {
         title: "Artificial Intelligence",
-        text: "As a leading social media app development company, we integrate AI to automate processes and add smart functions, delivering innovative solutions for engaging social networking platforms."
+        text: "As a leading social media app development company, we integrate AI into social media apps to offer personalized content feeds, automated moderation, and chatbots, enhancing user engagement and improving platform functionality."
     },
     {
         title: "Cloud Computing",
-        text: "Our social networking app developers use cloud computing to provide cross-device data synchronization and secure storage, ensuring seamless functionality and safety for your social media apps."
+        text: "Our social networking app developers use cloud computing to enable real-time data syncing, scalable server infrastructure, and cross-device functionality, ensuring seamless social media experiences for all users."
     },
     {
         title: "Blockchain",
-        text: "With blockchain digital ledger technology, we enhance the security and future-proof your social media app, creating robust and transparent platforms for secure interactions."
+        text: "We utilize blockchain to add decentralized data security, privacy protection, and verification mechanisms, making your social media platform more transparent and secure for users."
     },
     {
         title: "AR & VR",
-        text: "We integrate AR and VR into social networking platforms, developing immersive experiences and innovative solutions that elevate user interaction."
+        text: "By integrating AR and VR, we build immersive features like virtual meetups, augmented filters, and virtual showrooms, transforming user interaction on social networking platforms."
     },
     {
         title: "Machine Learning",
-        text: "Our social networking app developers incorporate machine learning to deliver personalized experiences and smart recommendations, enhancing user engagement and satisfaction."
+        text: "Our social networking app developers leverage machine learning to power intelligent algorithms for personalized content recommendations, user behavior analysis, and targeted advertising, elevating user satisfaction and engagement."
     }
 ];
 
@@ -699,7 +698,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "As a top-grade Social media app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
 }
 
 export const IndustriesList = [
@@ -733,8 +732,8 @@ export const IndustriesList = [
     },
     {
         icon: <Icon05 />,
-        title: "Social Media",
-        txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
+        title: "Music",
+        txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
         url: "#",
         img: SocialMarketing.src,
     },

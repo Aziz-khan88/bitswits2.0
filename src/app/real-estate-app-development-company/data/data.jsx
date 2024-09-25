@@ -106,28 +106,28 @@ export const IndustryServiceContent = {
 
 export const IndustryServiceList = [
     {
-        title: (<>Property <br />Listing Platforms</>),
-        txt: "Our real estate app developers create comprehensive property listing platforms with intuitive search and filter options, enabling users to find the perfect property effortlessly.",
+        title: (<>Real Estate App <br />Design & Development </>),
+        txt: "We create user-friendly apps that attract clients and streamline transactions, placing your brand in the elite class of industry leaders.",
     },
     {
-        title: (<>Advanced Backend <br />& Frontend Systems</>),
-        txt: "We build robust backends and user-friendly frontends to optimize property management, client interaction, and lead conversion, making us a trusted real estate app partner.",
+        title: (<>Real Estate Progressive <br />Web Apps </>),
+        txt: "Our PWAs provide a fluid, app-like experience on any device that doesn’t require the need for downloads to explore properties online.",
     },
     {
-        title: (<>Marketplace <br />Aggregators</>),
-        txt: "Our real estate app development services include creating marketplace aggregators that enable seamless connections between buyers, sellers, and agents.",
+        title: (<>Cross-Platform Real  <br />Web Apps </>),
+        txt: "We’re the top choice for real estate app development, delivering cross-platform apps that cut costs and maximize reach and engagement.",
     },
     {
-        title: (<>Real Estate Progressive <br />Web Apps (PWAs)</>),
-        txt: "Our PWAs provide a fluid, app-like experience on any devices which doesn’t require the need for downloads to explore properties online.",
+        title: (<>Property Listing<br /> Migration  </>),
+        txt: "We ensure a seamless process that protects your data and enhances performance, keeping your real estate operations uninterrupted.",
     },
     {
-        title: (<>Cross-Platform <br />Real Estate Solutions</>),
-        txt: "Our cross-platform apps offer consistent performance, cutting costs while maximizing reach and engagement. We’re the top choice for real estate app development partnerships.",
+        title: (<>Integration Services <br />for Real Estate Apps </>),
+        txt: "Our expert real estate app development team creates a streamlined workflow for your business by integrating your app with essential tools and systems",
     },
     {
-        title: (<>Modular <br />Real Estate Platforms</>),
-        txt: "Leading real estate app developers creating modular platforms for seamless integration, offering flexible solutions tailored to your unique business needs.",
+        title: (<>Real Estate App <br />Strategy & Consultancy </>),
+        txt: "Struggling to maximize your business potential? We’re here to provide you with the right consultancy to optimize your performance!",
     }
 ];
 
@@ -144,24 +144,34 @@ export const IndustrySliderContent = {
 export const IndustrySliderList = [
     {
         img: IndustrySliderIMG01.src,
-        title: "Real Estate  Property Listing Migration",
-        txt: "Effortlessly transition your existing property listings to a new platform with our expert migration services. We ensure a seamless process that protects your data and enhances performance, keeping your real estate operations uninterrupted."
+        title: "Marketplace Aggregators",
+        txt: "Our expert real estate app development services focus on building marketplace aggregators that connect buyers, sellers, and agents, providing a seamless experience with smooth transactions and effective communication."
     },
     {
         img: IndustrySliderIMG01.src,
-        title: "Real Estate App Design & Development",
-        txt: "Our real estate app design and development offers the competitive edge your business needs! We create user-friendly apps that attract clients and streamline transactions, placing your brand in the elite class of industry leaders."
+        title: "Property Listing Platforms",
+        txt: "We develop intuitive, user-friendly property listing platforms with advanced search and filter options, ensuring users can effortlessly find the perfect property, improving engagement, and driving business growth efficiently."
     },
     {
         img: IndustrySliderIMG01.src,
-        title: "Real Estate Strategy & Consultancy",
-        txt: "Struggling to maximize your business potential? Don’t worry. All you need is a good strategy and we’re here to provide you with the right consultancy to optimize your performance to achieve business goals!"
+        title: "Modular Real Estate Platforms",
+        txt: "Our real estate app developers specialize in creating modular platforms that offer seamless integration, flexible solutions, and customization, ensuring your app meets the specific needs of your growing business."
     },
     {
         img: IndustrySliderIMG01.src,
-        title: "Integration Services for Real Estate Apps",
-        txt: "Let our expert-vetted real estate app development team create a streamlined workflow for your business by integrating your app with essential tools and systems, ensuring efficiency and seamless operations."
-    }
+        title: "Advanced Backend & Frontend ",
+        txt: "We develop robust backend systems and intuitive frontend interfaces that streamline property management, improve client interaction, enhance user engagement, and maximize lead conversion, making your app efficient."
+    },
+    {
+        img: IndustrySliderIMG01.src,
+        title: "Virtual 3D Tours and View",
+        txt: "BitsWits creates real estate apps with integrated virtual tours and 3D property viewing features, offering an immersive experience that enhances property exploration and decision-making for both buyers and tenants."
+    },
+    {
+        img: IndustrySliderIMG01.src,
+        title: "CRM Integration for Apps",
+        txt: "Our real estate app development includes seamless CRM integration, enabling better lead tracking, enhanced customer interaction, and improved management of property listings, boosting overall operational efficiency."
+    },
 ];
 
 export const ExpertiseContent = {
@@ -281,7 +291,7 @@ export const ProcessTabs = [
         title: "Project Planning",
         content: {
             heading: "Project Planning",
-            description: "In the project planning stage of our real estate app development services, we define the purpose and parameters of your app. This includes identifying your target audience, selecting the appropriate platforms and tech stack, and outlining key features and functionalities that align with your real estate business goals and user needs.",
+            description: "In this phase, we conduct a real estate market analysis and define the app’s purpose and features based on your business objectives. This includes identifying your target clientele—whether buyers, sellers, or agents—and selecting the best MLS integration, platforms, and tech stack to meet property search functionalities and user preferences.",
             imgSrc: IMG.src,
         },
     },
@@ -289,7 +299,7 @@ export const ProcessTabs = [
         title: "Design",
         content: {
             heading: "Design",
-            description: "As a top-tier real estate app development company, our design process focuses on creating a user-friendly interface with visually appealing elements. We illustrate app features through prototyping and conduct user testing to refine the design, aiming to create a simple, intuitive experience that resonates with buyers, sellers, and agents.",
+            description: "As a top-tier real estate app development company, our design process focuses on creating a property-centric UI/UX, with GIS mapping integration, and location-based search filters. Prototypes are developed, and A/B testing is conducted to optimize the interface for realtors, investors, and homebuyers, ensuring a seamless navigation experience.",
             imgSrc: IMG.src,
         },
     },
@@ -297,7 +307,7 @@ export const ProcessTabs = [
         title: "Development",
         content: {
             heading: "Development",
-            description: "Our skilled real estate app developers work on both frontend and backend development to build seamless functionality. Using advanced programming languages and API integration, we develop essential real estate features such as property listings, virtual tours, and client management tools. This comprehensive approach creates a robust and engaging app that meets the demands of the modern real estate market.",
+            description: "Our skilled real estate app developers work on both frontend and backend, incorporating real-time property listings, CRM integration, and virtual tour capabilities. Using robust programming languages and API integrations, we build essential features like lead management and client portals that reflect modern real estate market needs.",
             imgSrc: IMG.src,
         },
     },
@@ -305,7 +315,7 @@ export const ProcessTabs = [
         title: "App Testing",
         content: {
             heading: "App Testing",
-            description: "We conduct thorough end-to-end testing with our team of QA experts and real estate app developers, identifying and resolving any issues to deliver a glitch-free app. This comprehensive testing phase carefully vets all functionalities before moving to deployment, ensuring a reliable user experience.",
+            description: "We conduct end-to-end testing with our team of QA experts and real estate app developers to ensure the app’s performance in key areas like transaction processing, geolocation services, and virtual tours. Automated testing tools are used to identify issues, ensuring the app is ready for high-volume traffic and multi-user interactions.",
             imgSrc: IMG.src,
         },
     },
@@ -313,7 +323,7 @@ export const ProcessTabs = [
         title: "Deployment",
         content: {
             heading: "Deployment",
-            description: "We deploy your app to the selected platforms, whether iOS, Android, or both. The deployment process varies for each platform, involving specific guidelines and approval procedures. Our team carefully manages these steps, making the transition from development to live status smooth and fully compliant with all platform requirements.",
+            description: "The app is deployed across selected platforms with MLS compliance and platform-specific guidelines. Our team handles the deployment stages, ensuring the app meets the requirements for real-time property updates and multi-listing system integration, providing a seamless transition from development to launch.",
             imgSrc: IMG.src,
         },
     },
@@ -321,7 +331,7 @@ export const ProcessTabs = [
         title: "Launch",
         content: {
             heading: "Launch",
-            description: "We launch the beta version or MVP of your app to gather input from real users and identify any remaining issues. This feedback helps pinpoint areas that need improvement before the final release, allowing your real estate app to evolve into a polished, fully functional product.",
+            description: "We release a beta version or MVP to gather feedback from real users, such as realtors and potential buyers. The feedback is used to fine-tune features like property recommendations, mortgage calculators, and real-time notifications, improving the app before final launch.",
             imgSrc: IMG.src,
         },
     },
@@ -329,7 +339,7 @@ export const ProcessTabs = [
         title: "Support",
         content: {
             heading: "Maintenance and Support",
-            description: "We continuously monitor your app’s performance and user feedback to address any issues. Our custom real estate development services include regular updates, bug fixes, and enhancements, keeping your app aligned with platform upgrades and technological advancements for a smooth, up-to-date user experience.",
+            description: "Post-launch, we offer continuous maintenance and updates, ensuring that the app stays aligned with real estate market trends, regulatory changes, and user demands. Our services include automated MLS updates, bug fixes, and feature enhancements to keep the app competitive in a fast-moving market.",
             imgSrc: IMG.src,
         },
     }
@@ -343,13 +353,13 @@ export const WhyChooseContent = {
 export const WhyChooseList1 = [
     {
         Icon: <WhyChooseIcon03 />,
-        title: (<>Proven Success <br />in Real Estate Apps</>),
+        title: (<>Proven Success in <br />Real Estate Apps </>),
         description: "BitsWits delivers real estate apps that make an impact, backed by a portfolio showcasing significant user engagement and success.",
     },
     {
         Icon: <WhyChooseIcon01 />,
         title: (<>Expert Real Estate<br /> App Developers</>),
-        description: "Our team specializes in real estate mobile app development, providing tailored solutions that meet your needs with precision and timeliness.",
+        description: "Our developers integrate MLS data, property valuation algorithms, and CRM systems to create tailored solutions for brokers, agents, and investors.",
     },    
 ];
 
@@ -357,12 +367,12 @@ export const WhyChooseList2 = [
     {
         Icon: <WhyChooseIcon04 />,
         title: (<>Custom Solutions<br /> for Your Business</>),
-        description: "We design real estate apps that reflect your business goals, integrating features that align with your unique requirements.",
+        description: "We design custom apps with automated property listings, geofencing, and virtual tours, aligning with your business model and market trends.",
     },
     {
         Icon: <WhyChooseIcon02 />,
-        title: (<>Innovative User<br /> Experience Design</>),
-        description: "Our real estate app development firm focuses on creating engaging, user-friendly experiences that enhance satisfaction and drive interaction.",
+        title: (<>Advanced UX <br />Transactions</>),
+        description: "Our data-rich interfaces and interactive mapping enhance property transactions, offering seamless experiences for buyers, sellers, and agents.",
     }
 ];
 
@@ -704,7 +714,7 @@ export const TechStackTabs = [
 
 export const IndustriesContent = {
     title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    text: "Our diverse reach spans various industries. We deliver industry-specific solutions to many clients, enhancing their operations and improving customer quality through high-impact strategies.",
 }
 
 export const IndustriesList = [
@@ -745,8 +755,8 @@ export const IndustriesList = [
     },
     {
         icon: <Icon06 />,
-        title: "Real Estate",
-        txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
+        title: "Logistics",
+        txt: "We develop logistics apps for efficient fleet management and shipment tracking. Our solutions include the ability to manage and sell logistics services directly.",
         url: "#",
         img: RealEstate.src,
     },
