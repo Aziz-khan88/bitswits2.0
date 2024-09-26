@@ -30,21 +30,22 @@ const Page = ({ params }) => {
         loadData();
     }, [params.casestudy]);
 
-    // Check if dataset is still null
-    if (!dataset) return <div></div>; // Ensure data is loaded
-
     return (
         <>
             <Banner data={dataset.BannerData} />
-            <Overview data={dataset.OverviewData} />
-            <Features data={dataset.FeaturesData} />
-            <Problem data={dataset.ProblemData} />
-            <CaseStudycta />
-            <Solution data={dataset.SolutionData} />
-            <ScrollingSection />
-            <TechStack />
-            <Results data={dataset.ResultData} />
-            <CatLast />
+            {dataset && (
+                <>
+                    <Overview data={dataset.OverviewData} />
+                    <Features data={dataset.FeaturesData} />
+                    <Problem data={dataset.ProblemData} />
+                    <CaseStudycta />
+                    <Solution data={dataset.SolutionData} />
+                    <ScrollingSection />
+                    <TechStack />
+                    <Results data={dataset.ResultData} />
+                    <CatLast />
+                </>
+            )}
         </>
     )
 }
