@@ -4,6 +4,7 @@ import Link from "next/link"
 import styles from "@/styles/components/thanks.module.scss"
 import CaseStudy from "@/src/app/home/casestudy"
 import Awards from "@/src/app/about-us/components/awards"
+import { CaseStudyContent } from "../home/data/data"
 
 const Page = () => {
     return (
@@ -21,7 +22,7 @@ const Page = () => {
                     </Row>
                 </Container>
             </section>
-            <CaseStudy />
+            <CaseStudy data={CaseStudyContent} />
             <Awards />
         </>
     )

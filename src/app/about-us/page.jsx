@@ -5,7 +5,7 @@ import Awards from "./components/awards";
 import Banner from "./components/banner";
 import KeyPoints from "./components/keypoints";
 import Story from "./components/story";
-import Team from "./components/team";
+// import Team from "./components/team";
 
 import {
     TestimonialContent, TestimonialSLIDES
