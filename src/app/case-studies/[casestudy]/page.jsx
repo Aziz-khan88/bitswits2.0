@@ -1,12 +1,4 @@
 "use client"
-// import {
-//     BannerData,
-//     OverviewData,
-//     FeaturesData,
-//     ProblemData,
-//     SolutionData,
-//     ResultData
-// } from "@/src/app/case-studies/vifty/data/data";
 
 import Banner from "@/src/app/case-studies/components/banner"
 import Problem from "@/src/app/case-studies/components/problem"
@@ -18,40 +10,40 @@ import ScrollingSection from "@/src/app/case-studies/components/scrollingsection
 import TechStack from "@/src/app/case-studies/components/techstack"
 import Results from "@/src/app/case-studies/components/results"
 import CatLast from "@/src/app/case-studies/components/catlast"
-// import { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
 
 
-const Page = (params) => {
-    // const [dataset, setDataset] = useState(null);
+const Page = ({ params }) => {
+    const [dataset, setDataset] = useState(null);
 
-    // useEffect(() => {
-    //     console.log("Current case study:", params.casestudy);
-    //     const loadData = async () => {
-    //         try {
-    //             const module = await import(`@/src/app/case-studies/${params.casestudy}/data/data`);
-    //             setDataset(module);
-    //         } catch (error) {
-    //             console.error("Error loading data:", error);
-    //         }
-    //     };
+    useEffect(() => {
+        const loadData = async () => {
+            try {
+                const module = await import(`./data/${params.casestudy}`);
+                setDataset(module);
+            } catch (error) {
+                console.error("Error loading data:", error);
+            }
+        };
 
-    //     loadData();
-    // }, [params.casestudy]);
+        loadData();
+    }, [params.casestudy]);
 
-    // if (!dataset) return <div>Loading...</div>;
+    if (!dataset) return <div>Loading...</div>;
     return (
         <>
-            {/* <Banner data={BannerData} />
-            <Overview data={OverviewData} />
-            <Features data={FeaturesData} />
-            <Problem data={ProblemData} />
+            {/* {dataset} */}
+            <Banner data={dataset.BannerData} />
+            <Overview data={dataset.OverviewData} />
+            <Features data={dataset.FeaturesData} />
+            <Problem data={dataset.ProblemData} />
             <CaseStudycta />
-            <Solution data={SolutionData} />
+            <Solution data={dataset.SolutionData} />
             <ScrollingSection />
             <TechStack />
-            <Results data={ResultData} />
-            <CatLast /> */}
+            <Results data={dataset.ResultData} />
+            <CatLast />
         </>
     )
 }

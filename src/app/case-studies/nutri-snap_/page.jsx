@@ -5,7 +5,7 @@ import {
     ProblemData,
     SolutionData,
     ResultData
-} from "@/src/app/case-studies/nutri-snap/data/data";
+} from "@/src/app/case-studies/nutri-snap/data/nutri-snap";
 
 import Banner from "@/src/app/case-studies/components/banner"
 import Problem from "@/src/app/case-studies/components/problem"
