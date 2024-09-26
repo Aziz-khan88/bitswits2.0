@@ -15,7 +15,7 @@ import { useEffect, useState } from "react"
 
 
 const Page = ({ params }) => {
-    const [dataset, setDataset] = useState(null);
+    const [dataset, setDataset] = useState("");
 
     useEffect(() => {
         const loadData = async () => {
@@ -29,8 +29,6 @@ const Page = ({ params }) => {
 
         loadData();
     }, [params.casestudy]);
-
-    if (!dataset) return <div>Loading...</div>;
     return (
         <>
             {/* {dataset} */}
