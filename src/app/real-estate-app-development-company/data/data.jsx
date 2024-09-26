@@ -2,9 +2,15 @@
 
 // Bannar Images
 import BanngBg from "media/industry/bgBanner.webp";
+import IndustryCtaImg from "media/industry/realestate/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/realestate/industry/industry01.webp"
+import IndustrySliderIMG02 from "media/industry/realestate/industry/industry02.webp"
+import IndustrySliderIMG03 from "media/industry/realestate/industry/industry03.webp"
+import IndustrySliderIMG04 from "media/industry/realestate/industry/industry04.webp"
+import IndustrySliderIMG05 from "media/industry/realestate/industry/industry05.webp"
+import IndustrySliderIMG06 from "media/industry/realestate/industry/industry06.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +21,20 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/realestate/techImg.webp"
+
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import Process01 from "media/industry/process/process01.webp"
+import Process02 from "media/industry/process/process02.webp"
+import Process03 from "media/industry/process/process03.webp"
+import Process04 from "media/industry/process/process04.webp"
+import Process05 from "media/industry/process/process05.webp"
+import Process06 from "media/industry/process/process06.webp"
+import Process07 from "media/industry/process/process07.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { RealEstateIcon01, RealEstateIcon02, RealEstateIcon03, RealEstateIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,49 +48,54 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/realestate/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/Reactjs.svg";
+import TAB1_2 from "media/industry/techstack/Angular.svg";
+import TAB1_3 from "media/industry/techstack/Vuejs.svg";
+import TAB1_4 from "media/industry/techstack/HTML5.svg";
+import TAB1_5 from "media/industry/techstack/CSS3.svg";
+import TAB1_6 from "media/industry/techstack/JavaScript.svg";
+import TAB1_7 from "media/industry/techstack/Wordpress.svg";
+import TAB2_1 from "media/industry/techstack/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/Python.svg";
+import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
+import TAB2_4 from "media/industry/techstack/Java.svg";
+import TAB2_5 from "media/industry/techstack/DotNET.svg";
+import TAB2_6 from "media/industry/techstack/PHP.svg";
+
+import TAB3_1 from "media/industry/techstack/Swift.svg";
+import TAB3_2 from "media/industry/techstack/Kotlin.svg";
+import TAB3_3 from "media/industry/techstack/ReactNative.svg";
+import TAB3_4 from "media/industry/techstack/Flutter.svg";
+import TAB3_5 from "media/industry/techstack/Xamarin.svg";
+import TAB3_6 from "media/industry/techstack/Ionic.svg";
+
+import TAB4_1 from "media/industry/techstack/MySQL.svg";
+import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB4_3 from "media/industry/techstack/MongoDB.svg";
+import TAB4_4 from "media/industry/techstack/SQLite.svg";
+import TAB4_5 from "media/industry/techstack/Redis.svg";
+import TAB4_6 from "media/industry/techstack/Oracle.svg";
+
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_4 from "media/industry/techstack/Heroku.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB5_6 from "media/industry/techstack/Firebase.svg";
+
+import TAB6_1 from "media/industry/techstack/Stripe.svg";
+import TAB6_2 from "media/industry/techstack/PayPal.svg";
+import TAB6_3 from "media/industry/techstack/Braintree.svg";
+import TAB6_4 from "media/industry/techstack/Square.svg";
+import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
+import TAB6_6 from "media/industry/techstack/ApplePay.svg";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, LogisticsSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -93,7 +111,7 @@ import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
-export const BannerData = { 
+export const BannerData = {
     title: "Scalable Real Estate App Development Company for Growing Property Markets",
     content: "BitsWits is a top-tier real estate app development company, empowering startups and SMBs to create feature-rich and scalable apps for iOS and Android. We deliver user-centric, custom real estate app solutions that help clients expand their reach, simplify property management, and make informed decisions.",
     BanngBg: BanngBg.src,
@@ -132,8 +150,10 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
+    image: IndustryCtaImg.src,
     title: "Empower Your Real Estate Business with Smart Apps!",
     text: "Join hands with BitsWits to develop apps that connect buyers, sellers, and agents effortlessly, driving your real estate success.",
+
 }
 
 export const IndustrySliderContent = {
@@ -148,27 +168,27 @@ export const IndustrySliderList = [
         txt: "Our expert real estate app development services focus on building marketplace aggregators that connect buyers, sellers, and agents, providing a seamless experience with smooth transactions and effective communication."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG02.src,
         title: "Property Listing Platforms",
         txt: "We develop intuitive, user-friendly property listing platforms with advanced search and filter options, ensuring users can effortlessly find the perfect property, improving engagement, and driving business growth efficiently."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG03.src,
         title: "Modular Real Estate Platforms",
         txt: "Our real estate app developers specialize in creating modular platforms that offer seamless integration, flexible solutions, and customization, ensuring your app meets the specific needs of your growing business."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG04.src,
         title: "Advanced Backend & Frontend ",
         txt: "We develop robust backend systems and intuitive frontend interfaces that streamline property management, improve client interaction, enhance user engagement, and maximize lead conversion, making your app efficient."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG05.src,
         title: "Virtual 3D Tours and View",
         txt: "BitsWits creates real estate apps with integrated virtual tours and 3D property viewing features, offering an immersive experience that enhances property exploration and decision-making for both buyers and tenants."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG06.src,
         title: "CRM Integration for Apps",
         txt: "Our real estate app development includes seamless CRM integration, enabling better lead tracking, enhanced customer interaction, and improved management of property listings, boosting overall operational efficiency."
     },
@@ -237,10 +257,10 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Top Developers for Real Estate App Development",
     text: (<>
-    <p>Our developers are skilled in building <strong>Real Estate Apps </strong> using technologies like React Native, Swift, Kotlin, and Flutter. </p>
-    <p>They deliver solutions for property listings, virtual tours, customer management, and communication tools.  </p>
-    <p>With an emphasis on intuitive design and robust functionality, our team creates apps that connect buyers, sellers, and agents, elevating the <strong>Real Estate</strong> experience for everyone involved. </p>
-    <p>Use the free cost calculator by BitsWits to get a detailed estimate. </p>   
+        <p>Our developers are skilled in building <strong>Real Estate Apps </strong> using technologies like React Native, Swift, Kotlin, and Flutter. </p>
+        <p>They deliver solutions for property listings, virtual tours, customer management, and communication tools.  </p>
+        <p>With an emphasis on intuitive design and robust functionality, our team creates apps that connect buyers, sellers, and agents, elevating the <strong>Real Estate</strong> experience for everyone involved. </p>
+        <p>Use the free cost calculator by BitsWits to get a detailed estimate. </p>
     </>),
 
     TechImg: TechImg.src
@@ -292,7 +312,7 @@ export const ProcessTabs = [
         content: {
             heading: "Project Planning",
             description: "In this phase, we conduct a real estate market analysis and define the app’s purpose and features based on your business objectives. This includes identifying your target clientele—whether buyers, sellers, or agents—and selecting the best MLS integration, platforms, and tech stack to meet property search functionalities and user preferences.",
-            imgSrc: IMG.src,
+            imgSrc: Process01.src,
         },
     },
     {
@@ -300,7 +320,7 @@ export const ProcessTabs = [
         content: {
             heading: "Design",
             description: "As a top-tier real estate app development company, our design process focuses on creating a property-centric UI/UX, with GIS mapping integration, and location-based search filters. Prototypes are developed, and A/B testing is conducted to optimize the interface for realtors, investors, and homebuyers, ensuring a seamless navigation experience.",
-            imgSrc: IMG.src,
+            imgSrc: Process02.src,
         },
     },
     {
@@ -308,7 +328,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description: "Our skilled real estate app developers work on both frontend and backend, incorporating real-time property listings, CRM integration, and virtual tour capabilities. Using robust programming languages and API integrations, we build essential features like lead management and client portals that reflect modern real estate market needs.",
-            imgSrc: IMG.src,
+            imgSrc: Process03.src,
         },
     },
     {
@@ -316,7 +336,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Testing",
             description: "We conduct end-to-end testing with our team of QA experts and real estate app developers to ensure the app’s performance in key areas like transaction processing, geolocation services, and virtual tours. Automated testing tools are used to identify issues, ensuring the app is ready for high-volume traffic and multi-user interactions.",
-            imgSrc: IMG.src,
+            imgSrc: Process04.src,
         },
     },
     {
@@ -324,7 +344,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment",
             description: "The app is deployed across selected platforms with MLS compliance and platform-specific guidelines. Our team handles the deployment stages, ensuring the app meets the requirements for real-time property updates and multi-listing system integration, providing a seamless transition from development to launch.",
-            imgSrc: IMG.src,
+            imgSrc: Process05.src,
         },
     },
     {
@@ -332,7 +352,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch",
             description: "We release a beta version or MVP to gather feedback from real users, such as realtors and potential buyers. The feedback is used to fine-tune features like property recommendations, mortgage calculators, and real-time notifications, improving the app before final launch.",
-            imgSrc: IMG.src,
+            imgSrc: Process06.src,
         },
     },
     {
@@ -340,7 +360,7 @@ export const ProcessTabs = [
         content: {
             heading: "Maintenance and Support",
             description: "Post-launch, we offer continuous maintenance and updates, ensuring that the app stays aligned with real estate market trends, regulatory changes, and user demands. Our services include automated MLS updates, bug fixes, and feature enhancements to keep the app competitive in a fast-moving market.",
-            imgSrc: IMG.src,
+            imgSrc: Process07.src,
         },
     }
 ];
@@ -352,25 +372,25 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
+        Icon: <RealEstateIcon01 />,
         title: (<>Proven Success in <br />Real Estate Apps </>),
         description: "BitsWits delivers real estate apps that make an impact, backed by a portfolio showcasing significant user engagement and success.",
     },
     {
-        Icon: <WhyChooseIcon01 />,
+        Icon: <RealEstateIcon02 />,
         title: (<>Expert Real Estate<br /> App Developers</>),
         description: "Our developers integrate MLS data, property valuation algorithms, and CRM systems to create tailored solutions for brokers, agents, and investors.",
-    },    
+    },
 ];
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />,
+        Icon: <RealEstateIcon03 />,
         title: (<>Custom Solutions<br /> for Your Business</>),
         description: "We design custom apps with automated property listings, geofencing, and virtual tours, aligning with your business model and market trends.",
     },
     {
-        Icon: <WhyChooseIcon02 />,
+        Icon: <RealEstateIcon04 />,
         title: (<>Advanced UX <br />Transactions</>),
         description: "Our data-rich interfaces and interactive mapping enhance property transactions, offering seamless experiences for buyers, sellers, and agents.",
     }
@@ -719,56 +739,56 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <LogisticsSVG />,
         title: "Logistics",
         txt: "We develop logistics apps for efficient fleet management and shipment tracking. Our solutions include the ability to manage and sell logistics services directly.",
-        url: "#",
+        url: "/logistics-software-development",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",
