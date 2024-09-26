@@ -3,11 +3,11 @@
 export const metadata = {
     //===== Meta Tags =====
     title: "About Us | BitsWits",
-    description: "Partner with a leading NFT game development company providing custom NFT game solutions to enhance user engagement and achieve business growth.",
+    description: "At BitsWits, history meets future. Our journey: from concept to digital revolution. We stand for creativity, excellence, and transformative technology.",
     //===== OG Tags =====
     openGraph: {
         title: "About Us | BitsWits",
-        description: "Partner with a leading NFT game development company providing custom NFT game solutions to enhance user engagement and achieve business growth.",
+        description: "At BitsWits, history meets future. Our journey: from concept to digital revolution. We stand for creativity, excellence, and transformative technology.",
         url: '/About',
         siteName: 'BitsWits',
         locale: 'en_US',

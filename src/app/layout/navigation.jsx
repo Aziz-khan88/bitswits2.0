@@ -3,9 +3,140 @@ import styles from "@/styles/layout/navigation.module.scss"
 import { NavIcon, ServiceArrow, SubMenuIcon } from "@/src/app/app-constants"
 import { Container } from "react-bootstrap"
 import { useState } from "react"
+import PopUp from "@/src/app/services/popup"
+
+
+const ServicesMenu = [
+    {
+        title: "Flutter app development",
+        url: "/flutter-app-development",
+    },
+    {
+        title: "Android app development",
+        url: "/android-app-development-company",
+    },
+    {
+        title: "React Native app development",
+        url: "/react-native-app-development",
+    },
+    {
+        title: "iOS app development",
+        url: "/ios-app-development-company",
+    },
+    {
+        title: "Cross Platform app development",
+        url: "/cross-platform-app-development-services",
+    },
+    {
+        title: "NFT game development",
+        url: "/nft-game-development-company",
+    },
+    {
+        title: "AI Development Company",
+        url: "/ai-development-company",
+    },
+    {
+        title: "Blockchain game development",
+        url: "/blockchain-game-development-company",
+    }
+    ,
+    {
+        title: "Mobile Game Development",
+        url: "/mobile-game-development-company",
+    },
+    {
+        title: "Hybrid app development",
+        url: "/hybrid-app-development-company",
+    }
+]
+const IndustriesMenu = [
+    {
+        title: "Healthcare",
+        url: "/healthcare-app-development-services",
+    },
+    {
+        title: "E-Commerce",
+        url: "/ecommerce-app-development",
+    },
+    {
+        title: "Education",
+        url: "/education-app-development",
+    },
+    {
+        title: "Real Estate",
+        url: "/real-estate-app-development-company",
+    },
+    {
+        title: "Music",
+        url: "/music-app-development-company",
+    },
+    {
+        title: "Automotive",
+        url: "/automotive-software-development",
+    },
+    {
+        title: "Social Media",
+        url: "/social-media-app-development-company",
+    },
+    {
+        title: "Logistics",
+        url: "/logistics-software-development",
+    },
+]
+const LocationsMenu = [
+    {
+        title: "Austin",
+        url: "/app-development-austin",
+    },
+    {
+        title: "Chicago",
+        url: "/app-development-chicago",
+    },
+    {
+        title: "Dallas",
+        url: "/mobile-app-development-company-dallas",
+    },
+    {
+        title: "Denver",
+        url: "/mobile-app-development-company-denver",
+    },
+    {
+        title: "Dubai",
+        url: "/mobile-app-development-company-dubai",
+    },
+    {
+        title: "Florida",
+        url: "/app-development-florida",
+    },
+    {
+        title: "Miami",
+        url: "/mobile-app-development-company-miami",
+    },
+    {
+        title: "New York",
+        url: "/app-development-company-new-york",
+    },
+    {
+        title: "Saudi Arabia",
+        url: "/mobile-app-development-company-saudi-arabia",
+    }, {
+        title: "Toronto",
+        url: "/app-development-company-toronto",
+    },
+    {
+        title: "Washington DC",
+        url: "/app-development-company-washington-dc",
+    },
+    {
+        title: "Houston",
+        url: "/app-development-houston",
+    },
+
+]
 
 const Navigation = ({ isWhiteLogo, scrolled }) => {
     const [isActive, setIsActive] = useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     const handleClick = () => {
         setIsActive(!isActive);
@@ -16,6 +147,10 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
         }
     };
 
+
+    const handlePopUp = () => {
+        setModalShow(true);
+    };
     const HeaderWhite = isWhiteLogo ? `${styles.whiteNav}` : '';
     const HeaderScroll = scrolled ? `${styles.NavScroll}` : '';
 
@@ -30,8 +165,8 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                 <li>
                     <Link href="/">Home</Link>
                 </li>
-                <li>
-                    <Link href="/about-us">About</Link>
+                <li >
+                    <Link href="/about-us" >About</Link>
                 </li>
                 <li className={styles.subMenu}>
                     <Link href="#">Services</Link>
@@ -41,48 +176,25 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                                 <div className={styles.submenuItem}>
                                     <div className={styles.title}>Services</div>
                                     <ul>
-                                        <li><Link href="/flutter-app-development">Flutter app development</Link></li>
-                                        <li><Link href="/android-app-development-company">Android app development</Link></li>
-                                        <li><Link href="/react-native-app-development">React Native app development</Link></li>
-                                        <li><Link href="/ios-app-development-company">iOS app development</Link></li>
-                                        <li><Link href="/cross-platform-app-development-services">Cross Platform app development</Link></li>
-                                        <li><Link href="/nft-game-development-company ">NFT game development</Link></li>
-                                        <li><Link href="/ai-development-company">AI Development Company</Link></li>
-                                        <li><Link href="/blockchain-game-development-company">Blockchain game development</Link></li>
-                                        <li><Link href="/mobile-game-development-company ">Mobile Game Development</Link></li>
-                                        <li><Link href="/hybrid-app-development-company ">Hybrid app development</Link></li>
+                                        {ServicesMenu.map((item, index) => (
+                                            <li key={index}><Link href={item.url}>{item.title}</Link></li>
+                                        ))}
                                     </ul>
                                 </div>
                                 <div className={styles.submenuItem}>
                                     <div className={styles.title}>Industries</div>
                                     <ul>
-                                        <li><Link href="/healthcare-app-development-services">Healthcare</Link></li>
-                                        <li><Link href="/ecommerce-app-development">E-Commerce</Link></li>
-                                        <li><Link href="/education-app-development">Education</Link></li>
-                                        <li><Link href="/real-estate-app-development-company">Real Estate</Link></li>
-                                        <li><Link href="/music-app-development-company">Music</Link></li>
-                                        <li><Link href="/automotive-software-development">Automotive</Link></li>
-                                        <li><Link href="/social-media-app-development-company">Social Media</Link></li>
-                                        <li><Link href="/logistics-software-development">Logistics</Link></li>
-                                        {/* <li><Link href="#">Entertainment</Link></li>
-                                        <li><Link href="#">Fintech</Link></li> */}
+                                        {IndustriesMenu.map((item, index) => (
+                                            <li key={index}><Link href={item.url}>{item.title}</Link></li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
                             <div className={styles.submenuItemLast}>
                                 <ul>
-                                    <li><Link href="/app-development-austin">Austin <ServiceArrow /></Link></li>
-                                    <li><Link href="/app-development-chicago">Chicago <ServiceArrow /></Link></li>
-                                    <li><Link href="/mobile-app-development-company-dallas">Dallas <ServiceArrow /></Link></li>
-                                    <li><Link href="/mobile-app-development-company-denver">Denver <ServiceArrow /></Link></li>
-                                    <li><Link href="/mobile-app-development-company-dubai">Dubai <ServiceArrow /></Link></li>
-                                    <li><Link href="/app-development-florida">Florida <ServiceArrow /></Link></li>
-                                    <li><Link href="/mobile-app-development-company-miami">Miami <ServiceArrow /></Link></li>
-                                    <li><Link href="/app-development-company-new-york">New York <ServiceArrow /></Link></li>
-                                    <li><Link href="/mobile-app-development-company-saudi-arabia">Saudi Arabia <ServiceArrow /></Link></li>
-                                    <li><Link href="/app-development-company-toronto">Toronto <ServiceArrow /></Link></li>
-                                    <li><Link href="/app-development-company-washington-dc">Washington DC <ServiceArrow /></Link></li>
-                                    <li><Link href="/app-development-houston">Houston <ServiceArrow /></Link></li>
+                                    {LocationsMenu.map((item, index) => (
+                                        <li key={index}><Link href={item.url}>{item.title} <ServiceArrow /></Link></li>
+                                    ))}
                                 </ul>
                             </div>
                         </Container>
@@ -95,8 +207,11 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                 <li>
                     <Link href="/portfolio">Portfolio</Link>
                 </li>
-                <li className={styles.btnHeader}>
-                    <Link href="/contact-us">Connect Now</Link>
+                <li>
+                    <Link href="/contact-us">Contact</Link>
+                </li>
+                <li className={styles.btnHeader} onClick={() => handlePopUp()}>
+                    <Link href="">Connect Now</Link>
                 </li>
             </ul>
             <div className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ''}`} >
@@ -104,59 +219,42 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                     <li>
                         <Link href="/">Home</Link>
                     </li>
-                    <li>
+                    <li onClick={handleClick}>
                         <Link href="/about-us">About</Link>
                     </li>
                     <li className={styles.subMobileMenu}>
                         <Link href="#">Services <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
-                            <li><Link href="/flutter-app-development">Flutter app development</Link></li>
-                            <li><Link href="/android-app-development-company">Android app development</Link></li>
-                            <li><Link href="/react-native-app-development">React Native app development</Link></li>
-                            <li><Link href="/ios-app-development-company">iOS app development</Link></li>
-                            <li><Link href="/cross-platform-app-development-services">Cross Platform app development</Link></li>
-                            <li><Link href="/nft-game-development-company ">NFT game development</Link></li>
-                            <li><Link href="/ai-development-company">AI Development Company</Link></li>
-                            <li><Link href="/blockchain-game-development-company">Blockchain game development</Link></li>
-                            <li><Link href="/mobile-game-development-company ">Mobile Game Development</Link></li>
-                            <li><Link href="/hybrid-app-development-company ">Hybrid app development</Link></li>
+                            {ServicesMenu.map((item, index) => (
+                                <li onClick={handleClick} key={index}><Link href={item.url}>{item.title}</Link></li>
+                            ))}
 
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
                         <Link href="#">Industries <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
-                            <li><Link href="/healthcare-app-development-services">Healthcare</Link></li>
-                            <li><Link href="/ecommerce-app-development">E-Commerce</Link></li>
-                            <li><Link href="/education-app-development">Education</Link></li>
-                            <li><Link href="/real-estate-app-development-company">Real Estate</Link></li>
-                            <li><Link href="/music-app-development-company">Music</Link></li>
-                            <li><Link href="/automotive-software-development">Automotive</Link></li>
-                            <li><Link href="/social-media-app-development-company">Social Media</Link></li>
-                            <li><Link href="/logistics-software-development">Logistics</Link></li>
+                            {IndustriesMenu.map((item, index) => (
+                                <li onClick={handleClick} key={index}><Link href={item.url}>{item.title}</Link></li>
+                            ))}
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
                         <Link href="#">Locations <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
-                            <li><Link href="/app-development-austin">Austin</Link></li>
-                            <li><Link href="/app-development-chicago">Chicago</Link></li>
-                            <li><Link href="/mobile-app-development-company-dallas">Dallas</Link></li>
-                            <li><Link href="/mobile-app-development-company-denver">Denver</Link></li>
-                            <li><Link href="/mobile-app-development-company-dubai">Dubai</Link></li>
-                            <li><Link href="/app-development-florida">Florida</Link></li>
-                            <li><Link href="/mobile-app-development-company-miami">Miami</Link></li>
-                            <li><Link href="/app-development-company-new-york">New York</Link></li>
-                            <li><Link href="/mobile-app-development-company-saudi-arabia">Saudi Arabia</Link></li>
-                            <li><Link href="/app-development-company-toronto">Toronto</Link></li>
-                            <li><Link href="/app-development-company-washington-dc">Washington DC</Link></li>
-                            <li><Link href="/app-development-houston">Houston</Link></li>
+                            {LocationsMenu.map((item, index) => (
+                                <li onClick={handleClick} key={index}><Link href={item.url}>{item.title}</Link></li>
+                            ))}
                         </ul>
                     </li>
-                    <li><Link href="/portfolio">Portfolio</Link></li>
-                    <li><Link href="/contact-us">Connect Now</Link></li>
+                    <li><Link href="/portfolio" onClick={handleClick}>Portfolio</Link></li>
+                    <li>
+                        <Link href="/contact-us" onClick={handleClick}>Contact</Link>
+                    </li>
+                    <li><Link href="/contact-us" onClick={() => handlePopUp()}>Connect Now</Link></li>
                 </ul>
             </div>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </>
     )
 }

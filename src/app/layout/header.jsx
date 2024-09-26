@@ -29,7 +29,7 @@ const Header = () => {
         <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`} >
             < Container className="h-100" >
                 <Row className="h-100">
-                    <Col md={2} xs={6} sm={6} className="m-auto">
+                    <Col md={3} xs={6} sm={6} className="m-auto">
                         <Link href="/">
                             {isWhiteLogo && !scrolled ? (
                                 <WhiteLogo />
@@ -42,7 +42,7 @@ const Header = () => {
                             }
                         </Link>
                     </Col>
-                    <Col md={10} xs={6} sm={6} className="m-auto">
+                    <Col md={9} xs={6} sm={6} className="m-auto">
                         <Navigation scrolled={scrolled} isWhiteLogo={isWhiteLogo} />
                     </Col>
                 </Row>
