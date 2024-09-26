@@ -22,14 +22,14 @@ const Header = () => {
     }, []);
 
     const pathname = usePathname();
-    const isWhiteLogo = pathname === '/' || pathname === '/single-porfolio' || pathname === '/healthcare-app-development-services' || pathname === '/education-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/ecommerce-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/real-estate-app-development-company' || pathname === '/automotive-software-development' || pathname.startsWith('/case-studies/');
+    const isWhiteLogo = pathname === '/' || pathname === '/logistics-software-development' || pathname === '/healthcare-app-development-services' || pathname === '/education-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/ecommerce-app-development' || pathname === '/music-app-development-company' || pathname === '/social-media-app-development-company' || pathname === '/real-estate-app-development-company' || pathname === '/automotive-software-development' || pathname.startsWith('/case-studies/');
 
 
     return (
         <section className={`${styles.headerSection} ${scrolled ? styles.active : ''}`} >
             < Container className="h-100" >
                 <Row className="h-100">
-                    <Col md={2} xs={6} sm={6} className="m-auto">
+                    <Col md={3} xs={6} sm={6} className="m-auto">
                         <Link href="/">
                             {isWhiteLogo && !scrolled ? (
                                 <WhiteLogo />
@@ -42,7 +42,7 @@ const Header = () => {
                             }
                         </Link>
                     </Col>
-                    <Col md={10} xs={6} sm={6} className="m-auto">
+                    <Col md={9} xs={6} sm={6} className="m-auto">
                         <Navigation scrolled={scrolled} isWhiteLogo={isWhiteLogo} />
                     </Col>
                 </Row>

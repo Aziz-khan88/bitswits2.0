@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Single Portfolio | BitsWits",
+    title: "Portfolio | BitsWits",
     description: "",
     //===== OG Tags =====
     openGraph: {
-        title: "Single Portfolio | BitsWits",
+        title: "Portfolio | BitsWits",
         description: "",
-        url: '/single-porfolio',
+        url: '/porfolio',
         siteName: 'BitsWits',
         locale: 'en_US',
         type: 'website',
         images: "/public/images/icons/footerlogo.png",
     },
     //===== Canonical =====
-    alternates: { canonical: '/single-porfolio' },
+    alternates: { canonical: '/porfolio' },
 }
 
 

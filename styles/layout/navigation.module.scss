@@ -6,7 +6,7 @@
     border-radius: 73px;
     position: relative;
     padding: 0px 30px;
-    max-width: 60%;
+    max-width: 80%;
     margin-left: auto;
 
     &::after {
@@ -30,17 +30,8 @@
         }
 
         li {
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
             a {
-                font-size: 16px;
-                font-weight: 500;
                 color: #fff;
-                line-height: normal;
-                transition: .3s linear;
 
                 &:hover {
                     transition: .3s linear;
@@ -320,7 +311,7 @@
     .mainNavigation {
         height: 80px;
         padding: 0px 30px;
-        max-width: 65%;
+        max-width: 80%;
 
         li {
             a {
@@ -422,8 +413,8 @@
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .mainNavigation {
         height: 80px;
-        padding: 0px 30px;
-        max-width: 70%;
+        padding: 0px 25px;
+        max-width: 85%;
 
         li {
             a {
@@ -525,8 +516,8 @@
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .mainNavigation {
         height: 70px;
-        padding: 0px 30px;
-        max-width: 75%;
+        padding: 0px 25px;
+        max-width: 85%;
 
         li {
             a {
@@ -629,7 +620,7 @@
     .mainNavigation {
         height: 60px;
         padding: 0px 30px;
-        max-width: 80%;
+        max-width: 95%;
 
         li {
             a {

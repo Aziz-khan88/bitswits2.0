@@ -1,12 +1,12 @@
 "use client"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/home/industries.module.scss"
-import { ServiceArrow } from "../app-constants"
+import { ServiceArrow } from "@/src/app/app-constants"
 import useEmblaCarousel from 'embla-carousel-react'
 import Link from "next/link"
 import { useState, useEffect, useCallback } from "react"
 
-const Industries = ({data, slides, options }) => {
+const Industries = ({ data, slides, options }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(options);
     const [activeSlide, setActiveSlide] = useState(0);
     const [isPaused, setIsPaused] = useState(false);
@@ -17,7 +17,7 @@ const Industries = ({data, slides, options }) => {
             setActiveSlide(index);
         }
     }, [emblaApi]);
-    
+
     const nextSlide = useCallback(() => {
         if (emblaApi && !isPaused) {
             const slideCount = emblaApi.slideNodes().length;
@@ -51,7 +51,7 @@ const Industries = ({data, slides, options }) => {
                         <div className="subTitle txtColor">{data?.subtitle}</div>
                         <h2>{data?.title}</h2>
                     </Col>
-                    <Col lg={5} md={5} className="mt-auto">
+                    <Col lg={5} md={5} className="my-auto">
                         <p>{data?.content}</p>
                     </Col>
                 </Row>

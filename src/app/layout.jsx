@@ -14,12 +14,12 @@ const poppins = Poppins({
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Top Mobile App Development Services | BitsWits",
-  description: "BitsWits delivers best mobile app development services with the top app developers, offering customized solutions across industries for impactful results!",
+  title: "Expert Mobile App Development Company | BitsWits",
+  description: "BitsWits empowers SMBs and entrepreneurs with mobile app development, delivering solutions across 10+ industries to drive business success and growth.",
   //===== OG Tags =====
   openGraph: {
-    title: "Top Mobile App Development Services | BitsWits",
-    description: "BitsWits delivers best mobile app development services with the top app developers, offering customized solutions across industries for impactful results!",
+    title: "Expert Mobile App Development Company | BitsWits",
+    description: "BitsWits empowers SMBs and entrepreneurs with mobile app development, delivering solutions across 10+ industries to drive business success and growth.",
     url: '/',
     siteName: 'BitsWits',
     locale: 'en_US',

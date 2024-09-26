@@ -19,91 +19,103 @@ import { Automotive, ECommerce, Education, Food, Healthcare, Insurance, Music, R
 
 
 export const BannerData = {
-    title: "Crafting Innovative Apps for Tomorrow’s Digital World",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac.",
+    title: "From Concept to Global Impact — We Build Apps That Lead",
+    content: `At BitsWits, we don’t just build apps — we engineer digital game-changers. Our top-tier tech talent ensures your app goes from "nice-to-have" to "can’t live without" on a global scale.`,
 }
 
 export const CompanyInfoContent = {
-    title: "Some work we are proud of",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec lorem non ac. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit",
+    subtitle: "What Drives Us?",
+    title: "A Relentless Obsession With Getting It Right.",
+    content: "At BitsWits, perfection is our baseline. We only partner with visionary clients — from startups developing MVPs to enterprises scaling complex solutions — to create apps that not only work but thrive in real-world scenarios. From brainstorming to deployment, we are committed to delivering excellence at every step, ensuring your app succeeds where it matters most.",
 }
 
 export const HomeServicesContent = {
-    subtitle: "Services",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    subtitle: "Our Services",
+    title: "We Transform Innovative Concepts Into Powerful Digital Solutions.",
+    content: "With a decade of expertise, we give entrepreneurs and SMBs the unfair advantage they need to outsmart the competition. Our timely delivery and faster time to market drive growth and expansion, providing the essential tools to stay competitive and succeed.",
 }
 
 export const HomeServicesList = [
     {
         title: "Mobile App Development",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit Risus interdum sed turpis nunc nulla neque blandit."
-    },
-    {
-        title: "Game Development",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit Risus interdum sed turpis nunc nulla neque blandit."
-    },
-    {
-        title: "Web Development",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit Risus interdum sed turpis nunc nulla neque blandit."
+        txt: "We have expertise in both native and cross-platform mobile app development for Android and iOS. Using Kotlin, Java, Swift, and Xcode for native apps, and Flutter or React Native for cross-platform, we deliver custom solutions across 30+ industries!"
     },
     {
         title: "Software Development",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit Risus interdum sed turpis nunc nulla neque blandit."
+        txt: "We design bespoke software solutions to meet your business’s unique needs. With expertise in technologies like Python, Java, and .NET, we build scalable, high-performance applications that streamline operations and enhance overall productivity."
     },
     {
-        title: "IT Staff Augmentation",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit Risus interdum sed turpis nunc nulla neque blandit."
+        title: "Enterprise Consulting",
+        txt: "We provide businesses with expert guidance on platforms like HubSpot, Salesforce, and other leading CRMs. We help streamline processes, optimize workflows, and integrate advanced tools to improve customer management, marketing automation, and overall business efficiency, empowering you to drive sustainable growth."
     },
     {
-        title: "Cloud Consulting",
-        txt: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit Risus interdum sed turpis nunc nulla neque blandit."
+        title: "Game App Development",
+        txt: "Our game app development services span 15+ genres, offering immersive 2D and 3D gameplay. Using advanced technologies like Unity, Unreal, and Godot, we create optimized, smooth-running games tailored for all screen sizes and devices."
+    },
+    {
+        title: "Web Development",
+        txt: "We provide comprehensive web development services, from dynamic websites to advanced web applications. Using technologies like HTML, CSS, JavaScript, React, and Node.js, we create responsive, high-performance websites tailored to diverse industries."
+    },
+    {
+        title: "Staff Augmentation",
+        txt: "Our services help you scale your teams with highly skilled professionals. Whether you need temporary support or long-term talent, our experts seamlessly integrate with your in-house team, providing the flexibility to meet project demands and ensuring you stay ahead of your goals."
     }
 ]
 
 export const CaseStudyContent = {
-    subtitle: "Case Studies",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    subtitle: "Success In Action",
+    title: "Beyond the Code: Real Stories, Real Results",
+    content: "Every project is a journey, and we measure success by the results our clients achieve. From MVPs that disrupt industries to enterprise solutions that scale globally, these stories show how we transform ideas into market-leading solutions.",
 }
 
 export const ExtendedServicesContent = {
-    subtitle: "Extended Services",
-    title: "Some work we are proud of",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    subtitle: "Advanced Solutions",
+    title: "Take Control of Your Future — Unlock the Power of Next-Gen Tech.",
+    content: "Empower your business with forward-thinking solutions that sharpen decision-making, streamline complex operations, and unlock new opportunities for growth. Future-proof your business with BitsWits.",
 }
 
 export const ExtendedServicesList = [
-    {
-        title: "Big Data",
-        content: {
-            icon: <BigData />,
-            heading: "Big Data",
-            description: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
-            listItems: [
-                "Consulting and implementation",
-                "Data governance",
-                "Support and evolution",
-                "Data security",
-            ],
-        },
-    },
     {
         title: "Artificial Intelligence",
         content: {
             icon: <ArtificialIntelligence />,
             heading: "Artificial Intelligence",
-            description: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
-            listItems: ["AI Consulting", "Machine Learning", "Deep Learning", "Support and Maintenance"],
+            description: "We develop intelligent AI-driven apps that streamline operations and enhance decision-making processes, helping businesses improve efficiency and drive growth. Our AI technologies empower businesses to make smarter, faster decisions for lasting success.",
+            listItems: [
+                "AI Consulting & Development",
+                "Machine Learning Model Training",
+                "Business System Integration",
+                "AI Maintenance & Optimization",
+            ],
         },
     },
     {
-        title: "Internet of Things",
+        title: "Generative AI",
+        content: {
+            icon: <BigData />,
+            // icon: <BigData />,
+            heading: "Generative AI",
+            description: "We integrate Generative AI to produce new content and automate processes, enhancing user experiences (UX) across platforms. This technology allows businesses to streamline operations while delivering personalized, dynamic content at scale.",
+            listItems: [
+                "AI-Powered Content Creation",
+                "Automation of Business Processes",
+                "Personalized AI Interactions",
+                "Platform Integration for Efficiency"
+            ],
+        },
+    },
+    {
+        title: "IoT",
         content: {
             icon: <InternetOfThings />,
-            heading: "Internet of Things",
-            description: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
-            listItems: ["IoT Consulting", "Smart Devices", "Network Solutions", "Security and Privacy"],
+            heading: "IoT",
+            description: "We integrate IoT technology to connect devices, enabling real-time monitoring and automation for improved efficiency. This opens up new possibilities for businesses to optimize operations and make data-driven decisions.",
+            listItems: [
+                "Connected Devices Monitoring",
+                "Automated Operational Processes",
+                "System Integration for Smart Workflows",
+                "Scalable IoT Business Solutions"
+            ],
         },
     },
     {
@@ -111,121 +123,130 @@ export const ExtendedServicesList = [
         content: {
             icon: <Blockchain />,
             heading: "Blockchain",
-            description: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
-            listItems: ["Blockchain Consulting", "Smart Contracts", "Decentralized Applications", "Security and Privacy"],
+            description: "We integrate blockchain technology to deliver transparent and secure business solutions across finance, healthcare, supply chain, and real estate sectors. This ensures enhanced security, trust, and efficiency in critical business operations.",
+            listItems: [
+                "Secure Financial Transactions",
+                "Transparent Supply Chain Records",
+                "Blockchain Healthcare Data Security",
+                "Smart Contracts for Real Estate"
+            ],
         },
     },
     {
-        title: "Mixed Reality",
+        title: "AR/VR",
         content: {
             icon: <MixedReality />,
-            heading: "Mixed Reality",
-            description: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
-            listItems: ["AR/VR Solutions", "Development", "Integration", "Support"],
+            heading: "AR/VR",
+            description: "We integrate AR/VR technologies to create interactive, engaging user experiences that transform how businesses operate in sectors like retail, education, and real estate, enhancing customer interaction and business workflows.",
+            listItems: [
+                "Immersive Retail Experiences",
+                "AR/VR Training & Education",
+                "Virtual Real Estate Tours",
+                "Interactive Product Visualization "
+            ],
         },
     },
 ];
 
+export const DigitalCtaContent = {
+    content: (<><span>Go Beyond </span>Digital</>),
+}
+
 export const ProcessContent = {
-    subtitle: "Our Process",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    subtitle: "P.R.O.C.E.S.S.",
+    title: "Planning. Research. Outline. Creation. Evaluation. Scalability. Support.",
+    content: "Our P.R.O.C.E.S.S. framework guarantees that every stage of development is handled with precision and purpose. We build apps that deliver immediate results and adapt effortlessly as your business scales. ",
 }
 
 export const ProcessList = [
     {
-        title: "Discovery & Analysis",
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla.",
+        title: "Discovery and Analysis",
+        txt: "The process starts with detailed requirement gathering using tools like Jira and Confluence to map user stories, functional specifications, and system requirements. This step aligns project goals with the development strategy.",
         icon: <Process01 />,
 
     },
     {
-        title: "Feasibility & Impact Assessment",
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla.",
+        title: "Feasibility and System Architecture",
+        txt: "A thorough technical feasibility study is conducted using AWS or Azure, with system architecture crafted via Lucidchart and Enterprise Architect, focusing on scalability, security, and performance optimization.",
         icon: <Process02 />,
 
     },
     {
-        title: "Solution Architecture Design",
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla.",
+        title: "UI/UX Design",
+        txt: "With Figma and Adobe XD, wireframes and interactive prototypes are created, ensuring a seamless user experience. Tools like Hotjar are utilized for heatmapping to fine-tune user flows for maximum engagement.",
         icon: <Process03 />,
 
     },
     {
-        title: "Technology Selection & Prototyping",
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla.",
+        title: "Product Roadmap",
+        txt: "Before development, we map out a detailed product roadmap, including prioritized feature lists and timelines. This step ensures that key functionalities are aligned with business goals, keeping the development process focused and efficient.",
         icon: <Process04 />,
 
     },
     {
-        title: "Agile Development Process",
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla.",
+        title: "Agile Development",
+        txt: "Agile development follows with sprint planning using Jira, GitLab, and Docker. Continuous integration (CI) and deployment (CD) are integrated, and version control is handled through GitHub or Bitbucket to maintain seamless collaboration.",
         icon: <Process05 />,
 
     },
     {
-        title: "System Integration & Testing",
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla.",
+        title: "Testing and Quality Assurance",
+        txt: "Automated testing is implemented through tools like Selenium, Cypress, and JUnit, alongside manual testing. Continuous testing is integrated into the CI/CD pipeline using Jenkins, maintaining the highest quality standards throughout.",
         icon: <Process06 />,
 
     },
     {
-        title: "Deployment & User Training",
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla.",
+        title: "Deployment and Cloud Infrastructure",
+        txt: "Docker and Kubernetes are used for containerization and deployment, with cloud hosting managed through AWS, Google Cloud, or Azure. This ensures high availability, autoscaling, and optimized load balancing.",
         icon: <Process07 />,
 
     },
     {
-        title: "Continuous Support & Optimization",
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis nuncRisus interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla.",
+        title: "Maintenance and Optimization",
+        txt: "Post-deployment, monitoring is conducted using tools like New Relic, Datadog, and Grafana. Continuous maintenance and optimization are provided, keeping the application updated and performing efficiently.",
         icon: <Process08 />,
 
     },
 ];
 
 export const TestimonialContent = {
-    subtitle: "Testimonials",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    subtitle: "For Some, It’s Testimonials.",
+    title: "For Us, It’s Client Love.",
+    content: "Our clients don’t just speak about projects — they share their stories of growth, success, and partnership. We build solutions that leave a lasting impression, and the results speak for themselves. Here’s why our clients keep choosing us.",
 }
 
 export const TestimonialSLIDES = [
     {
+        logo: <ClutchLogo />,
+        text: "The team’s deep understanding of our business’s nature was truly impressive. Their technical knowledge was evident in ensuring the app functioned smoothly, and their attention to every detail exceeded our expectations. BitsWits delivered a seamless and reliable app experience.",
+        name: "Joseph D’Amora",
+    },
+    {
+        logo: <ClutchLogo />,
+        text: "BitsWits transformed my vision into a stunning, user-friendly app with an intuitive design that perfectly meets our needs. Their professionalism, dedication, and ability to turn ideas into reality were outstanding. I couldn’t be happier with the results and their ongoing support.",
+        name: "Ryan Jaden",
+    },
+    {
         logo: <TrustpilotLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firms workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
-        name: "Daniel Gonzalez",
-        designation: "CTO / Pronftdesign.com"
-    },
-    {
-        logo: <ClutchLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm’s workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
-        name: "Daniel Gonzalez",
-        designation: "CTO / Pronftdesign.com"
+        text: "A heartfelt thank you to BitsWits for their outstanding support and dedication. Their responsiveness was truly remarkable, and they delivered exactly what we had envisioned. Without a doubt, we will engage BitsWits again for our upcoming project. They exceeded all our expectations.",
+        name: "Maya Powell",
     },
     {
         logo: <GoogleLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm’s workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
-        name: "Daniel Gonzalez",
-        designation: "CTO / Pronftdesign.com"
-    },
-    {
-        logo: <ClutchLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm’s workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
-        name: "Daniel Gonzalez",
-        designation: "CTO / Pronftdesign.com"
+        text: "I approached BitsWits for a custom software solution for my business, and I couldn’t be happier with the result. Their team was professional, timely, and provided exceptional support throughout the entire process. The final product exceeded my expectations. Highly recommend BitsWits!",
+        name: "Raoul Deslys",
     },
     {
         logo: <GoogleLogo />,
-        text: "Bitswits excelled in developing our custom CRM system, perfectly aligning it with our SEO firm’s workflow. Their team delivered an efficient, user-friendly solution with impressive attention to detail. We highly recommend Bitswits for their professionalism and app development expertise.",
-        name: "Daniel Gonzalez",
-        designation: "CTO / Pronftdesign.com"
+        text: "The mobile app has drastically increased my sales, and I feel directly connected to my clients through it. BitsWits and their team did an outstanding job. The app is user-friendly, offers brilliant performance, and has made a huge impact on my business. I highly recommend BitsWits!",
+        name: "Abigail Smith",
     },
 ]
 
 export const SolutionsContent = {
-    subtitle: "Solutions We Provide",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    subtitle: "Solutions For Success",
+    title: "Empowering Businesses With Smart Solutions for Lasting Success.",
+    content: "Our custom-made and ready-to-deploy solutions help businesses overcome challenges, streamline operations, and drive sustained growth. From ERP to mobile apps, we’ve built solutions that deliver results — fast.",
 }
 
 export const SolutionsList = [
@@ -269,142 +290,154 @@ export const SolutionsList = [
 
 export const EngagementContent = {
     subtitle: "Engagement Models",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    title: "Choose the Perfect Fit for Your Business.",
+    content: "Select from our range of engagement models to find the perfect fit for your app development needs, facilitating a partnership that meets your objectives.",
 }
+
+export const EngagementDetailList = [
+    "Flexibility",
+    "Control Over Team",
+    "Team Availability",
+    "Client Involvement",
+    "Best for",
+]
 
 export const EngagementList = [
     {
         logo: < DedicatedTeamModel />,
-        title: "Dedicated Team Model",
+        title: "Dedicated Team",
         detail: [
-            "Entrepreneurs and Large enterprises.",
-            "Ideally suited for large projects.",
-            "Evolving project requirements.",
-            "Low client involvement, as the team is dedicated.",
-            "Estimated project timelines, with flexibility.",
-            "Flexible budget arrangements."
+            "High",
+            "Full control",
+            "Full-time",
+            "High",
+            "Long-term Projects",
+        ]
+    },
+    {
+        logo: <FixedPriceModel />,
+        title: "Fixed Price",
+        detail: [
+            "Low",
+            "Limited control",
+            "As Needed",
+            "Low",
+            "Defined Projects",
         ]
     },
     {
         logo: < HourlyPriceModel />,
-        title: "Hourly Price Model",
+        title: "Hourly Price",
         detail: [
-            "Entrepreneurs and Large enterprises.",
-            "Ideally suited for large projects.",
-            "Evolving project requirements.",
-            "Low client involvement, as the team is dedicated.",
-            "Estimated project timelines, with flexibility.",
-            "Flexible budget arrangements."
-        ]
-    },
-    {
-        logo: < FixedPriceModel />,
-        title: "Fixed Price Model",
-        detail: [
-            "Entrepreneurs and Large enterprises.",
-            "Ideally suited for large projects.",
-            "Evolving project requirements.",
-            "Low client involvement, as the team is dedicated.",
-            "Estimated project timelines, with flexibility.",
-            "Flexible budget arrangements."
+            "Medium",
+            "Moderate control",
+            "On-demand",
+            "Medium",
+            "Small Tasks",
         ]
     },
     {
         logo: < OnsiteTeamModel />,
-        title: "On-site Team Model",
+        title: "Onsite Team",
         detail: [
-            "Entrepreneurs and Large enterprises.",
-            "Ideally suited for large projects.",
-            "Evolving project requirements.",
-            "Low client involvement, as the team is dedicated.",
-            "Estimated project timelines, with flexibility.",
-            "Flexible budget arrangements."
+            "High",
+            "Full control",
+            "Full-time Onsite",
+            "High",
+            "Close Collaboration",
         ]
     }
 ]
 
 export const IndustriesContent = {
     subtitle: "Industries",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque blandit. Sed donec neque blandit lorem non neque blandit. nulla neque blandit. Sed donec neque blandit lorem non neque.",
+    title: "Setting the Benchmark Across Industries",
+    content: "Our solutions drive innovation, optimize performance, and scale effortlessly, setting the benchmark for success in every industry we touch.",
 }
 
 export const IndustriesSLIDES = [
     {
         title: "Healthcare",
         icon: <Healthcare />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "We specialize in EHR integration, telemedicine platforms, and HIPAA-compliant solutions, enhancing patient care, optimizing workflows, and improving data management for healthcare providers across the sector."
     },
     {
         title: "Food",
         icon: <Food />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "Addressing industry challenges through supply chain management, inventory tracking, and compliance automation, we deliver solutions that prioritize safety, traceability, and efficiency in food distribution and restaurant operations."
     },
     {
         title: "Education",
         icon: <Education />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "Our expertise lies in building scalable e-learning platforms with LMS integration, adaptive learning tools, and real-time analytics, designed to boost student engagement and improve learning outcomes across institutions."
     },
     {
         title: "Real Estate",
         icon: <RealEstate />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "Delivering powerful tools like CRM integration, property management systems, and IDX-powered solutions, we streamline real estate transactions, elevate client interactions, and increase property visibility."
     },
     {
         title: "Automotive",
         icon: <Automotive />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "With in-depth knowledge of telematics, vehicle connectivity, and fleet management systems, we provide solutions that enhance automotive performance, streamline logistics, and accelerate advancements in the mobility sector."
     },
     {
         title: "Music",
         icon: <Music />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "We build robust music platforms featuring advanced streaming capabilities, copyright management, and real-time analytics, empowering artists and businesses to engage listeners and drive revenue effectively."
     },
     {
         title: "Social Media",
         icon: <SocialMedia />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "Developing scalable social media platforms with strong user engagement features, real-time content moderation, and interactive tools, we enhance community growth and optimize user retention for our clients."
     },
     {
         title: "Insurance",
         icon: <Insurance />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "Our solutions drive efficiency in policy management, claims automation, and risk assessment by using AI-driven analytics and compliance tools to improve service quality and customer satisfaction."
     },
     {
         title: "eCommerce",
         icon: <ECommerce />,
-        txt: "Lorem ipsum dolor sit amet consectetur Risus interdum sed turpis nunc nulla neque blandit Risus interdum sed turpis interdum sed turpis nuncsed turpis nunc nulla sed turpis nuncsed turpis nunc nulla."
+        txt: "With a focus on scalability, omnichannel integration, and personalized shopping experiences, we deliver e-commerce platforms that enhance customer journeys, boost conversions, and streamline backend operations for online retailers."
     }
 ]
 
 export const FaqsContent = {
-    subtitle: "FAQ’s",
-    title: "We transform innovative ideas into powerful digital experiences.",
-    content: "Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis nunc nulla neque sed turpis blandit. Lorem ipsum dolor sit amet consectetur. Risus interdum sed turpis sed turpis nunc nulla.",
+    subtitle: "Got Inquiries?",
+    title: "Read Our Frequently Asked Questions",
+    content: "Our FAQ section offers clear answers to common concerns, helping you navigate our services with ease.",
 }
 
 export const FaqsList = [
     {
-        title: "Lorem ipsum dolor sit amet consectetur. Condimentum elementum vulputate?",
-        txt: (<p>Lorem ipsum dolor sit amet consectetur. Sit nulla egestas turpis at. Ultrices pellentesque quam tempor imperdiet elit. At commodo ut volutpat pulvinar at morbi. At tortor tortor etiam quisque aliquam nisl nascetur mi justo. Mauris enim scelerisque eu at nisl. Penatibus egestas lectus pellentesque posuere cras fringilla.</p>)
+        title: "What is the typical app development timeline?",
+        txt: (<p>Our app development timelines vary depending on complexity. Small apps typically take 4-6 weeks, while larger, more complex apps can take 3 to 6 months. We provide detailed timelines during the initial consultation based on your unique app requirements.</p>)
     },
     {
-        title: "Lorem ipsum dolor sit amet consectetur. Condimentum elementum vulputate?",
-        txt: (<p>Lorem ipsum dolor sit amet consectetur. Sit nulla egestas turpis at. Ultrices pellentesque quam tempor imperdiet elit. At commodo ut volutpat pulvinar at morbi. At tortor tortor etiam quisque aliquam nisl nascetur mi justo. Mauris enim scelerisque eu at nisl. Penatibus egestas lectus pellentesque posuere cras fringilla.</p>)
+        title: "How do you handle confidentiality and NDAs?",
+        txt: (<p>We take confidentiality seriously and offer NDAs to protect your sensitive information. All our team members are required to sign NDAs, ensuring that your project details remain secure throughout the development process.</p>)
     },
     {
-        title: "Lorem ipsum dolor sit amet consectetur. Condimentum elementum vulputate?",
-        txt: (<p>Lorem ipsum dolor sit amet consectetur. Sit nulla egestas turpis at. Ultrices pellentesque quam tempor imperdiet elit. At commodo ut volutpat pulvinar at morbi. At tortor tortor etiam quisque aliquam nisl nascetur mi justo. Mauris enim scelerisque eu at nisl. Penatibus egestas lectus pellentesque posuere cras fringilla.</p>)
+        title: "What is the cost of your app development services?",
+        txt: (<p>The cost depends on the scope and complexity of your app. We offer various engagement models, including fixed-price, hourly, and dedicated team options. Detailed cost estimates are provided after we assess your app requirements during the consultation phase.</p>)
     },
     {
-        title: "Lorem ipsum dolor sit amet consectetur?",
-        txt: (<p>Lorem ipsum dolor sit amet consectetur. Sit nulla egestas turpis at. Ultrices pellentesque quam tempor imperdiet elit. At commodo ut volutpat pulvinar at morbi. At tortor tortor etiam quisque aliquam nisl nascetur mi justo. Mauris enim scelerisque eu at nisl. Penatibus egestas lectus pellentesque posuere cras fringilla.</p>)
+        title: "Why work with BitsWits?",
+        txt: (<p>Our company stands out due to our decade-long expertise, commitment to quality, and personalized approach. We deliver innovative solutions tailored to your business needs and ensure timely project delivery with a focus on achieving your goals.</p>)
     },
     {
-        title: "Lorem ipsum dolor sit amet consectetur. Condimentum elementum vulputate?",
-        txt: (<p>Lorem ipsum dolor sit amet consectetur. Sit nulla egestas turpis at. Ultrices pellentesque quam tempor imperdiet elit. At commodo ut volutpat pulvinar at morbi. At tortor tortor etiam quisque aliquam nisl nascetur mi justo. Mauris enim scelerisque eu at nisl. Penatibus egestas lectus pellentesque posuere cras fringilla.</p>)
-    }
+        title: "Do you offer post-launch support?",
+        txt: (<p>Yes, we provide comprehensive post-launch support to address any issues or updates needed after your project goes live. Our support services include bug fixes, performance monitoring, and ongoing maintenance to ensure smooth operation.</p>)
+    },
+    {
+        title: "Can I customize my project requirements?",
+        txt: (<p>Absolutely. We offer flexible solutions and work closely with you to tailor the project according to your specific requirements. Our goal is to create a product that meets your exact needs and aligns with your business objectives.</p>)
+    },
+    {
+        title: "How do you manage project changes?",
+        txt: (<p>We handle project changes through a structured change management process. Any requested modifications are assessed for impact on the project scope, timeline, and cost. We then provide updated estimates and timelines before implementing the changes.</p>)
+    },
 ]
 
 export const IdeaCtaContent = {
