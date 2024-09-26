@@ -10,6 +10,9 @@ import ProblemImg from "media/casestudies/soul-scribe/ProblemImg.webp"
 // Solution Images
 import SolutionImg from "media/casestudies/soul-scribe/SolutionImg.webp"
 
+// ScrollingSection Images
+import ScrollingSectionImg from "media/casestudies/soul-scribe/ScrollingImage.webp"
+
 // TechStack Images
 import TechStackIcon01 from "media/casestudies/techIcon/01.webp"
 import TechStackIcon02 from "media/casestudies/techIcon/02.webp"
@@ -86,6 +89,10 @@ export const SolutionBullets = [
     "Built social features like comments, likes, and sharing.",
     "Crafted a freemium model with flexible subscription options.",
 ]
+
+export const ScrollingSectionData = {
+    image: ScrollingSectionImg.src,
+}
 
 export const TechStackData = {
     subtitle: "Technology Stack",

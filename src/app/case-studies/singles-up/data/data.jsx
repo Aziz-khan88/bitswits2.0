@@ -10,6 +10,9 @@ import ProblemImg from "media/casestudies/singles-up/ProblemImg.webp"
 // Solution Images
 import SolutionImg from "media/casestudies/singles-up/SolutionImg.webp"
 
+// ScrollingSection Images
+import ScrollingSectionImg from "media/casestudies/singles-up/ScrollingImage.webp"
+
 // TechStack Images
 import TechStackIcon01 from "media/casestudies/techIcon/01.webp"
 import TechStackIcon02 from "media/casestudies/techIcon/02.webp"
@@ -87,6 +90,10 @@ export const SolutionBullets = [
     "Engaging Invited Contributors",
     "Effective Content Curation",
 ]
+
+export const ScrollingSectionData = {
+    image: ScrollingSectionImg.src,
+}
 
 export const TechStackData = {
     subtitle: "Features",

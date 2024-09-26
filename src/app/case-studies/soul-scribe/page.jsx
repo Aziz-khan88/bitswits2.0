@@ -8,6 +8,7 @@ import {
     CaseStudyctaData,
     SolutionData,
     SolutionBullets,
+    ScrollingSectionData,
     TechStackData,
     TechStackList,
     ResultData,
@@ -37,7 +38,7 @@ const Page = () => {
             <Problem data={ProblemData} list={ProblemBullets}/>
             <CaseStudycta data={CaseStudyctaData}/>
             <Solution data={SolutionData} list={SolutionBullets}/>
-            <ScrollingSection />
+            <ScrollingSection data={ScrollingSectionData}/>
             <TechStack data={TechStackData} list={TechStackList}/>
             <Results data={ResultData} list={ResultBullets}/>
             <CatLast data={CatLastData} />

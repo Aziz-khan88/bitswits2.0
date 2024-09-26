@@ -10,6 +10,9 @@ import problem from "media/casestudies/Vifty/ProblemImg.webp"
 // Solution Images
 import solution from "media/casestudies/Vifty/SolutionImg.webp"
 
+// ScrollingSection Images
+import scrolling from "media/casestudies/Vifty/ScrollingImg.webp"
+
 // TechStack Images
 import TechStackIcon01 from "media/casestudies/techIcon/01.webp"
 import TechStackIcon02 from "media/casestudies/techIcon/02.webp"
@@ -89,6 +92,10 @@ export const SolutionBullets = [
     "Created a platform that supports user-generated content.",
     "Focused on safety and user satisfaction in every aspect.",
 ]
+
+export const ScrollingSectionData = {
+    image: scrolling.src,
+}
 
 export const TechStackData = {
     subtitle: "Technology Stack",
