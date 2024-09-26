@@ -3,6 +3,7 @@ import styles from "@/styles/layout/navigation.module.scss"
 import { NavIcon, ServiceArrow, SubMenuIcon } from "@/src/app/app-constants"
 import { Container } from "react-bootstrap"
 import { useState } from "react"
+import PopUp from "@/src/app/services/popup"
 
 
 const ServicesMenu = [
@@ -135,6 +136,7 @@ const LocationsMenu = [
 
 const Navigation = ({ isWhiteLogo, scrolled }) => {
     const [isActive, setIsActive] = useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     const handleClick = () => {
         setIsActive(!isActive);
@@ -145,6 +147,10 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
         }
     };
 
+
+    const handlePopUp = () => {
+        setModalShow(true);
+    };
     const HeaderWhite = isWhiteLogo ? `${styles.whiteNav}` : '';
     const HeaderScroll = scrolled ? `${styles.NavScroll}` : '';
 
@@ -159,8 +165,8 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                 <li>
                     <Link href="/">Home</Link>
                 </li>
-                <li>
-                    <Link href="/about-us">About</Link>
+                <li >
+                    <Link href="/about-us" >About</Link>
                 </li>
                 <li className={styles.subMenu}>
                     <Link href="#">Services</Link>
@@ -204,8 +210,8 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                 <li>
                     <Link href="/contact-us">Contact</Link>
                 </li>
-                <li className={styles.btnHeader}>
-                    <Link href="/contact-us">Connect Now</Link>
+                <li className={styles.btnHeader} onClick={() => handlePopUp()}>
+                    <Link href="">Connect Now</Link>
                 </li>
             </ul>
             <div className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ''}`} >
@@ -213,14 +219,14 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                     <li>
                         <Link href="/">Home</Link>
                     </li>
-                    <li>
+                    <li onClick={handleClick}>
                         <Link href="/about-us">About</Link>
                     </li>
                     <li className={styles.subMobileMenu}>
                         <Link href="#">Services <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
                             {ServicesMenu.map((item, index) => (
-                                <li key={index}><Link href={item.url}>{item.title}</Link></li>
+                                <li onClick={handleClick} key={index}><Link href={item.url}>{item.title}</Link></li>
                             ))}
 
                         </ul>
@@ -229,7 +235,7 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                         <Link href="#">Industries <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
                             {IndustriesMenu.map((item, index) => (
-                                <li key={index}><Link href={item.url}>{item.title}</Link></li>
+                                <li onClick={handleClick} key={index}><Link href={item.url}>{item.title}</Link></li>
                             ))}
                         </ul>
                     </li>
@@ -237,14 +243,18 @@ const Navigation = ({ isWhiteLogo, scrolled }) => {
                         <Link href="#">Locations <SubMenuIcon /></Link>
                         <ul className={styles.mobilesubMenu}>
                             {LocationsMenu.map((item, index) => (
-                                <li key={index}><Link href={item.url}>{item.title}</Link></li>
+                                <li onClick={handleClick} key={index}><Link href={item.url}>{item.title}</Link></li>
                             ))}
                         </ul>
                     </li>
-                    <li><Link href="/portfolio">Portfolio</Link></li>
-                    <li><Link href="/contact-us">Connect Now</Link></li>
+                    <li><Link href="/portfolio" onClick={handleClick}>Portfolio</Link></li>
+                    <li>
+                        <Link href="/contact-us" onClick={handleClick}>Contact</Link>
+                    </li>
+                    <li><Link href="/contact-us" onClick={() => handlePopUp()}>Connect Now</Link></li>
                 </ul>
             </div>
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} />
         </>
     )
 }

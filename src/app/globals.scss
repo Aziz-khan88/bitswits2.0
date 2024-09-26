@@ -1106,9 +1106,11 @@ li {
 @media only screen and (min-width: 600px) and (max-width: 900px) {
   .navIcon {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     position: relative;
     z-index: 99;
+    max-width: 30px;
+    margin-left: auto;
   }
 
   .container {
@@ -1255,9 +1257,11 @@ li {
 @media only screen and (min-width: 0px) and (max-width: 599px) {
   .navIcon {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     position: relative;
     z-index: 99;
+    max-width: 30px;
+    margin-left: auto;
   }
 
   .container {
