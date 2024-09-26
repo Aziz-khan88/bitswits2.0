@@ -12,9 +12,9 @@ const Overview = ({data}) => {
             <Container>
                 <Row>
                     <Col lg={5} md={6} className="my-auto">
-                        <div className="subTitle txtColor">Overview</div>
-                        <h2>Social Networking App</h2>
-                        <p>Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.</p>
+                        <div className="subTitle txtColor">{data?.subtitle}</div>
+                        <h2>{data?.title}</h2>
+                        <p>{data?.content}</p>
                         <div className={styles.storeImg}>
                             <div className={styles.storeItem}>
                                 <a href="#" target="_blank">
