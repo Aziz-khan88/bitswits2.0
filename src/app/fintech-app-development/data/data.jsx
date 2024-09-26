@@ -87,13 +87,8 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
 export const BannerData = {
-    title: "FinTech App Development Company",
-    content: `fintech development company, fintech app development services
-              Leading Fintech App Development Company for Scalable Financial Solutions
-              BitsWits is a top- grade fintech app development company that builds 
-              industry-leading fintech applications.Our tried - and - true fintech app 
-              development services help entrepreneurs and financial institutions create 
-              super- fast, intuitive, and user - centered fintech apps with impregnable security.`,
+    title: "Leading Fintech App Development Company for Scalable Financial Solutions",
+    content: `BitsWits is a top-grade fintech app development company that builds industry-leading fintech applications. Our tried-and-true fintech app development services help entrepreneurs and financial institutions create super-fast, intuitive, and user-centered fintech apps with impregnable security. `,
     BanngBg: BanngBg.src,
 }
 
@@ -113,11 +108,11 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Cross-Platform <br /> Financial App Development</>),
-        txt: "We develop cross-platform fintech apps that function consistently across devices, helping businesses reach a wider audience while cutting development costs.",
+        txt: "We develop cross-platform fintech apps that function consistently across devices, expanding business reach and reducing development costs.",
     },
     {
         title: (<>Progressive Web <br />Apps for Fintech</>),
-        txt: "Our fintech PWAs provide a fast, app-like experience through the web, enabling users to access financial services from any device without needing to download an app.",
+        txt: "Our fintech PWAs provide a fast, app-like experiences via web, letting users access financial services on any device without downloads.",
     },
     {
         title: (<>Fintech <br />User-Interface Design </>),
@@ -125,7 +120,7 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Smooth Fintech <br />App Integration</>),
-        txt: "We ensure seamless integration with existing financial systems, allowing your fintech app to connect effortlessly with payment gateways, banking systems, and other services.",
+        txt: "We ensure seamless integration, letting your fintech app connect effortlessly with payment gateways, banking systems, and other services..",
     },
 ];
 
