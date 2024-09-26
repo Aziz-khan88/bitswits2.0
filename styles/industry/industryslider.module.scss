@@ -41,6 +41,13 @@
 
                             p {
                                 color: #9098A1;
+                                height: 170px;
+                                overflow: auto;
+
+                                &::-webkit-scrollbar {
+                                    width: 0px;
+                                }
+
                             }
                         }
                     }

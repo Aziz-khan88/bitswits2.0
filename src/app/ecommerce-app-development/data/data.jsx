@@ -4,7 +4,13 @@
 import BanngBg from "media/industry/bgBanner.webp";
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/ecommerce/industry/Industry01.webp"
+import IndustrySliderIMG02 from "media/industry/ecommerce/industry/Industry02.webp"
+import IndustrySliderIMG03 from "media/industry/ecommerce/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/ecommerce/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/ecommerce/industry/Industry05.webp"
+import IndustrySliderIMG06 from "media/industry/ecommerce/industry/Industry06.webp"
+
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +21,19 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/ecommerce/techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import Process01 from "media/industry/process/process01.webp"
+import Process02 from "media/industry/process/process02.webp"
+import Process03 from "media/industry/process/process03.webp"
+import Process04 from "media/industry/process/process04.webp"
+import Process05 from "media/industry/process/process05.webp"
+import Process06 from "media/industry/process/process06.webp"
+import Process07 from "media/industry/process/process07.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { EcommerceIcon01, EcommerceIcon02, EcommerceIcon03, EcommerceIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,51 +47,55 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/ecommerce/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB1_7 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/Reactjs.svg";
+import TAB1_2 from "media/industry/techstack/Angular.svg";
+import TAB1_3 from "media/industry/techstack/Vuejs.svg";
+import TAB1_4 from "media/industry/techstack/HTML5.svg";
+import TAB1_5 from "media/industry/techstack/CSS3.svg";
+import TAB1_6 from "media/industry/techstack/JavaScript.svg";
+import TAB1_7 from "media/industry/techstack/Wordpress.svg";
+import TAB2_1 from "media/industry/techstack/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/Python.svg";
+import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
+import TAB2_4 from "media/industry/techstack/Java.svg";
+import TAB2_5 from "media/industry/techstack/DotNET.svg";
+import TAB2_6 from "media/industry/techstack/PHP.svg";
+
+import TAB3_1 from "media/industry/techstack/Swift.svg";
+import TAB3_2 from "media/industry/techstack/Kotlin.svg";
+import TAB3_3 from "media/industry/techstack/ReactNative.svg";
+import TAB3_4 from "media/industry/techstack/Flutter.svg";
+import TAB3_5 from "media/industry/techstack/Xamarin.svg";
+import TAB3_6 from "media/industry/techstack/Ionic.svg";
+
+import TAB4_1 from "media/industry/techstack/MySQL.svg";
+import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB4_3 from "media/industry/techstack/MongoDB.svg";
+import TAB4_4 from "media/industry/techstack/SQLite.svg";
+import TAB4_5 from "media/industry/techstack/Redis.svg";
+import TAB4_6 from "media/industry/techstack/Oracle.svg";
+
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_4 from "media/industry/techstack/Heroku.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB5_6 from "media/industry/techstack/Firebase.svg";
+
+import TAB6_1 from "media/industry/techstack/Stripe.svg";
+import TAB6_2 from "media/industry/techstack/PayPal.svg";
+import TAB6_3 from "media/industry/techstack/Braintree.svg";
+import TAB6_4 from "media/industry/techstack/Square.svg";
+import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
+import TAB6_6 from "media/industry/techstack/ApplePay.svg";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
-import Ecommerce from "media/services/industry/Ecommerce.webp";
+import { FintechSVG, HealthcareSVG, EducationSVG, SocialSVG, RealEstateSVG, RideHailingSVG, TravelSVG, LogisticsSVG } from "@/src/app/app-constants";
+import Logistics from "media/services/industry/Logistics.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
 import Education from "media/services/industry/Education.webp";
@@ -94,7 +110,7 @@ import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
-export const BannerData = { 
+export const BannerData = {
     title: "Scalable Ecommerce App Development Company for Expanding Online Markets",
     content: "BitsWits is a leading ecommerce development company helping startups and SMBs build intuitive and scalable ecommerce apps for both iOS and Android. We offer UX-driven, custom ecommerce application development services, enabling clients to sell to a global audience and make data-driven decisions.",
     BanngBg: BanngBg.src,
@@ -149,27 +165,27 @@ export const IndustrySliderList = [
         txt: "We create microservices-based eCommerce apps that integrate APIs and cart systems with intuitive user journeys, ensuring seamless shopping experiences and scalable solutions, similar to Walmart’s successful online platform."
     },
     {
-        img: IndustrySliderIMG01.src, 
+        img: IndustrySliderIMG02.src,
         title: "Integrated CRM Solutions",
         txt: "We design robust backend systems, user-friendly frontends, and integrated CRM solutions to enhance customer interactions, streamline shopping experiences, improve retention, and drive sales in eCommerce businesses."
     },
     {
-        img: IndustrySliderIMG01.src, 
+        img: IndustrySliderIMG03.src,
         title: "Aggregator Portals",
         txt: "We develop comprehensive aggregator portals that list vendors and products, offering consumers a seamless connection with services and products while improving user experience and expanding business reach."
     },
     {
-        img: IndustrySliderIMG01.src, 
+        img: IndustrySliderIMG04.src,
         title: "Progressive Web Apps",
         txt: "Our PWA solutions for eCommerce provide app-like experiences without needing downloads, offering customers fast, reliable access to online stores across devices, improving engagement and conversion rates."
     },
     {
-        img: IndustrySliderIMG01.src, 
+        img: IndustrySliderIMG05.src,
         title: "Cross-Platform Development",
         txt: "We build cross-platform eCommerce apps using a single codebase, ensuring fast development, reduced costs, and consistent user experiences across iOS, Android, and web platforms for enhanced accessibility."
     },
     {
-        img: IndustrySliderIMG01.src, 
+        img: IndustrySliderIMG06.src,
         title: "Headless Commerce Apps",
         txt: "Our headless commerce apps decouple the frontend from the backend, providing greater flexibility in design and smooth integration with other systems for a personalized, scalable shopping experience."
     }
@@ -238,9 +254,9 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Developers with Proven Expertise in eCommerce Technologies",
     text: (<>
-    <p>Hire our expert developers to create your <strong>Ecommerce App</strong> using the latest technologies and platforms like Magento, Shopify, WooCommerce, and React Native. </p>
-    <p>Our team specializes in building high-performing, secure apps that boost sales and improve user experience.</p>
-    <p>Want to know how much your app will cost with our well-versed <strong>Ecommerce App Developers?</strong> Use our free app cost calculator to get an instant breakdown of your app cost!</p>
+        <p>Hire our expert developers to create your <strong>Ecommerce App</strong> using the latest technologies and platforms like Magento, Shopify, WooCommerce, and React Native. </p>
+        <p>Our team specializes in building high-performing, secure apps that boost sales and improve user experience.</p>
+        <p>Want to know how much your app will cost with our well-versed <strong>Ecommerce App Developers?</strong> Use our free app cost calculator to get an instant breakdown of your app cost!</p>
     </>),
 
     TechImg: TechImg.src
@@ -292,7 +308,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery Session",
             description: "Our ecommerce app development process begins with a comprehensive business requirement analysis to understand your target market, sales objectives, and customer personas. This helps in selecting the ideal eCommerce platform and defining the must-have features, like inventory management, multi-currency support, and payment gateway integrations that align with your business model.",
-            imgSrc: IMG.src,
+            imgSrc: Process01.src,
         },
     },
     {
@@ -300,7 +316,7 @@ export const ProcessTabs = [
         content: {
             heading: "Documentation",
             description: "We create detailed documentation that outlines the technical architecture, including API integrations for shipping, payment processing, and ERP systems. This blueprint ensures a seamless integration of third-party services and provides a clear roadmap for developers, minimizing risks and misunderstandings throughout the project.",
-            imgSrc: IMG.src,
+            imgSrc: Process02.src,
         },
     },
     {
@@ -308,7 +324,7 @@ export const ProcessTabs = [
         content: {
             heading: "UI/UX Design",
             description: "Our design phase focuses on conversion-driven UI/UX techniques. We use data-driven insights to create a user-friendly interface, optimizing the checkout flow, product search filters, and call-to-action elements. The aim is to boost user engagement, enhance navigation, and ensure higher conversion rates.",
-            imgSrc: IMG.src,
+            imgSrc: Process03.src,
         },
     },
     {
@@ -316,7 +332,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description: "Using an agile development process, we build the app incrementally, incorporating product catalog management, real-time inventory tracking, and customer personalization engines. This ensures flexibility for evolving requirements while focusing on scalability and load-balancing to handle high traffic and expanding product catalogs seamlessly.",
-            imgSrc: IMG.src,
+            imgSrc: Process04.src,
         },
     },
     {
@@ -324,7 +340,7 @@ export const ProcessTabs = [
         content: {
             heading: "Quality Assurance",
             description: "Our quality assurance phase involves performance testing, security audits, and cross-device functionality testing to ensure the app handles high user loads and transactions securely. We rigorously test for PCI compliance, data encryption, and vulnerability protection to deliver a secure and robust ecommerce solution.",
-            imgSrc: IMG.src,
+            imgSrc: Process05.src,
         },
     },
     {
@@ -332,7 +348,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch",
             description: "Once the app clears all testing phases, it is deployed across your chosen platforms with ASO (App Store Optimization) and multi-channel marketing support. We ensure the app is optimized for mobile and web, delivering a seamless experience across devices for user acquisition and retention.",
-            imgSrc: IMG.src,
+            imgSrc: Process06.src,
         },
     },
     {
@@ -340,7 +356,7 @@ export const ProcessTabs = [
         content: {
             heading: "Post-launch Support",
             description: "Our post-launch services include performance monitoring, bug fixes, and feature enhancements to adapt to emerging ecommerce trends like voice commerce, AR product previews, and subscription models. Continuous updates keep your app aligned with new technologies and customer expectations, ensuring long-term competitiveness.",
-            imgSrc: IMG.src,
+            imgSrc: Process07.src,
         },
     },
 ];
@@ -352,25 +368,25 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
+        Icon: <EcommerceIcon01 />,
         title: "Proven Sales Increase",
         description: "Our eCommerce apps generate revenue growth and user retention, with a strong focus on improving average order value (AOV) and customer lifetime value (CLV).",
     },
     {
-        Icon: <WhyChooseIcon01 />,
-        title: "Expert Development Team",
+        Icon: <EcommerceIcon02 />,
+        title: "Expert Team",
         description: "The team at BitsWits builds multi-vendor marketplaces, subscription models, and inventory management, ensuring your app delivers seamless shopping experiences.",
     },
 ];
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />, 
+        Icon: <EcommerceIcon03 />,
         title: "Advanced Security",
         description: "Our team implements PCI-compliant security, multi-layer encryption, and fraud detection systems to safeguard payment data and ensure secure transactions.",
     },
     {
-        Icon: <WhyChooseIcon02 />, 
+        Icon: <EcommerceIcon04 />,
         title: "Scalable Solutions",
         description: "We build apps with modular architecture, allowing you to easily add features like cross-border shipping and AI-driven suggestions as your business expands.",
     },
@@ -544,19 +560,19 @@ export const TechStackTabs = [
             },
             {
                 heading: "HTML5",
-                img: TAB1_4.src, 
+                img: TAB1_4.src,
             },
             {
                 heading: "CSS3",
-                img: TAB1_5.src, 
+                img: TAB1_5.src,
             },
             {
                 heading: "JavaScript",
-                img: TAB1_6.src, 
+                img: TAB1_6.src,
             },
             {
                 heading: "WordPress",
-                img: TAB1_7.src, 
+                img: TAB1_7.src,
             }
         ],
     },
@@ -581,11 +597,11 @@ export const TechStackTabs = [
             },
             {
                 heading: ".NET Core",
-                img: TAB2_5.src, 
+                img: TAB2_5.src,
             },
             {
                 heading: "PHP",
-                img: TAB2_6.src, 
+                img: TAB2_6.src,
             }
         ],
     },
@@ -606,15 +622,15 @@ export const TechStackTabs = [
             },
             {
                 heading: "Flutter",
-                img: TAB3_4.src, 
+                img: TAB3_4.src,
             },
             {
                 heading: "Xamarin",
-                img: TAB3_5.src, 
+                img: TAB3_5.src,
             },
             {
                 heading: "Ionic",
-                img: TAB3_6.src, 
+                img: TAB3_6.src,
             }
         ],
     },
@@ -639,11 +655,11 @@ export const TechStackTabs = [
             },
             {
                 heading: "Redis",
-                img: TAB4_5.src, 
+                img: TAB4_5.src,
             },
             {
                 heading: "Oracle",
-                img: TAB4_6.src, 
+                img: TAB4_6.src,
             }
         ],
     },
@@ -664,15 +680,15 @@ export const TechStackTabs = [
             },
             {
                 heading: "Heroku",
-                img: TAB5_4.src, 
+                img: TAB5_4.src,
             },
             {
                 heading: "DigitalOcean",
-                img: TAB5_5.src, 
+                img: TAB5_5.src,
             },
             {
                 heading: "Firebase",
-                img: TAB5_6.src, 
+                img: TAB5_6.src,
             }
         ],
     },
@@ -697,11 +713,11 @@ export const TechStackTabs = [
             },
             {
                 heading: "Authorize.Net",
-                img: TAB6_5.src, 
+                img: TAB6_5.src,
             },
             {
                 heading: "Apple Pay",
-                img: TAB6_6.src, 
+                img: TAB6_6.src,
             }
         ],
     }
@@ -714,56 +730,56 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <LogisticsSVG />,
         title: "Logistics",
-        txt: "We develop logistics apps that optimize fleet management and shipment tracking. eCommerce functionality allows businesses to manage and sell logistics services directly to their clients.",
-        url: "#",
-        img: Ecommerce.src,
+        txt: "We build logistics apps for fleet and shipment optimization. Built-in eCommerce lets businesses manage and sell logistics services directly to clients.",
+        url: "/logistics-software-development",
+        img: Logistics.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",

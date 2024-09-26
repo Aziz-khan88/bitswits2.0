@@ -82,6 +82,10 @@ const IndustriesMenu = [
         title: "Logistics",
         url: "/logistics-software-development",
     },
+    {
+        title: "Fintech",
+        url: "/fintech-app-development",
+    },
 ]
 const LocationsMenu = [
     {
