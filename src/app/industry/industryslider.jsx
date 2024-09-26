@@ -2,7 +2,7 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import useEmblaCarousel from 'embla-carousel-react'
 import styles from "@/styles/industry/industryslider.module.scss"
-import { ArrowIcon, EmailIcon, PhoneIcon } from '@/src/app/app-constants'
+import { ServiceArrow } from "@/src/app/app-constants";
 import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 
@@ -23,12 +23,15 @@ const IndustrySlider = ({ data, list }) => {
         if (embla) embla.scrollNext();
     };
     return (
-        <section className={`${styles.industrySlider} p-100 `}>
+        <section className={`${styles.industrySlider} commonSlider p-100 `}>
             <Container>
                 <Row>
-                    <Col lg={6} md={6} className="my-auto">
-                    <h2>{data?.title}</h2>
-                    <p>{data?.text}</p>
+                    <Col lg={6} md={7}>
+                        <div className="subTitle txtColor">{data?.subtitle}</div>
+                        <h2>{data?.title}</h2>
+                    </Col>
+                    <Col lg={5} md={5} className="my-auto offset-lg-1">
+                        <p>{data?.text}</p>
                     </Col>
                 </Row>
                 <Row>
@@ -51,12 +54,12 @@ const IndustrySlider = ({ data, list }) => {
                                     ))}
                                 </div>
                             </div>
-                            <div className={styles.embla_container}>
-                                <div className={styles.embla_prev} onClick={prevButtonHandler}>
-                                    <ArrowIcon direction="prev" />
+                            <div className="embla_container">
+                                <div className="embla_prev" onClick={prevButtonHandler}>
+                                    <ServiceArrow direction="prev" />
                                 </div>
-                                <div className={styles.embla_next} onClick={nextButtonHandler}>
-                                    <ArrowIcon direction="next" />
+                                <div className="embla_next" onClick={nextButtonHandler}>
+                                    <ServiceArrow direction="next" />
                                 </div>
                             </div>
                         </section>

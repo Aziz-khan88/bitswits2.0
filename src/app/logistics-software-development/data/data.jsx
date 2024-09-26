@@ -326,7 +326,7 @@ export const ProcessTabs = [
         content: {
             heading: "User Interface and Architecture Design",
             description:
-                    "n the logistics software design phase, we focus on creating a logistics-centric UI with a role-based interface, enhancing usability for warehouse managers, fleet operators, and dispatch teams. The microservices architecture offers scalability, adapting seamlessly to growing logistics demands.",
+                    "In the logistics software design phase, we focus on creating a logistics-centric UI with a role-based interface, enhancing usability for warehouse managers, fleet operators, and dispatch teams. The microservices architecture offers scalability, adapting seamlessly to growing logistics demands.",
             imgSrc: IMG.src,
         },
     },
