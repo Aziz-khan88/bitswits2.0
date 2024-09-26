@@ -9,7 +9,7 @@ const IndustryCta = ({data}) => {
             <Container>
                 <Row>
                     <Col lg={12} md={12}>
-                        <div className={styles.industrySec} style={{ backgroundImage: `url(${CTABG.src})` }}>
+                        <div className={styles.industrySec} style={{ backgroundImage: `url(${data?.image || CTABG.src})` }}>
                             <div className={styles.industryContent}>
                             <h2>{data?.title}</h2>
                             <p>{data?.text}</p>

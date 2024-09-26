@@ -3,6 +3,9 @@
 // Bannar Images
 import BanngBg from "media/industry/bgBanner.webp";
 
+// IndustryCta Images
+import IndustryCtaImg from "media/industry/ecommerce/ctaImage.webp"
+
 // Location Images
 import IndustrySliderIMG01 from "media/industry/ecommerce/industry/Industry01.webp"
 import IndustrySliderIMG02 from "media/industry/ecommerce/industry/Industry02.webp"
@@ -149,6 +152,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
+    image: IndustryCtaImg.src, 
     title: "UX-Driven eCommerce App Development Services",
     text: "Give your business an unfair advantage with our UX-driven ecommerce app development services. Expand your reach and sell more to a global audience. Let’s take your business global!",
 }
