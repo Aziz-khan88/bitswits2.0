@@ -23,14 +23,14 @@ import result from "media/casestudies/Vifty/ResultImg.webp"
 
 export const BannerData = {
     subtitle: "Vifty",
-    title: "Connect, share, and discover",
+    title: "Connect, Earn, and Thrive with Every Interaction!",
 }
 
 export const OverviewData = {
     image: overview.src,
     subtitle: "Overview",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories."
+    title: "VIFTY",
+    content: "VIFTY is a unique platform designed to connect service providers with consumers, facilitating interactions that allow users to earn while helping others. By offering a space for skill sharing and community support, VIFTY empowers users to make meaningful connections and generate income effortlessly."
 }
 
 export const FeaturesData = {
@@ -38,60 +38,62 @@ export const FeaturesData = {
     background: 'linear-gradient(180deg, #7268DB -14.33%, #1B1464 86.95%, #1B1464 131.4%)',
     boxShadow: '15px 20px 40px rgba(43, 83, 142, 0.3)',
     subtitle: "Features",
-    title: "Building Bonds and Memories",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Key Highlights of VIFTY",
+    content: "VIFTY combines social engagement with professional services, creating an ecosystem where users can easily showcase their offerings and connect with clients. Its innovative features ensure an intuitive experience for both service providers and seekers.",
 }
 
 export const FeaturesBullets = [
-    "Personal Journaling",
-    "In-App Purchases",
-    "Inviting Pals",
-    "Premium Membership",
-    "Social Groups",
-    "Sharing Status",
-    "Memory Sharing",
-    "Creating friendships",
+    "Gig Listings",
+    "Online Consultancy",
+    "Social Interactions",
+    "Ratings & Reviews",
+    "One-to-One Chat",
+    "Appointment Booking",
+    "Post Management",
+    "Reels Integration",
+    "Video Calling",
+    "Favorites Feature",
 ]
 
 export const ProblemData = {
     image: problem.src,
     subtitle: "The Problem",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Challenges the Client Faced.",
+    content: "The client sought to create a platform that seamlessly integrates service provision with social engagement. The goal was to build a space where users could easily find support, share skills, and connect with others, while maintaining a high standard of safety and interaction.",
 }
 
 export const ProblemBullets = [
-    "In-App Purchases and Subscription",
-    "Balancing Social and Personal Use",
-    "Organizing Memories",
-    "Engaging Invited Contributors",
-    "Effective Content Curation",
+    "Need for a reliable platform for services",
+    "Difficulty in connecting users to local opportunities",
+    "Ensuring a safe environment for user interactions",
+    "Establishing clear communication channels between users",
+    "Balancing functionality with ease of usen",
 ]
 
 export const CaseStudyctaData = {
-    title: "Looking For Something Similar?",
-    content: "Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.",
+    title: "Looking to Develop Your Own VIFTY?",
+    content: "Our expert team is here to help create your app from concept to market. Let’s make it happen together.",
 }
 
 export const SolutionData = {
     image: solution.src,
     subtitle: "The Solution",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Our Approach to the Challenge.",
+    content: "We crafted VIFTY as a multifaceted app that brings together service providers and consumers in a secure environment. Our focus was on creating a platform that encourages skill sharing, simplifies booking processes, and enhances user interactions for everyone involved.",
 }
 
 export const SolutionBullets = [
-    "In-App Purchases and Subscription",
-    "Balancing Social and Personal Use",
-    "Organizing Memories",
-    "Engaging Invited Contributors",
-    "Effective Content Curation",
+    "Developed user-friendly gig creation and listing features.",
+    "Implemented an efficient appointment and booking system.",
+    "Integrated social features to encourage community interaction.",
+    "Created a platform that supports user-generated content.",
+    "Focused on safety and user satisfaction in every aspect.",
 ]
 
 export const TechStackData = {
-    subtitle: "Features",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part.",
+    subtitle: "Technology Stack",
+    title: "The Tech Behind the App",
+    content: "We employed a combination of modern technologies to develop VIFTY, ensuring that the platform is secure, reliable, and user-friendly, allowing seamless interactions and transactions for all users.",
 }
 
 export const TechStackList = [
@@ -124,16 +126,16 @@ export const TechStackList = [
 export const ResultData = {
     background: `linear-gradient(270deg, rgba(246, 136, 37, 0) -7.2%, rgba(246, 136, 37, 0.55) 25.99%, #EB3171 76.61%), url(${result.src})`,
     subtitle: "The Result",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "The Impact We Delivered.",
+    content: "VIFTY rapidly gained traction as a trusted platform for connecting service providers with consumers. By prioritizing user experience and community support, the app has driven significant engagement and satisfaction among its users.",
 }
 
 export const ResultBullets = [
-    (<>10+ <span>Years of Experience</span></>),
-    (<>1,200+ <span>Successful Projects</span></>),
-    (<>60+ <span>Experts</span></>),
+    (<>75% <span>Increase in Active Users</span></>),
+    (<>60% <span>Growth in Service Bookings</span></>),
+    (<>25,000+ <span>Successful Tasks Completed</span></>),
 ]
 
 export const CatLastData = {
-    title: "Is Your Business Ready for an Upgrade?",
+    title: "Want to Create the Next Big Thing?",
 }

@@ -24,7 +24,7 @@ const Features = ({ data, list }) => {
                         <p>{data?.content}</p>
                         <ul className={styles.featureBullets}>
                             {list.map((item, index) => (
-                                <li key={index}><span className="txtColor">0{index + 1} </span>{item}</li>
+                                <li key={index}><span className="txtColor"> {index < 9 && 0}{index + 1} </span>{item}</li>
                             ))}
                         </ul>
                     </Col>
