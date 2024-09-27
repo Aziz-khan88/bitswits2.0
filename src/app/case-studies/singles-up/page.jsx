@@ -2,9 +2,18 @@ import {
     BannerData, 
     OverviewData, 
     FeaturesData,
+    FeaturesBullets,
     ProblemData, 
+    ProblemBullets,
+    CaseStudyctaData,
     SolutionData,
-    ResultData
+    SolutionBullets,
+    ScrollingSectionData,
+    TechStackData,
+    TechStackList,
+    ResultData,
+    ResultBullets,
+    CatLastData
   } from "@/src/app/case-studies/singles-up/data/data";
   
 import Banner from "@/src/app/case-studies/components/banner"
@@ -20,19 +29,19 @@ import CatLast from "@/src/app/case-studies/components/catlast"
 
 
 
-const Page = () => {
+const Page = () => { 
     return (
         <>
             <Banner data={BannerData} />
-            <Overview data={OverviewData}/>
-            <Features data={FeaturesData}/>
-            <Problem data={ProblemData}/>
-            <CaseStudycta />
-            <Solution data={SolutionData}/>
-            <ScrollingSection />
-            <TechStack />
-            <Results data={ResultData}/>
-            <CatLast />
+            <Overview data={OverviewData} />
+            <Features data={FeaturesData} list={FeaturesBullets} />
+            <Problem data={ProblemData} list={ProblemBullets} />
+            <CaseStudycta data={CaseStudyctaData} />
+            <Solution data={SolutionData} list={SolutionBullets} />
+            <ScrollingSection data={ScrollingSectionData}/>
+            <TechStack data={TechStackData} list={TechStackList} />
+            <Results data={ResultData} list={ResultBullets} />
+            <CatLast data={CatLastData} />
         </>
     )
 }

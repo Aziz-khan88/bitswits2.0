@@ -2,9 +2,18 @@ import {
     BannerData, 
     OverviewData, 
     FeaturesData,
+    FeaturesBullets,
     ProblemData, 
+    ProblemBullets,
+    CaseStudyctaData,
     SolutionData,
-    ResultData
+    SolutionBullets,
+    ScrollingSectionData,
+    TechStackData,
+    TechStackList,
+    ResultData,
+    ResultBullets,
+    CatLastData
   } from "@/src/app/case-studies/soul-scribe/data/data";
   
 import Banner from "@/src/app/case-studies/components/banner"
@@ -25,14 +34,14 @@ const Page = () => {
         <>
             <Banner data={BannerData} />
             <Overview data={OverviewData}/>
-            <Features data={FeaturesData}/>
-            <Problem data={ProblemData}/>
-            <CaseStudycta />
-            <Solution data={SolutionData}/>
-            <ScrollingSection />
-            <TechStack />
-            <Results data={ResultData}/>
-            <CatLast />
+            <Features data={FeaturesData} list={FeaturesBullets}/>
+            <Problem data={ProblemData} list={ProblemBullets}/>
+            <CaseStudycta data={CaseStudyctaData}/>
+            <Solution data={SolutionData} list={SolutionBullets}/>
+            <ScrollingSection data={ScrollingSectionData}/>
+            <TechStack data={TechStackData} list={TechStackList}/>
+            <Results data={ResultData} list={ResultBullets}/>
+            <CatLast data={CatLastData} />
         </>
     )
 }

@@ -19,8 +19,8 @@ import { Automotive, ECommerce, Education, Food, Healthcare, Insurance, Music, R
 
 
 export const BannerData = {
-    title: "From Concept to Global Impact — We Build Apps That Lead",
-    content: `At BitsWits, we don’t just build apps — we engineer digital game-changers. Our top-tier tech talent ensures your app goes from "nice-to-have" to "can’t live without" on a global scale.`,
+    title: "Transforming Ambitious Ideas Into Powerful Digital Products",
+    content: `We combine technical expertise with visionary thinking to create apps that drive real-world impact and elevate your business`,
 }
 
 export const CompanyInfoContent = {
