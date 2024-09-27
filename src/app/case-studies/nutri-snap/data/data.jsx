@@ -27,69 +27,69 @@ import ResultImg from "media/casestudies/nutri-snap/ResultImg.webp"
 
 
 export const BannerData = {
-    subtitle: "Nutri Snap",
-    title: "Connect, share, and discover",
+    subtitle: "NutriSnap",
+    title: "Your Companion for Healthy Living!",
 }
 
 export const OverviewData = {
     image: OverviewImg.src,
     subtitle: "Overview",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories."
+    title: "NutriSnap",
+    content: "NutriSnap is an innovative app designed to help users maintain their nutrition and diet while providing easy access to nutritionists for personalized consultations. Integrating tracking tools and expert guidance empowers users to make informed choices about their health and wellness, creating a supportive community for achieving dietary goals."
 }
 
 export const FeaturesData = {
     image: FeaturesImg.src,
     background: 'linear-gradient(180deg, #B2E764 0%, #6CA814 100%)',
     subtitle: "Features",
-    title: "Building Bonds and Memories",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Key Highlights of The Ready App",
+    content: "NutriSnap offers an array of features that cater to users' nutritional needs while connecting them with qualified nutritionists. Each function enhances user engagement and simplifies the journey to healthier living.",
 }
 
 export const FeaturesBullets = [
-    "Personal Journaling",
-    "In-App Purchases",
-    "Inviting Pals",
-    "Premium Membership",
-    "Social Groups",
-    "Sharing Status",
-    "Memory Sharing",
-    "Creating friendships",
+    "Registration & Login",
+    "Profile Setup",
+    "Meal and Water Tracking",
+    "Nutritionist Listing",
+    "Goals Management",
+    "Food Recommendations",
+    "Search & Filter",
+    "In-App Messaging",
 ]
 
 export const ProblemData = {
     image: ProblemImg.src,
     subtitle: "The Problem",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Challenges the Client Faced",
+    content: "The client aimed to create a platform that combines nutrition tracking with access to professional guidance. A straightforward way for users to manage their dietary needs while connecting to qualified nutritionists was essential for providing personalized support and advice.",
 }
 
 export const ProblemBullets = [
-    "In-App Purchases and Subscription",
-    "Balancing Social and Personal Use",
-    "Organizing Memories",
-    "Engaging Invited Contributors",
-    "Effective Content Curation",
+    "Need for a comprehensive nutrition management app",
+    "Difficulty connecting users with nutritionists",
+    "Desire for user-friendly meal and water tracking",
+    "Challenges providing tailored food recommendations",
+    "Effective communication between users and nutritionists",
 ]
 
 export const CaseStudyctaData = {
-    title: "Looking For Something Similar?",
-    content: "Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.",
+    title: "Ready to Spice Up the App World?",
+    content: "Our expert team is here to help create your app from concept to market. Let’s make it happen together.",
 }
 
 export const SolutionData = {
     image: SolutionImg.src,
     subtitle: "The Solution",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Our Approach to the Challenge",
+    content: "NutriSnap is a robust app that merges nutritional tracking with expert consultations. Focusing on usability and accessibility, NutriSnap empowers individuals to take control of their health while facilitating easy access to professional advice and support.",
 }
 
 export const SolutionBullets = [
-    "In-App Purchases and Subscription",
-    "Balancing Social and Personal Use",
-    "Organizing Memories",
-    "Engaging Invited Contributors",
-    "Effective Content Curation",
+    "Designed an intuitive interface for easy navigation.",
+    "Integrated seamless meal and hydration tracking features.",
+    "Developed a user-friendly nutritionist search and booking system.",
+    "Enabled personalized food recommendations based on tracked data.",
+    "Created a supportive environment for users and nutritionists to connect.",
 ]
 
 export const ScrollingSectionData = {
@@ -97,9 +97,9 @@ export const ScrollingSectionData = {
 }
 
 export const TechStackData = {
-    subtitle: "Features",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part.",
+    subtitle: "Tech Stack",
+    title: "The Tech Behind the App",
+    content: "Modern technologies formed the backbone of NutriSnap, resulting in a secure and engaging platform that provides users with the tools needed to manage their nutrition effectively.",
 }
 
 export const TechStackList = [
@@ -132,16 +132,16 @@ export const TechStackList = [
 export const ResultData = {
     background: `linear-gradient(270deg, rgba(108, 168, 20, 0.1) 2.4%, #6CA814 63.73%), url(${ResultImg.src})`,
     subtitle: "The Result",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "The Impact We Delivered.",
+    content: "NutriSnap quickly established itself as a valuable resource for users seeking to improve their dietary habits. Offering essential tools and expert guidance has driven significant user engagement and satisfaction.",
 }
 
 export const ResultBullets = [
-    (<>10+ <span>Years of Experience</span></>),
-    (<>1,200+ <span>Successful Projects</span></>),
-    (<>60+ <span>Experts</span></>),
+    (<>80% <span>Increase in User Retention</span></>),
+    (<>70% <span>Growth in Appointment Bookings</span></>),
+    (<>50,000+ <span>Meals Logged by Users</span></>),
 ]
 
 export const CatLastData = {
-    title: "Is Your Business Ready for an Upgrade?",
+    title: "Ready to Launch Your Own Health App?",
 }

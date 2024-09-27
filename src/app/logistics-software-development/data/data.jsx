@@ -119,7 +119,7 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Custom Logistics<br />Software Solutions</>),
-         txt: "We provide custom logistics software solutions, from conceptualization to MVP creation, integrating advanced features for warehouse and inventory management to streamline operations efficiently.",
+        txt: "We provide custom logistics software solutions, from conceptualization to MVP creation, integrating advanced features for warehouse and inventory management to streamline operations efficiently.",
     },
     {
         title: (<>Prototype and <br />MVP Creation</>),
@@ -127,7 +127,7 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Predictive Analytics for<br /> Logistics Optimization</>),
-         txt: "We implement advanced predictive analytics in logistics software to enhance forecasting, optimize supply chains, and reduce operational inefficiencies, leading to smarter decision-making and cost savings.",
+        txt: "We implement advanced predictive analytics in logistics software to enhance forecasting, optimize supply chains, and reduce operational inefficiencies, leading to smarter decision-making and cost savings.",
     },
     {
         title: (<>AI-Driven Route<br />Optimization</>),
@@ -308,7 +308,7 @@ export const ProcessTabs = [
         content: {
             heading: "Discovery and Initial Planning",
             description:
-                    "Our custom logistics software development begins with a comprehensive requirements-gathering phase. We collaborate with key stakeholders to conduct a logistics process audit, define KPIs, and develop a scalable solution architecture. This phase includes detailed market analysis and risk management to ensure smooth project execution.",
+                "Our custom logistics software development begins with a comprehensive requirements-gathering phase. We collaborate with key stakeholders to conduct a logistics process audit, define KPIs, and develop a scalable solution architecture. This phase includes detailed market analysis and risk management to ensure smooth project execution.",
             imgSrc: IMG.src,
         },
     },
@@ -317,7 +317,7 @@ export const ProcessTabs = [
         content: {
             heading: "In-Depth Analysis and Strategic Planning",
             description:
-                    "The next step focuses on conducting an operational workflow analysis to refine project scope and logistics system specifications. This phase aligns the solution with supply chain dynamics, creating a detailed roadmap that outlines timelines and milestone-based deliverables to drive operational efficiencies.",
+                "The next step focuses on conducting an operational workflow analysis to refine project scope and logistics system specifications. This phase aligns the solution with supply chain dynamics, creating a detailed roadmap that outlines timelines and milestone-based deliverables to drive operational efficiencies.",
             imgSrc: IMG.src,
         },
     },
@@ -326,7 +326,7 @@ export const ProcessTabs = [
         content: {
             heading: "User Interface and Architecture Design",
             description:
-                    "In the logistics software design phase, we focus on creating a logistics-centric UI with a role-based interface, enhancing usability for warehouse managers, fleet operators, and dispatch teams. The microservices architecture offers scalability, adapting seamlessly to growing logistics demands.",
+                "In the logistics software design phase, we focus on creating a logistics-centric UI with a role-based interface, enhancing usability for warehouse managers, fleet operators, and dispatch teams. The microservices architecture offers scalability, adapting seamlessly to growing logistics demands.",
             imgSrc: IMG.src,
         },
     },
@@ -335,7 +335,7 @@ export const ProcessTabs = [
         content: {
             heading: " Agile Development and Code Implementation",
             description:
-                    "The development team utilizes agile sprints to build high-performance systems with cloud-native technologies and languages like Python, Java, and Node.js. Our logistics software developers achieve efficient results using containerization and real-time collaboration tools, reducing time-to-market.",
+                "The development team utilizes agile sprints to build high-performance systems with cloud-native technologies and languages like Python, Java, and Node.js. Our logistics software developers achieve efficient results using containerization and real-time collaboration tools, reducing time-to-market.",
             imgSrc: IMG.src,
         },
     },
@@ -344,7 +344,7 @@ export const ProcessTabs = [
         content: {
             heading: "Comprehensive Testing and Quality Assurance",
             description:
-                    "In this phase, comprehensive end-to-end system validation takes place, focusing on load testing, route optimization accuracy, and real-time tracking integration. Automated testing tools like Selenium, integrated with a CI/CD pipeline, maintain the highest standards of reliability and scalability.",
+                "In this phase, comprehensive end-to-end system validation takes place, focusing on load testing, route optimization accuracy, and real-time tracking integration. Automated testing tools like Selenium, integrated with a CI/CD pipeline, maintain the highest standards of reliability and scalability.",
             imgSrc: IMG.src,
         },
     },
@@ -353,7 +353,7 @@ export const ProcessTabs = [
         content: {
             heading: "Seamless Deployment and System Launch",
             description:
-                    "After successful testing, a phased deployment strategy minimizes disruptions. The team manages the software rollout and compliance with logistics industry regulations, while monitoring performance during the transition to live operations for smooth integration with existing infrastructure.",
+                "After successful testing, a phased deployment strategy minimizes disruptions. The team manages the software rollout and compliance with logistics industry regulations, while monitoring performance during the transition to live operations for smooth integration with existing infrastructure.",
             imgSrc: IMG.src,
         },
     },
@@ -362,7 +362,7 @@ export const ProcessTabs = [
         content: {
             heading: "Continuous Maintenance and Software Updates",
             description:
-                    "Post-launch, continuous performance monitoring and regular software updates keep the platform aligned with logistics trends and business needs. Maintenance includes real-time data integration updates, feature enhancements, and predictive analytics upgrades to support long-term success.",
+                "Post-launch, continuous performance monitoring and regular software updates keep the platform aligned with logistics trends and business needs. Maintenance includes real-time data integration updates, feature enhancements, and predictive analytics upgrades to support long-term success.",
             imgSrc: IMG.src,
         },
     },
@@ -416,7 +416,7 @@ export const OffersTabs = [
     {
         title: "Manufacturing Enterprises",
         content: {
-            heading:"Manufacturing Enterprises",
+            heading: "Manufacturing Enterprises",
             description:
                 "Manufacturing companies can streamline inventory management and coordinate production schedules more effectively with logistics software. Our transport and logistics application software improves communication across different parts of the supply chain, enhancing overall operations for manufacturing businesses through tailored logistics software development services.",
         },
@@ -424,7 +424,7 @@ export const OffersTabs = [
     {
         title: "Retail Operations",
         content: {
-            heading:"Retail Operations",
+            heading: "Retail Operations",
             description:
                 "Retail businesses benefit from enhanced inventory management and faster delivery times with logistics software solutions. These services extend supply chain visibility and improve customer service by optimizing operations. As a logistics software development company, we offer solutions to boost retail performance and streamline processes.",
         },
@@ -432,7 +432,7 @@ export const OffersTabs = [
     {
         title: "Healthcare Organizations",
         content: {
-            heading:"Healthcare Organizations",
+            heading: "Healthcare Organizations",
             description:
                 "Healthcare institutions can efficiently manage medical supplies and ensure reliable transportation of sensitive materials. Our logistics software development services help healthcare providers stay compliant with regulatory requirements while enhancing logistics operations. Customized solutions ensure seamless management of critical healthcare logistics.",
         },
@@ -440,11 +440,11 @@ export const OffersTabs = [
     {
         title: "E-Commerce Platforms",
         content: {
-            heading:"E-Commerce Platforms",
+            heading: "E-Commerce Platforms",
             description:
                 "E-commerce businesses can track orders in real time, manage returns, and optimize inventory with logistics software. Our transport and logistics software solutions enable personalized delivery experiences, enhancing customer satisfaction and operational efficiency for e-commerce platforms through our logistics software development services.",
         },
-    },   
+    },
 ];
 
 export const FuelingContent1 = {
@@ -474,7 +474,7 @@ export const FuelingList1 = [
         title: "3PL Integration",
         text: "Our logistics software development services support 3PL integration, facilitating smooth collaboration with external logistics providers. This integration enhances transparency, improves communication, and streamlines logistics operations across multiple stakeholders."
     },
-    
+
 ];
 
 export const TestimonialContent = {
@@ -573,23 +573,23 @@ export const TechStackTabs = [
             },
             {
                 heading: "Bootstrap",
-                img: TAB1_4.src, 
+                img: TAB1_4.src,
             },
             {
                 heading: "Vue.js",
-                img: TAB1_5.src, 
+                img: TAB1_5.src,
             },
             {
                 heading: "HTML5/CSS3",
-                img: TAB1_6.src, 
+                img: TAB1_6.src,
             },
             {
                 heading: "TypeScript",
-                img: TAB1_7.src, 
+                img: TAB1_7.src,
             },
             {
                 heading: "Svelte",
-                img: TAB1_8.src, 
+                img: TAB1_8.src,
             },
         ],
     },
@@ -614,19 +614,19 @@ export const TechStackTabs = [
             },
             {
                 heading: "Spring Boot",
-                img: TAB2_5.src, 
+                img: TAB2_5.src,
             },
             {
                 heading: "Go",
-                img: TAB2_6.src, 
+                img: TAB2_6.src,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_7.src, 
+                img: TAB2_7.src,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_8.src, 
+                img: TAB2_8.src,
             },
         ],
     },
@@ -635,31 +635,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "MySQL",
-                img: TAB3_1.src, 
+                img: TAB3_1.src,
             },
             {
                 heading: "Oracle",
-                img: TAB3_2.src, 
+                img: TAB3_2.src,
             },
             {
                 heading: "MongoDB",
-                img: TAB3_3.src, 
+                img: TAB3_3.src,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB3_4.src, 
+                img: TAB3_4.src,
             },
             {
                 heading: "Microsoft SQL Server",
-                img: TAB3_5.src, 
+                img: TAB3_5.src,
             },
             {
                 heading: "Redis",
-                img: TAB3_6.src, 
+                img: TAB3_6.src,
             },
             {
                 heading: "CouchDB",
-                img: TAB3_7.src, 
+                img: TAB3_7.src,
             },
         ],
     },
@@ -668,27 +668,27 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Amazon Web Services ",
-                img: TAB4_1.src, 
+                img: TAB4_1.src,
             },
             {
                 heading: "Google Cloud Platform ",
-                img: TAB4_2.src, 
+                img: TAB4_2.src,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB4_3.src, 
+                img: TAB4_3.src,
             },
             {
                 heading: "IBM Cloud",
-                img: TAB4_4.src, 
+                img: TAB4_4.src,
             },
             {
                 heading: "DigitalOcean",
-                img: TAB4_5.src, 
+                img: TAB4_5.src,
             },
             {
                 heading: "Heroku",
-                img: TAB4_6.src, 
+                img: TAB4_6.src,
             },
         ],
     },
@@ -697,31 +697,31 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Apache Kafka",
-                img: TAB5_1.src, 
+                img: TAB5_1.src,
             },
             {
                 heading: "Amazon ElasticSearch",
-                img: TAB5_2.src, 
+                img: TAB5_2.src,
             },
             {
                 heading: "MongoDB",
-                img: TAB5_3.src, 
+                img: TAB5_3.src,
             },
             {
                 heading: "Amazon DocumentDB",
-                img: TAB5_4.src, 
+                img: TAB5_4.src,
             },
             {
                 heading: "DynamoDB",
-                img: TAB5_5.src, 
+                img: TAB5_5.src,
             },
             {
                 heading: "Apache Hadoop",
-                img: TAB5_6.src, 
+                img: TAB5_6.src,
             },
             {
                 heading: "Apache Spark",
-                img: TAB5_7.src, 
+                img: TAB5_7.src,
             },
         ],
     },
@@ -730,35 +730,35 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Kubernetes",
-                img: TAB6_1.src, 
+                img: TAB6_1.src,
             },
             {
                 heading: "Jenkins",
-                img: TAB6_2.src, 
+                img: TAB6_2.src,
             },
             {
                 heading: "Chef",
-                img: TAB6_3.src, 
+                img: TAB6_3.src,
             },
             {
                 heading: "Maven",
-                img: TAB6_4.src, 
+                img: TAB6_4.src,
             },
             {
                 heading: "Docker",
-                img: TAB6_5.src, 
+                img: TAB6_5.src,
             },
             {
                 heading: "Ansible",
-                img: TAB6_6.src, 
+                img: TAB6_6.src,
             },
             {
                 heading: "Terraform",
-                img: TAB6_7.src, 
+                img: TAB6_7.src,
             },
             {
                 heading: "GitLab CI/CD",
-                img: TAB6_8.src, 
+                img: TAB6_8.src,
             },
         ],
     }
@@ -802,7 +802,7 @@ export const IndustriesList = [
         icon: <Icon05 />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
@@ -879,7 +879,7 @@ export const FaqsList = [
         title: "Is it possible to get a demo before full logistics software development?",
         txt: "Yes, we offer clients the option to view demos or prototypes to better understand how the custom logistics software will work. This helps ensure the solution fits your operational needs before full-scale development begins."
     },
-    
+
 ]
 
 export const BlogsContent = {

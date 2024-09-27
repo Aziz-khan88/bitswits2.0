@@ -481,23 +481,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Node.js",
-                img: TAB2_1.src, 
+                img: TAB2_1.src,
             },
             {
                 heading: "Python",
-                img: TAB2_2.src, 
+                img: TAB2_2.src,
             },
             {
                 heading: "Ruby on Rails",
-                img: TAB2_3.src, 
+                img: TAB2_3.src,
             },
             {
                 heading: "Firebase",
-                img: TAB2_4.src, 
+                img: TAB2_4.src,
             },
             {
                 heading: ".NET Core",
-                img: TAB2_5.src, 
+                img: TAB2_5.src,
             }
         ],
     },
@@ -506,23 +506,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Flutter",
-                img: TAB3_1.src, 
+                img: TAB3_1.src,
             },
             {
                 heading: "React Native",
-                img: TAB3_2.src, 
+                img: TAB3_2.src,
             },
             {
                 heading: "Xamarin",
-                img: TAB3_3.src, 
+                img: TAB3_3.src,
             },
             {
                 heading: "Ionic",
-                img: TAB3_4.src, 
+                img: TAB3_4.src,
             },
             {
                 heading: "Kotlin Multiplatform",
-                img: TAB3_5.src, 
+                img: TAB3_5.src,
             }
         ],
     },
@@ -531,23 +531,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Firebase Realtime Database",
-                img: TAB4_1.src, 
+                img: TAB4_1.src,
             },
             {
                 heading: "SQLite",
-                img: TAB4_2.src, 
+                img: TAB4_2.src,
             },
             {
                 heading: "PostgreSQL",
-                img: TAB4_3.src, 
+                img: TAB4_3.src,
             },
             {
                 heading: "MySQL",
-                img: TAB4_4.src, 
+                img: TAB4_4.src,
             },
             {
                 heading: "Realm",
-                img: TAB4_5.src, 
+                img: TAB4_5.src,
             }
         ],
     },
@@ -556,23 +556,23 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "AWS",
-                img: TAB5_1.src, 
+                img: TAB5_1.src,
             },
             {
                 heading: "Google Cloud Platform",
-                img: TAB5_2.src, 
+                img: TAB5_2.src,
             },
             {
                 heading: "Microsoft Azure",
-                img: TAB5_3.src, 
+                img: TAB5_3.src,
             },
             {
                 heading: "Firebase",
-                img: TAB5_4.src, 
+                img: TAB5_4.src,
             },
             {
                 heading: "Heroku",
-                img: TAB5_5.src, 
+                img: TAB5_5.src,
             }
         ],
     },
@@ -581,19 +581,19 @@ export const TechStackTabs = [
         content: [
             {
                 heading: "Appium",
-                img: TAB6_1.src, 
+                img: TAB6_1.src,
             },
             {
                 heading: "Firebase Test Lab",
-                img: TAB6_2.src, 
+                img: TAB6_2.src,
             },
             {
                 heading: "XCTest",
-                img: TAB6_3.src, 
+                img: TAB6_3.src,
             },
             {
                 heading: "Selenium",
-                img: TAB6_4.src, 
+                img: TAB6_4.src,
             }
         ],
     }
@@ -637,7 +637,7 @@ export const IndustriesList = [
         icon: <Icon05 />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
@@ -664,9 +664,9 @@ export const IndustriesList = [
 ];
 
 export const IdeaCtaContent = {
-    title: (<>Let’s Change<br/> The World With Your</>),
+    title: (<>Let’s Change<br /> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
-    formtitle: (<>Let’s Create An <br/> Amazing App Together!</>)
+    formtitle: (<>Let’s Create An <br /> Amazing App Together!</>)
 }
 
 export const FaqsContent = {

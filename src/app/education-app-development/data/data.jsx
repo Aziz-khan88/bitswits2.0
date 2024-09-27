@@ -24,7 +24,13 @@ import TechIcon08 from "media/services/tech/8.webp"
 import TechImg from "media/industry/education/techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import Process01 from "media/industry/process/process01.webp"
+import Process02 from "media/industry/process/process02.webp"
+import Process03 from "media/industry/process/process03.webp"
+import Process04 from "media/industry/process/process04.webp"
+import Process05 from "media/industry/process/process05.webp"
+import Process06 from "media/industry/process/process06.webp"
+import Process07 from "media/industry/process/process07.webp"
 
 //========= WhyChoose Images
 import { EducationIcon01, EducationIcon02, EducationIcon03, EducationIcon04 } from "@/src/app/app-constants"
@@ -134,7 +140,7 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Virtual Classrooms <br /> and Video Conferencing</>),
-        txt: "We create virtual classroom and video conferencing apps with real-time video, chat, document sharing, presentation tools, participation control, and homework management.",
+        txt: "We build virtual classroom apps with live video, chat, document sharing, and presentation tools. Features include participation control and homework management.",
     },
     {
         title: (<>Tuition <br /> App Development</>),
@@ -306,7 +312,7 @@ export const ProcessTabs = [
         content: {
             heading: "Project Planning",
             description: "In the project planning stage of our educational app development services, we define the purpose and parameters of your app. This includes identifying the learner demographic, selecting the appropriate platforms and learning management system (LMS) integration, and outlining features that align with your instructional objectives and user engagement goals.",
-            imgSrc: IMG.src,
+            imgSrc: Process01.src,
         },
     },
     {
@@ -314,7 +320,7 @@ export const ProcessTabs = [
         content: {
             heading: "Design",
             description: "As a top-tier provider of eLearning app development services, our design process incorporates human-computer interaction (HCI) principles and UI/UX best practices to create a seamless learning interface. We develop interactive prototypes and conduct usability testing with educators and learners to refine the design, ensuring the app offers an intuitive and learner-centric experience.",
-            imgSrc: IMG.src,
+            imgSrc: Process02.src,
         },
     },
     {
@@ -322,7 +328,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description: "Our education app developers work on both frontend and backend development to integrate interactive courseware, assessment tools, and adaptive learning technologies. We utilize advanced programming languages and API integration to create robust educational features like adaptive testing, content authoring tools, and real-time learning analytics, ensuring your app aligns with modern instructional technology standards.",
-            imgSrc: IMG.src,
+            imgSrc: Process03.src,
         },
     },
     {
@@ -330,7 +336,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Testing",
             description: "We conduct rigorous end-to-end testing with our team of QA experts and education app developers to verify functionality, scalability, and learning outcome tracking. This comprehensive testing phase carefully vets all functionalities before moving to deployment, providing a reliable user experience.",
-            imgSrc: IMG.src,
+            imgSrc: Process04.src,
         },
     },
     {
@@ -338,7 +344,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment",
             description: "We deploy your app across selected platforms, whether iOS, Android, or both, ensuring compliance with platform-specific guidelines and the integration of virtual learning environments (VLEs). Our team expertly manages the transition from development to live status, ensuring a smooth launch that meets the requirements of both institutional and individual users.",
-            imgSrc: IMG.src,
+            imgSrc: Process05.src,
         },
     },
     {
@@ -346,7 +352,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch",
             description: "We release the beta version or MVP of your app to gather data-driven insights from real users, including educators and students, identifying any areas for enhancement. This feedback loop helps optimize the app before its full-scale launch, ensuring a scalable, data-validated product.",
-            imgSrc: IMG.src,
+            imgSrc: Process06.src,
         },
     },
     {
@@ -354,7 +360,7 @@ export const ProcessTabs = [
         content: {
             heading: "Maintenance and Support",
             description: "We provide continuous learning analytics monitoring and user feedback analysis to address any performance issues. Our maintenance and support services include regular updates, bug fixes, and feature enhancements, ensuring that your app stays compatible with eLearning trends and technology advancements for an optimal user experience.",
-            imgSrc: IMG.src,
+            imgSrc: Process07.src,
         },
     }
 ];
@@ -731,42 +737,42 @@ export const IndustriesList = [
         icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
         icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
         icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
         icon: <AutomotiveSVG />,
         title: "Automotive",
         txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
-        url: "#",
+        url: "/automotive-software-development",
         img: Automotive.src,
     },
     {
         icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
         icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {

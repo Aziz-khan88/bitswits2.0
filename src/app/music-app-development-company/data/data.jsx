@@ -2,9 +2,14 @@
 
 // Bannar Images
 import BanngBg from "media/industry/bgBanner.webp";
-
+// IndustryCta Images
+import IndustryCtaImg from "media/industry/music/ctaImage.webp"
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/music/industry/Industry01.webp"
+import IndustrySliderIMG02 from "media/industry/music/industry/Industry02.webp"
+import IndustrySliderIMG03 from "media/industry/music/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/music/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/music/industry/Industry05.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +20,19 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/music/techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import Process01 from "media/industry/process/process01.webp"
+import Process02 from "media/industry/process/process02.webp"
+import Process03 from "media/industry/process/process03.webp"
+import Process04 from "media/industry/process/process04.webp"
+import Process05 from "media/industry/process/process05.webp"
+import Process06 from "media/industry/process/process06.webp"
+import Process07 from "media/industry/process/process07.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { MusicIcon01, MusicIcon02, MusicIcon03, MusicIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,7 +46,7 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/music/fuelingImg.webp"
 
 
 //========= TechStack Images
@@ -77,7 +88,7 @@ import TAB6_5 from "media/services/tech/tab6/02.webp";
 import TAB6_6 from "media/services/tech/tab6/03.webp";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -93,7 +104,7 @@ import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
-export const BannerData = { 
+export const BannerData = {
     title: "Music App Development Company for High-Performance Streaming Apps",
     content: "Say hello to next-gen music app development services. Build your music streaming paradise to compete with giants like Spotify, and Apple Music. Connect with millions of souls excited to groove to their favorite music through your own music app. .",
     BanngBg: BanngBg.src,
@@ -132,6 +143,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
+    image: IndustryCtaImg.src,
     title: "Time to Build an Amazing Music App",
     text: "BitsWits offers swift development for music streaming apps. Share your vision, and our team of talented developers will help you carry it to its ultimate destination.",
 }
@@ -148,22 +160,22 @@ export const IndustrySliderList = [
         txt: "Users benefit with music apps that offer uninterrupted offline streaming. Users can listen to their favorite music albums on-the-go. This one feature has been the reason for success of major music streaming apps today.",
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG02.src,
         title: "Buffer-FREE Audio Streaming",
         txt: "BitsWits as a music app development company ensures that our music applications feature the best quality of hardware and software, enabling users to stream music audio buffer-free. It makes up for a perfect streaming experience.",
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG03.src,
         title: "Chromecast Support",
         txt: "All music applications come with a dedicated Chromecast support. It allows users to plug and play their favorite music, stream live shows, and join in virtual concerts from the comfort of their homes.",
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG04.src,
         title: "Hi-Fi Streaming",
         txt: "Our music streaming app development team has solid expertise with hi-fi streaming for music audio. Therefore, your end users can experience the exact sound quality of live and recorded tracks at a glance.",
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG05.src,
         title: "Airplay Support",
         txt: "We integrate all apps with super-fast Airplay support, enabling Apple users to seamlessly switch between Apple devices at a glance. This one feature makes our apps even more competitive with leading brands.",
     },
@@ -220,10 +232,10 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Top Developers for Engaging Music App Experiences",
     text: (<>
-    <p>Our developers are experts in building <strong>Music App’s</strong> using technologies like Swift, Kotlin, React Native, and Flutter. </p>
-    <p>They create tailored solutions for streaming, playlist management, music discovery, and social sharing features. </p>
-    <p>With an emphasis on seamless user experience and high-quality audio, our team delivers apps that captivate music enthusiasts and cater to industry trends. </p>
-    <p>Use our free app cost calculator to get an instant breakdown of your app cost!</p>   
+        <p>Our developers are experts in building <strong>Music App’s</strong> using technologies like Swift, Kotlin, React Native, and Flutter. </p>
+        <p>They create tailored solutions for streaming, playlist management, music discovery, and social sharing features. </p>
+        <p>With an emphasis on seamless user experience and high-quality audio, our team delivers apps that captivate music enthusiasts and cater to industry trends. </p>
+        <p>Use our free app cost calculator to get an instant breakdown of your app cost!</p>
     </>),
 
     TechImg: TechImg.src
@@ -275,7 +287,7 @@ export const ProcessTabs = [
         content: {
             heading: "Documenting and Planning",
             description: "We start with a music industry-specific discovery call to understand your vision, user demographics, and platform needs. Following a thorough analysis, we document your requirements and create a feature roadmap, including elements like real-time audio streaming, user playlists, and rights management systems. Communication is key throughout, ensuring you're informed at all stages.",
-            imgSrc: IMG.src,
+            imgSrc: Process01.src,
         },
     },
     {
@@ -283,7 +295,7 @@ export const ProcessTabs = [
         content: {
             heading: "Wireframing and Prototyping",
             description: "Before design begins, we develop wireframes and prototypes using tools like Figma and Adobe XD to visually map out the app's user experience flow, including features like music libraries, offline listening, and audio compression systems. This step helps refine the user journey and streamline app functionality.",
-            imgSrc: IMG.src,
+            imgSrc: Process02.src,
         },
     },
     {
@@ -291,7 +303,7 @@ export const ProcessTabs = [
         content: {
             heading: "Music App Designing",
             description: "Our UX designers focus on audio-centric user interfaces, integrating features like custom equalizers, cross-platform compatibility, and immersive visualizers. By modeling state-of-the-art UI designs seen in top-tier music streaming platforms, we ensure the design aligns with both your brand and industry standards, providing a seamless and engaging user experience.",
-            imgSrc: IMG.src,
+            imgSrc: Process03.src,
         },
     },
     {
@@ -299,7 +311,7 @@ export const ProcessTabs = [
         content: {
             heading: "Developing the Music App",
             description: "Our music app developers bring your design to life with a scalable architecture for real-time streaming, multi-format audio support, and API integration with major platforms like Spotify, Apple Music, and SoundCloud. We ensure the backend is optimized for handling high-volume audio streaming and user data.",
-            imgSrc: IMG.src,
+            imgSrc: Process04.src,
         },
     },
     {
@@ -307,7 +319,7 @@ export const ProcessTabs = [
         content: {
             heading: "Running QA Testing",
             description: "Our music app development services involve rigorous load testing, latency checks, and bitrate optimization to ensure your app delivers high-quality audio experiences. The QA team also focuses on industry-specific compliance like music licensing, DRM (Digital Rights Management), and content delivery networks to maintain performance integrity.",
-            imgSrc: IMG.src,
+            imgSrc: Process05.src,
         },
     },
     {
@@ -315,7 +327,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deploying for Launch",
             description: "Once testing is complete, we proceed with a structured launch, deploying the app across platforms such as iOS, Android, and web. Our deployment includes App Store Optimization (ASO) to maximize visibility and ensure a smooth, impactful launch. Custom deployment timelines vary depending on the level of feature customization and music rights integration.",
-            imgSrc: IMG.src,
+            imgSrc: Process06.src,
         },
     },
     {
@@ -323,7 +335,7 @@ export const ProcessTabs = [
         content: {
             heading: "Maintenance for Optimization",
             description: "Our post-launch services ensure your music app remains competitive with ongoing audio compression updates, streaming performance enhancements, and integration of new features like AI-powered recommendations and social sharing tools. Regular security patches and music catalog updates keep your platform fresh and engaging for users.",
-            imgSrc: IMG.src,
+            imgSrc: Process07.src,
         },
     },
 ];
@@ -335,12 +347,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
+        Icon: <MusicIcon01 />,
         title: (<>Timely Project <br />Delivery </>),
         description: "We prioritize timely project delivery, ensuring all tasks are completed, thoroughly tested, and approved before the final project deadline is met.",
     },
     {
-        Icon: <WhyChooseIcon01 />,
+        Icon: <MusicIcon02 />,
         title: (<>Clear Communication</>),
         description: "We maintain clear communication throughout, keeping you informed about progress on music licensing, metadata management, and app feature integration.",
     },
@@ -348,12 +360,12 @@ export const WhyChooseList1 = [
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />,
+        Icon: <MusicIcon03 />,
         title: (<>Highly Adaptable</>),
         description: "Our team excels in adaptive streaming and AI-powered music recommendations, ensuring your app remains competitive in the evolving market.",
     },
     {
-        Icon: <WhyChooseIcon02 />,
+        Icon: <MusicIcon04 />,
         title: (<>Optimized Coding</>),
         description: "We deliver optimized code with low-latency streaming, buffer-free playback, and superior audio performance, ensuring your app functions flawlessly.",
     },
@@ -689,56 +701,56 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",

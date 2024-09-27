@@ -132,12 +132,12 @@ export const CuttingedgeList = [
         title: (<>Maintenance <br />and Support</>),
         txt: "Our 24/7 responsive maintenance and support ensure your app’s optimum performance, even during peak load times. With technically proficient teams and effective monitoring, we keep your hybrid app running smoothly and efficiently.",
         links: "",
-    }, 
+    },
     {
         title: (<>HTML5 App <br />Development </>),
         txt: "Our in-depth technical expertise allows us to create user-centric HTML5 apps that align with your business objectives. Our hybrid app developers deliver highly scalable solutions, ensuring optimal performance and growth for your business.",
         links: "",
-    }, 
+    },
     {
         title: (<>Hybrid App <br />Migration </>),
         txt: "As a top-grade hybrid mobile application development company, we expertly migrate existing apps to a hybrid framework, add new features, and optimize performance, ensuring no data loss, reduced costs, and minimal time use.",
@@ -375,7 +375,7 @@ export const TestimonialSLIDES = [
     }
 ]
 
-export const RisksContent = {       
+export const RisksContent = {
     title: (<>Save Time & Money<Image src={RisksIMG01} alt="Bitswits Services" width={228} height={85} /> by Building Your MVP Faster<Image src={RisksIMG02} alt="Bitswits Services" width={228} height={85} />  with Hybrid App Development!</>),
     text: "Develop your app concept cost-effectively with Hybrid frameworks!"
 }
@@ -636,7 +636,7 @@ export const IndustriesList = [
         icon: <Icon05 />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
@@ -663,9 +663,9 @@ export const IndustriesList = [
 ];
 
 export const IdeaCtaContent = {
-    title: (<>Let’s Change<br/> The World With Your</>),
+    title: (<>Let’s Change<br /> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
-    formtitle: (<>Let’s Create An Amazing<br/>  App Together!</>)
+    formtitle: (<>Let’s Create An Amazing<br />  App Together!</>)
 }
 
 export const FaqsContent = {

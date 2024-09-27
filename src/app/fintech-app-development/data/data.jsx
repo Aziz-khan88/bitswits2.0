@@ -534,7 +534,7 @@ export const FuelingList2 = [
     {
         title: "Biometric Authentication for Extra Security",
         text: "Our custom fintech app development includes biometric authentication options, such as fingerprint and facial recognition, to enhance security. This technology ensures that only authorized users can access sensitive financial information, providing an extra layer of protection against unauthorized access and fraud."
-    },   
+    },
 ];
 
 export const TechStackContent = {
@@ -729,7 +729,7 @@ export const IndustriesList = [
         icon: <Icon05 />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {

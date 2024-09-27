@@ -405,7 +405,7 @@ export const OffersTabs = [
     {
         title: "AI Development for Enterprises",
         content: {
-            heading:"AI Development for Enterprises",
+            heading: "AI Development for Enterprises",
             description:
                 "We craft custom AI solutions that empower enterprises to maximize artificial intelligence. Our advanced systems integrate with existing infrastructures, offering automated processes and actionable insights for strategic decisions. Utilizing complex algorithms, we help businesses streamline operations, enhance productivity, and stay competitive. As a leading artificial intelligence app development company, we deliver tailored AI solutions that support growth and innovation.",
         },
@@ -414,7 +414,7 @@ export const OffersTabs = [
     {
         title: "AI Development for Scaleups",
         content: {
-            heading:"AI Development for Scaleups",
+            heading: "AI Development for Scaleups",
             description:
                 "For growing companies looking to scale rapidly, our AI development services provide the tools needed for swift and sustainable expansion. We build scalable AI models that adapt to increasing data volumes and user demands, ensuring smooth performance as your business grows. Our solutions focus on automation, personalization, and enhanced data analysis to support your scaleup’s ambitions and drive growth.",
         },
@@ -423,7 +423,7 @@ export const OffersTabs = [
     {
         title: "AI for Customer Support",
         content: {
-            heading:"AI for Customer Support",
+            heading: "AI for Customer Support",
             description:
                 "Our AI solutions redefine customer support by providing chatbots and virtual assistants that respond immediately and accurately to user queries. We design intelligent systems that will raise customer interactions to a new level by 24/7 support and a more personalized experience. We help companies increase customer satisfaction and loyalty while reducing operational costs through the automation of routine tasks and analysis of customer feedback.",
 
@@ -432,7 +432,7 @@ export const OffersTabs = [
     {
         title: "AI for Quality Assurance",
         content: {
-            heading:"AI for Quality Assurance",
+            heading: "AI for Quality Assurance",
             description:
                 "We use AI to bring quality assurance processes to a different level, applying machine learning algorithms to identify and solve issues with accuracy as never seen before. We automate testing, detect anomalies, and ensure reliability on all platforms. We integrate quality checks driven by AI to make a development cycle more efficient and provide the benchmarking of your products.",
 
@@ -441,9 +441,9 @@ export const OffersTabs = [
     {
         title: "AI for Data-Driven Decision Making",
         content: {
-            heading:"AI for Data-Driven Decision Making",
+            heading: "AI for Data-Driven Decision Making",
             description:
-                    "By using AI in data analytics, we help businesses receive solutions for better decision-making. Our systems can analyze a large volume of data to identify trends, patterns, and other insights that can lead toward strategic decisions. We allow organizations to predict changes in markets, optimize operations, and get to know their customers through AI-driven analytics.",
+                "By using AI in data analytics, we help businesses receive solutions for better decision-making. Our systems can analyze a large volume of data to identify trends, patterns, and other insights that can lead toward strategic decisions. We allow organizations to predict changes in markets, optimize operations, and get to know their customers through AI-driven analytics.",
 
         },
     },
@@ -720,7 +720,7 @@ export const IndustriesList = [
         icon: <Icon05 />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
@@ -747,9 +747,9 @@ export const IndustriesList = [
 ];
 
 export const IdeaCtaContent = {
-    title: (<>Let’s Change<br/> The World With Your</>),
+    title: (<>Let’s Change<br /> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
-    formtitle: (<>Let’s Create An <br/> Amazing App Together!</>)
+    formtitle: (<>Let’s Create An <br /> Amazing App Together!</>)
 }
 
 export const FaqsContent = {

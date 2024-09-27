@@ -27,15 +27,15 @@ import ResultImg from "media/casestudies/home-pro-connect/ResultImg.webp"
 
 
 export const BannerData = {
-    subtitle: "HomeProConnect",
-    title: "Connect, share, and discover",
+    subtitle: "HomePro Connect",
+    title: "The Go-To Solution for On-Demand Handyman Services!",
 }
 
 export const OverviewData = {
     image: OverviewImg.src,
     subtitle: "Overview",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories."
+    title: "HomePro Connect",
+    content: "HomePro Connect is an innovative app that connects users with skilled handymen for virtual on-demand jobs. Designed for convenience, this platform enables homeowners to access reliable services at their fingertips, transforming the way they manage home repairs and maintenance. Whether it’s a quick fix or a larger project, HomePro Connect makes it simple to get the help you need."
 }
 
 export const FeaturesData = {
@@ -43,54 +43,54 @@ export const FeaturesData = {
     background: 'linear-gradient(180deg, #6F7F98 -14.33%, #233040 86.95%, #233040 131.4%)',
     boxShadow: '15px 20px 40px rgba(43, 83, 142, 0.3)',
     subtitle: "Features",
-    title: "Building Bonds and Memories",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Key Highlights of HomePro Connect",
+    content: "HomePro Connect comes equipped with a variety of features tailored to meet the needs of homeowners and service providers. Each feature enhances user experience, making it easy to find and book services on demand.",
 }
 
 export const FeaturesBullets = [
-    "Personal Journaling",
-    "In-App Purchases",
-    "Inviting Pals",
-    "Premium Membership",
-    "Social Groups",
-    "Sharing Status",
-    "Memory Sharing",
-    "Creating friendships",
+    "Registration & Profile Setup",
+    "Service Listings",
+    "Real-Time Tracking",
+    "In-App Messaging",
+    "Rating & Reviews",
+    "Payment Integration",
+    "Favorites",
+    "Scheduling Tools",
 ]
 
 export const ProblemData = {
     image: ProblemImg.src,
     subtitle: "The Problem",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Challenges the Client Faced",
+    content: "The client wanted to create a platform that connects homeowners with reliable handymen for on-demand services. The challenge lay in ensuring a seamless user experience while facilitating quick access to skilled professionals who could address various home repair needs.",
 }
 
 export const ProblemBullets = [
-    "In-App Purchases and Subscription",
-    "Balancing Social and Personal Use",
-    "Organizing Memories",
-    "Engaging Invited Contributors",
-    "Effective Content Curation",
+    "Need for a reliable handyman service platform",
+    "Difficulty in connecting users with local professionals",
+    "Ensuring quick response times for service requests",
+    "Balancing user convenience with service quality",
+    "Creating effective communication channels between users and providers",
 ]
 
 export const CaseStudyctaData = {
-    title: "Looking For Something Similar?",
-    content: "Our consultants are ready to hear your idea. Request a free consultation with our app experts and transform it into a digital reality.",
+    title: "Need a Helping Hand with Your Project?",
+    content: "Our expert team is here to help create your app from concept to market. Let’s make it happen together.",
 }
 
 export const SolutionData = {
     image: SolutionImg.src,
     subtitle: "The Solution",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "Our Approach to the Challenge",
+    content: "We developed HomePro Connect as a comprehensive solution that connects homeowners with skilled handymen through an intuitive app interface. Our focus was on creating a platform that simplifies the process of booking services while providing users with the information they need to make informed decisions.",
 }
 
 export const SolutionBullets = [
-    "In-App Purchases and Subscription",
-    "Balancing Social and Personal Use",
-    "Organizing Memories",
-    "Engaging Invited Contributors",
-    "Effective Content Curation",
+    "Designed a simple onboarding process for users and handymen.",
+    "Integrated a user-friendly service browsing and booking system.",
+    "Developed a real-time tracking feature for job statuses.",
+    "Enabled direct communication through in-app messaging.",
+    "Created a transparent rating and review system for quality assurance.",
 ]
 
 export const ScrollingSectionData = {
@@ -98,9 +98,9 @@ export const ScrollingSectionData = {
 }
 
 export const TechStackData = {
-    subtitle: "Features",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part.",
+    subtitle: "Technology Stack",
+    title: "The Tech Behind the App",
+    content: "We utilized modern technologies to develop HomePro Connect, ensuring a secure, efficient, and user-friendly platform that provides homeowners and handymen with the tools they need for seamless interactions.",
 }
 
 export const TechStackList = [
@@ -133,16 +133,16 @@ export const TechStackList = [
 export const ResultData = {
     background: `linear-gradient(270deg, rgba(93, 109, 132, 0.25) -18.54%, #233040 65.63%), url(${ResultImg.src})`,
     subtitle: "The Result",
-    title: "Social Networking App",
-    content: "Soul Scribe is a social networking app that works as a digital diary. Its unique feature is to invite friends and family to be part of your online journal. The app operates on a freemium subscription model, offering a complimentary family room option that allows users to invite peers to contribute to their memories.",
+    title: "The Impact We Delivered",
+    content: "HomePro Connect quickly became a trusted platform for users seeking reliable home services. By focusing on user experience and quality connections, the app has driven significant engagement and satisfaction among homeowners and service providers alike.",
 }
 
 export const ResultBullets = [
-    (<>10+ <span>Years of Experience</span></>),
-    (<>1,200+ <span>Successful Projects</span></>),
-    (<>60+ <span>Experts</span></>),
+    (<>80% <span>Increase in User Engagement</span></>),
+    (<>65% <span>Growth in Service Bookings</span></>),
+    (<>10,000+ <span>Successful Jobs Completed</span></>),
 ]
 
 export const CatLastData = {
-    title: "Is Your Business Ready for an Upgrade?",
+    title: "Let’s Create a Solution That Works for You!",
 }
