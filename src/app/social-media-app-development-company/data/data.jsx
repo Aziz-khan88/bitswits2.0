@@ -7,12 +7,12 @@ import IndustryCtaImg from "media/industry/social/ctaImage.webp"
 
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/social/industry/Industry01.webp"
-import IndustrySliderIMG02 from "media/industry/social/industry/Industry02.webp"
-import IndustrySliderIMG03 from "media/industry/social/industry/Industry03.webp"
-import IndustrySliderIMG04 from "media/industry/social/industry/Industry04.webp"
-import IndustrySliderIMG05 from "media/industry/social/industry/Industry05.webp"
-import IndustrySliderIMG06 from "media/industry/social/industry/Industry06.webp"
+import IndustrySliderIMG01 from "media/industry/social/industry/industry01.webp"
+import IndustrySliderIMG02 from "media/industry/social/industry/industry02.webp"
+import IndustrySliderIMG03 from "media/industry/social/industry/industry03.webp"
+import IndustrySliderIMG04 from "media/industry/social/industry/industry04.webp"
+import IndustrySliderIMG05 from "media/industry/social/industry/industry05.webp"
+import IndustrySliderIMG06 from "media/industry/social/industry/industry06.webp"
 
 
 //========= Technologies Images
