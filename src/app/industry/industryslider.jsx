@@ -6,12 +6,7 @@ import { ServiceArrow } from "@/src/app/app-constants";
 import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 
-
-
-
 const OPTIONS = { align: 'start', loop: "true" }
-
-
 
 const IndustrySlider = ({ data, list }) => {
     const [emblaRef, embla] = useEmblaCarousel(OPTIONS, [Autoplay()]);
@@ -23,7 +18,7 @@ const IndustrySlider = ({ data, list }) => {
         if (embla) embla.scrollNext();
     };
     return (
-        <section className={`${styles.industrySlider} commonSlider p-100 `}>
+        <section className={`${styles.industrySlider} commonSlider pt-100 pb-50 `}>
             <Container>
                 <Row>
                     <Col lg={6} md={7}>
