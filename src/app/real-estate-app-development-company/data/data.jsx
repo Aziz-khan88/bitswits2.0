@@ -48,7 +48,7 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/realestate/fuelingImg.webp"
+import FuelingImg1 from "media/industry/RealEstate/fuelingImg.webp"
 
 
 //========= TechStack Images
