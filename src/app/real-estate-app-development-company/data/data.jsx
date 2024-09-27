@@ -2,15 +2,15 @@
 
 // Bannar Images
 import BanngBg from "media/industry/bgBanner.webp";
-import IndustryCtaImg from "media/industry/realestate/ctaImage.webp"
+import IndustryCtaImg from "media/industry/RealEstate/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/realestate/industry/industry01.webp"
-import IndustrySliderIMG02 from "media/industry/realestate/industry/industry02.webp"
-import IndustrySliderIMG03 from "media/industry/realestate/industry/industry03.webp"
-import IndustrySliderIMG04 from "media/industry/realestate/industry/industry04.webp"
-import IndustrySliderIMG05 from "media/industry/realestate/industry/industry05.webp"
-import IndustrySliderIMG06 from "media/industry/realestate/industry/industry06.webp"
+import IndustrySliderIMG01 from "media/industry/RealEstate/industry/industry01.webp"
+import IndustrySliderIMG02 from "media/industry/RealEstate/industry/industry02.webp"
+import IndustrySliderIMG03 from "media/industry/RealEstate/industry/industry03.webp"
+import IndustrySliderIMG04 from "media/industry/RealEstate/industry/industry04.webp"
+import IndustrySliderIMG05 from "media/industry/RealEstate/industry/industry05.webp"
+import IndustrySliderIMG06 from "media/industry/RealEstate/industry/industry06.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -21,7 +21,7 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/industry/realestate/techImg.webp"
+import TechImg from "media/industry/RealEstate/techImg.webp"
 
 
 //========= Process Images
