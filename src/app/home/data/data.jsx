@@ -19,7 +19,7 @@ import { Automotive, ECommerce, Education, Food, Healthcare, Insurance, Music, R
 
 
 export const BannerData = {
-    title: "Transforming Ambitious Ideas Into Powerful Digital Products",
+    title: "Transforming Ambitious Ideas Into Powerful Digital Products ",
     content: `We combine technical expertise with visionary thinking to create apps that drive real-world impact and elevate your business`,
 }
 

@@ -13,7 +13,6 @@ const IndustrySlider = ({ data, list }) => {
     const prevButtonHandler = () => {
         if (embla) embla.scrollPrev();
     };
-
     const nextButtonHandler = () => {
         if (embla) embla.scrollNext();
     };
