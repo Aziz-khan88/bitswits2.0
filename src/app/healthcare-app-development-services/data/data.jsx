@@ -166,7 +166,7 @@ export const IndustrySliderList = [
     },
     {
         img: IndustrySliderIMG01.src,
-        title: "Medical Device Integration Software",
+        title: "Medical Device Integration",
         txt: "Our medical device integration software seamlessly integrates the devices with your healthcare systems to access critical patient information and real-time monitoring in an instant time while ensuring data security."
     },
 ];
