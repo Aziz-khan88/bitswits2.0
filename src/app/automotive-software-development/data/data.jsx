@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BanngBg from "media/industry/automotive/bgBanner.webp";
 
 // Location Images
 import IndustrySliderIMG01 from "media/industry/automotive/industry/Industry01.webp"
@@ -54,41 +54,41 @@ import FuelingImg1 from "media/industry/automotive/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/C++.svg";
+import TAB1_2 from "media/industry/techstack/Python.svg";
+import TAB1_3 from "media/industry/techstack/Java.svg";
+import TAB1_4 from "media/industry/techstack/Swift.svg";
+import TAB1_5 from "media/industry/techstack/Kotlin.svg";
+import TAB1_6 from "media/industry/techstack/Rust.svg";
+import TAB2_1 from "media/industry/techstack/AUTOSAR.svg";
+import TAB2_2 from "media/industry/techstack/ROS.svg";
+import TAB2_3 from "media/industry/techstack/TensorFlow.svg";
+import TAB2_4 from "media/industry/techstack/Angular.svg";
+import TAB2_5 from "media/industry/techstack/Qt.svg";
+import TAB2_6 from "media/industry/techstack/OpenCV.svg";
+import TAB3_1 from "media/industry/techstack/MySQL.svg";
+import TAB3_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB3_3 from "media/industry/techstack/MongoDB.svg";
+import TAB3_4 from "media/industry/techstack/Oracle.svg";
+import TAB3_5 from "media/industry/techstack/MSSQL.svg";
+import TAB3_6 from "media/industry/techstack/Cassandra.svg";
+import TAB4_1 from "media/industry/techstack/OBD-IIAPIs.svg";
+import TAB4_2 from "media/industry/techstack/HEREMaps.svg";
+import TAB4_3 from "media/industry/techstack/OpenStreetMap.svg";
+import TAB4_4 from "media/industry/techstack/CarMD.svg";
+import TAB4_5 from "media/industry/techstack/TelematicsSDK.svg";
+import TAB4_6 from "media/industry/techstack/VINDecoderAPIs.svg";
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_3 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_4 from "media/industry/techstack/IBMCloud.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB6_1 from "media/industry/techstack/CANbus.svg";
+import TAB6_2 from "media/industry/techstack/J1939Protocol.svg";
+import TAB6_3 from "media/industry/techstack/MATLAB.svg";
+import TAB6_4 from "media/industry/techstack/Jenkins.svg";
+import TAB6_5 from "media/industry/techstack/Docker.svg";
+import TAB6_6 from "media/industry/techstack/GitLab.svg";
 
 //========= Industries Images
 import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";

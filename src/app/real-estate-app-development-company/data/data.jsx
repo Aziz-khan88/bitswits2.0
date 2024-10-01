@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BanngBg from "media/industry/RealEstate/bgBanner.webp";
 import IndustryCtaImg from "media/industry/RealEstate/ctaImage.webp"
 
 // Location Images
@@ -58,7 +58,6 @@ import TAB1_3 from "media/industry/techstack/Vuejs.svg";
 import TAB1_4 from "media/industry/techstack/HTML5.svg";
 import TAB1_5 from "media/industry/techstack/CSS3.svg";
 import TAB1_6 from "media/industry/techstack/JavaScript.svg";
-import TAB1_7 from "media/industry/techstack/Wordpress.svg";
 import TAB2_1 from "media/industry/techstack/Nodejs.svg";
 import TAB2_2 from "media/industry/techstack/Python.svg";
 import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";

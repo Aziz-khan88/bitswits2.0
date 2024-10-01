@@ -1,6 +1,6 @@
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BanngBg from "media/industry/education/bgBanner.webp";
 
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/education/ctaImage.webp"
