@@ -60,7 +60,7 @@ import TAB2_2 from "media/industry/techstack/Python.svg";
 import TAB2_3 from "media/industry/techstack/Expressjs.svg";
 import TAB2_4 from "media/industry/techstack/Java.svg";
 import TAB2_5 from "media/industry/techstack/SpringBoot.svg";
-import TAB2_6 from "media/industry/techstack/GO.svg";
+import TAB2_6 from "media/industry/techstack/Go.svg";
 import TAB2_7 from "media/industry/techstack/RubyOnRails.svg";
 import TAB2_8 from "media/industry/techstack/DotNET.svg";
 import TAB3_1 from "media/industry/techstack/MySQL.svg";
@@ -93,7 +93,7 @@ import TAB6_7 from "media/industry/techstack/Terraform.svg";
 import TAB6_8 from "media/industry/techstack/GitLabCI-CD.svg";
 
 //========= Industries Images
-import {FintechSVG, TravelSVG,  EcommerceSVG, EducationSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, } from "@/src/app/app-constants";
+import { FintechSVG, TravelSVG, EcommerceSVG, EducationSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -148,7 +148,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src, 
+    image: IndustryCtaImg.src,
     title: "Streamline Your Logistics with Advanced Software Solutions!",
     text: "Join BitsWits to optimize your supply chain and fleet management for faster, more efficient logistics operations.",
 }
