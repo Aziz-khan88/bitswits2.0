@@ -617,7 +617,7 @@ export const IndustriesList = [
         icon: <Icon05 />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {

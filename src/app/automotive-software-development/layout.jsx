@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Automotive Software Development Services - BitsWits",
-  description: "Custom automotive software development services for vehicle systems, connectivity, diagnostics, and automation, improving performance and safety.",
+  title: "Automotive Software Development Company - BitsWits",
+  description: "BitsWits is a leading automotive software development company with 50+ projects, creating advanced vehicle software to enhance performance and connectivity.",
   //===== OG Tags =====
   openGraph: {
-    title: "Automotive Software Development Services - BitsWits",
-    description: "Custom automotive software development services for vehicle systems, connectivity, diagnostics, and automation, improving performance and safety.",
+    title: "Automotive Software Development Company - BitsWits",
+    description: "BitsWits is a leading automotive software development company with 50+ projects, creating advanced vehicle software to enhance performance and connectivity.",
     url: '/automotive-software-development',
     siteName: 'BitsWits',
     locale: 'en_US',

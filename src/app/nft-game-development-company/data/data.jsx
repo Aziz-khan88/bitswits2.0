@@ -102,7 +102,7 @@ export const BannerData = {
     fromtitle: "Let’s Discuss Game Idea",
     fromtext: "Share your game objectives with our experts and create your custom game."
 }
- 
+
 export const CuttingedgeContent = {
     title: "High-Performance NFT Game Development Services For Outstanding Player Engagement!",
     text: "Our team is a score of professional NFT game developers who have remarkably catered to the challenging scope of our NFT game development projects. Here are the services we offer:",
@@ -376,7 +376,7 @@ export const OffersTabs = [
     {
         title: "In-Game Asset Ownership",
         content: {
-            heading:"In-Game Asset Ownership",
+            heading: "In-Game Asset Ownership",
             description:
                 "With a network of secure blockchains and a robust server, trading NFT assets has never been made easier. Gaming platforms that are built around the NFT gaming ecosystem will benefit from not just ownership, but also enjoy a profitable revenue stream by allowing trade, and creation of custom NFTs for all players. ",
         },
@@ -384,7 +384,7 @@ export const OffersTabs = [
     {
         title: "Scarce and Exclusive Collections",
         content: {
-            heading:"Scarce and Exclusive Collections",
+            heading: "Scarce and Exclusive Collections",
             description:
                 "What’s even better with NFT game building is that all assets are fully custom and unique. Players would be thrilled to own assets that are rare and hold astounding value in the real world. Duplication fears are not a problem as each asset is owned, and secured via a robust blockchain network.",
         },
@@ -392,7 +392,7 @@ export const OffersTabs = [
     {
         title: "Cross-platform Interoperability",
         content: {
-            heading:"Cross-platform Interoperability",
+            heading: "Cross-platform Interoperability",
             description:
                 "The utility of NFT itself is not just limited to one particular network of blockchain. But more importantly, NFT gaming platforms will support cross-platform interoperability, allowing transactions of assets across multiple blockchains. Hence, this ensures more efficient movement of digital assets in the marketplace. ",
         },
@@ -400,7 +400,7 @@ export const OffersTabs = [
     {
         title: "Play-to-Earn Opportunities",
         content: {
-            heading:"Play-to-Earn Opportunities",
+            heading: "Play-to-Earn Opportunities",
             description:
                 "Unlike traditional gaming ecosystems, NFT gaming offers you more than just gaming for leisure time. You can entice more players to join the network with Play-to-earn (P2E opportunities). As players compete, they’ll be able to reap rewards in the shape of popular NFTs, cryptocurrency credits, exciting new unlocks, and much more.  ",
         },
@@ -408,7 +408,7 @@ export const OffersTabs = [
     {
         title: "Stream Monetization",
         content: {
-            heading:"Stream Monetization",
+            heading: "Stream Monetization",
             description:
                 "NFT game development exposes business teams to multiple avenues for revenue and growth. Teams can expect to earn handsomely by monetizing the purchase and sale of NFT assets over the marketplace. Plus, with the influencer economy booming, there’s even more opportunity for collaborations and partnerships that unlock further new streams of revenue. ",
         },
@@ -630,7 +630,7 @@ export const IndustriesList = [
         icon: <Icon05 />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
@@ -657,9 +657,9 @@ export const IndustriesList = [
 ];
 
 export const IdeaCtaContent = {
-    title: (<>Let’s Change<br/> The World With Your</>),
+    title: (<>Let’s Change<br /> The World With Your</>),
     text: (<> App <span>Idea!</span></>),
-    formtitle: (<>Let’s Create An <br/> Amazing App Together!</>)
+    formtitle: (<>Let’s Create An <br /> Amazing App Together!</>)
 }
 
 export const FaqsContent = {

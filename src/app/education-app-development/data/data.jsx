@@ -1,10 +1,16 @@
 
-
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BanngBg from "media/industry/education/bgBanner.webp";
+
+// IndustryCta Images
+import IndustryCtaImg from "media/industry/education/ctaImage.webp"
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/education/industry/Industry01.webp"
+import IndustrySliderIMG02 from "media/industry/education/industry/Industry02.webp"
+import IndustrySliderIMG03 from "media/industry/education/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/education/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/education/industry/Industry05.webp"
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +21,19 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/education/techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import Process01 from "media/industry/process/process01.webp"
+import Process02 from "media/industry/process/process02.webp"
+import Process03 from "media/industry/process/process03.webp"
+import Process04 from "media/industry/process/process04.webp"
+import Process05 from "media/industry/process/process05.webp"
+import Process06 from "media/industry/process/process06.webp"
+import Process07 from "media/industry/process/process07.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { EducationIcon01, EducationIcon02, EducationIcon03, EducationIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,54 +47,58 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/education/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB1_7 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/Reactjs.svg";
+import TAB1_2 from "media/industry/techstack/Angular.svg";
+import TAB1_3 from "media/industry/techstack/Vuejs.svg";
+import TAB1_4 from "media/industry/techstack/HTML5.svg";
+import TAB1_5 from "media/industry/techstack/CSS3.svg";
+import TAB1_6 from "media/industry/techstack/JavaScript.svg";
+import TAB1_7 from "media/industry/techstack/Wordpress.svg";
+import TAB2_1 from "media/industry/techstack/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/Python.svg";
+import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
+import TAB2_4 from "media/industry/techstack/Java.svg";
+import TAB2_5 from "media/industry/techstack/DotNET.svg";
+import TAB2_6 from "media/industry/techstack/PHP.svg";
+
+import TAB3_1 from "media/industry/techstack/Swift.svg";
+import TAB3_2 from "media/industry/techstack/Kotlin.svg";
+import TAB3_3 from "media/industry/techstack/ReactNative.svg";
+import TAB3_4 from "media/industry/techstack/Flutter.svg";
+import TAB3_5 from "media/industry/techstack/Xamarin.svg";
+import TAB3_6 from "media/industry/techstack/Ionic.svg";
+
+import TAB4_1 from "media/industry/techstack/MySQL.svg";
+import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB4_3 from "media/industry/techstack/MongoDB.svg";
+import TAB4_4 from "media/industry/techstack/SQLite.svg";
+import TAB4_5 from "media/industry/techstack/Redis.svg";
+import TAB4_6 from "media/industry/techstack/Oracle.svg";
+
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_4 from "media/industry/techstack/Heroku.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB5_6 from "media/industry/techstack/Firebase.svg";
+
+import TAB6_1 from "media/industry/techstack/Stripe.svg";
+import TAB6_2 from "media/industry/techstack/PayPal.svg";
+import TAB6_3 from "media/industry/techstack/Braintree.svg";
+import TAB6_4 from "media/industry/techstack/Square.svg";
+import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
+import TAB6_6 from "media/industry/techstack/ApplePay.svg";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { FintechSVG, HealthcareSVG, AutomotiveSVG, SocialSVG, RealEstateSVG, RideHailingSVG, TravelSVG, EcommerceSVG } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
-import Education from "media/services/industry/Education.webp";
+import Automotive from "media/services/industry/Automotive.webp";
 import SocialMarketing from "media/services/industry/SocialMarketing.webp";
 import RealEstate from "media/services/industry/RealEstate.webp";
 import RideHailing from "media/services/industry/RideHailing.webp";
@@ -124,7 +140,7 @@ export const IndustryServiceList = [
     },
     {
         title: (<>Virtual Classrooms <br /> and Video Conferencing</>),
-        txt: "We create virtual classroom and video conferencing apps with real-time video, chat, document sharing, presentation tools, participation control, and homework management.",
+        txt: "We build virtual classroom apps with live video, chat, document sharing, and presentation tools. Features include participation control and homework management.",
     },
     {
         title: (<>Tuition <br /> App Development</>),
@@ -133,6 +149,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
+    image: IndustryCtaImg.src,
     title: "Create Dynamic Learning Experiences with Powerful Apps!",
     text: "Join hands with BitsWits to push the boundaries of traditional learning, creating education apps that empower students and educators to achieve more together!",
 }
@@ -149,22 +166,22 @@ export const IndustrySliderList = [
         txt: "Our employee engagement apps connect teams through interactive and engaging education mobile apps. We specialize in e-learning app development that enhances connections and increases engagement within your organization.",
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG02.src,
         title: "Skill Boosting Apps",
         txt: "We develop skill-boosting apps that enhance employees’ abilities through gamification and engaging content. These apps help employees stay relevant with tech courses, leadership training, and power skills.",
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG03.src,
         title: "eLearning Apps for Disabled",
         txt: "We create eLearning apps for disabled audiences, making knowledge accessible through adaptive learning features. Our apps provide equal opportunities for all learners, regardless of their abilities, to gain valuable education.",
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG04.src,
         title: "On-Demand eLearning Apps",
         txt: "Our on-demand eLearning app development services meet your business requirements, offering audio and video learning, appointment management, lecture scheduling, and fast performance for a seamless learning experience.",
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG05.src,
         title: "Content Authoring Tools",
         txt: "Our content authoring tools provide intuitive solutions for easy creation and management of educational content. These tools empower educators to develop, organize, and manage content efficiently, enhancing the overall learning experience.",
     }
@@ -295,7 +312,7 @@ export const ProcessTabs = [
         content: {
             heading: "Project Planning",
             description: "In the project planning stage of our educational app development services, we define the purpose and parameters of your app. This includes identifying the learner demographic, selecting the appropriate platforms and learning management system (LMS) integration, and outlining features that align with your instructional objectives and user engagement goals.",
-            imgSrc: IMG.src,
+            imgSrc: Process01.src,
         },
     },
     {
@@ -303,7 +320,7 @@ export const ProcessTabs = [
         content: {
             heading: "Design",
             description: "As a top-tier provider of eLearning app development services, our design process incorporates human-computer interaction (HCI) principles and UI/UX best practices to create a seamless learning interface. We develop interactive prototypes and conduct usability testing with educators and learners to refine the design, ensuring the app offers an intuitive and learner-centric experience.",
-            imgSrc: IMG.src,
+            imgSrc: Process02.src,
         },
     },
     {
@@ -311,7 +328,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description: "Our education app developers work on both frontend and backend development to integrate interactive courseware, assessment tools, and adaptive learning technologies. We utilize advanced programming languages and API integration to create robust educational features like adaptive testing, content authoring tools, and real-time learning analytics, ensuring your app aligns with modern instructional technology standards.",
-            imgSrc: IMG.src,
+            imgSrc: Process03.src,
         },
     },
     {
@@ -319,7 +336,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Testing",
             description: "We conduct rigorous end-to-end testing with our team of QA experts and education app developers to verify functionality, scalability, and learning outcome tracking. This comprehensive testing phase carefully vets all functionalities before moving to deployment, providing a reliable user experience.",
-            imgSrc: IMG.src,
+            imgSrc: Process04.src,
         },
     },
     {
@@ -327,7 +344,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment",
             description: "We deploy your app across selected platforms, whether iOS, Android, or both, ensuring compliance with platform-specific guidelines and the integration of virtual learning environments (VLEs). Our team expertly manages the transition from development to live status, ensuring a smooth launch that meets the requirements of both institutional and individual users.",
-            imgSrc: IMG.src,
+            imgSrc: Process05.src,
         },
     },
     {
@@ -335,7 +352,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch",
             description: "We release the beta version or MVP of your app to gather data-driven insights from real users, including educators and students, identifying any areas for enhancement. This feedback loop helps optimize the app before its full-scale launch, ensuring a scalable, data-validated product.",
-            imgSrc: IMG.src,
+            imgSrc: Process06.src,
         },
     },
     {
@@ -343,7 +360,7 @@ export const ProcessTabs = [
         content: {
             heading: "Maintenance and Support",
             description: "We provide continuous learning analytics monitoring and user feedback analysis to address any performance issues. Our maintenance and support services include regular updates, bug fixes, and feature enhancements, ensuring that your app stays compatible with eLearning trends and technology advancements for an optimal user experience.",
-            imgSrc: IMG.src,
+            imgSrc: Process07.src,
         },
     }
 ];
@@ -355,12 +372,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
+        Icon: <EducationIcon01 />,
         title: (<>Agile Process</>),
         description: "As a leading provider of eLearning app development services, we utilize agile processes to optimize development practices and deliver the best outcomes for educational platforms.",
     },
     {
-        Icon: <WhyChooseIcon01 />,
+        Icon: <EducationIcon02 />,
         title: (<>Expertise in Learning Technologies</>),
         description: "Our team of 100+ dedicated education app developers specializes in SCORM and xAPI frameworks, ensuring compliance with eLearning standards for content delivery and analytics.",
     },
@@ -368,12 +385,12 @@ export const WhyChooseList1 = [
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />,
+        Icon: <EducationIcon03 />,
         title: (<>EdTech-Compliant Security</>),
         description: "Our education software development services are built on a secure, FERPA-compliant infrastructure, adhering to the highest security protocols to protect student data.",
     },
     {
-        Icon: <WhyChooseIcon02 />,
+        Icon: <EducationIcon04 />,
         title: (<>Proven Track Record</>),
         description: "We have a proven track record of delivering high-quality educational apps, consistently meeting client expectations, and achieving excellent results with successful projects.",
     }
@@ -658,7 +675,7 @@ export const TechStackTabs = [
                 img: TAB5_1.src,
             },
             {
-                heading: "Google Cloud Platform",
+                heading: "Google Cloud",
                 img: TAB5_2.src,
             },
             {
@@ -717,56 +734,56 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <AutomotiveSVG />,
         title: "Automotive",
         txt: "Custom automotive apps streamline vehicle management, customer service, and dealership operations. Simplify bookings, maintenance tracking, and user engagement.",
-        url: "#",
-        img: Education.src,
+        url: "/automotive-software-development",
+        img: Automotive.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",

@@ -1,10 +1,17 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BanngBg from "media/industry/automotive/bgBanner.webp";
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/automotive/industry/Industry01.webp"
+import IndustrySliderIMG02 from "media/industry/automotive/industry/Industry02.webp"
+import IndustrySliderIMG03 from "media/industry/automotive/industry/Industry03.webp"
+import IndustrySliderIMG04 from "media/industry/automotive/industry/Industry04.webp"
+import IndustrySliderIMG05 from "media/industry/automotive/industry/Industry05.webp"
+import IndustrySliderIMG06 from "media/industry/automotive/industry/Industry06.webp"
+import IndustrySliderIMG07 from "media/industry/automotive/industry/Industry07.webp"
+
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +22,21 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/automotive/techImg.webp"
 
+// IndustryCta Images
+import IndustryCtaImg from "media/industry/automotive/ctaImage.webp"
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import Process01 from "media/industry/process/process01.webp"
+import Process02 from "media/industry/process/process02.webp"
+import Process03 from "media/industry/process/process03.webp"
+import Process04 from "media/industry/process/process04.webp"
+import Process05 from "media/industry/process/process05.webp"
+import Process06 from "media/industry/process/process06.webp"
+import Process07 from "media/industry/process/process07.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { AutomotiveIcon01, AutomotiveIcon02, AutomotiveIcon03, AutomotiveIcon04, } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,50 +50,48 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/automotive/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB1_7 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/C++.svg";
+import TAB1_2 from "media/industry/techstack/Python.svg";
+import TAB1_3 from "media/industry/techstack/Java.svg";
+import TAB1_4 from "media/industry/techstack/Swift.svg";
+import TAB1_5 from "media/industry/techstack/Kotlin.svg";
+import TAB1_6 from "media/industry/techstack/Rust.svg";
+import TAB2_1 from "media/industry/techstack/AUTOSAR.svg";
+import TAB2_2 from "media/industry/techstack/ROS.svg";
+import TAB2_3 from "media/industry/techstack/TensorFlow.svg";
+import TAB2_4 from "media/industry/techstack/Angular.svg";
+import TAB2_5 from "media/industry/techstack/Qt.svg";
+import TAB2_6 from "media/industry/techstack/OpenCV.svg";
+import TAB3_1 from "media/industry/techstack/MySQL.svg";
+import TAB3_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB3_3 from "media/industry/techstack/MongoDB.svg";
+import TAB3_4 from "media/industry/techstack/Oracle.svg";
+import TAB3_5 from "media/industry/techstack/MSSQL.svg";
+import TAB3_6 from "media/industry/techstack/Cassandra.svg";
+import TAB4_1 from "media/industry/techstack/OBD-IIAPIs.svg";
+import TAB4_2 from "media/industry/techstack/HEREMaps.svg";
+import TAB4_3 from "media/industry/techstack/OpenStreetMap.svg";
+import TAB4_4 from "media/industry/techstack/CarMD.svg";
+import TAB4_5 from "media/industry/techstack/TelematicsSDK.svg";
+import TAB4_6 from "media/industry/techstack/VINDecoderAPIs.svg";
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_3 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_4 from "media/industry/techstack/IBMCloud.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB6_1 from "media/industry/techstack/CANbus.svg";
+import TAB6_2 from "media/industry/techstack/J1939Protocol.svg";
+import TAB6_3 from "media/industry/techstack/MATLAB.svg";
+import TAB6_4 from "media/industry/techstack/Jenkins.svg";
+import TAB6_5 from "media/industry/techstack/Docker.svg";
+import TAB6_6 from "media/industry/techstack/GitLab.svg";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, RealEstateSVG, RideHailingSVG, SocialSVG, TravelSVG } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -95,46 +108,47 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
 export const BannerData = {
-    title: " Driving Digital Transformation with Automotive App Development Services",
-    content: "BitsWits thrives in delivering excellent automotive software development. We’re here to transform the business for automakers, OEMs, dealers, and part vendors alike. We’re the leading automotive software development company in the US. Get ready to make the leap with us.",
+    title: "The Automotive Software Development Company for Next-Gen Vehicle Solutions.",
+    content: "Our automotive software development services empower automakers, dealerships, and OEMs with advanced vehicle technologies. We integrate smart diagnostics and real-time data analytics to enhance performance, streamline operations, and drive next-gen solutions for the evolving automotive industry.",
     BanngBg: BanngBg.src,
 }
 
 export const IndustryServiceContent = {
-    title: "Custom Automotive Software Development Services for Fleet and Driver Optimization",
-    text: "BitsWits offers an exciting array of automotive software engineering services. As an automotive software development company, we prioritize delivery of promising solutions for all clients via our global network of automotive software developers.",
+    title: "Future-Ready Automotive Software Development Services for Modern Mobility",
+    text: "We deliver expert automotive software engineering services to help automotive companies tackle projects of any scale and complexity. Our solutions empower businesses to adapt to the ever-evolving mobility landscape and stay ahead of industry demands.",
 }
 
 export const IndustryServiceList = [
     {
-        title: (<>Automotive Maintenance<br />& Support Services</>),
-        txt: "Enterprise-level package that seamlessly caters to automotive software development needs of companies. Get anything from updates to audits and monitoring.",
+        title: (<>Custom Automotive <br />Software Development</>),
+        txt: "We create efficient, scalable automotive software solutions via our platform. Our innovative approach meets client needs and drives business value in the industry.",
     },
     {
-        title: (<>Automotive Software-<br /> UI/UX Design</>),
-        txt: "We leverage best UX practices to build advanced, optimized, yet equally driver-friendly interfaces. There’s an extended focus on driver intuitiveness.",
+        title: (<>Integration of <br />Automotive Systems</>),
+        txt: "Streamline operations by integrating corporate software systems and third-party applications. Our solutions help companies manage data and enhance efficiency across all platforms.",
     },
     {
-        title: (<>Automotive Software<br /> Testing</>),
-        txt: "Automotive software developers ensure that development is up to the ISO standards for data security. Rigorous testing ensures solid performance.",
+        title: (<>Legacy System <br />Modernization</>),
+        txt: "Adapt outdated systems to meet new business requirements with UX improvements, cloud migration, feature updates, and integration of emerging automotive technologies.",
     },
     {
-        title: (<>Automotive Mobile App<br /> Development Services</>),
-        txt: "Detect driver anomalies and integrate IoT devices at a glance with automotive mobile apps. These apps will enhance customer experience.",
+        title: (<>Ongoing Maintenance <br />and Support</>),
+        txt: "We maintain enterprise automotive systems with regular monitoring, audits, and updates. Our cost-effective solutions ensure long-term functionality, stability, and security.",
     },
     {
-        title: (<>Custom Automotive<br /> Development Services</>),
-        txt: "Get customizable automotive software applications for your unique needs. Enhance business systems, gain more customers, and automate for the better.",
+        title: (<>Automotive Software <br />Consultancy</>),
+        txt: "We help firms to conceptualize technology solutions, oversee implementation, and deliver strategic guidance to enhance customer satisfaction and ensure long-term success.",
     },
     {
-        title: (<>Automotive Cloud<br /> Solutions</>),
-        txt: "Utilize scalable cloud platforms to streamline vehicle data, enhance performance, and integrate real-time analytics for seamless automotive operations and management.",
+        title: (<>Compliance and <br />Security Audits</>),
+        txt: "Our automotive software development firm conducts thorough security audits to ensure compliance, maintain system integrity, and prevent vulnerabilities in your software.",
     },
 ];
 
 export const IndustryCtaContent = {
-    title: "Innovate Automotive Industry with BitsWits!",
-    text: "We’re a leading automotive software development company that hinges on expertise in automotive software development, building both platform-based, and custom apps for faster automotive operations.",
+    image: IndustryCtaImg.src,
+    title: "Revolutionize Vehicle Software with BitsWits!",
+    text: "Let us help you build software that drives efficiency, performance, and connectivity in the automotive industry.",
 }
 
 export const IndustrySliderContent = {
@@ -145,87 +159,118 @@ export const IndustrySliderContent = {
 export const IndustrySliderList = [
     {
         img: IndustrySliderIMG01.src,
-        title: "Fleet Management Software",
-        txt: "Get dedicated developed solutions for tracking fleet operations for car rental programs. Manage customers, as well as vendors at a glance. Boom your rental business by digitizing your processes today!",
+        title: "Dealership Management System Development",
+        txt: "As a leading automotive software development company, we offer custom Dealership Management System (DMS) solutions that streamline sales, financing, warehouse management, and service orders—optimizing distribution processes and enhancing dealership workflows for seamless operations."
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "Dealer Management Software",
-        txt: "How about integrating inventory, accounts, and documents management all in one place? Get a dedicated software solution to automate redundant tasks, and optimize resources to serve more clients in less time.",
+        img: IndustrySliderIMG02.src,
+        title: "Advanced Driver Assistance System Development",
+        txt: "Our automotive software engineering services include Advanced Driver Assistance System (AADS) development, enhancing driver safety with real-time hazard alerts, reliable data processing, and communication systems that keep drivers informed and responsive on the road."
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "Connected Car Solutions",
-        txt: "BitsWits is a leading automotive software development company, expanding its footprints by building innovative automotive engineering solutions using emerging technologies. Track, monitor, and optimize for smooth performance while being connected 24/7.",
+        img: IndustrySliderIMG03.src,
+        title: "EV Software Development",
+        txt: "We create EV software that supports seamless roaming and infrastructure integration, fully compliant with OCPP standards. Our solutions drive eMobility advancements, ensuring smooth operations across charging networks and electric vehicle systems."
     },
     {
-        img: IndustrySliderIMG01.src,
-        title: "Vehicle Diagnostic Software",
-        txt: "To help you keep up with the newest trends, we offer vehicle diagnostic software services. Gain uninterrupted access to robust tests, and techniques to diagnose issues, and resolve them on the go.",
+        img: IndustrySliderIMG04.src,
+        title: "BEV Software Development",
+        txt: "Our Battery Electric Vehicle (BEV) software enhances performance and optimizes user experience, offering sustainable solutions that support efficient, battery-powered mobility for a more eco-friendly automotive future."
     },
+    {
+        img: IndustrySliderIMG05.src,
+        title: "Automotive eCommerce Platform Development",
+        txt: "We build automotive eCommerce platforms that empower businesses to sell new and used vehicles, as well as auto parts, efficiently. Our solutions streamline sales processes, managing vast amounts of data without manual synchronization for a smoother operation."
+    },
+    {
+        img: IndustrySliderIMG06.src,
+        title: "NEV Software Development",
+        txt: "Our New Energy Vehicle (NEV) software development delivers cutting-edge solutions for electric and hybrid vehicles, focusing on battery management systems, efficient charging solutions, and seamless integration to enhance overall vehicle performance and sustainability."
+    },
+    {
+        img: IndustrySliderIMG07.src,
+        title: "Navigation System Development",
+        txt: "We develop advanced navigation systems using HMI and NDS standards, incorporating traffic data, lane models, and digital terrain mapping. Our solutions offer real-time updates, seamless route planning, and enhanced map displays for a superior driving experience."
+    }
 ];
 
 export const ExpertiseContent = {
-    title: "Expertise And Competencies",
-    subtitle: "Features Every Automotive Software Needs",
-    subtext: "To build robust solutions, our team of automotive software developers ensures that each product integrates ten core features, critical for any businessowner connected to automotive industry.",
+    subtitle: "Must-Have Features for Building Smarter Automotive Software",
+    subtext: "As a leading automotive software development company, we equip your vehicle solutions with high-value features, enabling smarter diagnostics, seamless integration, and enhanced performance—driving efficiency and innovation across automotive systems for superior operational results.",
 }
 
 export const ExpertiseList1 = [
     {
         title: "Search and Order Parts",
-        txt: "Our automotive software development services include building your own search engine that enables looking for car parts, make, model, and variants. Plus, it activates order processing.",
+        txt: "Our automotive software development services include building your own search engine that enables looking for car parts, make, model, and variants. Plus, it activates order processing."
     },
     {
         title: "Inventory Tracking",
-        txt: "One key feature of any automotive software is inventory tracking. Our product will help you realize big savings, and improve sales numbers via powerful insight into stock trends.",
-    },
-    {
-        title: "Technical Knowledge Center",
-        txt: "Get uninterrupted access to your own knowledge base that has perfectly organized all the technical info you need to perform diagnosis, and cut repair time significantly.",
+        txt: "One key feature of any automotive software is inventory tracking. Our product will help you realize big savings, and improve sales numbers via powerful insight into stock trends."
     },
     {
         title: "Maintenance Notifications",
-        txt: "Integration of smart intelligence also helps on the customer side of vehicle maintenance. Drivers can get notified of necessary oil changes, tire rotation, and repair based on historical data.",
+        txt: "The integration of smart intelligence also helps the customer with vehicle maintenance. Drivers can get notified of necessary oil changes, tire rotations, and repairs based on historical data."
     },
     {
         title: "Client Delivery Portal",
-        txt: "It’s an exciting addition to educate and engage customers, helping you unlock a consistent stream of revenue. Customers can proactively learn about repair and maintenance schedules.",
-    },
-];
-
-export const ExpertiseList2 = [
-    {
-        title: "Quality Assurance",
-        txt: "Our solutions also pack comprehensive quality assurance programs that perform rigorous testing, and pinpoint issues with vehicle parts and accessories. Reduce recalls, and satisfy more customers.",
+        txt: "It’s an exciting addition to educating and engaging customers, helping you unlock a consistent stream of revenue. Customers can proactively learn about repair and maintenance schedules."
     },
     {
         title: "Time Monitoring",
-        txt: "Gain a comprehensive picture into labor allocation, efficiency, productivity, and billing. Understand, and enhance workflows of technicians, and your manufacturing team with time monitoring and analytics.",
+        txt: "Gain a comprehensive picture of labor allocation, efficiency, productivity, and billing. Understand, and enhance the workflows of technicians, and your manufacturing team with time monitoring and analytics."
     },
     {
         title: "Invoice Management",
-        txt: "Get complete control over your financial resources with smart invoice management. Maximize productivity by automating invoices, payments, and delivery of credit notice for seamless financial management.",
-    },
-    {
-        title: "Customer Relationship Management",
-        txt: "CRM tools offer an extensive range of functionalities to generate and nurture leads, and optimize procedures and client interactions for better sales, and customer satisfaction.",
+        txt: "Get complete control over your financial resources with smart invoice management. Maximize productivity by automating invoices, payments, and delivery of credit notices for seamless financial management."
     },
     {
         title: "Vendor Network Access",
-        txt: "BitsWits as an automotive software development company provides you an application that connects with multiple suppliers with a single tap. Centralize your supply chain operations in one app.",
+        txt: "BitsWits, as an automotive software development company provides you with an application that connects with multiple suppliers with a single tap. Centralize your supply chain operations in one app."
     },
+
+];
+
+export const ExpertiseList2 = [
+
+    {
+        title: "Fleet Management",
+        txt: "Monitor and manage entire fleets with real-time data on vehicle location, fuel usage, driver behavior, and maintenance schedules—ensuring efficient operations and reducing downtime."
+    },
+    {
+        title: "Telematics Integration",
+        txt: "Seamlessly integrate telematics for enhanced vehicle tracking, route optimization, and performance analysis. Collect and analyze data to improve fleet efficiency and reduce operational costs."
+    },
+    {
+        title: "Warranty Tracking",
+        txt: "Simplify warranty management with automated tracking of vehicle warranties, including parts and service coverage, helping customers and dealers manage claims efficiently."
+    },
+    {
+        title: "Predictive Maintenance",
+        txt: "Leverage predictive analytics to detect potential vehicle issues before they become major problems. Predictive maintenance reduces downtime and improves vehicle reliability."
+    },
+    {
+        title: "Vehicle Performance Analytics",
+        txt: "Gain real-time insights into vehicle performance metrics, including fuel efficiency, engine diagnostics, and usage patterns. These analytics help optimize performance and reduce operational costs."
+    },
+    {
+        title: "Connected Vehicle Features",
+        txt: "Enable remote access to key vehicle functions, such as door locks, engine start, and temperature control, using cloud-based technology to enhance the driver’s experience."
+    },
+    {
+        title: "Compliance and Regulatory Management",
+        txt: "Stay up-to-date with industry regulations by automating compliance reporting and vehicle inspection schedules, ensuring that your fleet meets all safety and environmental standards."
+    }
 ]
 
 export const TechnologiesContent = {
-    title: "Hire Skilled Developers for Automotive Software Solutions",
+    title: "Hire Skilled Developers for Automotive Software Solutions!",
     text: (<>
-        <p>Our developers specialize in creating <strong>Automotive Software</strong> using technologies like Python, C++, Java, and IoT integration. </p>
-        <p>They provide tailored solutions for vehicle diagnostics, fleet management, and in-car infotainment systems. </p>
+        <p>Our developers specialize in creating <strong>automotive software using technologies</strong> like Python, C++, Java, and IoT integration. </p>
+        <p>They provide tailored solutions for vehicle diagnostics, fleet management, and in-car infotainment systems.</p>
         <p>Focusing on safety, connectivity, and performance, our team delivers software that meets the evolving needs of the automotive industry, enhancing driver experience and operational efficiency.</p>
-        <p>Use our free app cost calculator to get an instant breakdown of your app cost!</p>
+        <p>Use our free cost calculator to get an instant breakdown of your software cost!</p>
     </>),
-
     TechImg: TechImg.src
 }
 
@@ -265,165 +310,189 @@ export const TechnologiesIcons = [
 ]
 
 export const ProcessContent = {
-    title: "Automotive Software Development Process",
-    text: "BitsWits offers custom automotive software development, ensuring delivery of impeccable design, and performance. From discovery to coding, and from launch to QA, we want to make sure our support remains unparalleled"
+    title: "Streamlined Automotive Software Development Process for Accelerated Performance",
+    text: "As a leading automotive software development company, we use a streamlined development process to deliver cutting-edge solutions on time, ensuring every project is optimized for peak performance and faster market entry."
 }
 
 export const ProcessTabs = [
     {
-        title: "Discovery",
+        title: "Planning",
         content: {
-            heading: "Vision Discovery",
-            description: "It all starts at the discovery stage. Our experts work up a potential roadmap for your automotive software. At this stage, you’ll be collaborating on producing crucial documents like feasibility reports, technical aspects, potential issues, and much more. Our automotive software developers will do analysis of your proposed project, and hand you a solid plan for action and product delivery.",
-            imgSrc: IMG.src,
+            heading: "Project Planning",
+            description:
+                "In the project planning phase, we collaborate with your team to define the objectives and technical requirements of your software. This includes understanding the specific needs of automakers, dealerships, and OEMs, determining integration with existing systems, selecting platforms, and outlining essential features such as telematics, advanced diagnostics, and vehicle data management.",
+            imgSrc: Process01.src,
         },
     },
     {
-        title: "Scope Layout",
+        title: "Design",
         content: {
-            heading: "Scope Layout",
-            description: "At this stage the expert team will detail the scope of each department, and how the integration of all teams will translate into the desired final output. Our primary focus will be automotive software design, giving you a blueprint of how the interface would appear on multiple platforms. Detailing aspect of the job also entails defining functionalities, features, and integrations for the product.",
-            imgSrc: IMG.src,
+            heading: "Design",
+            description:
+                "Our automotive software engineers follow industry-specific design protocols to develop intuitive, vehicle-friendly interfaces that enhance user experience. We create detailed wireframes and prototypes, incorporating Human-Machine Interface (HMI) standards and real-time data display, ensuring seamless communication between drivers and vehicle systems.",
+            imgSrc: Process02.src,
         },
     },
     {
-        title: "Code Delivery",
+        title: "Development",
         content: {
-            heading: "Code Delivery",
-            description: "It’s time to bring your perfect wireframe to life with rigorous coding and development. Our automotive software developers will work tirelessly to ensure seamless performance of functions, integrations, and all desired features. We use the agile development methodology to proceed with coding and development. Through multiple revisions, our senior development team will match the code with the Master Scope Document (MSD), leaving no room for inconsistencies.",
-            imgSrc: IMG.src,
+            heading: "Development",
+            description:
+                "Our experienced automotive software developers handle both frontend and backend development, integrating advanced vehicle diagnostics, smart mobility features, and connectivity solutions. Using cutting-edge technologies like CAN bus protocols, OBD-II integration, and cloud-based solutions, we build robust software that optimizes performance and meets industry compliance.",
+            imgSrc: Process03.src,
         },
     },
     {
-        title: "Wireframe",
+        title: "Software Testing",
         content: {
-            heading: "Wireframe Development",
-            description: "Before jumping into coding, we craft a detailed wireframe to visually represent your automotive software’s structure and user flow. This step helps ensure that all stakeholders are aligned on the project’s direction, providing a clear understanding of how all elements will interact in the final product.",
-            imgSrc: IMG.src,
+            heading: "Software Testing",
+            description:
+                "We conduct comprehensive testing, including real-world simulations and stress tests, to ensure your software is functional, reliable, and scalable. This phase includes testing for compatibility with in-vehicle systems, validating performance under various driving conditions, and ensuring compliance with automotive safety standards.",
+            imgSrc: Process04.src,
         },
     },
     {
-        title: "Quality Assurance",
+        title: "Deployment",
         content: {
-            heading: "Quality Assurance",
-            description: "Our team of experts know that even the slightest bug in performance can spoil your reputation. Therefore, to save you the trouble, we perform end-to-end testing, ensuring seamless flow of operations. No glitches, no inconsistencies. We run multiple quality assurance tests on all platforms to ensure a smooth flow of work. We make it all possible through a series of both automation, and manual testing.",
-            imgSrc: IMG.src,
+            heading: "Deployment",
+            description:
+                "We deploy your software across selected platforms, ensuring smooth integration with vehicle control units (ECUs) and compliance with ISO 26262 and AUTOSAR standards. Our team ensures a seamless transition from development to deployment, so your software is road-ready and fully compliant with industry regulations.",
+            imgSrc: Process05.src,
         },
     },
     {
         title: "Launch",
         content: {
-            heading: "Launch for Success",
-            description: "Now it’s time to launch for maximum impact. Based on the shared plan, we’ll execute the launch phase via enterprise platform, cloud or simply mobile. We make sure everything reaches completion as it was planned and projected. Our team of automotive software developers stay connected with you throughout the entire software development lifecycle. Our partnership does not end here. But, it’s just the beginning.",
-            imgSrc: IMG.src,
+            heading: "Launch",
+            description:
+                "We roll out a beta version or MVP to gather feedback from automotive stakeholders, including automakers and drivers, identifying areas for optimization. This data-driven approach ensures that the final launch is a well-tested, scalable solution ready for full deployment in the market.",
+            imgSrc: Process06.src,
         },
     },
     {
-        title: "Partner Support",
+        title: "Support",
         content: {
-            heading: "Partner Support",
-            description: "To ensure that this partnership translates into mutual growth we offer post-launch support and solution services to all clients. This includes our full-time support and consultation on product development and advancement. To help you embark on this journey of growth, we offer extended support in the shape of maintenance and upgrades to keep your product updated with the market at all times.",
-            imgSrc: IMG.src,
+            heading: "Maintenance and Support",
+            description:
+                "Our ongoing maintenance services include continuous monitoring of vehicle performance data, software updates, and feature enhancements. We provide timely bug fixes and regular updates to ensure your automotive software stays ahead of industry trends and fully operational.",
+            imgSrc: Process07.src,
         },
     },
 ];
 
 export const WhyChooseContent = {
-    title: "Why Choose BitsWits?",
-    text: "Automotive software development is competitive. To ace the game, you need to leverage software technology to its finest."
+    title: "Why Partner with BitsWits for Your Next Project?",
+    text: "BitsWits is a top-grade automotive application development company that delivers high-performance solutions, integrating advanced vehicle technologies to meet the evolving demands of the automotive industry."
 }
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon03 />,
-        title: (<>Expertise</>),
-        description: "Our automotive software developers possess great expertise, ensuring delivery of tailor-made tech solutions for each client.",
+        Icon: <AutomotiveIcon01 />,
+        title: (<>Expertise in <br />Vehicle Technologies</>),
+        description: "Our team of 100+ skilled automotive software developers has extensive experience in telematics, CAN bus systems, and advanced driver-assistance systems (ADAS), ensuring that every project is aligned with industry standards.",
     },
     {
-        Icon: <WhyChooseIcon01 />,
-        title: (<>Cost-effective<br /> Delivery</>),
-        description: "As an automotive software development company, we consider it our responsibility to deliver the best value for each dollar spent.",
+        Icon: <AutomotiveIcon02 />,
+        title: (<>Automotive-Grade <br />Security</>),
+        description: "We prioritize security, building software that complies with industry standards such as ISO 26262 and AUTOSAR. Our solutions ensure secure data exchange between vehicle control units (ECUs) and external systems.",
     },
 ];
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />,
-        title: (<>Compliance</>),
-        description: "For all platforms, our automotive software development firm can design solutions that meet ISO and IEC standards and practices.",
+        Icon: <AutomotiveIcon03 />,
+        title: (<>Industry <br />Compliance</>),
+        description: "Our software is developed to meet stringent automotive standards, ensuring compliance with regulations and certifications such as OBD-II, NDS, and V2X communication protocols.",
     },
     {
-        Icon: <WhyChooseIcon02 />,
-        title: (<>Ongoing<br /> Support</>),
-        description: "We offer continuous post-launch support to ensure your software runs smoothly, with updates, maintenance, and enhancements.",
-    }
+        Icon: <AutomotiveIcon04 />,
+        title: (<>Proven <br />Track Record</>),
+        description: "With a history of delivering successful projects for automakers, dealerships, and OEMs, we have a proven track record of creating robust automotive software that enhances vehicle performance and operational efficiency.",
+    },
 ];
 
 export const OffersContent = {
-    title: "Cater to the Top Challenges in the Automotive Industry",
-    text: "We’re a seasoned automotive software development company that is passionate to build robust applications and solve problems for the community at large. McKinsey estimates the global automotive software market to reach $462 billion by 2030. That’s a staggering number for market value. Here’s how we plan to play our part:",
+    title: "Types of Automotive Software Systems We Can Build For You",
+    text: "Our software development for the automotive industry goes beyond the basics. We deliver powerful systems designed to elevate vehicle performance, streamline fleet management, and optimize predictive maintenance, ensuring automakers, OEMs, and dealerships stay ahead of the curve.",
 }
 
 export const OffersTabs = [
     {
-        title: "Adhering to Best Practices",
+        title: "In-Vehicle Connectivity & IoT",
         content: {
-            heading: "Adhering to Best Practices",
-            description: "Kearney expects a 30% increase in business for OEMs through widespread application of IoT and automotive software. For most, IoT and AI integration has been a difficult part of the job. We at BitsWits aim to overcome this barrier with our strategic innovations. By harnessing the best tech stack for the automotive industry, we plan on providing even more device integrations for smoother connectivity, and greater utility.",
+            heading: "In-Vehicle Connectivity & IoT",
+            description:
+                "We build in-vehicle connectivity solutions that integrate seamlessly with IoT devices, enabling real-time communication between onboard systems and external devices. Drivers and passengers can enjoy connected services, smart home integrations, and enhanced entertainment options while on the move.",
         },
     },
     {
-        title: "Best Security Standards",
+        title: "V2X Communication Solutions",
         content: {
-            heading: "Best Security Standards",
-            description: "According to Perforce, 30% of automotive tech companies prioritize security over everything. This is a massive challenge. Yet, to us it’s an opportunity of the same magnitude. Building robust security systems for these applications is vital to thrive in this competitive market. Therefore, we offer automotive software development services that best align with security standards prescribed for the automotive tech.",
+            heading: "V2X Communication Solutions",
+            description:
+                "Our V2X solutions enable vehicles to communicate with other vehicles, infrastructure, and smart devices, enhancing road safety and traffic management. These systems support cooperative driving, real-time hazard detection, and autonomous driving capabilities, making roads safer and more efficient.",
         },
     },
     {
-        title: "Industry-specific standards",
+        title: "Fleet Telematics & Analytics",
         content: {
-            heading: "Industry-specific standards",
-            description: "As per the World Economic Forum, 90% of unique features for all future cars would be related to software. BitsWits as your development partner aims to capitalize on this exciting opportunity. Our automotive app development team will build solutions that are not only robust in terms of functionality but are essentially in perfect compliance, ticking all boxes for industry tech standards.",
+            heading: "Fleet Telematics & Analytics",
+            description:
+                "We provide fleet telematics systems that track vehicles in real time, monitor fuel consumption, and assess driver performance. These insights allow fleet managers to optimize routes, minimize fuel expenses, improve driver safety, and maintain vehicle health for better overall fleet efficiency.",
         },
     },
     {
-        title: "Scalable Automotive Solutions",
+        title: "Predictive Maintenance Systems",
         content: {
-            heading: "Scalable Automotive Solutions",
-            description: "BitsWits as an automotive software product development company seeks continuity in building high-end automotive applications. Be it around predictive maintenance or creating value in the shape of improved self-driven car control, and performance, we aspire to deliver it all. Along with offering automated decision models, we plan on designing solutions that are easily scalable, inexpensive, yet highly productive for all users.",
+            heading: "Predictive Maintenance Systems",
+            description:
+                "Our predictive maintenance systems use real-time data and machine learning to forecast component wear and failures. This approach enables automakers and fleet operators to schedule maintenance in advance, reduce downtime, and increase vehicle longevity, resulting in improved operational reliability.",
         },
     },
     {
-        title: "Software-Driven Customization",
+        title: "Vehicle Diagnostics & Monitoring",
         content: {
-            heading: "Software-Driven Customization",
-            description: "With increasing demand for personalized driving experiences, software-driven customization has become essential. BitsWits embraces this challenge by offering tailored automotive software solutions that cater to unique customer preferences, ensuring adaptability and a seamless user experience across all platforms.",
+            heading: "Vehicle Diagnostics & Monitoring",
+            description:
+                "Our diagnostics systems monitor critical vehicle components, including engine performance, brake function, and emissions. Real-time alerts and detailed system reports help fleet managers and drivers stay proactive in addressing potential issues, keeping vehicles running at optimal performance levels.",
+        },
+    },
+    {
+        title: "OTA Firmware & Software ",
+        content: {
+            heading: "OTA Firmware & Software ",
+            description:
+                "Our OTA update systems allow manufacturers to remotely deliver firmware and software upgrades, introducing new features, performance enhancements, and security patches without interrupting vehicle operation. This approach ensures vehicles stay current with minimal downtime and maximum user satisfaction.",
         },
     },
 ];
 
 export const FuelingContent1 = {
-    title: "See How You Benefit from Partnering with Us",
-    text: "When it comes to building cutting-edge automotive software solutions, BitsWits is second to none. We’re an automotive software development company showcasing prowess in building rich in-vehicle solutions that are highly secure, super-reliable, and perfectly compliant.",
+    title: "Automotive Software Integration for Enhanced Vehicle Performance",
+    text: "Automotive software integration merges advanced systems with in-vehicle networks, optimizing performance and safety. As one of the leading automotive software development companies, we seamlessly integrate cutting-edge technologies for automakers, OEMs, and fleet operators.",
     FuelingImg1: FuelingImg1.src
 }
 
 export const FuelingList1 = [
     {
-        title: "User-friendly Interface",
-        text: "Our automotive app development services revolve around user-friendliness achieved through enhanced functionality and intuitive software design. Our team is known for building easy-to-navigate menus.",
+        title: "Advanced Diagnostics Tools",
+        text: "We integrate diagnostic tools that provide real-time vehicle health monitoring, fault detection, and predictive maintenance insights, enabling automakers and fleet managers to optimize performance and minimize downtime."
     },
     {
-        title: "Scalable Software Development",
-        text: "With rigorous testing for performance and functionality, BitsWits ensures automotive IT products are ideal for use, and essentially scalable to streamline fleet operations.",
+        title: "Driver and Vehicle Connectivity",
+        text: "Our solutions connect drivers with their vehicles through smart infotainment systems, real-time navigation, and hands-free controls. This seamless connectivity improves driver experience and ensures better communication between onboard systems."
     },
     {
-        title: "Use of Advanced Tech Stack",
-        text: "Our automotive software solutions give you an edge in the world of automotive tech. Some of the top technologies we use are AI, IoT, VR, ML and Analytics.",
+        title: "Fleet Management Integration",
+        text: "We develop fleet management tools that integrate vehicle tracking, fuel consumption monitoring, and driver performance analytics into one platform. This integration improves operational efficiency and simplifies fleet oversight."
     },
     {
-        title: "Collaborative Team Approach",
-        text: "Our automotive software developers hinge on a collaborative approach to project management. With every step in the process, we ensure to prioritize your needs, keeping you at the center of everything that’s going around.",
+        title: "Safety and ADAS Integration",
+        text: "Our expertise in ADAS integration enables the deployment of lane-keeping systems, collision avoidance technology, and adaptive cruise control. These advanced safety systems enhance driver safety and assist in autonomous driving functions."
+    },
+    {
+        title: "Telematics and Data Analytics",
+        text: "We integrate telematics solutions that gather and analyze real-time data from vehicles, helping automakers and fleet managers make data-driven decisions. This system provides actionable insights into vehicle usage, performance, and operational efficiency."
     },
 ];
 
@@ -469,151 +538,159 @@ export const TestimonialSLIDES = [
 ]
 
 export const FuelingContent2 = {
-    title: "Automotive Software Development with the Most Advanced Tech",
-    text: "At BitsWits we offer dedicated automotive software development involving the latest tech stack. To make products that have groundbreaking impact, we engineer solutions that streamline operations, guaranteeing you a trajectory of sustained growth.",
-    subtitle: "Unlock Your Path to Growth with Custom Automotive Software Development",
-    subtext: "BitsWits has a team of self-driven automotive software developers who have the passion to challenge themselves by pursuing innovative solutions to the most burgeoning problems.",
+    title: "Cutting-Edge Technologies We Implement in Automotive Software Development",
+    text: "Our automotive software development experts utilize advanced technologies to deliver high-performance solutions, integrating cutting-edge features that enhance vehicle efficiency, safety, and user experience.",
+    subtitle: "Get Smart Software for Smarter Vehicles!",
+    subtext: "Design automotive systems that change the way your vehicles think and perform.",
     FuelingImg: FuelingImg.src,
     FuelingImg1: FuelingImg1.src
 }
 
 export const FuelingList2 = [
     {
-        title: "Artificial Intelligence",
-        text: "Our automotive software development services leverage AI to build intelligent in-vehicle navigation tools. Plus, there’s even more dedicated focus to predictive maintenance and repair, giving you automated reports and insights on part performance, and maintenance needs. It’s all meant to empower the vehicle to be self-driven in resolving issues.",
+        title: "Artificial Intelligence (AI)",
+        text: "As a leader in automotive software development, we integrate AI to enhance autonomous driving systems, enable predictive maintenance, and improve driver assistance features through real-time decision-making and smart vehicle diagnostics."
     },
     {
-        title: "IoT",
-        text: "Custom automotive software development includes IoT integration for greater connectivity, and convenience. Connect your devices seamlessly with in-vehicle software app, ensuring greater safety and control. Smart connectivity with mobile, internet, and other devices is meant to turn the driver experience into more comfy and delightful.",
+        title: "Internet of Things (IoT)",
+        text: "We utilize IoT to connect vehicles with cloud platforms, enabling real-time data exchange, vehicle-to-everything (V2X) communication, and remote vehicle monitoring for enhanced safety and operational efficiency."
     },
     {
-        title: "ML and Analytics",
-        text: "We as an automotive software development company aims to harness the capabilities of machine learning and data analytics to revolutionize vehicle management and control. Leveraging ML will translate into greater logistics efficiency, minimize carbon footprint, and report data in real-time, paving way for better decision-making.",
+        title: "Blockchain",
+        text: "Blockchain technology in our automotive solutions secures vehicle data, streamlines ownership transfers, and creates transparent, tamper-proof records for maintenance and warranty information, fostering trust and data integrity across the automotive ecosystem."
     },
+    {
+        title: "Advanced Telematics",
+        text: "Our advanced telematics solutions offer real-time tracking, fuel efficiency monitoring, and remote diagnostics. These systems empower fleet managers with data-driven insights to optimize operations and reduce costs."
+    },
+    {
+        title: "Augmented Reality (AR)",
+        text: "We integrate AR into automotive software to enhance navigation systems, offering heads-up displays (HUDs) with real-time traffic data, hazard alerts, and lane guidance, creating a safer and more immersive driving experience."
+    },
+    {
+        title: "Machine Learning (ML)",
+        text: "Our machine learning models analyze vast amounts of vehicle data, allowing predictive analytics that optimize vehicle performance, anticipate component failures, and improve autonomous driving capabilities."
+    }
 ];
 
 export const TechStackContent = {
-    title: "Our Tech Stack For Education App Development",
-    text: "Our tech stack utilizes the latest technology, delivering quality in educational app development.",
+    title: "Our Tech Stack For Automotive Software Development",
+    text: "Our tech stack utilizes the latest technology, delivering quality in automotive software solutions.",
 }
 
 export const TechStackTabs = [
     {
-        title: "Frontend ",
+        title: "Programming Languages",
         content: [
             {
-                heading: "React.js",
+                heading: "C++",
                 img: TAB1_1.src,
             },
             {
-                heading: "Angular",
+                heading: "Python",
                 img: TAB1_2.src,
             },
             {
-                heading: "Vue.js",
+                heading: "Java",
                 img: TAB1_3.src,
             },
             {
-                heading: "HTML5",
+                heading: "Swift (iOS)",
                 img: TAB1_4.src,
             },
             {
-                heading: "CSS3",
+                heading: "Kotlin (Android)",
                 img: TAB1_5.src,
             },
             {
-                heading: "JavaScript",
+                heading: "Rust",
                 img: TAB1_6.src,
-            },
-            {
-                heading: "WordPress",
-                img: TAB1_7.src,
             }
         ],
     },
     {
-        title: "Backend ",
+        title: "Frameworks",
         content: [
             {
-                heading: "Node.js",
+                heading: "AUTOSAR",
                 img: TAB2_1.src,
             },
             {
-                heading: "Python",
+                heading: "ROS (Robot Operating System)",
                 img: TAB2_2.src,
             },
             {
-                heading: "Ruby on Rails",
+                heading: "TensorFlow",
                 img: TAB2_3.src,
             },
             {
-                heading: "Java",
+                heading: "Angular",
                 img: TAB2_4.src,
             },
             {
-                heading: ".NET Core",
+                heading: "Qt",
                 img: TAB2_5.src,
             },
             {
-                heading: "PHP",
+                heading: "OpenCV",
                 img: TAB2_6.src,
             }
         ],
     },
     {
-        title: "Mobile Development",
+        title: "Databases",
         content: [
             {
-                heading: "Swift",
+                heading: "MySQL",
                 img: TAB3_1.src,
             },
             {
-                heading: "Kotlin",
+                heading: "PostgreSQL",
                 img: TAB3_2.src,
             },
             {
-                heading: "React Native",
+                heading: "MongoDB",
                 img: TAB3_3.src,
             },
             {
-                heading: "Flutter",
+                heading: "Oracle",
                 img: TAB3_4.src,
             },
             {
-                heading: "Xamarin",
+                heading: "MS SQL",
                 img: TAB3_5.src,
             },
             {
-                heading: "Ionic",
+                heading: "Cassandra",
                 img: TAB3_6.src,
             }
         ],
     },
     {
-        title: "Database Management",
+        title: "API Integration",
         content: [
             {
-                heading: "MySQL",
+                heading: "OBD-II APIs",
                 img: TAB4_1.src,
             },
             {
-                heading: "PostgreSQL",
+                heading: "HERE Maps",
                 img: TAB4_2.src,
             },
             {
-                heading: "MongoDB",
+                heading: "OpenStreetMap",
                 img: TAB4_3.src,
             },
             {
-                heading: "SQLite",
+                heading: "CarMD",
                 img: TAB4_4.src,
             },
             {
-                heading: "Redis",
+                heading: "Telematics SDK",
                 img: TAB4_5.src,
             },
             {
-                heading: "Oracle",
+                heading: "VIN Decoder APIs",
                 img: TAB4_6.src,
             }
         ],
@@ -622,56 +699,52 @@ export const TechStackTabs = [
         title: "Cloud",
         content: [
             {
-                heading: "AWS",
+                heading: "AWS IoT",
                 img: TAB5_1.src,
             },
             {
-                heading: "Google Cloud Platform",
+                heading: "Microsoft Azure IoT Hub",
                 img: TAB5_2.src,
             },
             {
-                heading: "Microsoft Azure",
+                heading: "Google Cloud Platform",
                 img: TAB5_3.src,
             },
             {
-                heading: "Heroku",
+                heading: "IBM Cloud",
                 img: TAB5_4.src,
             },
             {
                 heading: "DigitalOcean",
                 img: TAB5_5.src,
-            },
-            {
-                heading: "Firebase",
-                img: TAB5_6.src,
             }
         ],
     },
     {
-        title: "Payment Integration",
+        title: "Tools and Technologies",
         content: [
             {
-                heading: "Stripe",
+                heading: "CAN bus",
                 img: TAB6_1.src,
             },
             {
-                heading: "PayPal",
+                heading: "J1939 Protocol",
                 img: TAB6_2.src,
             },
             {
-                heading: "Braintree",
+                heading: "MATLAB",
                 img: TAB6_3.src,
             },
             {
-                heading: "Square",
+                heading: "Jenkins",
                 img: TAB6_4.src,
             },
             {
-                heading: "Authorize.Net",
+                heading: "Docker",
                 img: TAB6_5.src,
             },
             {
-                heading: "Apple Pay",
+                heading: "GitLab",
                 img: TAB6_6.src,
             }
         ],
@@ -679,62 +752,62 @@ export const TechStackTabs = [
 ];
 
 export const IndustriesContent = {
-    title: "Industries We Serve",
-    text: "As a top-grade Flutter development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",
+    title: "Other Industries We Serve",
+    text: "Our extensive expertise spans multiple sectors. As a leading automotive software development company, we deliver industry-specific solutions that drive performance and improve operational efficiency, tailored to meet the evolving needs of each sector.",
 }
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <SocialSVG />,
         title: "Social Media",
         txt: "Our team builds dynamic social media apps with real-time messaging, content sharing, and personalized feeds to boost user engagement and community growth.",
-        url: "#",
+        url: "/social-media-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",
@@ -754,21 +827,53 @@ export const FaqsContent = {
 
 export const FaqsList = [
     {
-        title: "How long does it take to build automotive software?",
-        txt: "We as an automotive software development company see each project as entirely unique from the other. Since each is unique, its timeline for completion can vary, and usually depends upon a range of factors including design, team expertise, complexity of features and much more. Given that the team is working on a basic automotive software project, the timeline for delivery can vary from 4 to 9 months."
+        title: "Do you sign an NDA before starting a project?",
+        txt: "Yes, we sign a Non-Disclosure Agreement (NDA) to ensure your sensitive information and project details remain confidential. We take client privacy very seriously and make sure all data shared during the automotive app development process is fully protected and secure."
     },
     {
-        title: "What is the cost of building automotive software?",
-        txt: "The cost of building a smooth automotive software that comes with all basic features can be between $35000 and $50000. However, this is just the starting point. The value for an custom automotive software development project can even go up to $500000, given that the client requires high level of complex features, and integrations. To get a more precise estimate for the pricing, make sure to sign up for our consultation for automotive software development services."
+        title: "How long does it take to develop automotive software?",
+        txt: "The development time varies based on the complexity and scope of the project. On average, custom automotive software development can take anywhere from 3 to 9 months. We follow an agile process to ensure timely delivery while accommodating any necessary revisions."
     },
     {
-        title: "Do you assure complete confidentiality and security of the client’s automotive software development idea?",
-        txt: "Yes, BitsWits guarantees complete continentality for client data, and project vision. For years, BitsWits has been in the business of software development for automotive industry. We’re trusted for our work. We even sign a strict NDA to confine our professional interest to client project, thus prioritizing client goals above everything else. Through NDA, we’re always ensuring that all data, and information related to client’s project is secured."
+        title: "What is the cost of developing automotive software?",
+        txt: "The cost depends on the software’s features, complexity, and integration requirements. A basic solution may start around $20,000, while more complex systems involving advanced diagnostics, telematics, or AI-driven features may cost significantly more. We offer detailed cost breakdowns during the consultation."
     },
     {
-        title: "What programming language is used in the automotive industry?",
-        txt: "The automotive industry widely uses C/C++ as popular programming languages to build in-vehicle software applications. One major reason why companies use C/C++ is because these languages are simple, and highly familiar among software engineers as it enables them to build robust automotive software development solutions by writing low-level codes."
-    }
+        title: "Can you integrate third-party APIs into automotive software?",
+        txt: "Absolutely! We have extensive experience integrating third-party APIs, including telematics, mapping, and diagnostic tools, to enhance the functionality of your automotive software. We ensure all integrations work seamlessly with your existing systems and meet your business needs."
+    },
+    {
+        title: "Do you develop both iOS and Android automotive apps?",
+        txt: "Yes, we develop automotive apps for both iOS and Android platforms. Our team specializes in creating cross-platform solutions that deliver consistent performance across different devices, ensuring a seamless user experience for drivers and fleet managers alike."
+    },
+    {
+        title: "How do you ensure the software meets automotive industry standards?",
+        txt: "We adhere to automotive industry standards such as ISO 26262, AUTOSAR, and OBD-II protocols. Our team works closely with clients to ensure compliance with these standards, ensuring safety, reliability, and compatibility with various vehicle systems."
+    },
+    {
+        title: "Can your software integrate with existing vehicle systems?",
+        txt: "Yes, we specialize in developing automotive software that integrates seamlessly with existing vehicle systems such as ECUs, infotainment systems, and diagnostic tools. We ensure that our solutions enhance the vehicle’s overall functionality without disrupting existing operations."
+    },
+    {
+        title: "Do you offer scalability in your automotive software solutions?",
+        txt: "Yes, our software development for automotive is designed with scalability in mind. Whether you need to expand your fleet, add new vehicles, or implement additional features, we build flexible systems that can grow with your business and adapt to future needs."
+    },
+    {
+        title: "What types of vehicles can your software support?",
+        txt: "Our automotive software solutions are designed for a wide range of vehicles, including electric vehicles (EVs), hybrid cars, trucks, and even autonomous vehicles. We customize software based on specific vehicle requirements and system architecture."
+    },
+    {
+        title: "Do you provide software testing for vehicle compliance?",
+        txt: "Yes, we conduct comprehensive testing to ensure the software complies with automotive industry standards like ISO 26262 and meets regulatory requirements. Our testing processes include stress tests, real-world simulations, and integration tests with in-vehicle systems."
+    },
+    {
+        title: "What level of control will I have over the software development process?",
+        txt: "We offer full transparency throughout the software development lifecycle. You'll be involved in key decision-making processes, receive regular updates, and have the opportunity to provide feedback during each phase of the project."
+    },
+    {
+        title: "How do you handle data privacy and user security in automotive software?",
+        txt: "We implement stringent data privacy protocols, using encrypted communications, secure authentication, and role-based access control to protect sensitive vehicle and user data. Compliance with industry security standards ensures that your software remains safe from cyber threats."
+    },
 ];
 
 export const BlogsContent = {

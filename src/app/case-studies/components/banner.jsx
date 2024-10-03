@@ -7,7 +7,7 @@ const Banner = ({ data }) => {
         <section className={`${styles.singleProject}`}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col xxl={5} lg={5} md={7} className="m-auto text-center">
+                    <Col xxl={6} lg={6} md={7} className="m-auto text-center">
                         <div className={styles.smallTxt}>{data?.subtitle}</div>
                         <h1>{data?.title}</h1>
                         <ButtonCommon txt="Book a Call" />

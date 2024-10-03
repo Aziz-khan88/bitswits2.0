@@ -10,11 +10,11 @@ const HomeServices = ({data, list}) => {
         <section className={`${styles.homeServices} p-100`}>
             <Container>
                 <Row>
-                    <Col lg={7} md={7}>
+                    <Col lg={6} md={7}>
                         <div className="subTitle txtColor">{data?.subtitle}</div>
                         <h2>{data?.title}</h2>
                     </Col>
-                    <Col lg={5} md={5} className="mt-auto">
+                    <Col lg={5} md={5} className="my-auto offset-lg-1">
                         <p>{data?.content}</p>
                     </Col>
                 </Row>

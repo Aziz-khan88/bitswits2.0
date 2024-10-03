@@ -1,10 +1,19 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/bgBanner.webp";
+import BanngBg from "media/industry/social/bgBanner.webp";
+// IndustryCta Images
+import IndustryCtaImg from "media/industry/social/ctaImage.webp"
+
 
 // Location Images
-import IndustrySliderIMG01 from "media/industry/imgBox.webp"
+import IndustrySliderIMG01 from "media/industry/social/industry/industry01.webp"
+import IndustrySliderIMG02 from "media/industry/social/industry/industry02.webp"
+import IndustrySliderIMG03 from "media/industry/social/industry/industry03.webp"
+import IndustrySliderIMG04 from "media/industry/social/industry/industry04.webp"
+import IndustrySliderIMG05 from "media/industry/social/industry/industry05.webp"
+import IndustrySliderIMG06 from "media/industry/social/industry/industry06.webp"
+
 
 //========= Technologies Images
 import TechIcon01 from "media/services/tech/1.webp"
@@ -15,13 +24,19 @@ import TechIcon05 from "media/services/tech/5.webp"
 import TechIcon06 from "media/services/tech/6.webp"
 import TechIcon07 from "media/services/tech/7.webp"
 import TechIcon08 from "media/services/tech/8.webp"
-import TechImg from "media/services/techImg.webp"
+import TechImg from "media/industry/social/techImg.webp"
 
 //========= Process Images
-import IMG from "media/services/process/tab01.webp"
+import Process01 from "media/industry/process/process01.webp"
+import Process02 from "media/industry/process/process02.webp"
+import Process03 from "media/industry/process/process03.webp"
+import Process04 from "media/industry/process/process04.webp"
+import Process05 from "media/industry/process/process05.webp"
+import Process06 from "media/industry/process/process06.webp"
+import Process07 from "media/industry/process/process07.webp"
 
 //========= WhyChoose Images
-import { WhyChooseIcon01, WhyChooseIcon02, WhyChooseIcon03, WhyChooseIcon04 } from "@/src/app/app-constants"
+import { SocailIcon01, SocailIcon02, SocailIcon03, SocailIcon04 } from "@/src/app/app-constants"
 
 //========= Testimonial Images
 import TestiImg1 from "media/services/reviwes/trustpilot.webp"
@@ -35,49 +50,53 @@ import KateBullock from "media/services/reviwes/KateBullock.webp"
 
 //========= Fueling Images
 import FuelingImg from "media/services/cuttingEdge.webp"
-import FuelingImg1 from "media/industry/fuelingImg.webp"
+import FuelingImg1 from "media/industry/social/fuelingImg.webp"
 
 
 //========= TechStack Images
-import TAB1_1 from "media/services/tech/tab1/01.webp";
-import TAB1_2 from "media/services/tech/tab1/02.webp";
-import TAB1_3 from "media/services/tech/tab1/03.webp";
-import TAB1_4 from "media/services/tech/tab1/01.webp";
-import TAB1_5 from "media/services/tech/tab1/02.webp";
-import TAB1_6 from "media/services/tech/tab1/03.webp";
-import TAB2_1 from "media/services/tech/tab2/01.webp";
-import TAB2_2 from "media/services/tech/tab2/01.webp";
-import TAB2_3 from "media/services/tech/tab2/03.webp";
-import TAB2_4 from "media/services/tech/tab2/04.webp";
-import TAB2_5 from "media/services/tech/tab2/05.webp";
-import TAB2_6 from "media/services/tech/tab2/05.webp";
-import TAB3_1 from "media/services/tech/tab3/01.webp";
-import TAB3_2 from "media/services/tech/tab3/02.webp";
-import TAB3_3 from "media/services/tech/tab3/03.webp";
-import TAB3_4 from "media/services/tech/tab3/01.webp";
-import TAB3_5 from "media/services/tech/tab3/02.webp";
-import TAB3_6 from "media/services/tech/tab3/03.webp";
-import TAB4_1 from "media/services/tech/tab4/01.webp";
-import TAB4_2 from "media/services/tech/tab4/02.webp";
-import TAB4_3 from "media/services/tech/tab4/03.webp";
-import TAB4_4 from "media/services/tech/tab4/04.webp";
-import TAB4_5 from "media/services/tech/tab4/04.webp";
-import TAB4_6 from "media/services/tech/tab4/04.webp";
-import TAB5_1 from "media/services/tech/tab5/01.webp";
-import TAB5_2 from "media/services/tech/tab5/02.webp";
-import TAB5_3 from "media/services/tech/tab5/03.webp";
-import TAB5_4 from "media/services/tech/tab5/04.webp";
-import TAB5_5 from "media/services/tech/tab5/03.webp";
-import TAB5_6 from "media/services/tech/tab5/04.webp";
-import TAB6_1 from "media/services/tech/tab6/01.webp";
-import TAB6_2 from "media/services/tech/tab6/02.webp";
-import TAB6_3 from "media/services/tech/tab6/03.webp";
-import TAB6_4 from "media/services/tech/tab6/04.webp";
-import TAB6_5 from "media/services/tech/tab6/02.webp";
-import TAB6_6 from "media/services/tech/tab6/03.webp";
+import TAB1_1 from "media/industry/techstack/Reactjs.svg";
+import TAB1_2 from "media/industry/techstack/Angular.svg";
+import TAB1_3 from "media/industry/techstack/Vuejs.svg";
+import TAB1_4 from "media/industry/techstack/HTML5.svg";
+import TAB1_5 from "media/industry/techstack/CSS3.svg";
+import TAB1_6 from "media/industry/techstack/JavaScript.svg";
+import TAB2_1 from "media/industry/techstack/Nodejs.svg";
+import TAB2_2 from "media/industry/techstack/Python.svg";
+import TAB2_3 from "media/industry/techstack/RubyOnRails.svg";
+import TAB2_4 from "media/industry/techstack/Java.svg";
+import TAB2_5 from "media/industry/techstack/DotNET.svg";
+import TAB2_6 from "media/industry/techstack/PHP.svg";
+
+import TAB3_1 from "media/industry/techstack/Swift.svg";
+import TAB3_2 from "media/industry/techstack/Kotlin.svg";
+import TAB3_3 from "media/industry/techstack/ReactNative.svg";
+import TAB3_4 from "media/industry/techstack/Flutter.svg";
+import TAB3_5 from "media/industry/techstack/Xamarin.svg";
+import TAB3_6 from "media/industry/techstack/Ionic.svg";
+
+import TAB4_1 from "media/industry/techstack/MySQL.svg";
+import TAB4_2 from "media/industry/techstack/PostgreSQL.svg";
+import TAB4_3 from "media/industry/techstack/MongoDB.svg";
+import TAB4_4 from "media/industry/techstack/SQLite.svg";
+import TAB4_5 from "media/industry/techstack/Redis.svg";
+import TAB4_6 from "media/industry/techstack/Oracle.svg";
+
+import TAB5_1 from "media/industry/techstack/AWS.svg";
+import TAB5_2 from "media/industry/techstack/GoogleCloudPlatform.svg";
+import TAB5_3 from "media/industry/techstack/MicrosoftAzure.svg";
+import TAB5_4 from "media/industry/techstack/Heroku.svg";
+import TAB5_5 from "media/industry/techstack/DigitalOcean.svg";
+import TAB5_6 from "media/industry/techstack/Firebase.svg";
+
+import TAB6_1 from "media/industry/techstack/Stripe.svg";
+import TAB6_2 from "media/industry/techstack/PayPal.svg";
+import TAB6_3 from "media/industry/techstack/Braintree.svg";
+import TAB6_4 from "media/industry/techstack/Square.svg";
+import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
+import TAB6_6 from "media/industry/techstack/ApplePay.svg";
 
 //========= Industries Images
-import { Icon01, Icon02, Icon03, Icon04, Icon05, Icon06, Icon07, Icon08 } from "@/src/app/app-constants";
+import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, MusicSVG, RealEstateSVG, RideHailingSVG, TravelSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
 import Fintech from "media/services/industry/Fintech.webp";
 import Healthcare from "media/services/industry/Healthcare.webp";
@@ -93,7 +112,7 @@ import BlogsIMG02 from "media/services/blogs/post-2.webp"
 import BlogsIMG03 from "media/services/blogs/post-3.webp"
 
 
-export const BannerData = { 
+export const BannerData = {
     title: "Transform Engagement with a Leading Social Media App Development Company",
     content: "We create feature-rich social media applications that have 100 million Monthly Average Users (MAUs). Our social media app developers use modern coding practices to develop user-friendly social media apps that directly compete with social juggernauts like Meta, X, and YouTube. ",
     BanngBg: BanngBg.src,
@@ -132,6 +151,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
+    image: IndustryCtaImg.src,
     title: "Develop Your Next Viral Social Media Platform!",
     text: "Schedule a free discovery call to explore how our UX-driven approach creates exceptional social networking apps that keep users engaged!",
 }
@@ -148,27 +168,27 @@ export const IndustrySliderList = [
         txt: "Develop a social publishing app like X, Instagram, or Threads, empowering users to share content and monetize their platform. Offer a seamless, user-friendly experience designed specifically for modern content creators."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG02.src,
         title: "Instant Messaging App",
         txt: "With our on-demand social media app development, build the next WhatsApp to help users instantly connect with family and friends, creating a seamless communication platform for meaningful connections."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG03.src,
         title: "Q/A Platforms",
         txt: "As a leading social media app development company, we build Q/A platforms like Reddit and Quora, enabling users to share knowledge, engage in discussions, and connect with like-minded communities."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG04.src,
         title: "Relationship-Building or Dating Apps",
         txt: "Connect securely and build relationships on our mobile dating apps with advanced verification and geolocation, ensuring user safety and a seamless experience for meaningful connections."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG05.src,
         title: "Social Network Analytic Tools",
         txt: "Our social media app developers create custom social networking analytics tools, providing businesses with valuable data insights. These tailored solutions empower you to optimize engagement and drive informed decisions for your platform."
     },
     {
-        img: IndustrySliderIMG01.src,
+        img: IndustrySliderIMG06.src,
         title: "Social Gaming Apps",
         txt: "We can help you develop social gaming apps that enhance user engagement and maximize revenue potential by integrating social features with dynamic gameplay for increased interaction and monetization."
     }
@@ -208,7 +228,7 @@ export const ExpertiseList1 = [
         title: "User Base Management",
         txt: "User base management provides an admin panel within social media app development services, allowing for effective supervision and control of the app’s user base."
     },
-    
+
 ];
 
 export const ExpertiseList2 = [
@@ -245,10 +265,10 @@ export const ExpertiseList2 = [
 export const TechnologiesContent = {
     title: "Hire Top Developers for Your Social Media Apps",
     text: (<>
-    <p>Developers at BitsWits are skilled in creating <strong>social media apps</strong> using technologies like React Native, Swift, Kotlin, and Flutter. </p>
-    <p>They develop solutions for content sharing, messaging, real-time notifications, and user engagement features. </p>
-    <p>With a focus on interactive and scalable designs, our team builds apps that enhance community interaction and maintain high levels of user engagement.</p>
-    <p>Use the free cost calculator by BitsWits to get a detailed estimate.</p>
+        <p>Developers at BitsWits are skilled in creating <strong>social media apps</strong> using technologies like React Native, Swift, Kotlin, and Flutter. </p>
+        <p>They develop solutions for content sharing, messaging, real-time notifications, and user engagement features. </p>
+        <p>With a focus on interactive and scalable designs, our team builds apps that enhance community interaction and maintain high levels of user engagement.</p>
+        <p>Use the free cost calculator by BitsWits to get a detailed estimate.</p>
     </>),
 
     TechImg: TechImg.src
@@ -300,7 +320,7 @@ export const ProcessTabs = [
         content: {
             heading: "Project Planning",
             description: "In the project planning stage of our social media app development services, we establish the purpose and parameters of your app. Our social media app development process starts with a target audience analysis and defining key features like real-time interactions, push notifications, and user-generated content moderation. We identify the best platforms, tech stack, and API integrations to support scalable social network infrastructures.",
-            imgSrc: IMG.src,
+            imgSrc: Process01.src,
         },
     },
     {
@@ -308,7 +328,7 @@ export const ProcessTabs = [
         content: {
             heading: "Design",
             description: "As a top-grade social media app development company, our design phase focuses on developing an intuitive UI/UX, optimized for multi-platform responsiveness. Prototypes are created to showcase features like in-app messaging, customizable user profiles, and content-sharing mechanisms. User testing is conducted to refine the design and enhance engagement.",
-            imgSrc: IMG.src,
+            imgSrc: Process02.src,
         },
     },
     {
@@ -316,7 +336,7 @@ export const ProcessTabs = [
         content: {
             heading: "Development",
             description: "Our social media app developers build on both frontend and backend, using microservices architecture and integrating core features such as live chat, news feeds, and social graph algorithms. We also ensure API integration with third-party services like OAuth for seamless login and social media plugins for cross-platform sharing.",
-            imgSrc: IMG.src,
+            imgSrc: Process03.src,
         },
     },
     {
@@ -324,7 +344,7 @@ export const ProcessTabs = [
         content: {
             heading: "App Testing",
             description: "We run extensive load testing, security audits, and API validation to ensure the app can handle high volumes of traffic and is secure against breaches. Automated testing tools are used for end-to-end verification, ensuring all functionalities are stable and scalable.",
-            imgSrc: IMG.src,
+            imgSrc: Process04.src,
         },
     },
     {
@@ -332,7 +352,7 @@ export const ProcessTabs = [
         content: {
             heading: "Deployment",
             description: "The deployment phase covers all platform-specific guidelines and app store compliance. Our team handles the final app release, ensuring it meets the guidelines for App Store Optimization (ASO) and that your app is readily discoverable by the target audience.",
-            imgSrc: IMG.src,
+            imgSrc: Process05.src,
         },
     },
     {
@@ -340,7 +360,7 @@ export const ProcessTabs = [
         content: {
             heading: "Launch",
             description: "We launch an MVP or beta version to gather real-time user feedback. Features like user engagement analytics, social activity tracking, and A/B testing help refine the app before the final release, ensuring it aligns with user behavior.",
-            imgSrc: IMG.src,
+            imgSrc: Process06.src,
         },
     },
     {
@@ -348,7 +368,7 @@ export const ProcessTabs = [
         content: {
             heading: "Maintenance and Support",
             description: "Post-launch, we provide continuous updates, including algorithm improvements, feature enhancements, and bug fixes. Our team ensures the app stays compliant with platform updates and maintains social media trends like live streaming and influencer integration.",
-            imgSrc: IMG.src,
+            imgSrc: Process07.src,
         },
     }
 ];
@@ -360,12 +380,12 @@ export const WhyChooseContent = {
 
 export const WhyChooseList1 = [
     {
-        Icon: <WhyChooseIcon04 />, 
+        Icon: <SocailIcon01 />,
         title: (<>Agile Process for <br /> Social Ecosystems </>),
         description: "As a leading social media app development company, we utilize agile processes to optimize practices and deliver the best outcomes.",
     },
     {
-        Icon: <WhyChooseIcon02 />, 
+        Icon: <SocailIcon02 />,
         title: (<>Dedicated  <br />Developers</>),
         description: "Our social media app developers specialize in API integrations, real-time messaging, and social networking algorithms, delivering custom solutions with the latest technologies.",
     },
@@ -373,12 +393,12 @@ export const WhyChooseList1 = [
 
 export const WhyChooseList2 = [
     {
-        Icon: <WhyChooseIcon04 />, 
+        Icon: <SocailIcon03 />,
         title: (<>Data Security <br />and Privacy </>),
         description: "Our social app solutions are built with GDPR-compliant security, utilizing encrypted communication protocols and advanced user privacy features to safeguard sensitive user information.",
     },
     {
-        Icon: <WhyChooseIcon02 />, 
+        Icon: <SocailIcon04 />,
         title: (<>Proven <br />Track Record</>),
         description: "With a history of delivering successful social media projects, our track record includes apps with high daily active user engagement and seamless scalability.",
     },
@@ -537,26 +557,26 @@ export const TechStackContent = {
 
 export const TechStackTabs = [
     {
-        title: "Programming Languages",
+        title: "Frontend",
         content: [
             {
-                heading: "Kotlin",
+                heading: "React.js",
                 img: TAB1_1.src,
             },
             {
-                heading: "Java",
+                heading: "Angular",
                 img: TAB1_2.src,
             },
             {
-                heading: "Swift",
+                heading: "Vue.js",
                 img: TAB1_3.src,
             },
             {
-                heading: "Objective-C",
+                heading: "HTML5",
                 img: TAB1_4.src,
             },
             {
-                heading: "Dart",
+                heading: "CSS3",
                 img: TAB1_5.src,
             },
             {
@@ -566,132 +586,148 @@ export const TechStackTabs = [
         ],
     },
     {
-        title: "Notifications",
+        title: "Backend",
         content: [
             {
-                heading: "Google Cloud Messaging",
+                heading: "Node.js",
                 img: TAB2_1.src,
             },
             {
-                heading: "Apple Push Notifications",
+                heading: "Python",
                 img: TAB2_2.src,
             },
             {
-                heading: "Firebase Cloud Messaging",
+                heading: "Ruby on Rails",
                 img: TAB2_3.src,
             },
             {
-                heading: "OneSignal",
+                heading: "Java",
                 img: TAB2_4.src,
-            }
+            },
+            {
+                heading: ".NET Core",
+                img: TAB2_5.src,
+            },
+            {
+                heading: "PHP ",
+                img: TAB2_6.src,
+            },
         ],
     },
     {
-        title: "Database Management",
+        title: "Mobile Development",
         content: [
             {
-                heading: "MongoDB",
+                heading: "Swift",
                 img: TAB3_1.src,
             },
             {
-                heading: "SQL",
+                heading: "Kotlin ",
                 img: TAB3_2.src,
             },
             {
-                heading: "MySQL",
+                heading: "React Native",
                 img: TAB3_3.src,
             },
             {
-                heading: "Core Data",
+                heading: "Flutter",
                 img: TAB3_4.src,
             },
             {
-                heading: "SQLite",
+                heading: "Xamarin",
                 img: TAB3_5.src,
             },
             {
-                heading: "Firebase Realtime Database",
+                heading: "Ionic",
                 img: TAB3_6.src,
-            }
+            },
         ],
     },
     {
-        title: "Storage",
+        title: "Database",
         content: [
             {
-                heading: "Amazon S3",
+                heading: "MySQL",
                 img: TAB4_1.src,
             },
             {
-                heading: "Azure Server",
+                heading: "PostgreSQL",
                 img: TAB4_2.src,
             },
             {
-                heading: "iCloud",
+                heading: "MongoDB",
                 img: TAB4_3.src,
             },
             {
-                heading: "Google Cloud Storage",
+                heading: "SQLite",
                 img: TAB4_4.src,
             },
             {
-                heading: "Firebase Storage",
+                heading: "Redis",
                 img: TAB4_5.src,
-            }
+            },
+            {
+                heading: "Oracle",
+                img: TAB4_6.src,
+            },
         ],
     },
     {
-        title: "IDE",
+        title: "Cloud Platforms",
         content: [
             {
-                heading: "Android Studio",
+                heading: "AWS ",
                 img: TAB5_1.src,
             },
             {
-                heading: "Xcode",
+                heading: "Google Cloud Platform",
                 img: TAB5_2.src,
             },
             {
-                heading: "Xamarin",
+                heading: "Microsoft Azure",
                 img: TAB5_3.src,
             },
             {
-                heading: "Visual Studio",
+                heading: "Heroku",
                 img: TAB5_4.src,
             },
             {
-                heading: "IntelliJ IDEA",
+                heading: "DigitalOcean",
                 img: TAB5_5.src,
-            }
+            },
+            {
+                heading: "Firebase",
+                img: TAB5_6.src,
+            },
         ],
     },
     {
-        title: "Analytics",
+        title: "Integration Services",
         content: [
             {
-                heading: "Azure Stream Analytics",
+                heading: "Google Maps API",
                 img: TAB6_1.src,
             },
             {
-                heading: "MixPanel",
+                heading: "MLS Integration",
                 img: TAB6_2.src,
             },
             {
-                heading: "App Analytics",
+                heading: "Property Listing APIs",
                 img: TAB6_3.src,
             },
             {
-                heading: "Firebase Analytics",
+                heading: "Payment Gateways ",
                 img: TAB6_4.src,
             },
             {
-                heading: "Flurry",
+                heading: "CRM Systems",
                 img: TAB6_5.src,
             },
             {
-                heading: "Google Analytics for Firebase",
+                heading: "Data Analytics Tools",
                 img: TAB6_6.src,
-            }
+            },
         ],
     }
 ];
@@ -703,56 +739,56 @@ export const IndustriesContent = {
 
 export const IndustriesList = [
     {
-        icon: <Icon01 />,
+        icon: <EcommerceSVG />,
         title: "Ecommerce",
         txt: "We at BitsWits create powerful e-commerce apps, transforming your business with seamless shopping experiences and robust sales platforms.",
-        url: "#",
+        url: "/ecommerce-app-development",
         img: Ecommerce.src,
     },
     {
-        icon: <Icon02 />,
+        icon: <FintechSVG />,
         title: "Fintech",
         txt: "We develop mobile banking, investment tracking, and finance management apps with real-time data and strong security for streamlined operations.",
-        url: "#",
+        url: "/fintech-app-development",
         img: Fintech.src,
     },
     {
-        icon: <Icon03 />,
+        icon: <HealthcareSVG />,
         title: "Healthcare",
         txt: "We create custom mobile apps designed to enhance healthcare delivery, patient care, and medical management efficiency.",
-        url: "#",
+        url: "/healthcare-app-development-services",
         img: Healthcare.src,
     },
     {
-        icon: <Icon04 />,
+        icon: <EducationSVG />,
         title: "Education",
         txt: "We revolutionize education with apps for online learning, virtual classrooms, and management systems, enriching experiences for students and educators.",
-        url: "#",
+        url: "/education-app-development",
         img: Education.src,
     },
     {
-        icon: <Icon05 />,
+        icon: <MusicSVG />,
         title: "Music",
         txt: "Music apps with streaming, personalized playlists, and social sharing. Elevate listening experiences, enabling seamless music discovery, enjoyment, and interaction.",
-        url: "#",
+        url: "/music-app-development-company",
         img: SocialMarketing.src,
     },
     {
-        icon: <Icon06 />,
+        icon: <RealEstateSVG />,
         title: "Real Estate",
         txt: "We develop apps for real estate, including property listings, virtual tours, and client management, enhancing user experience and transaction efficiency.",
-        url: "#",
+        url: "/real-estate-app-development-company",
         img: RealEstate.src,
     },
     {
-        icon: <Icon07 />,
+        icon: <RideHailingSVG />,
         title: "Ride-hailing",
         txt: "Our ride-hailing apps provide seamless booking, real-time tracking, and smooth driver-passenger interactions for an efficient ride experience.",
         url: "#",
         img: RideHailing.src,
     },
     {
-        icon: <Icon08 />,
+        icon: <TravelSVG />,
         title: "Travel",
         txt: "We design user-friendly travel apps tailored to enhance booking experiences, navigation, and personalized travel itineraries.",
         url: "#",
