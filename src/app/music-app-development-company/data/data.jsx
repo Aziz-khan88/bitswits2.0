@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/music/bgBanner.webp";
+import BannerBg from "media/industry/music/bgBanner.webp";
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/music/ctaImage.webp"
 // Location Images
@@ -107,7 +107,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Music App Development Company for High-Performance Streaming Apps",
     content: "Say hello to next-gen music app development services. Build your music streaming paradise to compete with giants like Spotify, and Apple Music. Connect with millions of souls excited to groove to their favorite music through your own music app. .",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -693,7 +693,6 @@ export const TechStackTabs = [
         ],
     }
 ];
-
 export const IndustriesContent = {
     title: "Industries We Serve",
     text: "As a top-grade music app development agency, we deliver solutions for a wide range of industries, addressing specific challenges and driving growth across various sectors.",

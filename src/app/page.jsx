@@ -1,5 +1,5 @@
 import {
-  BannerData, CompanyInfoContent, HomeServicesContent, 
+  BannerData, CompanyInfoContent, HomeServicesContent,
   HomeServicesList, CaseStudyContent, ExtendedServicesContent,
   ExtendedServicesList, ProcessContent, ProcessList,
   TestimonialContent, TestimonialSLIDES, SolutionsContent,
@@ -27,18 +27,18 @@ const OPTIONS = { loop: true, align: 'center' }
 export default function Page() {
   return (
     <>
-      <Banner data={BannerData}/>
-      <CompanyInfo data={CompanyInfoContent}/>
-      <HomeServices data={HomeServicesContent} list={HomeServicesList}/>
-      <CaseStudy data={CaseStudyContent}/>
-      <ExtendedServices data={ExtendedServicesContent} list={ExtendedServicesList}/>
-      <DigitalCta data={DigitalCtaContent}/>
-      <Process data={ProcessContent} list={ProcessList}/>
-      <Testimonial data={TestimonialContent} list={TestimonialSLIDES}/>
-      <Solutions data={SolutionsContent} list={SolutionsList}/>
-      <Engagement data={EngagementContent} listDetail={EngagementDetailList} list={EngagementList}/>
+      <Banner data={BannerData} />
+      <CompanyInfo data={CompanyInfoContent} />
+      <HomeServices data={HomeServicesContent} list={HomeServicesList} />
+      <CaseStudy data={CaseStudyContent} />
+      <ExtendedServices data={ExtendedServicesContent} list={ExtendedServicesList} />
+      <DigitalCta data={DigitalCtaContent} />
+      <Process data={ProcessContent} list={ProcessList} />
+      <Testimonial data={TestimonialContent} list={TestimonialSLIDES} />
+      <Solutions data={SolutionsContent} list={SolutionsList} />
+      <Engagement data={EngagementContent} listDetail={EngagementDetailList} list={EngagementList} />
       <Industries data={IndustriesContent} slides={IndustriesSLIDES} options={OPTIONS} />
-      <Faqs data={FaqsContent} list={FaqsList}/>
+      <Faqs data={FaqsContent} list={FaqsList} />
       <IdeaCta data={IdeaCtaContent} />
     </>
   );

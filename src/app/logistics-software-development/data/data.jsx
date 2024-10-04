@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/logistics/bgBanner.webp";
+import BannerBg from "media/industry/logistics/bgBanner.webp";
 
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/logistics/ctaImage.webp"
@@ -112,7 +112,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Future-Ready Logistics Software Development Company for Efficient Systems",
     content: "BitsWits is a results-focused logistics software development company committed to streamlining workflows, reducing costs, and overcoming operational challenges. We optimize transportation processes and fleet management, helping your logistics operations run smoothly and efficiently for enhanced overall productivity.",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {

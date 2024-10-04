@@ -22,24 +22,6 @@
         z-index: -1;
     }
 
-    &.whiteNav {
-        background: transparent;
-
-        &::after {
-            display: block;
-        }
-
-        li {
-            a {
-                color: #fff;
-
-                &:hover {
-                    transition: .3s linear;
-                    color: #F32FAF;
-                }
-            }
-        }
-    }
 
     li {
         height: 100%;
@@ -50,7 +32,7 @@
         a {
             font-size: 16px;
             font-weight: 500;
-            color: #000;
+            color: #fff;
             line-height: normal;
             transition: .3s linear;
 
@@ -82,6 +64,7 @@
 
                 a {
                     color: #fff;
+
                 }
             }
         }
@@ -278,6 +261,44 @@
                 }
             }
 
+        }
+    }
+
+    &.blackNav {
+        background: transparent;
+
+        &::after {
+            display: block;
+        }
+
+        li {
+            a {
+                color: #000;
+
+                &:hover {
+                    transition: .3s linear;
+                    color: #F32FAF;
+                }
+            }
+        }
+    }
+
+    &.whiteNav {
+        background: transparent;
+
+        &::after {
+            display: block;
+        }
+
+        li {
+            a {
+                color: #fff;
+
+                &:hover {
+                    transition: .3s linear;
+                    color: #F32FAF;
+                }
+            }
         }
     }
 

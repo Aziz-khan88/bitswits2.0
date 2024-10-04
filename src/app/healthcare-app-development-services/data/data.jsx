@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/health/bgBanner.webp";
+import BannerBg from "media/industry/health/bgBanner.webp";
 
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/health/ctaImage.webp"
@@ -100,7 +100,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Top-Rated Healthcare App Development Company For Patient-Centered Solutions",
     content: "Doctors and healthcare providers trust us as a leading healthcare app development company with 10+ years of expertise. Our custom apps streamline scheduling, secure patient data, ensure HIPAA compliance, and meet your unique needs—so you can focus on patient care.",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {

@@ -32,7 +32,7 @@ const LocationList = [
         phone: "+1 833 500 6007",
         email: "info@bitswits.co",
         img: Houston.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/onTtH6csSWJu2gAb7"
     },
     {
         state: "Chicago",
@@ -40,15 +40,15 @@ const LocationList = [
         phone: "+1 210 294 9230",
         email: "info@bitswits.co",
         img: Chicago.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/VH6Dkp1J2wtNvLBC6"
     },
     {
         state: "Dubai",
-        add: "Offaaaaaa 1402, JBC 3 Cluster Y, Jumeirah Lake Towers Dubai UAE",
+        add: "Office 1402, JBC 3 Cluster Y, Jumeirah Lake Towers Dubai UAE",
         phone: "+971 55 503 1266",
         email: "info@bitswits.co",
         img: Dubai.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/NzJaVuqgdpLYyaT28"
     },
     {
         state: "Los Angeles",
@@ -56,7 +56,7 @@ const LocationList = [
         phone: "+1 210 294 9230",
         email: "info@bitswits.co",
         img: LosAngeles.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/ot7knKM1rXFFjpKMA"
     },
     {
         state: "Miami",
@@ -64,7 +64,7 @@ const LocationList = [
         phone: "+1 302 216 8231",
         email: "info@bitswits.co",
         img: Miami.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/sZDSxoSewEBHY1z27"
     },
     {
         state: "New York",
@@ -72,7 +72,7 @@ const LocationList = [
         phone: "+1 210 294 9230",
         email: "info@bitswits.co",
         img: NewYork.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/CPdXRcRzGxGRAuNU8"
     },
     {
         state: "San Francisco",
@@ -80,7 +80,7 @@ const LocationList = [
         phone: "+1 210 294 9230",
         email: "info@bitswits.co",
         img: SanFrancisco.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/SzwvHzAKoLgiwWPm7"
     },
     {
         state: "Toronto",
@@ -88,7 +88,7 @@ const LocationList = [
         phone: "+1 302 216 8231",
         email: "info@bitswits.co",
         img: Toronto.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7"
     },
     {
         state: "Dallas",
@@ -96,7 +96,7 @@ const LocationList = [
         phone: "+1 210 294 9230",
         email: "info@bitswits.co",
         img: Dallas.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/i76RsaokYHwn47vU9"
     },
     {
         state: "Qatar",
@@ -104,7 +104,7 @@ const LocationList = [
         phone: "+971 55 503 1266",
         email: "info@bitswits.co",
         img: Qatar.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/qimC1ofuhhu3z512A"
     },
     {
         state: "Bahrain",
@@ -112,7 +112,7 @@ const LocationList = [
         phone: "+971 55 503 1266",
         email: "info@bitswits.co",
         img: Bahrain.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/N52TCmfz7GQbH35m8"
     },
     {
         state: "Pierre",
@@ -120,7 +120,7 @@ const LocationList = [
         phone: "+1 312 379 5987",
         email: "info@bitswits.co",
         img: Pierre.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/YEEuBJKd9GvXuMk18"
     },
     {
         state: "Sharjah",
@@ -128,7 +128,7 @@ const LocationList = [
         phone: "+971 55 503 1266",
         email: "info@bitswits.co",
         img: Sharjah.src,
-        off: "Head Office"
+        pin: "https://maps.app.goo.gl/nbce4oEJoivkzVnt5"
     },
 ]
 
@@ -141,20 +141,19 @@ const Location = () => {
     const nextButtonHandler = () => {
         if (embla) embla.scrollNext();
     };
-
     return (
         <section className={`${styles.locationSection} bgBlack pt-100`}>
             <Container>
                 <Row>
                     <Col lg={12} md={12}>
                         <h2>Our Global Presence</h2>
-                        <div className={styles.embla}>
+                        <section className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
                                     {LocationList.map((item, index) => (
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.locationBox}>
-                                                <div className={styles.imgBox} >
+                                                <div className={styles.imgBox}>
                                                     <Image src={item.img} alt="Houston" fill />
                                                     <div className={styles.locationTitle}>
                                                         {item.state}
@@ -163,9 +162,11 @@ const Location = () => {
 
                                                 <div className={styles.locationContent}>
                                                     <div className={styles.locState}>{item.state}</div>
-                                                    <div className={styles.locAdd}>{item.add}</div>
+                                                    <div className={styles.locAdd}>
+                                                        <a href={item.pin} target='_blank'>{item.add}</a>
+                                                    </div>
                                                     <ul>
-                                                        <li >
+                                                        <li>
                                                             <Link href={`tel:${item.phone}`}>
                                                                 <PhoneIcon />
                                                                 {item.phone}
@@ -192,11 +193,11 @@ const Location = () => {
                                     <ArrowIcon direction="next" />
                                 </div>
                             </div>
-                        </div>
+                        </section>
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section >
     )
 }
 

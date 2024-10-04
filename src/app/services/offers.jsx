@@ -12,17 +12,10 @@ const Offers = ({ bg, tabs, data }) => {
         <section className={`${styles.offerSection} pt-100 ${bg ? 'bgBlack' : 'bgLight'}`}>
             <Container>
                 <Row>
-                <Col lg={6} md={7}>
-                        <div className="subTitle txtColor">{data?.subtitle}</div>
-                        <h2>{data?.title}</h2>
-                    </Col>
-                    <Col lg={5} md={5} className="my-auto offset-lg-1">
-                        <p>{data?.text}</p>
-                    </Col>
-                    {/* <Col xxl={8} xl={7} lg={10} md={12}>
+                    <Col xxl={8} xl={7} lg={10} md={12}>
                         <h2>{data?.title}</h2>
                         <p>{data?.text}</p>
-                    </Col> */}
+                    </Col>
                 </Row>
                 <Row>
                     <Col md={12}>

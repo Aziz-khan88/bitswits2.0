@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap"
 
 const IdeaCta = ({ data }) => {
     return (
-        <section className={`${styles.appideaSection} p-100`} id="Contact">
+        <section className={`${styles.appideaSection} p-50`} id="Contact">
             <Container className='h-100'>
                 <Row className='h-100'>
                     <Col lg={6} md={6} className='m-auto'>

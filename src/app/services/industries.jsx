@@ -8,15 +8,9 @@ import Link from "next/link";
 
 
 const Industries = ({ data, list }) => {
-    // Chat Code
-    const handleChatOpen = (e) => {
-        e.preventDefault();
-        if (typeof $zopim !== 'undefined' && $zopim.livechat && $zopim.livechat.window) {
-            $zopim.livechat.window.show();
-        }
-    };
+
     return (
-        <section className={`${styles.industrySection} pb-100`}>
+        <section className={`${styles.industrySection} p-100`}>
             <Container>
                 <Row>
                     <Col lg={7} md={8} className="text-center m-auto">

@@ -30,6 +30,7 @@
 
             .Link {
                 transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+                cursor: pointer;
 
                 .btnBox {
                     svg {
@@ -140,9 +141,15 @@
                 .title {
                     font-size: 17px;
                     line-height: 27px;
+
+                    br {
+                        display: block;
+                    }
                 }
 
                 .Link {
+
+
                     .btnBox {
                         svg {
                             width: 15px;
@@ -169,6 +176,10 @@
                 .title {
                     font-size: 16px;
                     line-height: 26px;
+
+                    br {
+                        display: block;
+                    }
                 }
 
                 .Link {
@@ -198,6 +209,10 @@
                 .title {
                     font-size: 16px;
                     line-height: 26px;
+
+                    br {
+                        display: block;
+                    }
                 }
 
                 .Link {
@@ -227,6 +242,10 @@
                 .title {
                     font-size: 16px;
                     line-height: 26px;
+
+                    br {
+                        display: block;
+                    }
                 }
 
                 .Link {

@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/fintech/bgBanner.webp";
+import BannerBg from "media/industry/fintech/bgBanner.webp";
 
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/fintech/ctaImage.webp"
@@ -49,7 +49,7 @@ import FuelingImg1 from "media/industry/fintech/fuelingImg.webp"
 //========= TechStack Images
 import TAB1_1 from "media/industry/techstack/HTML5.svg";
 import TAB1_2 from "media/industry/techstack/C++.svg";
-import TAB1_3 from "media/industry/techstack/C#.svg";
+import TAB1_3 from "media/industry/techstack/CHash.svg";
 import TAB1_4 from "media/industry/techstack/JavaScript.svg";
 import TAB1_5 from "media/industry/techstack/Swift.svg";
 import TAB1_6 from "media/industry/techstack/Python.svg";
@@ -97,7 +97,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Leading Fintech App Development Company for Scalable Financial Solutions",
     content: `BitsWits is a top-grade fintech app development company that builds industry-leading fintech applications. Our tried-and-true fintech app development services help entrepreneurs and financial institutions create super-fast, intuitive, and user-centered fintech apps with impregnable security. `,
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -133,7 +133,7 @@ export const IndustryServiceList = [
 ];
 
 export const IndustryCtaContent = {
-    image: IndustryCtaImg.src, 
+    image: IndustryCtaImg.src,
     title: "Transform Your Financial Services with Custom Fintech Apps!",
     text: "Partner with BitsWits to build secure, user-friendly apps that streamline payments, investments, and transactions, boosting your business efficiency and customer trust.",
 }
@@ -146,37 +146,37 @@ export const IndustrySliderContent = {
 export const IndustrySliderList = [
     {
         img: IndustrySliderIMG01.src,
-        title: "Banking App Development ",
+        title: "Banking Apps ",
         txt: "We build fintech apps for banks and financial institutions to deliver unparalleled user experience and facilitate end users with safe and secure transactions and account management. "
     },
     {
         img: IndustrySliderIMG02.src,
-        title: "Wealth Management App Development",
+        title: "Wealth Management Apps",
         txt: "We build wealth management apps for investment tracking, financial planning tools, and portfolio management – allowing seamless asset management and market tracking. "
     },
     {
         img: IndustrySliderIMG03.src,
-        title: "Accounting App Development",
+        title: "Accounting Apps",
         txt: "We build accounting apps that simplify bookkeeping, automate invoicing, and provide real-time financial reporting with detailed, data-driven analysis for greater transparency and accuracy."
     },
     {
         img: IndustrySliderIMG04.src,
-        title: "Digital Wallet App Development",
+        title: "Digital Wallet Apps",
         txt: "We build digital wallet apps that offer secure, contactless payment facilities – with obviously the options to store and manage cards, conduct transactions, and track spending on the go."
     },
     {
         img: IndustrySliderIMG05.src,
-        title: "Crowdfunding App Development",
+        title: "Crowdfunding Apps",
         txt: "We build crowdfunding apps that eliminate the hassle of fundraising startups, nonprofits, and individuals. Launch campaigns, manage contributions, and engage supporters—all in one place."
     },
     {
         img: IndustrySliderIMG04.src,
-        title: "Digital Wallet App Development",
+        title: "Digital Wallet Apps",
         txt: "We build digital wallet apps that offer secure, contactless payment facilities – with obviously the options to store and manage cards, conduct transactions, and track spending on the go."
     },
     {
         img: IndustrySliderIMG06.src,
-        title: "ePayment App Development",
+        title: "ePayment Apps",
         txt: "We build epayment apps that offer fast and secure payment processing for businesses of all sizes – where users can make purchases, send payments, and manage transactions with ease."
     },
 ];
@@ -716,7 +716,7 @@ export const IndustriesList = [
     {
         icon: <AutomotiveSVG />,
         title: "Automotive",
-        txt: "Our automotive solutions focus on enhancing vehicle management, customer service, and dealership operations with custom apps that streamline bookings, maintenance tracking, and user interactions.",
+        txt: "Our custom automotive apps enhance vehicle management, customer service, and dealership efficiency, streamlining bookings, maintenance, and interactions.",
         url: "/automotive-software-development",
         img: Automotive.src,
     },

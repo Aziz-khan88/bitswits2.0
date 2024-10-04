@@ -56,7 +56,7 @@ export const Awards = [
 
 
 const Achieved = () => {
-    
+
     const [emblaRef, embla] = useEmblaCarousel(options, [Autoplay()]);
 
     const prevButtonHandler = () => {

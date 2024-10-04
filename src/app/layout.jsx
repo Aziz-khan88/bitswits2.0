@@ -1,8 +1,6 @@
 import { Poppins } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "@/src/app/globals.scss";
-import Header from "@/src/app/layout/header";
-import Footer from "@/src/app/layout/footer";
+import ConditionalLayout from "@/src/app/ConditionalLayout";
 
 
 const poppins = Poppins({
@@ -49,9 +47,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <Header />
-        {children}
-        <Footer />
+        <ConditionalLayout>
+          {children}
+        </ConditionalLayout>
       </body>
     </html>
   );

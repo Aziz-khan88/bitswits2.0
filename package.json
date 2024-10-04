@@ -9,16 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "embla-carousel-auto-scroll": "8.3.0",
-    "embla-carousel-autoplay": "^8.3.0",
-    "embla-carousel-class-names": "^8.3.0",
-    "embla-carousel-fade": "8.3.0",
-    "embla-carousel-react": "^8.3.0",
-    "next": "14.2.7",
     "react": "^18",
+    "bootstrap": "^5.3.3",
+    "react-dom": "^18",
+    "next": "14.2.7",
     "react-bootstrap": "^2.10.4",
-    "react-dom": "^18"
+    "embla-carousel-autoplay": "^8.3.0",
+    "embla-carousel-react": "^8.3.0",
+    "embla-carousel-fade": "8.3.0",
+    "embla-carousel-auto-scroll": "8.3.0"
   },
   "devDependencies": {
     "eslint": "^8",

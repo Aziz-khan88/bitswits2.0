@@ -15,7 +15,7 @@ const Process = ({ data, tabs }) => {
         <section className={`${styles.processSection} p-50`} id="Process">
             <Container>
                 <Row>
-                    <Col lg={9} md={12} className="text-center m-auto">
+                    <Col lg={8} md={12} className="text-center m-auto">
                         <h2>{data?.title}</h2>
                         <p>{data?.text}</p>
                     </Col>

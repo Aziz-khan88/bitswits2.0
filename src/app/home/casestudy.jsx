@@ -5,8 +5,10 @@ import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import Case01 from "media/home/casestudy/Vifty.webp"
 import Case02 from "media/home/casestudy/SoulScribe.webp"
+import Case03 from "media/home/casestudy/ReadyApp.webp"
 import Logo01 from "media/home/casestudy/ViftyLogo.webp"
 import Logo02 from "media/home/casestudy/SoulScribeLogo.webp"
+import Logo03 from "media/home/casestudy/ReadyAppLogo.webp"
 import Image from "next/image"
 import { ArrowIcon, ServiceArrow } from "@/src/app/app-constants";
 import Link from "next/link";
@@ -120,7 +122,9 @@ const CaseStudy = ({ data }) => {
                                                     </div>
                                                 </div>
                                                 <div className={styles.btnSec}>
-                                                    <ButtonCommon txt="View Case Study" />
+                                                    <div className="catButton">
+                                                        <Link href="/case-studies/readyapp"><span>View Case Study</span> <ArrowIcon /></Link>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

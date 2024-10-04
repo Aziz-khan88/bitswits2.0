@@ -1,7 +1,7 @@
 
 
 // Bannar Images
-import BanngBg from "media/industry/social/bgBanner.webp";
+import BannerBg from "media/industry/social/bgBanner.webp";
 // IndustryCta Images
 import IndustryCtaImg from "media/industry/social/ctaImage.webp"
 
@@ -94,7 +94,6 @@ import TAB6_3 from "media/industry/techstack/Braintree.svg";
 import TAB6_4 from "media/industry/techstack/Square.svg";
 import TAB6_5 from "media/industry/techstack/AuthorizeNet.svg";
 import TAB6_6 from "media/industry/techstack/ApplePay.svg";
-
 //========= Industries Images
 import { EcommerceSVG, EducationSVG, FintechSVG, HealthcareSVG, MusicSVG, RealEstateSVG, RideHailingSVG, TravelSVG, } from "@/src/app/app-constants";
 import Ecommerce from "media/services/industry/Ecommerce.webp";
@@ -115,7 +114,7 @@ import BlogsIMG03 from "media/services/blogs/post-3.webp"
 export const BannerData = {
     title: "Transform Engagement with a Leading Social Media App Development Company",
     content: "We create feature-rich social media applications that have 100 million Monthly Average Users (MAUs). Our social media app developers use modern coding practices to develop user-friendly social media apps that directly compete with social juggernauts like Meta, X, and YouTube. ",
-    BanngBg: BanngBg.src,
+    BannerBg: BannerBg.src,
 }
 
 export const IndustryServiceContent = {
@@ -179,7 +178,7 @@ export const IndustrySliderList = [
     },
     {
         img: IndustrySliderIMG04.src,
-        title: "Relationship-Building or Dating Apps",
+        title: "Relationship-Building Apps",
         txt: "Connect securely and build relationships on our mobile dating apps with advanced verification and geolocation, ensuring user safety and a seamless experience for meaningful connections."
     },
     {
